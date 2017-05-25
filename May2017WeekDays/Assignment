@@ -1,0 +1,26 @@
+Write a shell script to accept 3 args, if >3 display error
+----------------
+display properties of each argument in hdfs
+is it exists/file/folder/display the size.
+
+file arg1 is present
+file size is .....
+
+
+-------------
+If present Create a copy
+If not present create with dummy text
+-------------------------------------------------------------
+
+2) Wordcount
+3) Elecrical consumption
+4) Combiner -> Hashpartitioner ( Read Integers as Integers)
+5) CUstomer partitioner
+6) n-gram
+7) Inverted index
+8) Grep/sed
+
+
+
+
+

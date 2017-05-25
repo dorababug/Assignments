@@ -1,0 +1,59 @@
+Moveies::
+1) longest name/shortest name
+2) oldest movie/latest movie
+3) order movies based on year released ASC/DESC
+4) what are distinct Genere?
+5) for each genere - How many movies ?
+6) what are the movies contains year in the movie name???
+7) how many movies are starting with numbers/A/B/C..Z
+8) Convert All files as Seq(block compression), identify what is the Key/value.
+9) word -> whar all the movies present????? - Take words that are >3letters/4letters
+10) each year - How many movies released??? number/moives names
+
+11)
+12)
+13)
+14)
+15)
+
+
+---------------------------------------------
+Ratings and User:::::
+
+
+Ratings::
+1) each rating how movies
+2) top 5 averate rated movies
+3) Bottong least Avg - 5 moives
+
+4) each movie how many users rated? what is the toal rating? avg rating
+
+--------------------------------------
+Complex questions::: 16Jan2017
+
+For each year:: What are the top 5 ranked moives (no of Viewers & Avg)
+
+In the same query -> rank each movie based views & Avg 
+
+Question:: Find Rank of each Movie based on year.
+In Each year , find Top Five movies (with higest avg rating), and display their Rank.
+Based ON Rank, top5 moives.
+
+-----------------------
+TOP N analysis:
+2nd highest viewed movie in each year
+2nd highest Rated movie in each year (Movie should be atleast rated by 40 PPL)
+
+--------------------------------
+Based on Year, (views & Ratings)
+How many movies got same rank...
+
+---------------------------------
+
+
+
+
+
+
+
+

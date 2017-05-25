@@ -1,0 +1,6 @@
+ yarn jar wordcount_Counters.jar WordCountDriver -Dsearchword=hadoop -Dmapreduce.map.memory.mb=2000 /wiki.txt   /grepout
+
+
+mr-jobhistory-daemon.sh start historyserver
+hadoop job -counter job_1489909048273_0003 TotalRec numLines
+
