@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;CustomPartitioner.java&apos; to &apos;AlphaPart/src/com.inv&apos;&#x0A;- Original project: &apos;CustomPartitioner&apos;&#x0A;- Destination element: &apos;AlphaPart/src/com.inv&apos;&#x0A;- Original element: &apos;com.inv.CustomPartitioner.java&apos;" description="Copy compilation unit" destination="=AlphaPart/src&lt;com.inv" element1="/src&lt;com.inv{CustomPartitioner.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1495351783924" units="1" version="1.0"/>
+</session>

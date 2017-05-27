@@ -1,0 +1,9 @@
+package snippet;
+
+public class Snippet {
+	public static void main(String[] args) {
+		job.setOutputKeyClass(Text.class);
+				job.setOutputValueClass(NullWritable.class);
+	}
+}
+

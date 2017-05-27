@@ -1,0 +1,33 @@
+import java.io.IOException;
+
+import org.apache.hadoop.io.IntWritable;
+import org.apache.hadoop.io.Text;
+import org.apache.hadoop.mapreduce.Reducer;
+
+public class EReducer extends Reducer<IntWritable, Text, Text,Text>{
+
+	@Override
+	protected void reduce(IntWritable key, Iterable<Text> values, Context context)
+			throws IOException, InterruptedException {
+		//Q1 -> Year\tMinConsumption\tMaxConsumption
+		
+		int minYear=9999;
+		int maxYear=-9999;
+		
+		//1979,23,23,2,43,24,25,26,26,26,26,25,26,25
+		//year, <23-month ... 25-avg>
+		
+		for(Text val:values){
+			
+			
+			
+		}
+		
+		
+		
+		
+	}
+	
+	
+	
+}

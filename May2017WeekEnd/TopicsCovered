@@ -1,0 +1,55 @@
+WC
+Identiy M/R
+---------------------
+1) zero reducers 
+------------------
+2)How to send less data from Mapper to reducer -> Local aggretation
+Combiner extends Reducer
+
+Commutative and Associate
+-----------------------------------
+3) Increase reduce side parallelism -> job.setNumReduceTasks(10)
+partitioner -> HashPartitioner 
+
+custompartitioner extends Partitioner -> getPartitions(k,v,noofreducer) return int
+
+------------------------------------
+
+How to run MR in Eclipse -> local mode.
+
+
+-------------------------------------
+Assignment:::
+Grep, SED 
+Inverted Index:::  FileSystem API -> Java client api for HDFS
+Electircal:
+
+
+
+-----------------------------------------
+27th May 
+-> Movie Lens Example
+
+Yann MR application flow
+Configuration API
+Compression
+---------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
