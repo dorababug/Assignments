@@ -18,9 +18,8 @@ If not present create with dummy text
 5) CUstomer partitioner
 6) n-gram
 7) Inverted index
-8) Grep/sed
-
-
-
+8) Grep/sed 
+-----------------------
+9) Grep/sed-  Using Generic options -> Tool/ToolRunner
 
 
