@@ -1,0 +1,11 @@
+Write a shell script.
+3 files names (from local fs), arguments are more than 3,show error.
+
+test whether the files are present in local syste,
+
+
+store them in HDFS
+
+---------------------------
+
+

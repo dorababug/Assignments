@@ -1,0 +1,20 @@
+Container Related Properties
+--------------------------
+mapreduce.map.memory.mb
+mapreduce.map.cpu.vcores
+mapreduce.reduce.memory.mb
+mapreduce.reduce.cpu.vcores
+<name>mapred.child.java.opts</name>
+  <value>-Xmx200m</value>
+mapreduce.map.java.opts
+mapreduce.reduce.java.opts
+-----------------------------
+HDFS Related properties::
+fs.defaultFS
+dfs.replication
+dfs.blocksize
+--------------------------------
+Mapreduce Job related Properties::
+mapreduce.job.reduces
+
+
