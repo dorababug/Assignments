@@ -1,0 +1,8 @@
+
+public class WordCountMapper extends Mapper{
+
+//Add External Jar
+//ADD Mapreduce jar files required
+	
+	
+}

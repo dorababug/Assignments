@@ -1,0 +1,19 @@
+Added External Libraries:
+
+RightClick on the project -> Build Path -> Configure Build Path
+-> Libraries tab -> Add external Jars
+
+Jar file location:::
+hadoop 2.7.2 -> share -> hadoop -> 
+common -> 3jar 
+common Lib -> All jars
+hdfs -> only jars
+mapreduce
+yarn 
+---------------------------------------------
+
+
+line -> words -> (word,1)
+
+
+
