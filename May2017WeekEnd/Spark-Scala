@@ -1,0 +1,96 @@
+Type Inference
+---------------
+Expression Oriented language
+
+Type safty
+------------
+Immutable types in functional programming
+---------------------
+
+
+OOP -> class extend class -> object -> variable and methods
+modify the state of variables using methods
+-------------------------------------------
+Functional programming
+
+Functions are first class citizens
+
+function vs method
+COde block ->
+{
+
+}
+-----------------
+Methods present inside a class, without an object i cannot call method.
+-----------------------------------
+FUnctons are first class citizens;
+Fucntions can exist any where.
+FUnction literal::::
+
+{
+ val x=10
+ val y=100
+ println(y-x)
+ x+y
+}  
+
+FUnction accpeting arguments:
+
+(x:Int,y:Int) =>  x+y
+
+----------------------
+functions are objects
+assign object to a variable???
+
+
+function variable:::::
+val fn=(val x:Int,val y:Int):Int => {
+ println(y-x)
+ x+y
+}
+
+val fn=( ) => {
+  1000
+}
+==================================
+Higer order functions:::
+
+val sum=(x:Int,y:Int)=> x+y
+val mul=(x:Int,y:Int)=> x*y
+
+def calc(a:Int,b:Int, f:(Int,Int)=>Int)={
+ println(f(a,b))
+}
+
+def calc1(f:(int,int,(int,int)=>int):unit
+-----------------
+Scala COllections and How to operate::
+
+calll by value and  call  by name ::::
+
+calc(10+20,50,sum)
+10+20,50,(x:Int,y:Int)=> x+y
+30,50,(30,50)=> 30+50
+30,50, 80
+------------------------------------
+List,array,Map,Seq,Range,Tuple
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,38 @@
+{
+val name="inventateq"
+val sal="Mr"
+println(name + sal )
+}
+
+
+( name:String ) => println( sal + " " + name )
+
+def printSal( name:String , sal:String) = {
+println( sal + " " + name )
+}
+-----------------------------------------------
+Higer order functions::
+
+A fn that accepts a function as variable and it can return another function as returntype.
+
+val subtract=(x:Int,y:Int)=>{x-y}
+val multiply=(x:Int,y:Int)=>{x*y}
+
+def mycalc(a:Int,b:Int, func:(Int,Int)=> Int) = {
+ println("variable a value:::"+a)
+ println("variable b value:::"+b)
+ println(func(a,b))
+}
+
+mycalc(10,20,subtract)
+mycalc(10,20,multiply)
+
+
+mycalc(a=10+20,b=22,(a,b)=>{b%a} )
+
+
+
+
+
+
+

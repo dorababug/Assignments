@@ -1,0 +1,24 @@
+Collections:
+
+Array
+List
+Range
+Tuple
+Seq
+Set
+Map
+--------------------------------
+val x=Array(10,20,30)
+val x=Array("abc",20,30)
+
+scala> x.foreach(a=>{ val b=a+1; println(b) } )
+scala> x.foreach(println)
+
+for(y <- x) prinln(y)
+
+
+increment 15 to each element and create new array:::
+
+val y=x.map(a=> a+15)
+
+
