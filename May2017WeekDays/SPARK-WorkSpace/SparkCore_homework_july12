@@ -32,3 +32,41 @@ REPL:::::
 4) All above programs using SPakr SQL::::
  i) How to do Optimization
   ii) Broadcast the data (mapside joins)
+
+------------------------------------------------
+
+input.flatMap(line=>line.split(" ")).map(x=>(x,1)).reduceByKey(_ + _).saveAsTextFile("wc_r")
+
+
+ input.flatMap(line=>line.split(" "))
+.map(x=>(x,1))
+.groupByKey()
+.map(x=> (x._1,x._2.size))
+.saveAsTextFile("wc_g")
+
+
+#export HADOOP_CONF_DIR=$HADOOP_HOME/etc/hadoop
+
+spark-submit --master yarn \
+--deploy-mode cluster \
+--class MovieLens \
+--name "SampleMVlens" \
+--conf spark.driver.port=4678 \
+/home/hadoop/Desktop/mv.jar \
+file:///home/hadoop/Music/Classes/MovieLens-Work-SPARK/ml-1m/movies.dat \
+/mv_out \
+
+-------------------------------------------------
+Spark 2.x -> Data sets and SQL
+val ratings=spark.read.textFile("ratings.dat")
+val mv_rating=ratings.map(x=>{( x.split("::")(1),x.split("::")(2))})
+
+val mvDF=mv_rating.toDF("mvname":String,"rating":String)
+
+mvDF.createOrReplaceTempView("mvratings")
+
+spark.sql("select avg(rating) avgrating,mvname,count(rating) numratings from mvratings group by mvname order by  avgrating desc ").show()
+
+
+
+
