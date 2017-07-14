@@ -1,0 +1,33 @@
+Movie lens::
+-------------------
+Each year How many movies released? sort the data
+dataset, how many years preset..
+--------------------------------------------
+
+take movies dataset, extract year from..
+ each year,
+-------------------------------
+Scala IDE
+--------------------------------------------------
+Home work
+
+REPL:::::
+1) run the WC on large file ->300MB 
+	-> how many partitions getting created? WHY?
+	-> Use GroupByKey and ReduceByKey to get the same result->
+	 which is better
+
+2) Top Ten most viewed movies with their names (Ascending or des)
+	take the ratings data and take the movies data
+	first mvid,count then take the top 10, then do the join with movie names..
+	filter the resultset
+
+3) solve the above:: 
+	i) take data from Local FS, ooutput into localFS
+	ii) Integrate spark with HDFS-> take data from HDFS and OP into HDFS
+	iii) Develop it as Spark Application -> IDE, run it in standalone scheduler
+	iv) Run this spark application using yarn sheduler
+-----------------------------------------------
+4) All above programs using SPakr SQL::::
+ i) How to do Optimization
+  ii) Broadcast the data (mapside joins)

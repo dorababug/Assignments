@@ -69,4 +69,19 @@ spark.sql("select avg(rating) avgrating,mvname,count(rating) numratings from mvr
 
 
 
+---------------------------------------------------
+
+ val users=spark.read.textFile("file:////home/hadoop/Music/Classes/MovieLens-Work-SPARK/ml-1m/users.dat")
+
+val users1=users.map(line=>(line.split("::")(0).toInt,line.split("::")(1),line.split("::")(2).toInt))
+
+val uDF=users1.toDF("id":String,"gender":String,"age":String)
+
+uDF.createOrReplaceTempView("users")
+uDF.write.saveAsTable("hivepractice.users")
+
+uDF.write.orc("/userORC")
+spark.read.orc("/userORC")
+res17: org.apache.spark.sql.DataFrame = [id: int, gender: string ... 1 more field]
+
 
