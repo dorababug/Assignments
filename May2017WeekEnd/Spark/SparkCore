@@ -1,0 +1,59 @@
+Q) each year, how many movies released??
+
+RDD -> SC.textFile
+extract the year
+(year,1)
+reduceByKey -> store into disc
+year,count as output
+------------------------------
+RDD -> trasnformations,ACtions
+------------------------------------------
+val movieRDD=sc.textFile("movies.dat",5)
+
+val extractYear=(line:String)=> {
+val l=line
+val year=l.substring(l.lastIndexOf("(")+1,l.lastIndexOf(")"))
+(year,1)
+}
+
+val year=movieRDD.map(extractYear)
+
+year.reduceByKey((x,y)=> x + y)
+
+year.groupByKey().map(x=> (x._1,x._2.size)).first
+
+year.reduceByKey((x,y)=> x + y).filter(x=>x._2>300).sortBy(x=>x._2,false,1).saveAsTextFile("yearCount")
+----------------------------------------------------------
+Dataframe from RDD:::: DSL
+val yearDF=year.toDF("year":String,"number":String)
+yearDF.select("year").filter($"year">1950).show
+yearDF.join(yearDF,"year").show
+--------------------------------------------------
+SQL::::
+yearDF.createOrReplaceTempView("yeartable")
+
+spark.sql("select count(1) as cnt,year from yeartable group by year order by cnt desc ").show
+----------------------------------------------------------------
+
+
+spark.sql("select count(1) as cnt,year from yeartable group by year order by cnt desc ").write.save("out")
+spark.read.load("out").show
+
+------------------------------------------------------
+val mvDS=spark.read.textFile("movies.dat")
+res8: org.apache.spark.sql.Dataset[String] = [value: string]
+
+mvDS.map(extractYear).toDF("year","cnt").createOrReplaceTempView("yearcount")
+spark.sql("select count(1) as cnt,year from yearcount group by year order by cnt desc ").write.save("out1")
+-------------------------------------------------------
+
+How to integrate with HDFS::::
+export HADOOP_CONF_DIR=$HADOOP_HOME/etc/hadoop
+
+Integrate with Hive
+copy hive-site.xml into spark/conf folder
+
+----------------------------
+Store the Dataframe into Hive ::::
+DF.write.saveAsTable("hivepractice.employee_derived")
+
