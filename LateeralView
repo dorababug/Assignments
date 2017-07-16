@@ -1,0 +1,32 @@
+25June2017
+
+page1|1,2,3
+page2|1,2,3
+page3|3,4,5
+
+Each Ad , how many times present in all pages.
+
+CREATE TABLE `demo`(
+  `page` string, 
+  `ads` array<int>)
+row format delimited 
+fields terminated by '|'
+collection items terminated by ','
+stored as Textfile;
+
+select count(1),A.adid from (
+select explode(ads) adid from demo) A group by adid;
+
+select adids.adno,count(adids.adno)
+from demo D
+lateral view explode(ads) adids  as adno
+group by adno
+having count(adno) >2
+
+
+
+
+select adstable.adid ,count(adid)
+from demo
+lateral view explode(ads) adstable as adid
+group by adid;

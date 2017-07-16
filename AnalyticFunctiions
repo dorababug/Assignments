@@ -1,0 +1,70 @@
+25June2017	
+stu1,80,dept1
+stu2,70,dept1
+stu3,80,dept1
+stu4,40,dept1
+stu5,80,dept2
+stu6,75,dept2
+stu7,60,dept2
+stu8,45,dept2
+stu9,55,dept2
+
+create table student(name string,
+marks int,
+dept string)
+row format delimited fields terminated by ',';
+
+hdfs dfs -appendToFile - /hive/practice/student/sample.txt
+
+select *, count(name) over (partition by dept) from student;
+
+For every student what is his marks and the department average;
+select *, avg(marks) over (partition by dept order by marks desc) from student;
+
+Q3) what is the rank of each student in all dept and in each department, display dense rank, row_number
+
+select *, rank() over (order by marks desc) clsrank,
+rank() over (partition by dept order by marks desc) rnk,
+DENSE_RANK() over (partition by dept order by marks desc) dnsrank,
+ROW_NUMBER() over (partition by dept order by marks desc) rownum
+from student; 
+----------------------------------
+select * from (
+select name,marks,dept, 
+rank() over (partition by dept order by marks desc) as dept_rnk,
+rank() over (order by marks desc) as tot_rnk,
+dense_rank() over (partition by dept order by marks desc) as d_dept_rnk,
+dense_rank() over (order by marks desc) as d_tot_rnk,
+row_number() over (partition by dept order by marks desc) as rownum
+from student
+
+order by name,dept) A
+where A.dept_rnk=1
+
+
+
+--------------------------------------
+
+1,2 2
+1,3 - 1
+2,1 -1
+2,1 - 2
+2,1 -3
+3,1 - 3
+3,2 -2
+3,3 -1
+-----------------
+1,3
+2,1
+3,3
+---------------
+select A.c1,A.c2 
+(select c1,c2,row_number() 
+over(partition by c1 order by c2 desc) as rn
+from tbl)
+A where A.rn=1
+
+
+----------------
+select count(1) from tbl group by c1 having count(c1)>1;
+

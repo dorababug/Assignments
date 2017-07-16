@@ -1,0 +1,14 @@
+ Date 4July2017
+WD morning::
+
+hive handling null values. (joins)
+
+Sqoop create job for incremental data refresh
+
+Pass the target dir , with diff target dir for every run -Shell script
+
+How to handle duplicate records??? 
+1)
+2)
+3)
+4)

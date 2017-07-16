@@ -1,0 +1,69 @@
+create table ratings_raw(line String);
+load data local inpath 'Desktop/ratings.dat' into table ratings_raw;
+
+
+INSERT OVERWRITE  DIRECTORY '/ratings' 
+select regexp_replace(line,"::",":") from ratings_raw;
+
+create table ratings1(line String);
+
+insert into ratings1 select regexp_replace(line,"::",":") from ratings_raw;
+
+
+
+create table ratings(userid int,movieid int,rating int,time string) row format delimited fields terminated by ':'
+ location '/ratings';
+
+
+
+
+2. Top twenty rated movies (Condition : The movie should be rated/viewed by at least 40 users)
+
+select movieid,
+bround(avg(rating)) avgrating,
+count(1) noofviews 
+from ratings 
+group by movieid 
+having count(movieid)>40 
+order by avgrating desc,noofviews desc;
+
+time taken 100 sec
+
+
+set mapreduce.job.reduces=3;
+
+select movieid,
+bround(avg(rating)) avgrating,
+count(1) noofviews 
+from ratings 
+group by movieid 
+having count(movieid)>40 
+cluster by avgrating desc;
+
+91.658
+
+
+select count(1) from ratings  where movieid=1917
+
+create table ratings_partitioned(userid int,movieid int,rating int,time string) partitioned by (movieid1 int);
+set hive.exec.dynamic.partition.mode=nonstrict;
+
+insert into ratings_partitioned partition(movieid1) 
+select *,movieid as movieid1 from ratings;
+
+show partitions ratings_partitioned;
+
+set hive.exec.max.dynamic.partitions=5000; 
+set hive.exec.max.dynamic.partitions.pernode=5000;
+
+set mapreduce.map.memory.mb=4098;
+set mapreduce.map.java.opts=-Xmx3g;
+set mapreduce.reduce.memory.mb=3072;
+set mapreduce.reduce.java.opts=Xmx2g;
+
+
+create table ratings_p(userid int,movieid int,rating int,time string) partitioned by (rating1 int);
+set hive.exec.dynamic.partition.mode=nonstrict;
+
+insert into ratings_p partition(rating1) 
+select *,rating as rating1 from ratings;
