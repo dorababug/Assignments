@@ -1,0 +1,48 @@
+How to find all groups a user belongs?
+in a group - who users present?
+
+-------------------
+30july2017
+
+find all files present in folder, which are more than 1MB.
+for the list of above , cut and paste in separate folder.
+
+Folder -> lot of empty files. -> print the filenames and separate the empty files in to a directory.
+
+-----------------------
+EXEC
+XARGS
+-----------------------
+Shell Script::
+write a shell script that accepts less than or equal to 5 arguments.
+no of args >5 , print error that no of args are <=5, return error 1.
+
+print all the arguments, with while& for loop and without a loop.
+-----------------------------
+Send a folder and filename as an argument to shell scirpt.
+if the file is not present in the folder, create an empty file.
+if it is already present, then print msg that the file already exists.
+-----------------------------
+mailx or findout what are all mail commands present in linux (centos)
+------------------------------
+
+How to execute commands in background???
+nohup 
+stdout,stdin stderr streams??? 
+How to redirect errors(stderr) to stdout
+------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

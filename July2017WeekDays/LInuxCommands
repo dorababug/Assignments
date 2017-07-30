@@ -1,0 +1,79 @@
+25July2017
+
+
+pwd
+root directory   /
+home directory  /home/osboxes/
+
+Teminal cntrl+Alt+t
+
+ls --help
+man ls
+-------------------------
+ls options file
+
+ls -al
+ls -lhrt
+----------------------
+
+---------------
+mkdir 
+
+touch
+cd 
+.,.. current, parent
+cat 
+gedit 
+-------------------------
+vi
+nano
+vim
+gedit 
+------------------
+chmod -R
+chown 
+-------------------
+groups
+--------
+file path -> absolute and relative path
+---------------------------
+ Redirection
+echo
+variables
+PATH,HOME variables
+grep 
+sed 
+----------------
+
+
+HW::: 26July
+Display all empty files present in folder
+move all empty files in to a folder
+Delete all empty files 
+Display files that are more than 2MB
+
+
+Write a shell script to accept 3 arguements 
+if arguments are more than 3 , print "Error pass only 3 arguments"
+if args are less than 3
+print the script name
+print all the arguments one by
+print all the arguments in a loop
+
+-------------------------------
+Shell script to accept a file name and a folder name 
+and check whteher the file is present in the folder
+if present exit the file with 0 return code, print the contents of the file.
+
+if not exit with 1 return code, by printing file not found
+---------------------------------
+
+
+
+
+
+
+
+
+
+
