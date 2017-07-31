@@ -1,0 +1,5 @@
+date:: 31July2017
+wiki pedia..
+make file big file -> 500MB
+place big file in HDFC -> observe the blocks.
+how to change the blocksize of hdfs
