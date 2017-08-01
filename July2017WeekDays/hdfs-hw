@@ -3,3 +3,15 @@ wiki pedia..
 make file big file -> 500MB
 place big file in HDFC -> observe the blocks.
 how to change the blocksize of hdfs
+
+
+date:1Aug17
+Create a shell script that accepts filder and <=3 file names.
+CHeck the folder is present..if not create a folder and create the empty files with names passed.
+
+If folder is present, if files not present create one..
+
+---------------------------------
+What is safe mode in namenode and how to make namenode come out of safe.
+
+----------------------------------
