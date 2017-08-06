@@ -1,0 +1,23 @@
+date:: 31July2017
+wiki pedia..
+make file big file -> 500MB
+place big file in HDFC -> observe the blocks.
+how to change the blocksize of hdfs
+
+
+date:6Aug17
+create a scrit that accpets folder name and a file name..
+check the no of args are 2 if it is not, display error msg exit with return code 1. 
+else check whether the folder and file -> path is present in hdfs..
+if the path is not present, then create an empty file in the given folder location, check for the existence of path and exit with return code 0.
+
+file and folder already present -> msg that the path is already present and exit with 0 ret code
+
+
+
+
+---------------------------------
+What is safe mode in namenode and how to make namenode come out of safe.
+hdfs dfsadmin -safemode leave
+
+----------------------------------
