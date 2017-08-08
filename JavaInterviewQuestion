@@ -1,0 +1,25 @@
+Date 5July2017
+ABCD   -> 1010101 -> how to negate the bits of a string??
+---------------------------------
+try{
+
+}
+catch (NullPointerException){
+
+}
+-------------------------------
+I want to store sorted data ? which collection you prefer?
+How u sort a collection? Sort method is part of which package?
+
+java 8 and 7? 
+
+wait and sleep()??
+
+-------------------------------------
+Time Series data?? 
+How to handled Time Series Data?
+---------------------------------------
+select split("abc.def",".")
+
+
+
