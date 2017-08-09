@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;WordCountDriver&apos; to &apos;Q1Driver&apos;&#x0A;- Original project: &apos;ElectricalConsumption&apos;&#x0A;- Original element: &apos;WordCountDriver&apos;&#x0A;- Renamed element: &apos;Q1Driver&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;WordCountDriver&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;{WordCountDriver.java[WordCountDriver" matchStrategy="1" name="Q1Driver" qualified="false" references="true" similarDeclarations="false" stamp="1502251830048" textual="false" version="1.0"/>
+</session>
