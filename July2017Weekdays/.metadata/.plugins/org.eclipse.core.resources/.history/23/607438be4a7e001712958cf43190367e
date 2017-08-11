@@ -1,0 +1,36 @@
+package com.inv;
+
+import java.io.IOException;
+import java.util.StringTokenizer;
+
+import org.apache.hadoop.io.IntWritable;
+import org.apache.hadoop.io.LongWritable;
+import org.apache.hadoop.io.NullWritable;
+import org.apache.hadoop.io.Text;
+import org.apache.hadoop.mapreduce.Mapper;
+
+public class SEDMapper extends Mapper<LongWritable, Text, Text, NullWritable>{
+
+	//byte offset , line keyin and value in
+	// Word , 1 -> kout, vout
+	@Override
+	protected void map(LongWritable key, Text value, Mapper<LongWritable, Text, Text, NullWritable>.Context context)
+			throws IOException, InterruptedException {
+		//search word is "hadoop" and replace with Spark
+		
+		String line=value.toString();
+		String sword="Hadoop";
+		String rword="Spark";
+		
+				if(line.toLowerCase().contains(sword)){
+					String l1=line.replaceAll(sword, rword);
+					context.write(new Text(l1), NullWritable.get());
+				}else{
+					context.write(value, NullWritable.get());
+				}
+				
+				context.write(value, NullWritable.get());
+	}
+}
+
+	

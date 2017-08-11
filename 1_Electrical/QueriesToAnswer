@@ -1,5 +1,6 @@
 Monthly electrical consumption and the annual average for various years.
 -----------------------------------
+Solve all the questions with MR, Java, Scala, Python:::
 1)Year -> min consumption,Max consumption
 2) print header in the file -> YEAR \t MIN \t MAX
 3) each YEAR , AVG ACTUAL , VAL PRESENT IN FILE, EQUAL/NOT EQAL

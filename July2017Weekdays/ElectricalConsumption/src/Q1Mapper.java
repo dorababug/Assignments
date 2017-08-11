@@ -5,9 +5,16 @@ import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Mapper;
 
 public class Q1Mapper extends Mapper<LongWritable, Text, Text, Text>{
+	
+	@Override
+	protected void setup(Mapper<LongWritable, Text, Text, Text>.Context context)
+		throws IOException, InterruptedException {
+		context.write(new Text("Year"), new Text("Min Temp \t Max Temp"));
+	}
 		@Override
 		protected void map(LongWritable key, Text value, Context context)
 				throws IOException, InterruptedException {
+			
 			//value?? 1979,23,23,2,43,24,25,26,26,26,26,25,26,25
 			/// Identify elements from line
 			// elements are delimted by comma
