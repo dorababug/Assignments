@@ -1,0 +1,44 @@
+val ratings=sc.textFile("file:///home/hadoop/Music/Classes/MovieLens-Work/ml-1m/ratings.dat").map(line=>( line.split("::")(1),1))
+
+ratings.take(10).foreach(println)
+
+ratings.reduceByKey((x,y)=>x+y).sortBy(x=>x._2,false,1).zipWithIndex()
+res8: ((String, Int), Long) = ((2858,3428),0)
+
+ratings.reduceByKey((x,y)=>x+y).sortBy(x=>x._2,false,1).zipWithIndex().filter(x=>x._2<10).foreach(println)
+
+
+ratings
+.reduceByKey((x,y)=>x+y)
+.sortBy(x=>x._2,false,1)
+.zipWithIndex()
+.filter(x=>x._2<10)
+.map(x=>x._1)
+.foreach(println)
+-------------------------------------------------
+
+val ratings=sc.textFile("file:///home/hadoop/Music/Classes/MovieLens-Work/ml-1m/ratings.dat").map(line=>( line.split("::")(1),1))
+
+val top10=ratings.reduceByKey((x,y)=>x+y).sortBy(x=>x._2,false,1).zipWithIndex().filter(x=>x._2<10).map(x=>x._1)
+
+--------------------------------------------
+
+val movies=sc.textFile("file:///home/hadoop/Music/Classes/MovieLens-Work/ml-1m/movies.dat").map(line=>(line.split("::")(0),line.split("::")(1)))
+
+------------------------------
+Join top10 and movie RDDs....
+
+------------------------------
+
+Homework::::
+Each year how many movies releses??????
+movies dataset-> mvname(year) -> year,1 -> reducebykey -> wordcount
+
+in which year more movies released.
+
+
+
+
+
+
+
