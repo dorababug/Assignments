@@ -1,0 +1,50 @@
+package com.inv;
+
+import java.io.IOException;
+
+import org.apache.hadoop.conf.Configuration;
+import org.apache.hadoop.fs.Path;
+import org.apache.hadoop.io.IntWritable;
+import org.apache.hadoop.io.NullWritable;
+import org.apache.hadoop.io.Text;
+import org.apache.hadoop.mapreduce.Job;
+import org.apache.hadoop.mapreduce.lib.input.FileInputFormat;
+import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
+
+
+public class WordCountDriver {
+	public static void main(String[] args) throws IOException, ClassNotFoundException, InterruptedException {
+		
+		Configuration conf=new Configuration();
+		/*conf.set("sword", "article");
+		conf.set("mapreduce.job.reduces", "0");
+		
+		conf.set("COLOR", "BLUE");
+	//	conf.set("COLOR", "BLUE");
+		conf.set("COLOR1", "REDRED");
+		conf.set("COLOR2", "GREEN_COLOR2");
+		conf.set("COLOR", "BLUE123");*/
+		Job job=Job.getInstance(conf, "GREP Program");
+		
+		
+		job.setJarByClass(WordCountDriver.class); // entry point
+		job.setMapperClass(GrepMapper.class);
+	//	job.setReducerClass(WordCountReducer.class);
+	
+	//job.setNumReduceTasks(10);
+		
+	//	job.setCombinerClass(WordCountReducer.class);
+		
+		job.setOutputKeyClass(Text.class);
+		job.setOutputValueClass(NullWritable.class);
+				
+		FileInputFormat.addInputPath(job, new Path(args[0]));
+		FileOutputFormat.setOutputPath(job, new Path(args[1]));
+		
+		boolean status=job.waitForCompletion(true);
+		int result=status?0:1;
+		System.exit(result);
+		//System.exit(job.waitForCompletion(true)?0:1);
+	}
+
+}
