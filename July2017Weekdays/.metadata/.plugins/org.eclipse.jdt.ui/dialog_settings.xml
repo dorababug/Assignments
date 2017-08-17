@@ -71,6 +71,7 @@
 		<item value="false" key="JarManifestWizardPage.SAVE_MANIFEST"/>
 		<item value="false" key="JarPackageWizardPage.EXPORT_OUTPUT_FOLDER"/>
 		<list key="JarPackageWizardPage.DESTINATION_NAMES_ID">
+			<item value="/home/hadoop/Desktop/grep.jar"/>
 			<item value="/home/hadoop/Desktop/wordcount.jar"/>
 		</list>
 	</section>

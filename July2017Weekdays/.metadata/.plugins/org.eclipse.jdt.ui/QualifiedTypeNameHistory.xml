@@ -4,7 +4,6 @@
 <fullyQualifiedTypeName name="WordCountReducer"/>
 <fullyQualifiedTypeName name="WordCountDriver"/>
 <fullyQualifiedTypeName name="java.util.StringTokenizer"/>
-<fullyQualifiedTypeName name="org.apache.hadoop.conf.Configuration"/>
 <fullyQualifiedTypeName name="org.apache.hadoop.mapreduce.Job"/>
 <fullyQualifiedTypeName name="wordcount1.WordCountDriver"/>
 <fullyQualifiedTypeName name="wordcount1.WordCountMapper"/>
@@ -27,4 +26,8 @@
 <fullyQualifiedTypeName name="org.apache.hadoop.mapreduce.Reducer.Context"/>
 <fullyQualifiedTypeName name="Q1Reducer"/>
 <fullyQualifiedTypeName name="org.apache.hadoop.io.IntWritable"/>
+<fullyQualifiedTypeName name="org.apache.hadoop.conf.Configuration"/>
+<fullyQualifiedTypeName name="org.apache.hadoop.conf.Configured"/>
+<fullyQualifiedTypeName name="org.apache.hadoop.util.Tool"/>
+<fullyQualifiedTypeName name="org.apache.hadoop.util.ToolRunner"/>
 </qualifiedTypeNameHistroy>
