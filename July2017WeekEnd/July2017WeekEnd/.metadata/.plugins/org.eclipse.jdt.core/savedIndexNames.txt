@@ -1,0 +1,2 @@
+INDEX VERSION 1.127+/home/hadoop/YARNBOX/WORKSPACES/July2017WeekEnd/.metadata/.plugins/org.eclipse.jdt.core
+3669118883.index

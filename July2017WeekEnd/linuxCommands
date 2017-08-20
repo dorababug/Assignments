@@ -1,0 +1,9 @@
+1977  date +%Y_%m_%d_%H_%M_%S
+ 1978  export suffix=date +%Y_%m_%d_%H_%M_%S
+ 1979  export suffix=`date +%Y_%m_%d_%H_%M_%S`
+ 1980  echo $suffix
+ 1981  echo wcout_$suffix
+ 1982  hadoop jar^C/Desktop/wordcount.jar com.inv.WordCountDriver /sample.txt /wcout_`date +%Y_%m_%d_%H_%M_%S`
+ 1983  echo wcout_`date +%Y_%m_%d_%H_%M_%S`
+ 1984  hadoop jar ~/Desktop/wordcount.jar com.inv.WordCountDriver /sample.txt /wcout_`date +%Y_%m_%d_%H_%M_%S`
+
