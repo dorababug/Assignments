@@ -1,0 +1,63 @@
+package com.inv;
+
+import java.io.IOException;
+import java.util.StringTokenizer;
+
+import org.apache.hadoop.conf.Configuration;
+import org.apache.hadoop.io.IntWritable;
+import org.apache.hadoop.io.LongWritable;
+import org.apache.hadoop.io.NullWritable;
+import org.apache.hadoop.io.Text;
+import org.apache.hadoop.mapreduce.Mapper;
+
+public class GrepMapper extends Mapper<LongWritable, Text, Text, NullWritable>{
+
+	String searchword="";
+	
+	@Override
+	protected void setup(Context context)
+			throws IOException, InterruptedException {
+		
+		String[] locations=context.getInputSplit().getLocations();
+		for (String str : locations) {
+			System.out.println("&&&&&&&&&&&&&&&&&&&& Loc:::"+str);
+		}
+		
+		
+		Configuration conf=context.getConfiguration();
+		 searchword=conf.get("sword");
+		 System.out.println("++++Search word:::"+conf.get("sword"));
+		 System.out.println("++++Job name:::"+conf.get("mapreduce.job.name"));
+		 System.out.println("++++No Of reducers:::"+conf.get("mapreduce.job.reduces"));
+		 
+		 System.out.println("++++COLOR Value:::"+conf.get("COLOR"));
+		 System.out.println("++++COLOR Value:::"+conf.get("COLOR1"));
+		 System.out.println("++++COLOR Value:::"+conf.get("COLOR2","I am def color"));
+		
+	}
+	//byte offset , line keyin and value in
+	// Word , 1 -> kout, vout
+	@Override
+	protected void map(LongWritable key, Text value, Mapper<LongWritable, Text, Text, NullWritable>.Context context)
+			throws IOException, InterruptedException {
+		
+		
+		//String path=((FileSplit)context.getInputSplit()).getPath().getName();
+		
+		//System.out.println("&&&&&&&&&&&&&&&&&&&& Loc:::"+locations);
+	
+		String[] locations=context.getInputSplit().getLocations();
+		for (String str : locations) {
+			System.out.println("&&&&&&&&&&&&&&&&&&&& Loc:::"+str);
+		}
+		
+	
+		
+		//search word is "hadoop"
+				if(value.toString().toLowerCase().contains(searchword.toLowerCase())){
+					context.write(value, NullWritable.get());
+				}
+	}
+}
+
+	

@@ -8,6 +8,6 @@
 </listAttribute>
 <booleanAttribute key="org.eclipse.jdt.launching.ATTR_USE_START_ON_FIRST_THREAD" value="true"/>
 <stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="WordCountDriver"/>
-<stringAttribute key="org.eclipse.jdt.launching.PROGRAM_ARGUMENTS" value="/home/hadoop/wiki.txt.gz   /home/hadoop/OutFiles/compOut"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROGRAM_ARGUMENTS" value="-DCOLOR=RED -DCOLOR1=RED  /home/hadoop/wiki.txt.gz   /home/hadoop/OutFiles/compOut"/>
 <stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="Compression"/>
 </launchConfiguration>

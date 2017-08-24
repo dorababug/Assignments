@@ -9,14 +9,22 @@ import org.apache.hadoop.io.LongWritable;
 import org.apache.hadoop.io.NullWritable;
 import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Mapper;
+import org.apache.hadoop.mapreduce.lib.input.FileSplit;
 
 public class GrepMapper extends Mapper<LongWritable, Text, Text, NullWritable>{
 
 	String searchword="";
 	
 	@Override
-	protected void setup(Mapper<LongWritable, Text, Text, NullWritable>.Context context)
+	protected void setup(Context context)
 			throws IOException, InterruptedException {
+		
+		String[] locations=context.getInputSplit().getLocations();
+		for (String str : locations) {
+			System.out.println("&&&&&&&&&&&&&&&&&&&& Loc:::"+str);
+		}
+		
+		
 		Configuration conf=context.getConfiguration();
 		 searchword=conf.get("sword");
 		 System.out.println("++++Search word:::"+conf.get("sword"));
@@ -34,6 +42,9 @@ public class GrepMapper extends Mapper<LongWritable, Text, Text, NullWritable>{
 	protected void map(LongWritable key, Text value, Mapper<LongWritable, Text, Text, NullWritable>.Context context)
 			throws IOException, InterruptedException {
 		
+		
+		
+	
 		
 		//search word is "hadoop"
 				if(value.toString().toLowerCase().contains(searchword.toLowerCase())){
