@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;JoinDriver.java&apos; to &apos;MovieLens/src/com.inv&apos;&#x0A;- Original project: &apos;MapSideJoins&apos;&#x0A;- Destination element: &apos;MovieLens/src/com.inv&apos;&#x0A;- Original element: &apos;com.inv.JoinDriver.java&apos;" description="Copy compilation unit" destination="=MovieLens/src&lt;com.inv" element1="/src&lt;com.inv{JoinDriver.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1503976731127" units="1" version="1.0"/>
+</session>

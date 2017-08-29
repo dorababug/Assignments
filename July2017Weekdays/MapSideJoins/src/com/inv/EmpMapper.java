@@ -24,40 +24,27 @@ public class EmpMapper extends Mapper<LongWritable, Text, Text,Text>{
 	@Override
 	protected void setup(Mapper<LongWritable, Text, Text, Text>.Context context)
 			throws IOException, InterruptedException {
-		
-		
+				
 		URI[] files=context.getCacheFiles();
-		System.out.println("++++++ In Mapper ++++++++++++++++++");
-
 		for (int i = 0; i < files.length; i++) {
 			System.out.println("++++++ In Mapper:::Files added are::::"+files[i].getPath());
-			
 		}
 		File file=new File("dept");
 		BufferedReader reader=new BufferedReader(new FileReader(file));
 		try{
-			 
 			String str="";
 			while((str=reader.readLine())!=null){
 				String deptid=str.split(",")[0];
 				String deptname=str.split(",")[1];
-				
 				deptMap.put(deptid, deptname);
-				
 				context.getCounter("DeptREC", "deptlines").increment(1);
-				
-				
 			}
 		}finally{
 			if(reader!=null){
 				reader.close();
 			}
 		}
-		
-	}
-	
-	
-	
+	}	
 	@Override
 	protected void map(LongWritable key, Text value, Mapper<LongWritable, Text, Text, Text>.Context context)
 			throws IOException, InterruptedException {

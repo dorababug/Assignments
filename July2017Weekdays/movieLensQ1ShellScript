@@ -1,0 +1,13 @@
+#usage is flename rating.dat op1  op2 op3 
+
+# $0  $1 /ml-1m/ratings.dat
+#$2 op1
+#$3 op2
+#Denor job
+hadoop jar Desktop/1.jar com.inv.JoinDriver -files hdfs://localhost:9000/ml-1m/users.dat,hdfs://localhost:9000/ml-1m/movies.dat /ml-1m/ratings.dat /op1
+
+#Find average rating for movies
+hadoop jar Desktop/2.jar com.inv.Q1Driver /op1 /op2
+
+#Find top 20 rating for movies
+hadoop jar Desktop/3.jar com.inv.Q1Driver /op2 /op3
