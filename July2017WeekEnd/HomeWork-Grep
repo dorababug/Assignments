@@ -1,0 +1,45 @@
+Grep::  search word filename ->  take a line -> if that line contains the search word -> send to op -> 
+
+else if the search word is not there in the line -> do nothing.
+
+---------------------------------------------
+MR -> line -> map() -> send line 
+
+Reduer -> 0 Reducers -> job.setNumReduceTasks(0)
+---------------------------------
+Property that decides no of reducers?? 
+Configuration -> Default , Site xml.
+Per program how to change the configuration????
+System properties and User defined Properties. 
+Property -> (K,V)
+-------------------
+
+
+++++Search word::hadoop
+++++COLOR RED
+++++COLOR1 null
+++++COLOR2 I am Def COLOR
+++++dfs.blocksize134217728
+
+
+
+-Dsword=spark  -DCOLOR=AAAA  /home/hadoop/wiki.txt   /home/hadoop/OutFiles/grep_conf
+
+
+
++++in Main methid args[0]==-Dsword=spark
++++in Main methid args[1]==-DCOLOR=AAAA
++++in Main methid args[2]==/home/hadoop/wiki.txt
++++in Main methid args[3]==/home/hadoop/OutFiles/grep_conf
+
+
+
++++in RUN methid args[0]==/home/hadoop/wiki.txt
++++in RUN methid args[1]==/home/hadoop/OutFiles/grep_conf
+
+
+++++Search word::spark
+++++COLORAAAA
+++++COLOR1null
+++++COLOR2I am Def COLOR
+++++dfs.blocksize134217728

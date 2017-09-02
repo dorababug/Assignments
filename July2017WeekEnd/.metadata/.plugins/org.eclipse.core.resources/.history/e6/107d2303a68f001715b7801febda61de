@@ -1,0 +1,26 @@
+package com.inv;
+
+import java.io.IOException;
+
+import org.apache.hadoop.conf.Configuration;
+import org.apache.hadoop.io.IntWritable;
+import org.apache.hadoop.mapreduce.Job;
+
+import com.sun.jersey.core.impl.provider.entity.XMLJAXBElementProvider.Text;
+
+public class GrepDriver {
+	public static void main(String[] args) throws IOException {
+		Configuration conf=new Configuration();
+		Job job=Job.getInstance(conf, "Grep Program");
+		job.setJarByClass(GrepDriver.class);
+		job.setMapperClass(GrepMapper.class);
+		job.setNumReduceTasks(0);
+		
+		job.setOutputKeyClass(Text.class);
+		job.setOutputValueClass(IntWritable.class);
+		
+		
+		
+	}
+
+}
