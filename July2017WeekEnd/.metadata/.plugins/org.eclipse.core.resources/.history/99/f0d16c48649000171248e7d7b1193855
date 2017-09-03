@@ -1,0 +1,36 @@
+package com.inv;
+
+import java.io.IOException;
+
+import org.apache.hadoop.conf.Configuration;
+import org.apache.hadoop.io.LongWritable;
+import org.apache.hadoop.io.NullWritable;
+import org.apache.hadoop.io.Text;
+import org.apache.hadoop.mapreduce.Mapper;
+
+public class GrepMapper extends Mapper<LongWritable, Text,Text, NullWritable>{
+	
+	//Instance Variable
+	private String searchword="";
+	
+	@Override
+	protected void setup(Mapper<LongWritable, Text, Text, NullWritable>.Context context)
+			throws IOException, InterruptedException {
+		Configuration conf=context.getConfiguration();
+		searchword=conf.get("sword");
+		System.out.println("Search word sword:::"+conf.get("sword"););
+	
+	}
+	@Override
+	protected void map(LongWritable key, Text value, Mapper<LongWritable, Text, Text, NullWritable>.Context context)
+			throws IOException, InterruptedException {
+		//COnvert the line and searchword for case insensitive search
+		if(value.toString().toLowerCase().contains(searchword.toLowerCase())){
+			context.write(value, NullWritable.get());
+		}
+	
+	}
+	
+	
+
+}

@@ -1,0 +1,16 @@
+package com.inv;
+
+import org.apache.hadoop.conf.Configured;
+import org.apache.hadoop.util.Tool;
+
+public class GrepDriver extends Configured implements Tool{
+
+	@Override
+	public int run(String[] arg0) throws Exception {
+		for (int i = 0; i < arg0.length; i++) {
+			System.out.println("+++ IN RUN method arg0["+i+"]=="+arg0[i]);
+		}
+		
+	}
+
+}

@@ -1,0 +1,31 @@
+package com.inv;
+
+import org.apache.hadoop.conf.Configuration;
+import org.apache.hadoop.conf.Configured;
+import org.apache.hadoop.io.NullWritable;
+import org.apache.hadoop.io.Text;
+import org.apache.hadoop.mapreduce.Job;
+import org.apache.hadoop.util.Tool;
+
+public class GrepDriver extends Configured implements Tool{
+
+	@Override
+	public int run(String[] arg0) throws Exception {
+		for (int i = 0; i < arg0.length; i++) {
+			System.out.println("+++ IN RUN method arg0["+i+"]=="+arg0[i]);
+		}
+		Configuration conf = this.getConf();
+		
+		Job job=Job.getInstance(conf);
+		
+		job.setJarByClass(GrepDriver.class);
+		job.setMapperClass(GrepMapper.class);
+		
+		job.setNumReduceTasks(0);
+		
+		job.setOutputKeyClass(Text.class);
+		job.setOutputValueClass(NullWritable.class);
+		
+	}
+
+}
