@@ -1,0 +1,56 @@
+import org.apache.spark.SparkConf
+import org.apache.spark.launcher.SparkAppHandle
+import org.apache.spark.SparkContext
+import org.apache.log4j.Logger
+import org.apache.log4j._
+import org.apache.spark.sql.SparkSession
+
+
+object MovieLens {
+  def main(args: Array[String]): Unit = {
+    
+    Logger.getLogger("org").setLevel(Level.ERROR)
+    
+    //1.x 
+    
+    //val conf=new SparkConf().set(key, value)
+    val sc=new SparkContext("local[*]","Movie Lens")
+    //Each year how many movies released
+    // in movie data set, movie name, mv year in the mvname
+   val movieRDD=sc.textFile("/home/hadoop/Music/Classes/MovieLens-Work/ml-1m/movies.dat")
+   println(movieRDD.first)
+   
+   val extractYear=(line:String)=>{
+     val mvname=line.split("::")(1)
+     val year=mvname.substring(mvname.lastIndexOf('(')+1, mvname.lastIndexOf(')'))
+     (year,1)
+   }
+   val yearRDD=movieRDD.map(extractYear)
+   //yearRDD.reduceByKey((x,y)=>x+y).sortBy(tup=>tup._2,false,1).saveAsTextFile("/home/hadoop/OutFiles/mvout")
+  // println(yearRDD.first)
+   println("Done with Writing")
+   
+   // How to create a dataset.
+   val spark=SparkSession
+     .builder()
+     .master("local[*]")
+     .appName("MovileLens")
+     .enableHiveSupport()
+     .getOrCreate()
+   
+   val movieDS=spark.read.text("/home/hadoop/Music/Classes/MovieLens-Work/ml-1m/movies.dat")
+   movieDS.printSchema()
+   
+  movieDS.createTempView("t_movie")
+ val yearDF=spark.sql("select substring(  split(value,'::')[1],length(split(value,'::')[1])-4,4)  as mvname from t_movie")
+ 
+ yearDF.printSchema()
+ 
+   
+   
+   
+   
+   
+   
+  }
+}

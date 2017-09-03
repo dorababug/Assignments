@@ -1,0 +1,13 @@
+
+
+object HelloWorld {
+  def main(args: Array[String]): Unit = {
+    println("Hellw Scala World")
+  //Range:
+    for{i<-1 to 10} println(i)
+  
+  
+  }
+   
+  
+}

@@ -1,0 +1,19 @@
+import org.apache.log4j._
+import org.apache.spark.SparkContext
+
+
+object wc {
+  
+  def main(args: Array[String]): Unit = {
+    
+      Logger.getLogger("org").setLevel(Level.ERROR)
+      
+      val sc=new SparkContext("Local[*]","Sample Spark Application")
+      
+      val inputRDD=sc.textFile("/home/hadoop/h1.txt")
+      
+      
+    
+  }
+  
+}

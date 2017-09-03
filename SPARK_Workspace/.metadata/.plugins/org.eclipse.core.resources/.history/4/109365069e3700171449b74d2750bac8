@@ -1,0 +1,12 @@
+import org.apache.spark.SparkConf
+import org.apache.spark.SparkContext
+
+
+object Prog1 {
+  def main(args: Array[String]): Unit = {
+    
+    //val conf=new SparkConf().set(key, value)
+    val sc=new SparkContext("local[*]","Ratings")
+    
+  }
+}

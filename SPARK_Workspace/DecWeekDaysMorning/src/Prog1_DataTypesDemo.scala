@@ -1,0 +1,21 @@
+
+
+object Prog1_DataTypesDemo {
+  
+  // **1) //class name and file name no need to be same
+  //but it is recommended because we can easily search for a class by using
+  //the file name, otherwise we have to keep searching for the class in 
+  //many files.
+  def main(args: Array[String]): Unit = {
+    args.foreach(println)
+  }
+  
+  // **2) You can compile the scala file using scalac
+  //It generates the class file and a file with $sign.
+  //this is  called sythetic class, scala generates each class with $ for
+  //every singleton object present in scala code
+  //Check the code with "javap" -> See both the file contents
+  
+  //** 3) you can run the class file using scala class_file_name
+  
+}

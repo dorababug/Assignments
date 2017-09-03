@@ -1,0 +1,13 @@
+[0m[[0minfo[0m] [0mPackaging /home/hadoop/YARN/SPARK_Workspace/simpleSBT/target/scala-2.11/simple-project_2.11-1.0.jar ...[0m
+[0m[[0mdebug[0m] [0mInput file mappings:[0m
+[0m[[0mdebug[0m] [0m	SimpleSBTDemo.class[0m
+[0m[[0mdebug[0m] [0m	  /home/hadoop/YARN/SPARK_Workspace/simpleSBT/target/scala-2.11/classes/SimpleSBTDemo.class[0m
+[0m[[0mdebug[0m] [0m	SimpleSBTDemo$$anonfun$1.class[0m
+[0m[[0mdebug[0m] [0m	  /home/hadoop/YARN/SPARK_Workspace/simpleSBT/target/scala-2.11/classes/SimpleSBTDemo$$anonfun$1.class[0m
+[0m[[0mdebug[0m] [0m	SimpleSBTDemo$.class[0m
+[0m[[0mdebug[0m] [0m	  /home/hadoop/YARN/SPARK_Workspace/simpleSBT/target/scala-2.11/classes/SimpleSBTDemo$.class[0m
+[0m[[0mdebug[0m] [0m	log4j.properties[0m
+[0m[[0mdebug[0m] [0m	  /home/hadoop/YARN/SPARK_Workspace/simpleSBT/target/scala-2.11/classes/log4j.properties[0m
+[0m[[0mdebug[0m] [0m	SimpleSBTDemo$$anonfun$2.class[0m
+[0m[[0mdebug[0m] [0m	  /home/hadoop/YARN/SPARK_Workspace/simpleSBT/target/scala-2.11/classes/SimpleSBTDemo$$anonfun$2.class[0m
+[0m[[0minfo[0m] [0mDone packaging.[0m

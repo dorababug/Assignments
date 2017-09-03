@@ -1,0 +1,22 @@
+
+
+object Prog2_RegEx {
+  
+  def main(args: Array[String]): Unit = {
+    
+    //REGEX:
+    // [A-Za-z] [^A-Z] [0-9]
+    // for white space \\s ,Not White space \\S
+    //White space \\w
+    //Digits \d
+     //{n,m} minimum n times and maximum m times
+    //Word That is 2 to 20 characters in length
+    //[A-Za-z]{2,20}
+    
+    
+    val pattern=
+    
+    
+  }
+  
+}

@@ -1,0 +1,24 @@
+import org.apache.log4j._
+import org.apache.spark.SparkContext
+
+
+object wc {
+  
+  def main(args: Array[String]): Unit = {
+    
+      Logger.getLogger("org").setLevel(Level.ERROR)
+      
+      val sc=new SparkContext("local[*]","Sample Spark Application")
+      
+      val inputRDD=sc.textFile(args(0))
+      
+      val wc=inputRDD.flatMap(x => x.split(" ")).map(x=> (x,1))
+        .reduceByKey((x,y)=> x+y).sortBy(_._1,true,1)
+        
+      wc.foreach(println)
+      wc.saveAsTextFile(args(1))
+        
+      sc.stop()
+  }
+  
+}
