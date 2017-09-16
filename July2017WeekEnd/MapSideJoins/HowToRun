@@ -1,0 +1,6 @@
+LocalMode
+
+-files /home/hadoop/YARNBOX/WORKSPACES/Sept2016WEBatch_GitRepo/SET2/MapReduceCode/Joins-MapReduce/input/dept      /home/hadoop/YARNBOX/WORKSPACES/Sept2016WEBatch_GitRepo/SET2/MapReduceCode/Joins-MapReduce/input/emp    /home/hadoop/YARNBOX/WORKSPACES/Sept2016WEBatch_GitRepo/SET2/MapReduceCode/Joins-MapReduce/input/MapJoinOutput
+
+HDFS - Psudo mode
+yarn jar ~/Desktop/MapJoin.jar com.inv.JoinDriver -files /home/hadoop/YARNBOX/WORKSPACES/Sept2016WEBatch_GitRepo/SET2/MapReduceCode/Joins-MapReduce/input/dept   /emp /MapJoinOut2
