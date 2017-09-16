@@ -1,0 +1,36 @@
+package com.inv;
+
+import java.io.IOException;
+
+import org.apache.hadoop.io.Text;
+import org.apache.hadoop.mapreduce.Reducer;
+
+public class JoinReducer extends Reducer<Text, Text, Text, Text>{
+	
+	
+	String deptName="";
+	
+	@Override
+	protected void reduce(Text key, Iterable<Text> values, Reducer<Text, Text, Text, Text>.Context context)
+			throws IOException, InterruptedException {
+		//001_dept,hadoop
+		//001_emp, <1,name,2000,001 >
+		//002_dept ,<hive>
+		//002_emp,<2,name2,4000,002    ,7,name7,4000,002  >
+		
+		//Get dept name
+		if(key.toString().contains("dept")){
+			for (Text val : values) {
+				deptName=val.toString();
+			}
+		}
+		if(key.toString().contains("emp")){
+			for (Text val : values) {
+				context.write(val, new Text(deptName));
+			}
+		}
+		
+		
+	}
+
+}

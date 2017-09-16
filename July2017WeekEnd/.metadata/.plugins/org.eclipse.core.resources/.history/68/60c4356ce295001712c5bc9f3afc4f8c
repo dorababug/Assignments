@@ -1,0 +1,31 @@
+package com.inv;
+
+import java.io.IOException;
+import java.util.StringTokenizer;
+
+import org.apache.hadoop.io.IntWritable;
+import org.apache.hadoop.io.LongWritable;
+import org.apache.hadoop.io.Text;
+import org.apache.hadoop.mapreduce.Mapper;
+
+public class WordCountMapper extends Mapper<LongWritable, Text, Text, Text> {
+
+	@Override
+	protected void map(LongWritable key, Text value, Mapper<LongWritable, Text, Text, Text>.Context context)
+			throws IOException, InterruptedException {
+		
+		//1979,23,23,2,43,24,25,26,26,26,26,25,26,25
+		String[] vals=value.toString().split(",");
+		int min=9999;
+		int max=-9999;
+		String year=vals[0];
+		
+		// 0th element is year, last element is avg-> so exclude both
+		for (int i = 1; i < vals.length-1; i++) {
+			
+		}
+		
+	}
+	
+	
+}

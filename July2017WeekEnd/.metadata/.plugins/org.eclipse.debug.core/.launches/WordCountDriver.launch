@@ -8,6 +8,6 @@
 </listAttribute>
 <booleanAttribute key="org.eclipse.jdt.launching.ATTR_USE_START_ON_FIRST_THREAD" value="true"/>
 <stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="com.inv.WordCountDriver"/>
-<stringAttribute key="org.eclipse.jdt.launching.PROGRAM_ARGUMENTS" value="/home/hadoop/sample.txt       /home/hadoop/OutFiles/wcout"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROGRAM_ARGUMENTS" value="/home/hadoop/wiki.txt     /home/hadoop/OutFiles/wcout"/>
 <stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="WordCount1"/>
 </launchConfiguration>

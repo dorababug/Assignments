@@ -1,0 +1,12 @@
+package com.inv;
+
+import org.apache.hadoop.conf.Configuration;
+import org.apache.hadoop.mapreduce.Job;
+
+public class JoinDriver {
+	
+	
+	Configuration conf=new Configuration();
+	Job job = Job.getInstance("ReduceSideJoins",conf);
+
+}
