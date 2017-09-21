@@ -1,0 +1,72 @@
+Functional Programming
+------------------------------
+what is a function ? it just a code block { }
+functions are first class citizens
+functions can exists any where in the program
+----------------------------
+
+Functions are objects ( because scala is pure OOP)
+function literal -> without a name  { }
+functions can be assigned to variables. function variable
+functions can be passed to another functions,methods
+and functons can be returned from another function/methods
+----------------------------------
+functions can accept aruguemnts.
+----------------------------------------------
+function literal:::
+
+val res={
+ val x=10
+ val y=100
+ x+y
+}
+----------------------------
+Methods ???
+def sum1(a:Int,b:Int):Int={
+ println("first arg in sum1"+a)
+ println("second arg in sum2"+b)
+ a+b
+}
+
+sum(10+30,500)
+
+sum(fn(10,20),500)
+------------------
+function that accepts arguments -> function varible(assign a function to a variable)
+=> rocket , transformation operator
+val fn=(a:Int,b:Int)=>{
+ println("first arg in fn"+a)
+ println("second arg in fn"+b)
+ a+b
+}
+fn: (Int,Int) => Int <function2>
+sum1:(Int,Int):Int
+
+
+===================================
+higer order functions::: 
+a function/method that accepts another function as argument
+OR/AND retuns a function as return value
+====================================
+
+val subtract=(x:Int,y:Int)=>{x-y}
+val multiply=(x:Int,y:Int)=>{x*y}
+
+Higer order method
+def operation(fn:(Int,Int)=>Int,a:Int,b:Int)={
+println(fn(a,b))
+}
+
+operation(subtract,100,90)
+operation(multiply,100,90)
+
+Annonymous function(python)/lambda(java) functon without a name::
+operation((x,y)=>{x+y},100,90)
+
+
+
+
+
+
+
+

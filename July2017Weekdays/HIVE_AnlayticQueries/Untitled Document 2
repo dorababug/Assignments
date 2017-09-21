@@ -1,0 +1,53 @@
+create table students(id int,name string,dept string,marks int)
+partitioned by (dept1 string)
+row format delimited 
+fields terminated by ','
+stored as textfile;
+
+//load data local inpath 'stu_details.txt' into 
+
+Dynamic partition::::
+
+create table students_input(
+id int,
+name string,
+dept string,
+marks int)
+row format delimited 
+fields terminated by ','
+stored as textfile;
+load data local inpath 'stu_details.txt' into table students_input;
+select * from students_input;
+set hive.exec.dynamic.partition.mode=nonstrict;
+insert into students partition(dept1)
+select *,dept from students_input;
+
+
+
+
+
+//Find rank,denserank,rownumber,sum,average for all depts
+//Find rank,denserank,rownumber,sum,average for each  dept
+select *,
+rank() over (order by marks desc) as rnk,
+dense_rank() over (order by marks desc) as dns_rnk,
+row_number() over (order by marks desc) as rownum,
+count(id) over (order by marks desc) as cnt,
+sum(marks) over (order by marks desc) as sum,
+
+rank() over (partition by dept order by marks desc) as rnk,
+dense_rank() over (partition by dept order by marks desc) as dns_rnk,
+row_number() over (partition by dept  order by marks desc) as rownum,
+count(id) over (partition by dept order by marks desc) as cnt,
+sum(marks) over (partition by dept  order by marks desc) as sum
+from students;
+
+
+
+
+
+
+
+
+
+
