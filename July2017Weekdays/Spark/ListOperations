@@ -1,0 +1,33 @@
+head
+tail
+foreach
+map
+2550  val l2=l1.map(e=>e+"10")
+2551  val l2=l1.map(e=>e+"_10")
+2552  val l2=l1.map(e=>(e,"abc"))
+2553  l2.foreach(x=>println(x._2))
+2554  l2.foreach(x=>println(x._1))
+
+val ret_even=(x:Int)=>{
+if(x%2==0){
+  val y=x+300
+  println(y)
+}
+}
+l1.foreach(ret_even)
+----------------------------------------
+
+l1.filter(e=> e%2==0)
+val students=List(("s1","M"),("s2","F"),("s3","M"),("s4","M"),("s5","M"),("s6","F"))
+
+scala> l2.sortWith( (x,y)=> {println(x);println(y);x>y })
+
+val l2=List("a","b","c","d")
+
+l2.reduceRight((x,y)=>{println(x+" "+y);x+y)
+l2.reduceRight((x,y)=>{println(x+" "+y);x+y})
+
+l1.scanRight(200)((x,y)=>{println(x+" "+y);x+y})
+l1.scanLeft(200)((x,y)=>{println(x+" "+y);x+y})
+
+

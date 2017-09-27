@@ -1,0 +1,57 @@
+val groupedRDD=inputRDD.flatMap(line=>line.split(" ")).groupBy(word=>word)
+
+
+inputRDD.flatMap(line=>line.split(" "))
+.groupBy(word=>word)
+.map(x=>(x._1,x._2.size))
+.saveAsTextFile("OutFiles/WCOut");
+------------------------------------
+PairRDD:::
+it is just an RDD with each element as a pair (contains key and value)
+inputRDD.flatMap(line=>line.split(" ")).map(x=>(x,1))
+//In efficient
+inputRDD.flatMap(line=>line.split(" ")).
+map(x=>(x,1)).
+groupByKey().
+map(pair=>(pair._1,pair._2.size)).
+saveAsTextFile("OutFiles/WcOut8")
+
+val fn=(=>{
+   val sum=0; for(a<-pair._2) sum=sum+a 
+(pair._1,sum)
+})
+
+inputRDD.flatMap(line=>line.split(" ")).map(x=>(x,1)).groupByKey().map(pair=>{   var sum=0; for(a<-pair._2) sum=sum+a ;(pair._1,sum) }).saveAsTextFile("OutFiles/WcOut5")
+
+
+inputRDD.flatMap(line=>line.split(" ")).
+map(x=>(x,1)).
+reduceByKey((x,y)=>x+y,1).
+saveAsTextFile("OutFiles/WcOut6")
+
+
+inputRDD.flatMap(line=>line.split(" ")).
+map(x=>(x,1)).
+reduceByKey((x,y)=>x+y).repartition(1).
+saveAsTextFile("OutFiles/WcOut7")
+-----------------------------------------
+MovieLens:::
+movies file, extract Year, and each year how many movies released??
+sort it based on count. get top 10.
+------------------------------------------
+movie-> extract year -> year,1 -> wc then year,count
+based on count sort the data-> top 10
+
+
+val extractYear=(line:String)=>{
+val year=line.substring(line.lastIndexOf("(")+1,line.lastIndexOf(")"))
+(year,1)
+}
+
+val moviesRDD=sc.textFile("/home/hadoop/Music/Classes/MovieLens-Work/ml-1m/movies.dat")
+
+moviesRDD.map(extractYear).reduceByKey((x,y)=>x+y).saveAsTextFile("OutFiles/mvOut")
+--------------------------------
+HW ::: How to delete files in spark program using HDFS filesystem API???
+
+
