@@ -53,5 +53,43 @@ val moviesRDD=sc.textFile("/home/hadoop/Music/Classes/MovieLens-Work/ml-1m/movie
 moviesRDD.map(extractYear).reduceByKey((x,y)=>x+y).saveAsTextFile("OutFiles/mvOut")
 --------------------------------
 HW ::: How to delete files in spark program using HDFS filesystem API???
+---------------------------------------------------
+
+
+
+
+
+
+val empRDD=sc.textFile("/home/hadoop/YARNBOX/WORKSPACES/Sept2016WEBatch_GitRepo/SET2/MapReduceCode/Joins-MapReduce/input/emp").map(line=>{(line.split(",")(3),line)})
+
+
+
+
+
+
+val deptRDD=sc.textFile("/home/hadoop/YARNBOX/WORKSPACES/Sept2016WEBatch_GitRepo/SET2/MapReduceCode/Joins-MapReduce/input/dept").map(line=>{(line.split(",")(0),line.split(",")(1))})
+
+
+empRDD.
+join(deptRDD).map(x=>x._2).
+sortBy(x=>x._1.split(",")(0),true,1).foreach(println)
+---------------------------------------------------
+
+Spark SQL:::
+-------------
+
+
+
+val empRDD=sc.textFile("/home/hadoop/YARNBOX/WORKSPACES/Sept2016WEBatch_GitRepo/SET2/MapReduceCode/Joins-MapReduce/input/emp").map(line=>{val rec=line.split(",")
+(rec(0).toInt,rec(1),rec(2),rec(3).toInt)})
+
+
+
+val deptRDD=sc.textFile("/home/hadoop/YARNBOX/WORKSPACES/Sept2016WEBatch_GitRepo/SET2/MapReduceCode/Joins-MapReduce/input/dept").map(line=>{val rec=line.split(",")
+(rec(0).toInt,rec(1))})
+
+
+
+
 
 
