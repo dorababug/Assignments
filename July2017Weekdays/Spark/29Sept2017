@@ -1,0 +1,42 @@
+Using HDFS and Hive
+
+
+
+val fn=(line:String)=>{
+val rec=line.split("::")
+(rec(0),rec(1),rec(2).toInt)
+}
+
+val ratings=sc.textFile("/ratings.dat").map(fn)
+
+ratings.toDF("userid","movieid","rating").createOrReplaceTempView("ratings")
+
+spark.sql("select movieid,avg(rating) avgrating,count(userid) usercount from ratings group by movieid order by avgrating desc")
+
+
+spark.sql("select movieid,round(avg(rating),2) avgrating,count(userid) usercount from ratings group by movieid having count(userid) >40 order by avgrating desc").show
+
+spark.sql("create table default.avgrating1 stored as orc as select movieid,round(avg(rating),2) avgrating,count(userid) usercount from ratings group by movieid having count(userid) >40 order by avgrating desc")
+
+spark.sql("insert into default.avgrating1  select movieid,round(avg(rating),2) avgrating,count(userid) usercount from ratings group by movieid having count(userid) >40 order by avgrating desc")
+
+
+spark.sql("select * from avgrating limit 10").show
+
+top 10 popular movies:::
+spark.sql("select * from avgrating order by usercount desc limit 10").show
+
+spark.sql("select * from avgrating order by usercount desc limit 10").show
+
+================================================
+
+
+unix-> set HADOOP_CONF_DIR
+from hive/conf -> hive-site.xml -> spark/conf
+mysql connector -> spark/jars
+
+
+
+
+
+
