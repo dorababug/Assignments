@@ -1,0 +1,6 @@
+
+
+class Test(var i:Int,val j:Int) {
+  var name;
+  
+}

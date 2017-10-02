@@ -1,0 +1,15 @@
+import org.apache.spark.sql.SparkSession
+
+
+object SparkSqlTest {
+  def main(args: Array[String]): Unit = {
+    
+    val spark = SparkSession.builder.appName("Simple Application").getOrCreate()
+    
+    spark.read.option("header","true").
+    csv("/home/hadoop/YARNBOX/WORKSPACES/Sept2016WEBatch_GitRepo/SET2/MapReduceCode/Joins-MapReduce/input/emp").
+    
+    
+    
+  }
+}

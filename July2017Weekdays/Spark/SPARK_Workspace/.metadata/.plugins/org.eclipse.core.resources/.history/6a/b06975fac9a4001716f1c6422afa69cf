@@ -1,0 +1,17 @@
+
+
+class Test(var i:Int,val j:Int) {
+  var name="InventaTeq"
+  println(name)
+  def setName(new_name:String):Unit{
+    name=new_name
+     println(name)
+  }
+  def getName
+  {
+    name
+  }
+  
+  
+  
+}

@@ -1,0 +1,34 @@
+import org.apache.spark.SparkConf
+import org.apache.spark.SparkContext
+import org.apache.log4j.Logger
+import org.apache.log4j._
+import org.apache.spark.sql.SparkSession
+
+object Prog1 {
+  def main(args: Array[String]): Unit = {
+    
+     Logger.getLogger("org").setLevel(Level.ERROR)
+
+    
+    //val conf=new SparkConf().set(key, value)
+    //spark standalone mode
+    val sc=new  SparkContext("local[*]","Ratings")
+    
+    //Create an RDD
+    //UserID::MovieID::Rating::Timestamp
+    val ratingsRDD=sc.textFile("file:///home/hadoop/Music/Classes/MovieLens-Work-SPARK/ml-1m/ratings.dat")
+    
+    /// Movie id - How many times it is rated??
+    val movies=ratingsRDD.map(x => (x.split("::")(1),1))
+    val countRDD=movies.reduceByKey((x,y)=>x+y).sortBy(x => x._2, false, 1)
+    
+    //Sort the data based on count
+    
+    countRDD.saveAsTextFile("file:///home/hadoop/Music/Classes/MovieLens-Work-SPARK/ml-1m/mvCount")
+    //val spark=SparkSession.builder().appName("MovieLens").getOrCreate();
+        
+    
+     
+    
+  }
+}

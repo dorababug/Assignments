@@ -1,0 +1,10 @@
+
+
+object Prog3_ConditionalOps {
+  
+  def main(args: Array[String]): Unit = {
+    
+  if(1>2) println("True Here") else println("False") 
+  
+}
+}

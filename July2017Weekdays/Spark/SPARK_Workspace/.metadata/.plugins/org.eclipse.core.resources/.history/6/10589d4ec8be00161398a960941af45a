@@ -1,0 +1,25 @@
+
+
+object scalapractice {
+  def main(args: Array[String]): Unit = {
+    
+    println(" Welcome to Scala Program")
+    println("first arg:::"+args(0))
+    println("second arg:::"+args(1))
+    
+    val name: String ="Inventateq"
+    println("My name is ::"+name)
+    println(name.getClass)
+    println(name.getClass.getTypeName)
+    
+    println(s" Name is $name")
+    
+    val amount=1000.00
+    
+
+    
+    
+    
+    
+  }
+}

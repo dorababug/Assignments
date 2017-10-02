@@ -1,0 +1,20 @@
+RDD ACTIONS:
+https://spark.apache.org/docs/2.0.2/api/scala/index.html#org.apache.spark.rdd.RDD
+
+Common Transformations on RDDs:  (these RDDs are also called Basic RDDs)
+--------------------------------
+Regardless of the data we can perform below operations
+
+
+
+
+
+
+
+
+
+Aggregations:
+collect()  -> Returns an Array that contains all the functions
+count() -> no of elements
+
+Return the count of each unique value in this RDD as a local map of (value, count) pairs.

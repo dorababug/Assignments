@@ -1,0 +1,16 @@
+import org.apache.log4j._
+import org.apache.spark.SparkContext
+
+
+object wc {
+  
+  def main(args: Array[String]): Unit = {
+    
+      Logger.getLogger("org").setLevel(Level.ERROR)
+      
+      val sc=SparkContext("Local[*]","Sample Spark Application")
+    
+    
+  }
+  
+}

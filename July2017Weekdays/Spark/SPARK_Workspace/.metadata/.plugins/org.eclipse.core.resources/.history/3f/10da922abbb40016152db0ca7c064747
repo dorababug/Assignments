@@ -1,0 +1,17 @@
+
+
+object Prog2_RegEx {
+  
+  def main(args: Array[String]): Unit = {
+    
+    //REGEX:
+    // [A-Za-z] [^A-Z] [0-9]
+    // for white space \\s ,Not White space \\S
+    
+    
+    val pattern=
+    
+    
+  }
+  
+}

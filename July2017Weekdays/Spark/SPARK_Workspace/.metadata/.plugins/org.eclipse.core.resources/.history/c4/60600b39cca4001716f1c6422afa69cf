@@ -1,0 +1,13 @@
+import org.apache.spark.SparkContext
+
+
+object WordCount {
+  def main(args: Array[String]): Unit = {
+    val sc=new SparkContext("local[*]","WordCount")
+    //sc.setLogLevel(logLevel)
+   val input=sc.textFile(args(0))
+    
+   
+  }
+  
+}

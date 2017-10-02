@@ -1,0 +1,20 @@
+import org.apache.log4j._
+import org.apache.spark.SparkContext
+
+
+object wc {
+  
+  def main(args: Array[String]): Unit = {
+    
+      Logger.getLogger("org").setLevel(Level.ERROR)
+      
+      val sc=new SparkContext("local[*]","Sample Ratings Application")
+      
+      val inputRDD=sc.textFile("/home/hadoop/Music/Classes/MovieLens-Work-SPARK/ml-1m/ratings.dat")
+      
+      val ratings=inputRDD.map { x => x.split("::" }
+      
+      
+  }
+  
+}

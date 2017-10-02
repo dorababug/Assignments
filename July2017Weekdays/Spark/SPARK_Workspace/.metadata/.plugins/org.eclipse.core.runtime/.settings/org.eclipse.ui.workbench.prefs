@@ -1,0 +1,7 @@
+ColorsAndFontsPreferencePage.expandedCategories=Torg.eclipse.ui.workbenchMisc\tTorg.eclipse.jdt.ui.presentation\tTorg.scalaide.ui.theme
+ColorsAndFontsPreferencePage.selectedElement=Forg.eclipse.jdt.ui.editors.textfont
+PLUGINS_NOT_ACTIVATED_ON_STARTUP=org.eclipse.m2e.discovery;
+eclipse.preferences.version=1
+org.eclipse.jdt.ui.editors.textfont=1|Monospace|18.0|0|GTK|1|;
+org.eclipse.jface.textfont=1|Monospace|15.0|0|GTK|1|;
+org.scalaide.ui.font.hover=1|Ubuntu|15.0|0|GTK|1|;

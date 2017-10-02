@@ -1,0 +1,11 @@
+spark-submit  \
+--master yarn \
+--deploy-mode cluster \
+--class SparkSqlTest \
+--name "Spark Standalone Application" \
+--driver-memory 2G \
+--executor-memory 2G \
+--conf spark.ui.port=4044 \
+Desktop/WordCountSpark.jar \
+/sample1 \
+/WordCountSparkOut \

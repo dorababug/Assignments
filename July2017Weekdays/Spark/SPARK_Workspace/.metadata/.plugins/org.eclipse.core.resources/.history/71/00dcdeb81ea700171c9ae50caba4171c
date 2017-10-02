@@ -1,0 +1,11 @@
+
+
+object FileRead {
+  def main(args: Array[String]): Unit = {
+    import scala.io.Source
+    
+   for(line <- Source.fromFile("/home/hadoop/sample1").getLines()){
+     println(line)
+   }
+  }
+}

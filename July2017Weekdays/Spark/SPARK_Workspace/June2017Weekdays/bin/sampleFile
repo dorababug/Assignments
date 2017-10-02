@@ -1,0 +1,40 @@
+object WordCount {
+  def main(args: Array[String]): Unit = {
+    println("hello world")
+    for(arg<-args){
+      println(arg)
+    }
+    
+    
+    val t1 =new  Test(10,11)
+    println(t1.i)
+    t1.i=100
+    println(t1.i)
+    println(t1.j)
+    println(t1.getName())
+    t1.setName("NewName")
+     print(t1.getName())
+    
+  }
+    
+  
+}
+
+
+
+
+class Test(var i:Int,val j:Int) {
+  var name="InventaTeq"
+  println(name)
+  def setName(new_name:String):Unit={
+    name=new_name
+     println(name)
+  }
+  def getName()=
+  {
+    name
+  }
+  
+  
+  
+}

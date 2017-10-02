@@ -1,0 +1,16 @@
+
+
+object Prog3_ConditionalOps {
+  
+  def main(args: Array[String]): Unit = {
+    
+  if(1>2) println("True Here") else println("False") 
+  val number=args(0).toInt
+  number match {
+    case 1 => println("One")
+    case 2 => println("two")
+    case 3 => println("three")
+    case _ => println("OTHRS")
+  }
+}
+}

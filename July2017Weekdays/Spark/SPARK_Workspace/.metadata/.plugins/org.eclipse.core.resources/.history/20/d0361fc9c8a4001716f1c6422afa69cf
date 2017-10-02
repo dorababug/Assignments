@@ -1,0 +1,7 @@
+
+
+object WordCount extends App{
+  prinln("hello world")
+  
+  
+}

@@ -1,0 +1,60 @@
+
+
+object Prog1_Variables {
+  def main(args: Array[String]): Unit = {
+    
+    // Execution starts from main method. to call a method we should use singleton 
+    //  Object. and there is no Static variables in Scala
+    
+    
+    println("Hellow Scala World")
+  //Range:
+    for{i<-1 to 10} println(i)
+ /* 
+    for{i<-1 to 10
+          j<-1 to 10 } println(i*j) 
+    }*/
+ 
+    val hello: String = "Hello There"  // val is immutable
+    println(hello)
+    
+    // hello ="Bye There"  //ERROR 
+    var hellothere: String = hello  //var is mutable
+    println("+++"+hellothere)
+    
+    hellothere = "hello123"  //var can be changed but with the same type
+    println("+++"+hellothere)
+    
+    //hellothere=5  //string var cannot be assigned with integer
+    
+    //Type inference::::::::
+    var ABC = "sample string"
+    println(ABC.getClass)
+    var DEF = 5
+    println(DEF.getClass.getSimpleName)
+    
+    val numberIne:Int = 1
+    val boolvar:Boolean = true
+    // Doube, Float, Long, Byte
+    
+    println("All Variables"+hello+hellothere+ABC+DEF+numberIne+boolvar)
+   
+    //Substitute Variables
+    println(s"The variable value of ABC is:::%ABC  And the value of DEF:::%DEF")
+    
+    //printf style , and substitute the values with $
+    println(f"PAD the number with zeros:::$numberIne")
+    println(f"PAD the number with zeros:::$numberIne%.3f")
+    println(f"PAD the number with zeros:::$numberIne%05d")
+    
+    
+   }
+}
+
+
+
+
+
+
+
+

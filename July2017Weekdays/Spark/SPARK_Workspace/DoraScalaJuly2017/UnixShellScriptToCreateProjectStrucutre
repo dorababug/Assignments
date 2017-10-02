@@ -1,0 +1,13 @@
+#!/bin/sh
+
+#Create initial project structure 
+mkdir -p src/{main,test}/{java,resources,scala}
+mkdir lib project target
+
+#Create an initial build.sbt file
+
+echo 'name: "Mysql jdbc demo"
+
+version := "1.0"
+
+scalaVersion := "2.10.0"' >build.sbt

@@ -1,0 +1,10 @@
+
+
+object scalapractice {
+  def main(args: Array[String]): Unit = {
+    
+    println(" Welcome to Scala Program")
+    println("first arg:::"+args(0))
+    
+  }
+}

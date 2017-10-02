@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="scala.application">
+<listAttribute key="StepOutExcludePkgsOrClasses"/>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+<listEntry value="/May2017WEMorning/src/MovieLens.scala"/>
+</listAttribute>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+<listEntry value="1"/>
+</listAttribute>
+<booleanAttribute key="org.eclipse.jdt.launching.ATTR_USE_START_ON_FIRST_THREAD" value="true"/>
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="MovieLens"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROGRAM_ARGUMENTS" value="file:///home/hadoop/Music/Classes/MovieLens-Work-SPARK/ml-1m/ratings.dat file:///home/hadoop/Music/Classes/MovieLens-Work-SPARK/ml-1m/movies.dat  file:///home/hadoop/Music/Classes/MovieLens-Work-SPARK/ml-1m/we_output"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="May2017WEMorning"/>
+</launchConfiguration>

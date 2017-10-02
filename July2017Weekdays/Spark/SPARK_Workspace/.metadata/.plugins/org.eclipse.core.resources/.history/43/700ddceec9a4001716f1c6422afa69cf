@@ -1,0 +1,17 @@
+
+
+class Test(var i:Int,val j:Int) {
+  var name="InventaTeq"
+  println(name)
+  def changeName(new_name:String){
+    name=new_name
+     println(name)
+  }
+  def getName
+  {
+    name
+  }
+  
+  
+  
+}

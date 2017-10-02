@@ -1,0 +1,16 @@
+
+
+object WordCount {
+  def main(args: Array[String]): Unit = {
+    println("hello world")
+    for(arg<-args){
+      println(arg)
+    }
+    
+    
+    object t1=new Test(10,11)
+    
+  }
+    
+  
+}

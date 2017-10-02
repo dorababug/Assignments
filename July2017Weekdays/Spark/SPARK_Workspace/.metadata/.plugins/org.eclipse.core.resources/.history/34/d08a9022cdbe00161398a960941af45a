@@ -1,0 +1,86 @@
+
+
+object scalapractice {
+  def main(args: Array[String]): Unit = {
+    
+    println(" Welcome to Scala Program")
+    println("first arg:::"+args(0))
+    println("second arg:::"+args(1))
+    
+    val name: String ="Inventateq"
+    println("My name is ::"+name)
+    println(name.getClass)
+    println(name.getClass.getTypeName)
+    
+    println(s" Name is $name and $name")
+    
+    val amount=1000.00
+    
+    val books=Array("Hi",10,"123")
+    println(books(0).getClass())
+    
+    for(i <- books) {
+      println(i)
+      
+    }
+    
+    val sampleList = List(1,2,4,5,7,10)
+    for( y <- sampleList) println(y)
+    println(sampleList.reverse)
+   println( sampleList.head )
+       println( sampleList.tail )
+   // sampleList.count
+      val sampleTuple=("90","sample",1234690)
+      
+      println(sampleTuple._1)
+      
+      
+    val sampleRange= 1 until 5
+    println(sampleRange)
+       
+    println({1 to 100 by 10})
+    // 
+    val x=100;
+    
+    
+    println( {
+        x
+        x+1000
+        val y=10000
+        y+x
+    })
+
+    
+    
+   val square= { val x=9
+             
+          (x*x)
+      
+      }
+    print(square)
+    
+    def square1(y:Int): Int = {
+      y*y
+    }
+    val sq=square1(999);
+    println(sq)
+    
+    // How to pass function to another function
+    
+    val squarefn= (i:Int) => { i* i }
+    println("************************"
+    println(squarefn(1000))
+    
+    
+    
+    
+    
+  }
+}
+
+
+
+
+
+
+
