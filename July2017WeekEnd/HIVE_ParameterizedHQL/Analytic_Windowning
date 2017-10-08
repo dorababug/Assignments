@@ -1,0 +1,7 @@
+select *,rank() over(order by marks desc) overallrank,
+rank() over (partition by dept order by marks desc) deptrank,
+dense_rank() over(order by marks desc) d_overallrank,
+dense_rank() over (partition by dept order by marks desc) d_deptrank,
+ROW_NUMBER() over(order by marks desc) rno,
+ROW_NUMBER() over (partition by dept order by marks desc) drno
+ from students;

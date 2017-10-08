@@ -1,0 +1,9 @@
+create table input(col1 String);
+load data local inpath 'sample1' into table input;
+
+select word,count(word) from 
+(select 
+explode(split(col1," ")) as word
+from input
+) A
+group by word;

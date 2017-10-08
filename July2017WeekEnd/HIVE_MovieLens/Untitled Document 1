@@ -1,0 +1,43 @@
+create ratings_input(col1 String);
+
+
+create external table ratings_1(userid int,movieid int,rating int,rtime timestamp)
+location "/DEF";
+insert into ratings_1
+select split(col1,"::")[0] as uid,
+split(col1,"::")[1] as mid,
+split(col1,"::")[2] as rating,
+from_unixtime(cast(split(col1,"::")[3] as bigint)) as time1 from ratings_input limit 10;
+
+
+
+insert OVERWRITE directory "/RES"  select regexp_replace(col1,"::","#") from ratings_input ;
+
+create external table ratings(userid int,movieid int,rating int,rtime bigint) 
+row format delimited
+fields terminated by '#'
+location "/RES";
+
+
+TOp 10 rated movies:::
+atleast 40 ppl should rate the movie
+
+select movieid,avg(rating) avgrating,
+count(rating) as  noofpplrated
+from ratings
+group by movieid
+having count(rating)>500
+order by avgrating desc
+limit 10;
+
+
+create tae
+
+
+
+
+
+
+
+
+
