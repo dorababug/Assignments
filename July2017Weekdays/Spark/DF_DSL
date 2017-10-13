@@ -1,0 +1,40 @@
+spark.read.format("csv").option("header","true").option("inferSchema","true").load("emp")
+
+change data type
+empDF.withColumn("empsal",column("empsal").cast("float")).printSchema
+spark.sql("select cast(empsal as float) from emp").printSchema
+
+
+empDF.where("empid < 5").show
+empDF.filter(col("empid") < 5).show
+empDF.where("empid < 5").where ("empsal >3000").show
+
+empDF.union(empDF).show
+empDF.select("deptid").distinct().show
+
+empDF.collect
+
+
+scala> def sq(number:Int):Int={number*number}
+sq: (number: Int)Int
+
+scala> spark.udf.register("square",sq(_:Int):Int)
+res85: org.apache.spark.sql.expressions.UserDefinedFunction = UserDefinedFunction(<function1>,IntegerType,Some(List(IntegerType)))
+
+scala> spark.sql("select deptid,square(deptid) from emp").show
+
+
+
+scala>  empDF.select(square(col("deptid"))).show
+<console>:28: error: not found: value square
+        empDF.select(square(col("deptid"))).show
+                     ^
+
+scala> import org.apache.spark.sql.functions.udf;
+import org.apache.spark.sql.functions.udf
+
+scala> val sq_fn=udf(sq(_:Int):Int)
+sq_fn: org.apache.spark.sql.expressions.UserDefinedFunction = UserDefinedFunction(<function1>,IntegerType,Some(List(IntegerType)))
+
+scala>  empDF.select(sq_fn(col("deptid"))).show
+
