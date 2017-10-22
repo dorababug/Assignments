@@ -1,0 +1,149 @@
+Type inference -> the datatype of a variable is inferred from the value assigned.
+Type Safty-> var of a type, you can assign only the same type.
+
+val variablename: variable type = the assignment value
+
+
+Statement -> doesnot return a value
+expression -> return a value
+
+In scala every line is an expression -> returns a value
+Scala is EOL -> expression oriented language
+--------------------------------------------
+
+
+---------------------
+Collection::
+Array
+Range
+List
+tuple
+set
+map
+
+---------------------
+
+Functional programming:::
+What is a function?? and method -> difference??
+
+{
+val x=10
+val y=100
+println(x+y)
+}
+=> transformation oprator -> transforming input variables to an output.
+
+sum -> function variable
+val sum=(x:Int,y:Int)=>{
+println(x)
+println(y)
+x+y
+}
+------------------
+Method:::
+def sum_method(i:Int,j:Int)={
+println(i)
+println(j)
+i+j
+}
+
+--------------------------------
+Higher order functions:::
+
+val sum=(x:Int,y:Int)=>{
+println("*** Inside SUM function")
+println(x)
+println(y)
+x+y
+}
+
+val mul=(x:Int,y:Int)=>{
+println("*** Inside mul function")
+println(x)
+println(y)
+x*y
+}
+
+val sub=(x:Int,y:Int)=>{
+println("*** Inside sub function")
+println(x)
+println(y)
+x-y
+}
+
+Higer order Method:::::
+def operation(i:Int,j:Int,fn:(Int,Int) =>Int)={
+println("*** Inside OPERATION function")
+fn(i,j)
+}
+
+
+operation(10,20,sum)
+operation(10,20,mul)
+operation(10,20,sub)
+
+
+val operation_fn=(i:Int,j:Int,fn:(Int,Int) =>Int)=>{
+println("*** Inside OPERATION function")
+fn(i,j)
+}
+============================
+call by value and call  by name:::: => 
+operation(100+200, 100,sum)
+300,100,sum
+sum(300,100)
+codeblock for sum replaced.
+
+--------------------------------------
+function without a name / lambda /annonymous function
+
+x => x+10
+
+
+
+operation(10,20,(x,y)=> (x*2)+y )
+def operation(i:Int,j:Int,fn:(Int,Int) =>Int)={
+println("*** Inside OPERATION function")
+fn(i,j)
+}
+
+
+----------------------------------------
+
+scala> a.map(x=>x+"_xyz" )
+res35: Array[String] = Array(1_xyz, 2_xyz, 3_xyz, 4_xyz, 5_xyz)
+
+scala> a.map((x:Int)=>x+"_xyz" )
+res36: Array[String] = Array(1_xyz, 2_xyz, 3_xyz, 4_xyz, 5_xyz)
+
+scala> val fn=(x:Int)=>x+"_xyz"
+fn: Int => String = <function1>
+
+scala> a.map(fn)
+res37: Array[String] = Array(1_xyz, 2_xyz, 3_xyz, 4_xyz, 5_xyz)
+
+--------------------------------
+
+val class1=List(("stu1","M"),("stu2","M"),("stu3","F"),("stu4","M"),("stu5","F"))
+class1: List[(String, String)] = List((stu1,M), (stu2,M), (stu3,F), (stu4,M), (stu5,F))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

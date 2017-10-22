@@ -1,0 +1,225 @@
+var i=10
+var j: String="abc"
+var k="abc"
+var l=200.0
+var l:Int=200.0
+100
+"abc"
+var i=100
+i=10000
+println(i)
+i
+println(i).getClass
+i.getClass
+i
+i="abc"
+var i="abc"
+i=10000
+i="def"
+val j=1000
+j=10
+val i=100
+val j=1000
+val k=i+j
+lazy val z=i+j
+lazy val z1=z+i
+println(z1)
+println(z)
+val i:Int =100
+val i =100
+A=100
+val A
+;
+val A
+val i:Unit
+val i:Unit = Println(10)
+val i:Unit = println(10)
+i
+val i = println(10)
+val i=10
+val j=100
+lazy val z=i+j
+var i=10
+val j=100
+lazy val z=i+j
+i=100
+println(z)
+i=1000
+println(z)
+lazy val z=i+j
+println(z)
+var i=10
+var i=10
+val j=100
+lazy val z=i+j
+i=1000
+println(z)
+i=10
+println(z)
+var i=10
+val j=100
+ val z=i+j
+i=1000
+println(z)
+lazy val z=i+j
+z=z+100
+val a=Array(1,2,3,4,5)
+val a=Array(1,2,"3",4,5)
+val a=Array(1,2,3,4,5)
+a(0)
+a(1)
+a.lengh
+a.length
+a.min
+a.maz
+a.max
+a
+prinln(a)
+println(a)
+for(i<-a)println(i)
+a.foreach(println)
+for(i<-a)println(i)
+a.foreach(print)
+for(i<-a)print(i)
+val str="hi welcome to class".split(" ")
+str.foreach(println)
+{
+val x=10
+val y=100
+x+y
+}
+val res={
+val x=10
+val y=100
+x+y
+}
+res
+val i={
+val x=10
+val y=100
+println(x+y)
+}
+val sum=(x:Int,y:Int)=>{
+println(x)
+println(y)
+x+y
+}
+val sum=(x:Int,y:Int)=>{
+println(x)
+println(y)
+x+y*1.0
+}
+val sum=(x:Int,y:Int)=>{
+println(x)
+println(y)
+x+y
+}
+sum(11,12)
+sum
+def sum_method(i:Int,j:Int)={
+println(i)
+println(j)
+i+j
+}
+sum_method(11,12)
+val sum=(x:Int,y:Int)=>{
+println("*** Inside SUM function")
+println(x)
+println(y)
+x+y
+}
+val mul=(x:Int,y:Int)=>{
+println("*** Inside mul function")
+println(x)
+println(y)
+x*y
+}
+val sub=(x:Int,y:Int)=>{
+println("*** Inside sub function")
+println(x)
+println(y)
+x-y
+}
+val operation=(i:Int,j:Int,fn:(Int,Int) =>Int){
+println("*** Inside OPERATION function")
+fn(i,j)
+}
+def operation(i:Int,j:Int,fn:(Int,Int) =>Int)={
+println("*** Inside OPERATION function")
+fn(i,j)
+}
+operation(10,20,sum)
+operation(10,20,mul)
+val operation_fn=(i:Int,j:Int,fn:(Int,Int) =>Int)=>{
+println("*** Inside OPERATION function")
+fn(i,j)
+}
+operation_fn(10,20,mul)
+operation(10,20,(x,y)=> { (x*2)+y })
+operation(10,20,(x,y)=> (x*2)+y )
+a
+a.foreach((x:Int)=>{println(x)})
+a.foreach((x:Int)=>{ val y=x+10;println(y)})
+a.map((x:Int)=>x+10 )
+a.map((x:Int)=>x+"_xyz" )
+val fn=(x:Int)=>x+"_xyz"
+a.map(fn)
+a.map(x=>x+"_xyz" )
+a.map((x:Int)=>x+"_xyz" )
+val fn=(x:Int)=>x+"_xyz"
+a.map(fn)
+val fn=(x)=>x+"_xyz"
+val fn=(x:Int)=>x+"_xyz"
+1 to 10 by 2
+val ls=(1 to 10).toList
+ls.++.ls
+ls.++(ls)
+ls.head
+ls.tail
+ls.tail.tail
+ls.count
+ls.
+.
+ls
+ls.count(x=>x%2==0)
+val ls=(1 to 11).toList
+ls.count(x=>x%2!=0)
+val ls1=("M","F","M","M","M")
+val ls1=List("M","F","M","M","M")
+ls1.count(x=>x.equals("M"))
+ls1.count(x=>!x.equals("M"))
+ls1.count(x=>x.equals("F"))
+ls1
+ls.count
+ls
+ls.map(x=> x+10)
+val resls=ls.map(x=> x+10)
+ls1
+ls1.mkString
+ls1.mkString("%")
+ls.mkString("%")
+val t=(1,"stu1",100.0)
+val t=(1,"stu1")
+val t=(1,"stu1",100.0)
+t._1
+t._2
+t._3
+val class=List(("stu1","M"),("stu2","M"),("stu3","F"),("stu4","M"),("stu5","F"))
+val class1=List(("stu1","M"),("stu2","M"),("stu3","F"),("stu4","M"),("stu5","F"))
+class1.map(x=>x._1)
+class1.map(x=>x._2)
+class1.map(x=>x._1).tail
+class1.map(x=>x._1).
+tail
+class1.
+map(x=>x._1).
+tail
+class1.map(x=>if(x._2=="M") x)
+class1.filter(x=>x._2=="M")
+class1.filter(x=>x._2=="F")
+class1.partition(x=>x._2=="M")
+(ml,fl)=class1.partition(x=>x._2=="M")
+val (ml,fl)=class1.partition(x=>x._2=="M")
+ml
+fl
+:history

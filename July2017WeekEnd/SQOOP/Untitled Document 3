@@ -1,0 +1,12 @@
+create table us1(id string,state string,code string)
+row format delimited fields terminated by "#"
+location "/USSTATES";
+
+CREATE TABLE us_csv(id int,state string,code string)
+ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
+WITH SERDEPROPERTIES (
+   "separatorChar" = "#",
+   "quoteChar"     = "\""
+)  
+location "/USSTATES";
+
