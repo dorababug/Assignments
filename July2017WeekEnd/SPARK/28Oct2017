@@ -1,0 +1,96 @@
+val i:Int = 10 
+
+val i=10;
+
+---------------------
+
+Functions vs Methods:::
+function variable
+val sum=(x:Int,y:Int)=>{
+println("Inside sum")
+x+y
+}
+
+
+val sub=(x:Int,y:Int)=>{
+println("Inside subtract")
+x-y
+}
+Method 
+def sum_method(x:Int,y:Int)={
+x+y
+}
+
+-----------------------------------
+def operation(i:Int,j:Int,fn:(Int,Int)=>Int)={
+println("Inside operation")
+fn(i,j)
+}
+---------------------------------
+
+Scala Lists:::
+Scala tuples:::    
+	val t=(10,"stu10",90.00)
+=--------------------------------
+
+1) increment each element by 5 and create new list;;
+ls.map
+applies a function to each element and returns a new list
+
+filter -> where clause applies a function  on each element 
+function should return a boolean value
+
+foreach -> applies a function to every element, the function should return UNIT.
+
+reduceLeft, foldLeft
+partition
+flatMap
+----------------------------------------------------------
+Spark Core::::
+---------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

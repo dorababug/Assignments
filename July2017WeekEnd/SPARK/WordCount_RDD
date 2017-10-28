@@ -1,0 +1,29 @@
+val input=sc.textFile("sample.txt")
+input.
+flatMap(line =>  line.split(" ")).
+groupBy(word => word).
+map(x=> (x._1,x._2.size)).collect
+--------------------------
+input.flatMap(line =>  line.split(" ")).map(word => (word,1)).groupByKey().map(x=>(x._1,x._2.sum)).collect
+
+-----------------------------
+input.flatMap(line =>  line.split(" ")).map(word => (word,1)).reduceByKey((x,y)=> x+y).collect
+
+-----------------------------
+
+Home work:::
+
+WOrd count-> sort the keys, sort by values
+Movie lens-> How many movies released in each year
+year -> count 
+sort the data by year, and sort the data by count..
+Find the top 10 years where more no of movies released.
+
+Word count in scala REPL/java;
+
+
+
+
+
+
+
