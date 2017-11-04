@@ -85,6 +85,9 @@ limit 10
 
 
 
+https://spark.apache.org/docs/latest/api/scala/index.html#org.apache.spark.rdd.package
+
+http://spark.apache.org/docs/latest/api/scala/index.html#org.apache.spark.rdd.PairRDDFunctions
 
 
 
