@@ -1,0 +1,92 @@
+How to integrate Spark with HDFS??
+
+hdfs://localhost:9000/filename
+
+variable:: 
+#To connect to a YARN CLUSTER set below property
+export HADOOP_CONF_DIR=$HADOOP_HOME/etc/hadoop
+-----------------------------------------------
+
+Each year how many moveis released???
+Create RDD -> /home/hadoop/Music/Classes/MovieLens-Work-SPARK/ml-1m/movies.dat
+
+Extract year -> reduce by key -> to year and count -> sort based on year/count
+
+
+val extractYear=(line:String)=>{
+val year=line.substring(line.lastIndexOf("(")+1,line.lastIndexOf(")"))
+(year,1)
+}
+
+val movieRDD=sc.textFile("/home/hadoop/Music/Classes/MovieLens-Work-SPARK/ml-1m/movies.dat").map(extractYear)
+
+ movieRDD.reduceByKey((x,y)=> x+y).saveAsTextFile("/home/hadoop/Music/Classes/MovieLens-Work-SPARK/ml-1m/mv_out")
+
+
+Top 10 years where more movies got released??
+
+val resRDD=movieRDD.reduceByKey((x,y)=> x+y)
+
+resRDD.sortBy(x=>x._2,false,1).filter(elem=>elem._2>150).saveAsSequenceFile("/home/hadoop/Music/Classes/MovieLens-Work-SPARK/ml-1m/top150")
+
+
+------------------------------------
+top 5 rated movies , atleast rated by 100 ppl, with their movie names:::
+UserID::MovieID::Rating::Timestamp
+val ratingsRDD=sc.textFile("/home/hadoop/Music/Classes/MovieLens-Work-SPARK/ml-1m/ratings.dat").
+map(line=>(line.split("::")(1),line.split("::")(2).toInt))
+
+ratingsRDD.groupByKey().map(elem=> (elem._1,(elem._2.sum)/elem._2.size))
+
+ratingsRDD.groupByKey().map(elem=> (elem._1,(elem._2.sum)*1.0f/elem._2.size,elem._2.sum)).sortBy(x=>x._2).take(10).foreach(println)
+
+
+
+val avgratings_100=ratingsRDD.
+groupByKey().
+filter(x=>x._2.size>100).
+map(elem=> (elem._1,((elem._2.sum)*1.0f/elem._2.size,elem._2.sum))).
+sortBy(x=>x._2._1,false,1)
+
+val movieRDD=sc.textFile("/home/hadoop/Music/Classes/MovieLens-Work-SPARK/ml-1m/movies.dat").map(line=>(line.split("::")(0),line.split("::")(1)))
+
+
+avgratings_100.join(movieRDD).map(line=> (line._1,line._2._2,line._2._1._1,line._2._1._2)).
+sortBy(x=>x._3,false).take(10).foreach(println)
+
+----------------------------------------------------
+Spark SQL:::
+SparkSession::::
+
+1) COnvert RDD into DataFrame:::
+2) DF.createOrReplaceTempView
+
+UserID::MovieID::Rating::Timestamp
+val ratingsDF=sc.textFile("file:///home/hadoop/Music/Classes/MovieLens-Work-SPARK/ml-1m/ratings.dat").
+map(line=>(line.split("::")(1),line.split("::")(2).toInt)).
+toDF("movie","rating")
+
+ratingsDF.createOrReplaceTempView("ratings")
+
+
+val movieDF=sc.textFile("file:///home/hadoop/Music/Classes/MovieLens-Work-SPARK/ml-1m/movies.dat").map(line=>(line.split("::")(0),line.split("::")(1))).toDF("movie_id","movie_name")
+movieDF.createOrReplaceTempView("movies")
+
+
+spark.sql("""create table hivepractice.result_table_orc stored as ORC as select r.movie,m.movie_name,avg(r.rating) avgrating,count(r.rating) cnt
+from 
+ratings r join movies m
+on r.movie=m.movie_id
+group by r.movie,m.movie_name
+having count(r.rating)>100
+order by avgrating desc
+limit 10
+""")
+
+
+
+
+
+
+
+
