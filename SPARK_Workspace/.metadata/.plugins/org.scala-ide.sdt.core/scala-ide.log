@@ -6630,3 +6630,895 @@ scala.reflect.internal.FatalError: ThisType(method main) for sym which is not a 
 2017-09-03 15:57:09,984 ERROR [Worker-4] - System.err - SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
 2017-09-03 16:08:18,838  WARN [Worker-11] - ScalaProject - Project Streaming has platform default sourceLevel.
 2017-09-03 16:08:18,838  WARN [Worker-11] - ScalaProject - Project Streaming runs on platform default installation.
+2017-09-29 09:08:23,753  WARN [Worker-3] - ScalaProject - Project Streaming has platform default sourceLevel.
+2017-09-29 09:08:23,778  WARN [Worker-3] - ScalaProject - Project Streaming runs on platform default installation.
+2017-09-29 09:12:00,726  WARN [main] - ScalaProject - Project Streaming has platform default sourceLevel.
+2017-09-29 09:12:00,727  WARN [main] - ScalaProject - Project Streaming runs on platform default installation.
+2017-09-29 09:12:30,928  WARN [ModalContext] - ScalaProject - Project June2017Weekdays has platform default sourceLevel.
+2017-09-29 09:12:30,929  WARN [ModalContext] - ScalaProject - Project June2017Weekdays runs on platform default installation.
+2017-09-29 09:12:31,414  WARN [Worker-2] - ScalaProject - Project June2017Weekdays has platform default sourceLevel.
+2017-09-29 09:12:31,414  WARN [Worker-2] - ScalaProject - Project June2017Weekdays runs on platform default installation.
+2017-09-29 09:14:27,324  WARN [main] - ScalaProject - Project June2017Weekdays has platform default sourceLevel.
+2017-09-29 09:14:27,324  WARN [main] - ScalaProject - Project June2017Weekdays runs on platform default installation.
+2017-09-29 09:14:34,004  WARN [Worker-3] - ScalaProject - Project June2017Weekdays has platform default sourceLevel.
+2017-09-29 09:14:34,004  WARN [Worker-3] - ScalaProject - Project June2017Weekdays runs on platform default installation.
+2017-09-29 09:14:34,366  WARN [Java indexing] - ScalaProject - Project June2017Weekdays has platform default sourceLevel.
+2017-09-29 09:14:34,366  WARN [Java indexing] - ScalaProject - Project June2017Weekdays runs on platform default installation.
+2017-09-29 09:14:38,123  WARN [Worker-2] - ScalaProject - Project June2017Weekdays has platform default sourceLevel.
+2017-09-29 09:14:38,123  WARN [Worker-2] - ScalaProject - Project June2017Weekdays runs on platform default installation.
+2017-09-29 09:16:28,342  WARN [Worker-3] - ScalaProject - Project June2017Weekdays has platform default sourceLevel.
+2017-09-29 09:16:28,342  WARN [Worker-3] - ScalaProject - Project June2017Weekdays runs on platform default installation.
+2017-09-29 09:16:33,428  WARN [Worker-3] - ScalaProject - Project June2017Weekdays has platform default sourceLevel.
+2017-09-29 09:16:33,429  WARN [Worker-3] - ScalaProject - Project June2017Weekdays runs on platform default installation.
+2017-09-29 09:18:01,778 ERROR [Worker-10] - System.err - SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2017-09-29 09:18:01,778 ERROR [Worker-10] - System.err - SLF4J: Defaulting to no-operation (NOP) logger implementation
+2017-09-29 09:18:01,778 ERROR [Worker-10] - System.err - SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2017-09-29 09:18:31,437  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 101
+2017-09-29 09:18:32,965  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 102
+2017-09-29 09:18:33,991  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 101
+2017-09-29 09:18:37,017  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 101
+2017-09-29 09:18:38,547  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 104
+2017-09-29 09:18:40,586  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 105
+2017-09-29 09:18:40,587  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 105
+2017-09-29 09:18:52,466  WARN [Worker-12] - ScalaProject - Project June2017Weekdays has platform default sourceLevel.
+2017-09-29 09:18:52,467  WARN [Worker-12] - ScalaProject - Project June2017Weekdays runs on platform default installation.
+2017-09-29 09:19:26,313  WARN [Worker-9] - ScalaProject - Project June2017Weekdays has platform default sourceLevel.
+2017-09-29 09:19:26,313  WARN [Worker-9] - ScalaProject - Project June2017Weekdays runs on platform default installation.
+2017-09-29 09:20:32,380  WARN [main] - ScalaProject - Project June2017Weekdays has platform default sourceLevel.
+2017-09-29 09:20:32,381  WARN [main] - ScalaProject - Project June2017Weekdays runs on platform default installation.
+2017-09-29 09:20:32,579  WARN [Worker-10] - ScalaProject - Project June2017Weekdays has platform default sourceLevel.
+2017-09-29 09:20:32,579  WARN [Worker-10] - ScalaProject - Project June2017Weekdays runs on platform default installation.
+2017-09-29 09:22:19,415  WARN [Worker-10] - ScalaProject - Project June2017Weekdays has platform default sourceLevel.
+2017-09-29 09:22:19,415  WARN [Worker-10] - ScalaProject - Project June2017Weekdays runs on platform default installation.
+2017-09-29 09:23:38,672  WARN [Worker-9] - ScalaProject - Project June2017Weekdays has platform default sourceLevel.
+2017-09-29 09:23:38,672  WARN [Worker-9] - ScalaProject - Project June2017Weekdays runs on platform default installation.
+2017-09-29 09:24:12,620  WARN [Worker-3] - ScalaProject - Project June2017Weekdays has platform default sourceLevel.
+2017-09-29 09:24:12,620  WARN [Worker-3] - ScalaProject - Project June2017Weekdays runs on platform default installation.
+2017-09-29 09:24:31,615  WARN [Worker-11] - ScalaProject - Project June2017Weekdays has platform default sourceLevel.
+2017-09-29 09:24:31,616  WARN [Worker-11] - ScalaProject - Project June2017Weekdays runs on platform default installation.
+2017-09-29 09:24:46,296  WARN [Worker-12] - ScalaProject - Project June2017Weekdays has platform default sourceLevel.
+2017-09-29 09:24:46,296  WARN [Worker-12] - ScalaProject - Project June2017Weekdays runs on platform default installation.
+2017-09-29 09:24:51,814  WARN [Worker-9] - ScalaProject - Project June2017Weekdays has platform default sourceLevel.
+2017-09-29 09:24:51,815  WARN [Worker-9] - ScalaProject - Project June2017Weekdays runs on platform default installation.
+2017-09-29 09:25:05,674  WARN [Worker-9] - ScalaProject - Project June2017Weekdays has platform default sourceLevel.
+2017-09-29 09:25:05,674  WARN [Worker-9] - ScalaProject - Project June2017Weekdays runs on platform default installation.
+2017-09-29 09:25:11,730  WARN [Worker-9] - ScalaProject - Project June2017Weekdays has platform default sourceLevel.
+2017-09-29 09:25:11,730  WARN [Worker-9] - ScalaProject - Project June2017Weekdays runs on platform default installation.
+2017-09-29 09:25:23,525  WARN [Worker-10] - ScalaProject - Project June2017Weekdays has platform default sourceLevel.
+2017-09-29 09:25:23,525  WARN [Worker-10] - ScalaProject - Project June2017Weekdays runs on platform default installation.
+2017-09-29 09:25:43,349 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2017-09-29 09:25:43,363 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2017-09-29 09:25:43,363 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2017-09-29 09:25:43,363 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2017-09-29 09:25:54,985  WARN [Worker-13] - ScalaProject - Project June2017Weekdays has platform default sourceLevel.
+2017-09-29 09:25:54,985  WARN [Worker-13] - ScalaProject - Project June2017Weekdays runs on platform default installation.
+2017-09-29 09:25:59,726  WARN [Worker-3] - ScalaProject - Project June2017Weekdays has platform default sourceLevel.
+2017-09-29 09:25:59,727  WARN [Worker-3] - ScalaProject - Project June2017Weekdays runs on platform default installation.
+2017-09-29 09:26:08,722  WARN [Worker-13] - ScalaProject - Project June2017Weekdays has platform default sourceLevel.
+2017-09-29 09:26:08,723  WARN [Worker-13] - ScalaProject - Project June2017Weekdays runs on platform default installation.
+2017-09-29 09:26:11,288  WARN [Worker-10] - ScalaProject - Project June2017Weekdays has platform default sourceLevel.
+2017-09-29 09:26:11,289  WARN [Worker-10] - ScalaProject - Project June2017Weekdays runs on platform default installation.
+2017-09-29 09:26:28,626  WARN [Worker-3] - ScalaProject - Project June2017Weekdays has platform default sourceLevel.
+2017-09-29 09:26:28,626  WARN [Worker-3] - ScalaProject - Project June2017Weekdays runs on platform default installation.
+2017-09-29 09:27:10,848  WARN [Worker-13] - ScalaProject - Project June2017Weekdays has platform default sourceLevel.
+2017-09-29 09:27:10,848  WARN [Worker-13] - ScalaProject - Project June2017Weekdays runs on platform default installation.
+2017-09-29 09:27:20,932  WARN [Worker-11] - ScalaProject - Project June2017Weekdays has platform default sourceLevel.
+2017-09-29 09:27:20,933  WARN [Worker-11] - ScalaProject - Project June2017Weekdays runs on platform default installation.
+2017-09-29 09:27:56,071  WARN [Worker-11] - ScalaProject - Project June2017Weekdays has platform default sourceLevel.
+2017-09-29 09:27:56,071  WARN [Worker-11] - ScalaProject - Project June2017Weekdays runs on platform default installation.
+2017-09-29 09:28:27,044  WARN [Worker-9] - ScalaProject - Project June2017Weekdays has platform default sourceLevel.
+2017-09-29 09:28:27,045  WARN [Worker-9] - ScalaProject - Project June2017Weekdays runs on platform default installation.
+2017-09-29 09:28:31,396  WARN [Worker-9] - ScalaProject - Project June2017Weekdays has platform default sourceLevel.
+2017-09-29 09:28:31,396  WARN [Worker-9] - ScalaProject - Project June2017Weekdays runs on platform default installation.
+2017-09-29 09:29:46,413  WARN [Worker-10] - ScalaProject - Project June2017Weekdays has platform default sourceLevel.
+2017-09-29 09:29:46,414  WARN [Worker-10] - ScalaProject - Project June2017Weekdays runs on platform default installation.
+2017-09-29 09:32:21,242  WARN [Worker-13] - ScalaProject - Project June2017Weekdays has platform default sourceLevel.
+2017-09-29 09:32:21,242  WARN [Worker-13] - ScalaProject - Project June2017Weekdays runs on platform default installation.
+2017-09-29 09:32:23,897  WARN [Worker-10] - ScalaProject - Project June2017Weekdays has platform default sourceLevel.
+2017-09-29 09:32:23,897  WARN [Worker-10] - ScalaProject - Project June2017Weekdays runs on platform default installation.
+2017-09-29 09:32:30,402  WARN [Worker-14] - ScalaProject - Project June2017Weekdays has platform default sourceLevel.
+2017-09-29 09:32:30,402  WARN [Worker-14] - ScalaProject - Project June2017Weekdays runs on platform default installation.
+2017-09-29 09:32:41,679  WARN [Worker-13] - ScalaProject - Project June2017Weekdays has platform default sourceLevel.
+2017-09-29 09:32:41,679  WARN [Worker-13] - ScalaProject - Project June2017Weekdays runs on platform default installation.
+2017-09-29 09:32:52,592  WARN [Worker-14] - ScalaProject - Project June2017Weekdays has platform default sourceLevel.
+2017-09-29 09:32:52,593  WARN [Worker-14] - ScalaProject - Project June2017Weekdays runs on platform default installation.
+2017-09-29 09:33:01,316  WARN [Worker-10] - ScalaProject - Project June2017Weekdays has platform default sourceLevel.
+2017-09-29 09:33:01,316  WARN [Worker-10] - ScalaProject - Project June2017Weekdays runs on platform default installation.
+2017-09-29 09:35:53,721  WARN [Worker-15] - ScalaProject - Project June2017Weekdays has platform default sourceLevel.
+2017-09-29 09:35:53,721  WARN [Worker-15] - ScalaProject - Project June2017Weekdays runs on platform default installation.
+2017-09-29 09:35:53,911  WARN [Worker-15] - ScalaProject - Project June2017Weekdays has platform default sourceLevel.
+2017-09-29 09:35:53,911  WARN [Worker-15] - ScalaProject - Project June2017Weekdays runs on platform default installation.
+2017-09-29 09:35:54,293  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project June2017Weekdays has platform default sourceLevel.
+2017-09-29 09:35:54,293  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project June2017Weekdays runs on platform default installation.
+2017-09-29 09:37:48,906  WARN [Worker-15] - ScalaProject - Project June2017Weekdays has platform default sourceLevel.
+2017-09-29 09:37:48,907  WARN [Worker-15] - ScalaProject - Project June2017Weekdays runs on platform default installation.
+2017-09-29 09:37:59,180  WARN [Worker-18] - ScalaProject - Project June2017Weekdays has platform default sourceLevel.
+2017-09-29 09:37:59,180  WARN [Worker-18] - ScalaProject - Project June2017Weekdays runs on platform default installation.
+2017-09-29 09:38:07,633  WARN [Worker-15] - ScalaProject - Project SPARK_Programs has platform default sourceLevel.
+2017-09-29 09:38:07,633  WARN [Worker-15] - ScalaProject - Project SPARK_Programs runs on platform default installation.
+2017-09-29 09:38:12,398  WARN [main] - ScalaProject - Project SPARK_Programs has platform default sourceLevel.
+2017-09-29 09:38:12,398  WARN [main] - ScalaProject - Project SPARK_Programs runs on platform default installation.
+2017-09-29 09:38:22,008  WARN [Worker-15] - ScalaProject - Project June2017Weekdays has platform default sourceLevel.
+2017-09-29 09:38:22,008  WARN [Worker-15] - ScalaProject - Project June2017Weekdays runs on platform default installation.
+2017-09-29 09:38:36,956  WARN [Worker-16] - ScalaProject - Project June2017Weekdays has platform default sourceLevel.
+2017-09-29 09:38:36,956  WARN [Worker-16] - ScalaProject - Project June2017Weekdays runs on platform default installation.
+2017-09-29 09:39:06,787  WARN [Worker-19] - ScalaProject - Project June2017Weekdays has platform default sourceLevel.
+2017-09-29 09:39:06,787  WARN [Worker-19] - ScalaProject - Project June2017Weekdays runs on platform default installation.
+2017-09-29 09:40:44,701  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 203
+2017-09-29 09:40:44,702  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 209
+2017-09-29 09:40:46,733  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 203
+2017-09-29 09:40:46,735  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 209
+2017-09-29 09:40:57,391  WARN [Worker-20] - ScalaProject - Project June2017Weekdays has platform default sourceLevel.
+2017-09-29 09:40:57,391  WARN [Worker-20] - ScalaProject - Project June2017Weekdays runs on platform default installation.
+2017-09-29 09:41:00,287  WARN [Worker-17] - ScalaProject - Project June2017Weekdays has platform default sourceLevel.
+2017-09-29 09:41:00,288  WARN [Worker-17] - ScalaProject - Project June2017Weekdays runs on platform default installation.
+2017-09-29 09:41:09,689  WARN [Worker-21] - ScalaProject - Project June2017Weekdays has platform default sourceLevel.
+2017-09-29 09:41:09,689  WARN [Worker-21] - ScalaProject - Project June2017Weekdays runs on platform default installation.
+2017-09-29 09:42:57,884  WARN [Worker-22] - ScalaProject - Project June2017Weekdays has platform default sourceLevel.
+2017-09-29 09:42:57,884  WARN [Worker-22] - ScalaProject - Project June2017Weekdays runs on platform default installation.
+2017-09-29 09:43:11,894  WARN [Worker-16] - ScalaProject - Project June2017Weekdays has platform default sourceLevel.
+2017-09-29 09:43:11,894  WARN [Worker-16] - ScalaProject - Project June2017Weekdays runs on platform default installation.
+2017-09-29 09:43:14,260  WARN [Worker-17] - ScalaProject - Project June2017Weekdays has platform default sourceLevel.
+2017-09-29 09:43:14,260  WARN [Worker-17] - ScalaProject - Project June2017Weekdays runs on platform default installation.
+2017-09-29 09:44:24,834  WARN [Worker-25] - ScalaProject - Project June2017Weekdays has platform default sourceLevel.
+2017-09-29 09:44:24,834  WARN [Worker-25] - ScalaProject - Project June2017Weekdays runs on platform default installation.
+2017-09-29 09:44:25,023  WARN [Worker-25] - ScalaProject - Project June2017Weekdays has platform default sourceLevel.
+2017-09-29 09:44:25,023  WARN [Worker-25] - ScalaProject - Project June2017Weekdays runs on platform default installation.
+2017-09-29 09:44:26,814  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project June2017Weekdays has platform default sourceLevel.
+2017-09-29 09:44:26,814  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project June2017Weekdays runs on platform default installation.
+2017-09-29 09:44:49,213  WARN [Worker-17] - ScalaProject - Project June2017Weekdays has platform default sourceLevel.
+2017-09-29 09:44:49,213  WARN [Worker-17] - ScalaProject - Project June2017Weekdays runs on platform default installation.
+2017-09-29 09:45:40,091  WARN [Worker-21] - ScalaProject - Project June2017Weekdays has platform default sourceLevel.
+2017-09-29 09:45:40,091  WARN [Worker-21] - ScalaProject - Project June2017Weekdays runs on platform default installation.
+2017-09-29 09:46:29,344  WARN [Worker-16] - ScalaProject - Project June2017Weekdays has platform default sourceLevel.
+2017-09-29 09:46:29,344  WARN [Worker-16] - ScalaProject - Project June2017Weekdays runs on platform default installation.
+2017-09-29 09:46:35,060  WARN [Worker-25] - ScalaProject - Project June2017Weekdays has platform default sourceLevel.
+2017-09-29 09:46:35,060  WARN [Worker-25] - ScalaProject - Project June2017Weekdays runs on platform default installation.
+2017-09-29 09:47:01,576  WARN [Worker-17] - ScalaProject - Project June2017Weekdays has platform default sourceLevel.
+2017-09-29 09:47:01,576  WARN [Worker-17] - ScalaProject - Project June2017Weekdays runs on platform default installation.
+2017-09-29 09:47:09,121  WARN [Worker-17] - ScalaProject - Project June2017Weekdays has platform default sourceLevel.
+2017-09-29 09:47:09,121  WARN [Worker-17] - ScalaProject - Project June2017Weekdays runs on platform default installation.
+2017-09-29 09:49:27,751  WARN [Worker-24] - ScalaProject - Project June2017Weekdays has platform default sourceLevel.
+2017-09-29 09:49:27,752  WARN [Worker-24] - ScalaProject - Project June2017Weekdays runs on platform default installation.
+2017-09-29 09:52:08,060  WARN [Worker-21] - ScalaProject - Project June2017Weekdays has platform default sourceLevel.
+2017-09-29 09:52:08,061  WARN [Worker-21] - ScalaProject - Project June2017Weekdays runs on platform default installation.
+2017-09-29 09:52:09,998  WARN [Worker-24] - ScalaProject - Project June2017Weekdays has platform default sourceLevel.
+2017-09-29 09:52:09,998  WARN [Worker-24] - ScalaProject - Project June2017Weekdays runs on platform default installation.
+2017-09-29 09:52:30,987  WARN [Worker-24] - ScalaProject - Project June2017Weekdays has platform default sourceLevel.
+2017-09-29 09:52:30,987  WARN [Worker-24] - ScalaProject - Project June2017Weekdays runs on platform default installation.
+2017-09-29 09:52:38,307  WARN [Worker-24] - ScalaProject - Project June2017Weekdays has platform default sourceLevel.
+2017-09-29 09:52:38,307  WARN [Worker-24] - ScalaProject - Project June2017Weekdays runs on platform default installation.
+2017-09-29 09:52:59,846  WARN [Worker-16] - ScalaProject - Project June2017Weekdays has platform default sourceLevel.
+2017-09-29 09:52:59,846  WARN [Worker-16] - ScalaProject - Project June2017Weekdays runs on platform default installation.
+2017-09-29 09:53:24,599  WARN [Worker-21] - ScalaProject - Project June2017Weekdays has platform default sourceLevel.
+2017-09-29 09:53:24,599  WARN [Worker-21] - ScalaProject - Project June2017Weekdays runs on platform default installation.
+2017-09-29 09:53:30,832  WARN [Worker-17] - ScalaProject - Project June2017Weekdays has platform default sourceLevel.
+2017-09-29 09:53:30,832  WARN [Worker-17] - ScalaProject - Project June2017Weekdays runs on platform default installation.
+2017-09-29 09:56:37,863  WARN [Worker-16] - ScalaProject - Project June2017Weekdays has platform default sourceLevel.
+2017-09-29 09:56:37,863  WARN [Worker-16] - ScalaProject - Project June2017Weekdays runs on platform default installation.
+2017-09-29 09:56:54,966  WARN [Worker-16] - ScalaProject - Project June2017Weekdays has platform default sourceLevel.
+2017-09-29 09:56:54,966  WARN [Worker-16] - ScalaProject - Project June2017Weekdays runs on platform default installation.
+2017-09-29 09:57:36,452  WARN [Worker-16] - ScalaProject - Project June2017Weekdays has platform default sourceLevel.
+2017-09-29 09:57:36,452  WARN [Worker-16] - ScalaProject - Project June2017Weekdays runs on platform default installation.
+2017-09-29 09:58:17,038  WARN [Worker-28] - ScalaProject - Project June2017Weekdays has platform default sourceLevel.
+2017-09-29 09:58:17,038  WARN [Worker-28] - ScalaProject - Project June2017Weekdays runs on platform default installation.
+2017-10-02 08:12:52,605  WARN [main] - ScalaProject - Project June2017Weekdays has platform default sourceLevel.
+2017-10-02 08:12:52,637  WARN [main] - ScalaProject - Project June2017Weekdays runs on platform default installation.
+2017-10-02 08:12:52,670  WARN [main] - ScalaProject - Project June2017Weekdays has platform default sourceLevel.
+2017-10-02 08:12:52,671  WARN [main] - ScalaProject - Project June2017Weekdays runs on platform default installation.
+2017-10-02 08:13:06,615  WARN [Worker-2] - ScalaProject - Project SPARK_Programs has platform default sourceLevel.
+2017-10-02 08:13:06,622  WARN [Worker-2] - ScalaProject - Project SPARK_Programs runs on platform default installation.
+2017-10-02 08:17:17,505 ERROR [Worker-4] - System.err - SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2017-10-02 08:17:17,505 ERROR [Worker-4] - System.err - SLF4J: Defaulting to no-operation (NOP) logger implementation
+2017-10-02 08:17:17,506 ERROR [Worker-4] - System.err - SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2017-10-02 08:33:06,007  WARN [main] - ScalaProject - Project June2017Weekdays has platform default sourceLevel.
+2017-10-02 08:33:06,008  WARN [main] - ScalaProject - Project June2017Weekdays runs on platform default installation.
+2017-10-02 08:33:06,780  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ImplicitHighlightingPresenter - Timeout while waiting for `askLoadedTyped` during semantic highlighting.
+2017-10-02 08:33:06,984  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CustomSemanticAction - Timeout while waiting for `askLoadedTyped` during semantic highlighting.
+2017-10-02 08:33:07,007  WARN [Worker-0] - ScalaProject - Project June2017Weekdays has platform default sourceLevel.
+2017-10-02 08:33:07,007  WARN [Worker-0] - ScalaProject - Project June2017Weekdays runs on platform default installation.
+2017-10-02 08:33:07,064  WARN [Worker-0] - ScalaProject - Project June2017Weekdays has platform default sourceLevel.
+2017-10-02 08:33:07,064  WARN [Worker-0] - ScalaProject - Project June2017Weekdays runs on platform default installation.
+2017-10-02 08:33:07,185  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CallByNameParamAtCreationPresenter - Timeout while waiting for `askLoadedTyped` during semantic highlighting.
+2017-10-02 08:33:49,831 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2017-10-02 08:33:49,831 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2017-10-02 08:33:49,831 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2017-10-02 08:34:59,718  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 155
+2017-10-02 08:34:59,738  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 155
+2017-10-02 08:35:02,918  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 161
+2017-10-02 08:35:02,921  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 161
+2017-10-02 08:35:32,507  WARN [Worker-10] - ScalaProject - Project June2017Weekdays has platform default sourceLevel.
+2017-10-02 08:35:32,507  WARN [Worker-10] - ScalaProject - Project June2017Weekdays runs on platform default installation.
+2017-10-02 08:36:45,462  WARN [Worker-0] - ScalaProject - Project June2017Weekdays has platform default sourceLevel.
+2017-10-02 08:36:45,462  WARN [Worker-0] - ScalaProject - Project June2017Weekdays runs on platform default installation.
+2017-10-02 08:36:52,852  WARN [Worker-11] - ScalaProject - Project June2017Weekdays has platform default sourceLevel.
+2017-10-02 08:36:52,853  WARN [Worker-11] - ScalaProject - Project June2017Weekdays runs on platform default installation.
+2017-10-02 08:37:00,302  WARN [Worker-11] - ScalaProject - Project June2017Weekdays has platform default sourceLevel.
+2017-10-02 08:37:00,303  WARN [Worker-11] - ScalaProject - Project June2017Weekdays runs on platform default installation.
+2017-10-02 08:37:48,419  WARN [Worker-10] - ScalaProject - Project June2017Weekdays has platform default sourceLevel.
+2017-10-02 08:37:48,419  WARN [Worker-10] - ScalaProject - Project June2017Weekdays runs on platform default installation.
+2017-10-02 08:38:16,914  WARN [Worker-11] - ScalaProject - Project June2017Weekdays has platform default sourceLevel.
+2017-10-02 08:38:16,914  WARN [Worker-11] - ScalaProject - Project June2017Weekdays runs on platform default installation.
+2017-10-02 08:38:34,134  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 337
+2017-10-02 08:39:08,929  WARN [Worker-10] - ScalaProject - Project June2017Weekdays has platform default sourceLevel.
+2017-10-02 08:39:08,929  WARN [Worker-10] - ScalaProject - Project June2017Weekdays runs on platform default installation.
+2017-10-02 08:39:21,517  WARN [Worker-7] - ScalaProject - Project June2017Weekdays has platform default sourceLevel.
+2017-10-02 08:39:21,518  WARN [Worker-7] - ScalaProject - Project June2017Weekdays runs on platform default installation.
+2017-10-02 08:39:21,931 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2017-10-02 08:39:21,932 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2017-10-02 08:39:21,932 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2017-10-02 08:39:21,932 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2017-10-02 08:39:49,068  WARN [Worker-11] - ScalaProject - Project June2017Weekdays has platform default sourceLevel.
+2017-10-02 08:39:49,068  WARN [Worker-11] - ScalaProject - Project June2017Weekdays runs on platform default installation.
+2017-10-02 08:39:53,756  WARN [Worker-8] - ScalaProject - Project June2017Weekdays has platform default sourceLevel.
+2017-10-02 08:39:53,757  WARN [Worker-8] - ScalaProject - Project June2017Weekdays runs on platform default installation.
+2017-10-02 08:40:07,782  WARN [Worker-8] - ScalaProject - Project June2017Weekdays has platform default sourceLevel.
+2017-10-02 08:40:07,782  WARN [Worker-8] - ScalaProject - Project June2017Weekdays runs on platform default installation.
+2017-10-02 08:40:12,175  WARN [Worker-8] - ScalaProject - Project June2017Weekdays has platform default sourceLevel.
+2017-10-02 08:40:12,175  WARN [Worker-8] - ScalaProject - Project June2017Weekdays runs on platform default installation.
+2017-10-02 08:40:31,173  WARN [Worker-0] - ScalaProject - Project June2017Weekdays has platform default sourceLevel.
+2017-10-02 08:40:31,173  WARN [Worker-0] - ScalaProject - Project June2017Weekdays runs on platform default installation.
+2017-10-02 08:41:58,303  WARN [Worker-11] - ScalaProject - Project June2017Weekdays has platform default sourceLevel.
+2017-10-02 08:41:58,303  WARN [Worker-11] - ScalaProject - Project June2017Weekdays runs on platform default installation.
+2017-10-02 08:42:03,434  WARN [Worker-7] - ScalaProject - Project June2017Weekdays has platform default sourceLevel.
+2017-10-02 08:42:03,434  WARN [Worker-7] - ScalaProject - Project June2017Weekdays runs on platform default installation.
+2017-10-02 08:42:11,700  WARN [Worker-10] - ScalaProject - Project June2017Weekdays has platform default sourceLevel.
+2017-10-02 08:42:11,701  WARN [Worker-10] - ScalaProject - Project June2017Weekdays runs on platform default installation.
+2017-10-02 08:42:14,571  WARN [Worker-10] - ScalaProject - Project June2017Weekdays has platform default sourceLevel.
+2017-10-02 08:42:14,571  WARN [Worker-10] - ScalaProject - Project June2017Weekdays runs on platform default installation.
+2017-10-02 08:43:47,890  WARN [Worker-9] - ScalaProject - Project June2017Weekdays has platform default sourceLevel.
+2017-10-02 08:43:47,890  WARN [Worker-9] - ScalaProject - Project June2017Weekdays runs on platform default installation.
+2017-10-02 09:15:27,517  WARN [main] - ScalaProject - Project June2017Weekdays has platform default sourceLevel.
+2017-10-02 09:15:27,517  WARN [main] - ScalaProject - Project June2017Weekdays runs on platform default installation.
+2017-10-02 09:15:27,887  WARN [Worker-16] - ScalaProject - Project June2017Weekdays has platform default sourceLevel.
+2017-10-02 09:15:27,887  WARN [Worker-16] - ScalaProject - Project June2017Weekdays runs on platform default installation.
+2017-10-02 09:20:32,363  WARN [Worker-17] - ScalaProject - Project June2017Weekdays has platform default sourceLevel.
+2017-10-02 09:20:32,363  WARN [Worker-17] - ScalaProject - Project June2017Weekdays runs on platform default installation.
+2017-10-02 09:20:45,022  WARN [Worker-17] - ScalaProject - Project June2017Weekdays has platform default sourceLevel.
+2017-10-02 09:20:45,023  WARN [Worker-17] - ScalaProject - Project June2017Weekdays runs on platform default installation.
+2017-10-02 09:21:23,442  WARN [Worker-18] - ScalaProject - Project June2017Weekdays has platform default sourceLevel.
+2017-10-02 09:21:23,443  WARN [Worker-18] - ScalaProject - Project June2017Weekdays runs on platform default installation.
+2017-10-02 09:22:20,960  WARN [Worker-20] - ScalaProject - Project June2017Weekdays has platform default sourceLevel.
+2017-10-02 09:22:20,961  WARN [Worker-20] - ScalaProject - Project June2017Weekdays runs on platform default installation.
+2017-10-02 09:22:23,538  WARN [Worker-19] - ScalaProject - Project June2017Weekdays has platform default sourceLevel.
+2017-10-02 09:22:23,538  WARN [Worker-19] - ScalaProject - Project June2017Weekdays runs on platform default installation.
+2017-10-02 09:22:27,352  WARN [Worker-21] - ScalaProject - Project June2017Weekdays has platform default sourceLevel.
+2017-10-02 09:22:27,353  WARN [Worker-21] - ScalaProject - Project June2017Weekdays runs on platform default installation.
+2017-10-02 09:23:06,344  WARN [Worker-17] - ScalaProject - Project June2017Weekdays has platform default sourceLevel.
+2017-10-02 09:23:06,345  WARN [Worker-17] - ScalaProject - Project June2017Weekdays runs on platform default installation.
+2017-10-02 09:23:12,113  WARN [Worker-17] - ScalaProject - Project June2017Weekdays has platform default sourceLevel.
+2017-10-02 09:23:12,113  WARN [Worker-17] - ScalaProject - Project June2017Weekdays runs on platform default installation.
+2017-10-02 09:24:09,382  WARN [Worker-22] - ScalaProject - Project June2017Weekdays has platform default sourceLevel.
+2017-10-02 09:24:09,382  WARN [Worker-22] - ScalaProject - Project June2017Weekdays runs on platform default installation.
+2017-10-02 09:24:26,863  WARN [Worker-22] - ScalaProject - Project June2017Weekdays has platform default sourceLevel.
+2017-10-02 09:24:26,863  WARN [Worker-22] - ScalaProject - Project June2017Weekdays runs on platform default installation.
+2017-10-02 09:25:05,529  WARN [Worker-19] - ScalaProject - Project June2017Weekdays has platform default sourceLevel.
+2017-10-02 09:25:05,529  WARN [Worker-19] - ScalaProject - Project June2017Weekdays runs on platform default installation.
+2017-10-02 09:25:10,737  WARN [Worker-21] - ScalaProject - Project June2017Weekdays has platform default sourceLevel.
+2017-10-02 09:25:10,737  WARN [Worker-21] - ScalaProject - Project June2017Weekdays runs on platform default installation.
+2017-10-02 09:25:36,526  WARN [Worker-16] - ScalaProject - Project June2017Weekdays has platform default sourceLevel.
+2017-10-02 09:25:36,526  WARN [Worker-16] - ScalaProject - Project June2017Weekdays runs on platform default installation.
+2017-10-02 09:26:47,288  WARN [Worker-17] - ScalaProject - Project June2017Weekdays has platform default sourceLevel.
+2017-10-02 09:26:47,288  WARN [Worker-17] - ScalaProject - Project June2017Weekdays runs on platform default installation.
+2017-10-02 09:27:41,670  WARN [Worker-19] - ScalaProject - Project June2017Weekdays has platform default sourceLevel.
+2017-10-02 09:27:41,670  WARN [Worker-19] - ScalaProject - Project June2017Weekdays runs on platform default installation.
+2017-10-02 09:28:23,347  WARN [Worker-18] - ScalaProject - Project June2017Weekdays has platform default sourceLevel.
+2017-10-02 09:28:23,347  WARN [Worker-18] - ScalaProject - Project June2017Weekdays runs on platform default installation.
+2017-10-02 09:29:18,354  WARN [Worker-18] - ScalaProject - Project June2017Weekdays has platform default sourceLevel.
+2017-10-02 09:29:18,354  WARN [Worker-18] - ScalaProject - Project June2017Weekdays runs on platform default installation.
+2017-10-02 09:29:20,369  WARN [Worker-19] - ScalaProject - Project June2017Weekdays has platform default sourceLevel.
+2017-10-02 09:29:20,370  WARN [Worker-19] - ScalaProject - Project June2017Weekdays runs on platform default installation.
+2017-10-02 09:30:40,801  WARN [Worker-20] - ScalaProject - Project June2017Weekdays has platform default sourceLevel.
+2017-10-02 09:30:40,801  WARN [Worker-20] - ScalaProject - Project June2017Weekdays runs on platform default installation.
+2017-10-02 09:31:24,585  WARN [Worker-17] - ScalaProject - Project June2017Weekdays has platform default sourceLevel.
+2017-10-02 09:31:24,585  WARN [Worker-17] - ScalaProject - Project June2017Weekdays runs on platform default installation.
+2017-10-02 09:36:12,879  WARN [Worker-22] - ScalaProject - Project June2017Weekdays has platform default sourceLevel.
+2017-10-02 09:36:12,879  WARN [Worker-22] - ScalaProject - Project June2017Weekdays runs on platform default installation.
+2017-10-02 09:37:14,826  WARN [Worker-24] - ScalaProject - Project June2017Weekdays has platform default sourceLevel.
+2017-10-02 09:37:14,826  WARN [Worker-24] - ScalaProject - Project June2017Weekdays runs on platform default installation.
+2017-10-02 09:38:22,843  WARN [Worker-22] - ScalaProject - Project June2017Weekdays has platform default sourceLevel.
+2017-10-02 09:38:22,844  WARN [Worker-22] - ScalaProject - Project June2017Weekdays runs on platform default installation.
+2017-10-02 09:42:27,582  WARN [Worker-24] - ScalaProject - Project June2017Weekdays has platform default sourceLevel.
+2017-10-02 09:42:27,582  WARN [Worker-24] - ScalaProject - Project June2017Weekdays runs on platform default installation.
+2017-10-02 09:45:27,130  WARN [main] - ScalaProject - Project SPARK_Programs has platform default sourceLevel.
+2017-10-02 09:45:27,130  WARN [main] - ScalaProject - Project SPARK_Programs runs on platform default installation.
+2017-10-02 09:47:42,199  WARN [Worker-28] - ScalaProject - Project June2017Weekdays has platform default sourceLevel.
+2017-10-02 09:47:42,199  WARN [Worker-28] - ScalaProject - Project June2017Weekdays runs on platform default installation.
+2017-10-02 09:51:38,715  WARN [Worker-34] - ScalaProject - Project SPARK_Programs has platform default sourceLevel.
+2017-10-02 09:51:38,715  WARN [Worker-34] - ScalaProject - Project SPARK_Programs runs on platform default installation.
+2017-10-02 09:51:38,723  WARN [Worker-34] - ScalaProject - Project SPARK_Programs has platform default sourceLevel.
+2017-10-02 09:51:38,723  WARN [Worker-34] - ScalaProject - Project SPARK_Programs runs on platform default installation.
+2017-10-10 08:10:32,453  WARN [main] - ScalaProject - Project SPARK_Programs has platform default sourceLevel.
+2017-10-10 08:10:32,484  WARN [main] - ScalaProject - Project SPARK_Programs runs on platform default installation.
+2017-10-10 08:10:32,507  WARN [main] - ScalaProject - Project SPARK_Programs has platform default sourceLevel.
+2017-10-10 08:10:32,507  WARN [main] - ScalaProject - Project SPARK_Programs runs on platform default installation.
+2017-10-10 08:10:40,815  WARN [main] - ScalaProject - Project June2017Weekdays has platform default sourceLevel.
+2017-10-10 08:10:40,817  WARN [main] - ScalaProject - Project June2017Weekdays runs on platform default installation.
+2017-10-10 08:12:40,874  WARN [Worker-1] - ScalaProject - Project Streaming has platform default sourceLevel.
+2017-10-10 08:12:40,875  WARN [Worker-1] - ScalaProject - Project Streaming runs on platform default installation.
+2017-10-10 08:12:41,639  WARN [Worker-7] - ScalaProject - Project Streaming has platform default sourceLevel.
+2017-10-10 08:12:41,640  WARN [Worker-7] - ScalaProject - Project Streaming runs on platform default installation.
+2017-10-10 08:12:41,686  WARN [Worker-7] - ScalaProject - Project Streaming has platform default sourceLevel.
+2017-10-10 08:12:41,686  WARN [Worker-7] - ScalaProject - Project Streaming runs on platform default installation.
+2017-10-10 08:12:48,049  WARN [main] - ScalaProject - Project Streaming has platform default sourceLevel.
+2017-10-10 08:12:48,049  WARN [main] - ScalaProject - Project Streaming runs on platform default installation.
+2017-10-10 08:12:52,693  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project SPARK_Programs has platform default sourceLevel.
+2017-10-10 08:12:52,694  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project SPARK_Programs runs on platform default installation.
+2017-10-10 08:12:52,698  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project SPARK_Programs has platform default sourceLevel.
+2017-10-10 08:12:52,699  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project SPARK_Programs runs on platform default installation.
+2017-10-10 08:12:52,701  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project SPARK_Programs has platform default sourceLevel.
+2017-10-10 08:12:52,701  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project SPARK_Programs runs on platform default installation.
+2017-10-10 08:12:52,703  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project SPARK_Programs has platform default sourceLevel.
+2017-10-10 08:12:52,703  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project SPARK_Programs runs on platform default installation.
+2017-10-10 08:12:52,706  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project SPARK_Programs has platform default sourceLevel.
+2017-10-10 08:12:52,706  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project SPARK_Programs runs on platform default installation.
+2017-10-10 08:12:53,161 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Error thrown while initializing the presentation compiler.
+Java Model Exception: Java Model Status [SPARK_Programs does not exist]
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:556)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getPerProjectInfoCheckExistence(JavaModelManager.java:2344)
+	at org.eclipse.jdt.internal.core.JavaProject.getPerProjectInfo(JavaProject.java:1909)
+	at org.eclipse.jdt.internal.core.JavaProject.getRawClasspath(JavaProject.java:1931)
+	at org.scalaide.core.internal.project.ClasspathManagement$class.jdkPaths(ClasspathManagement.scala:147)
+	at org.scalaide.core.internal.project.ScalaProject.jdkPaths(ScalaProject.scala:147)
+	at org.scalaide.core.internal.project.ClasspathManagement$class.scalaClasspath(ClasspathManagement.scala:134)
+	at org.scalaide.core.internal.project.ScalaProject.scalaClasspath(ScalaProject.scala:147)
+	at org.scalaide.core.internal.project.ScalaProject.setupCompilerClasspath(ScalaProject.scala:500)
+	at org.scalaide.core.internal.project.ScalaProject.initializeCompilerSettings(ScalaProject.scala:486)
+	at org.scalaide.core.internal.project.ScalaProject.org$scalaide$core$internal$project$ScalaProject$$prepareCompilerSettings(ScalaProject.scala:435)
+	at org.scalaide.core.internal.project.ScalaProject$$anonfun$5.apply(ScalaProject.scala:159)
+	at org.scalaide.core.internal.project.ScalaProject$$anonfun$5.apply(ScalaProject.scala:159)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.liftedTree1$1(PresentationCompilerProxy.scala:152)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.create(PresentationCompilerProxy.scala:151)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.initialize(PresentationCompilerProxy.scala:116)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.obtainPc$1(PresentationCompilerProxy.scala:78)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.internal(PresentationCompilerProxy.scala:98)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.apply(PresentationCompilerProxy.scala:56)
+	at org.scalaide.core.compiler.InteractiveCompilationUnit$class.forceReconcile(InteractiveCompilationUnit.scala:150)
+	at org.scalaide.core.internal.jdt.model.ScalaSourceFile.forceReconcile(ScalaSourceFile.scala:66)
+	at org.scalaide.ui.internal.reconciliation.ScalaReconcilingStrategy.reconcile(ScalaReconcilingStrategy.scala:43)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:86)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:77)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:206)
+2017-10-10 08:12:53,165 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Error thrown while initializing the presentation compiler.
+Java Model Exception: Java Model Status [SPARK_Programs does not exist]
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:556)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getPerProjectInfoCheckExistence(JavaModelManager.java:2344)
+	at org.eclipse.jdt.internal.core.JavaProject.getPerProjectInfo(JavaProject.java:1909)
+	at org.eclipse.jdt.internal.core.JavaProject.getRawClasspath(JavaProject.java:1931)
+	at org.scalaide.core.internal.project.ClasspathManagement$class.jdkPaths(ClasspathManagement.scala:147)
+	at org.scalaide.core.internal.project.ScalaProject.jdkPaths(ScalaProject.scala:147)
+	at org.scalaide.core.internal.project.ClasspathManagement$class.scalaClasspath(ClasspathManagement.scala:134)
+	at org.scalaide.core.internal.project.ScalaProject.scalaClasspath(ScalaProject.scala:147)
+	at org.scalaide.core.internal.project.ScalaProject.setupCompilerClasspath(ScalaProject.scala:500)
+	at org.scalaide.core.internal.project.ScalaProject.initializeCompilerSettings(ScalaProject.scala:486)
+	at org.scalaide.core.internal.project.ScalaProject.org$scalaide$core$internal$project$ScalaProject$$prepareCompilerSettings(ScalaProject.scala:435)
+	at org.scalaide.core.internal.project.ScalaProject$$anonfun$5.apply(ScalaProject.scala:159)
+	at org.scalaide.core.internal.project.ScalaProject$$anonfun$5.apply(ScalaProject.scala:159)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.liftedTree1$1(PresentationCompilerProxy.scala:152)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.create(PresentationCompilerProxy.scala:151)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.initialize(PresentationCompilerProxy.scala:116)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.obtainPc$1(PresentationCompilerProxy.scala:78)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.internal(PresentationCompilerProxy.scala:98)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.apply(PresentationCompilerProxy.scala:56)
+	at org.scalaide.core.compiler.InteractiveCompilationUnit$class.currentProblems(InteractiveCompilationUnit.scala:183)
+	at org.scalaide.core.internal.jdt.model.ScalaSourceFile.currentProblems(ScalaSourceFile.scala:66)
+	at org.scalaide.core.compiler.InteractiveCompilationUnit$class.forceReconcile(InteractiveCompilationUnit.scala:151)
+	at org.scalaide.core.internal.jdt.model.ScalaSourceFile.forceReconcile(ScalaSourceFile.scala:66)
+	at org.scalaide.ui.internal.reconciliation.ScalaReconcilingStrategy.reconcile(ScalaReconcilingStrategy.scala:43)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:86)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:77)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:206)
+2017-10-10 08:12:53,168 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Error thrown while initializing the presentation compiler.
+Java Model Exception: Java Model Status [SPARK_Programs does not exist]
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:556)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getPerProjectInfoCheckExistence(JavaModelManager.java:2344)
+	at org.eclipse.jdt.internal.core.JavaProject.getPerProjectInfo(JavaProject.java:1909)
+	at org.eclipse.jdt.internal.core.JavaProject.getRawClasspath(JavaProject.java:1931)
+	at org.scalaide.core.internal.project.ClasspathManagement$class.jdkPaths(ClasspathManagement.scala:147)
+	at org.scalaide.core.internal.project.ScalaProject.jdkPaths(ScalaProject.scala:147)
+	at org.scalaide.core.internal.project.ClasspathManagement$class.scalaClasspath(ClasspathManagement.scala:134)
+	at org.scalaide.core.internal.project.ScalaProject.scalaClasspath(ScalaProject.scala:147)
+	at org.scalaide.core.internal.project.ScalaProject.setupCompilerClasspath(ScalaProject.scala:500)
+	at org.scalaide.core.internal.project.ScalaProject.initializeCompilerSettings(ScalaProject.scala:486)
+	at org.scalaide.core.internal.project.ScalaProject.org$scalaide$core$internal$project$ScalaProject$$prepareCompilerSettings(ScalaProject.scala:435)
+	at org.scalaide.core.internal.project.ScalaProject$$anonfun$5.apply(ScalaProject.scala:159)
+	at org.scalaide.core.internal.project.ScalaProject$$anonfun$5.apply(ScalaProject.scala:159)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.liftedTree1$1(PresentationCompilerProxy.scala:152)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.create(PresentationCompilerProxy.scala:151)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.initialize(PresentationCompilerProxy.scala:116)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.obtainPc$1(PresentationCompilerProxy.scala:78)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.internal(PresentationCompilerProxy.scala:98)
+	at org.scalaide.ui.internal.editor.decorators.BaseSemanticAction.apply(BaseSemanticAction.scala:139)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$$anon$3$$anonfun$reconciled$1$$anonfun$apply$1.apply$mcV$sp(ScalaSourceFileEditor.scala:103)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$$anon$3$$anonfun$reconciled$1$$anonfun$apply$1.apply(ScalaSourceFileEditor.scala:103)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$$anon$3$$anonfun$reconciled$1$$anonfun$apply$1.apply(ScalaSourceFileEditor.scala:103)
+	at org.scalaide.util.eclipse.EclipseUtils$$anon$3.run(EclipseUtils.scala:214)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.scalaide.util.eclipse.EclipseUtils$.withSafeRunner(EclipseUtils.scala:210)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$$anon$3$$anonfun$reconciled$1.apply(ScalaSourceFileEditor.scala:102)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$$anon$3$$anonfun$reconciled$1.apply(ScalaSourceFileEditor.scala:101)
+	at scala.collection.mutable.ArraySeq.foreach(ArraySeq.scala:74)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$$anon$3.reconciled(ScalaSourceFileEditor.scala:101)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$ReconcilingListeners$$anonfun$reconciled$3.apply(ScalaSourceFileEditor.scala:479)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$ReconcilingListeners$$anonfun$reconciled$3.apply(ScalaSourceFileEditor.scala:479)
+	at scala.collection.immutable.List.foreach(List.scala:381)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$ReconcilingListeners.reconciled(ScalaSourceFileEditor.scala:479)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor.reconciled(ScalaSourceFileEditor.scala:380)
+	at org.scalaide.ui.internal.reconciliation.ScalaReconcilingStrategy$$anonfun$reconcile$3.apply(ScalaReconcilingStrategy.scala:53)
+	at org.scalaide.ui.internal.reconciliation.ScalaReconcilingStrategy$$anonfun$reconcile$3.apply(ScalaReconcilingStrategy.scala:53)
+	at scala.Option.foreach(Option.scala:257)
+	at org.scalaide.ui.internal.reconciliation.ScalaReconcilingStrategy.reconcile(ScalaReconcilingStrategy.scala:53)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:86)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:77)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:206)
+2017-10-10 08:12:53,170 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Error thrown while initializing the presentation compiler.
+Java Model Exception: Java Model Status [SPARK_Programs does not exist]
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:556)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getPerProjectInfoCheckExistence(JavaModelManager.java:2344)
+	at org.eclipse.jdt.internal.core.JavaProject.getPerProjectInfo(JavaProject.java:1909)
+	at org.eclipse.jdt.internal.core.JavaProject.getRawClasspath(JavaProject.java:1931)
+	at org.scalaide.core.internal.project.ClasspathManagement$class.jdkPaths(ClasspathManagement.scala:147)
+	at org.scalaide.core.internal.project.ScalaProject.jdkPaths(ScalaProject.scala:147)
+	at org.scalaide.core.internal.project.ClasspathManagement$class.scalaClasspath(ClasspathManagement.scala:134)
+	at org.scalaide.core.internal.project.ScalaProject.scalaClasspath(ScalaProject.scala:147)
+	at org.scalaide.core.internal.project.ScalaProject.setupCompilerClasspath(ScalaProject.scala:500)
+	at org.scalaide.core.internal.project.ScalaProject.initializeCompilerSettings(ScalaProject.scala:486)
+	at org.scalaide.core.internal.project.ScalaProject.org$scalaide$core$internal$project$ScalaProject$$prepareCompilerSettings(ScalaProject.scala:435)
+	at org.scalaide.core.internal.project.ScalaProject$$anonfun$5.apply(ScalaProject.scala:159)
+	at org.scalaide.core.internal.project.ScalaProject$$anonfun$5.apply(ScalaProject.scala:159)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.liftedTree1$1(PresentationCompilerProxy.scala:152)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.create(PresentationCompilerProxy.scala:151)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.initialize(PresentationCompilerProxy.scala:116)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.obtainPc$1(PresentationCompilerProxy.scala:78)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.internal(PresentationCompilerProxy.scala:98)
+	at org.scalaide.ui.internal.editor.decorators.BaseSemanticAction.apply(BaseSemanticAction.scala:139)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$$anon$3$$anonfun$reconciled$1$$anonfun$apply$1.apply$mcV$sp(ScalaSourceFileEditor.scala:103)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$$anon$3$$anonfun$reconciled$1$$anonfun$apply$1.apply(ScalaSourceFileEditor.scala:103)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$$anon$3$$anonfun$reconciled$1$$anonfun$apply$1.apply(ScalaSourceFileEditor.scala:103)
+	at org.scalaide.util.eclipse.EclipseUtils$$anon$3.run(EclipseUtils.scala:214)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.scalaide.util.eclipse.EclipseUtils$.withSafeRunner(EclipseUtils.scala:210)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$$anon$3$$anonfun$reconciled$1.apply(ScalaSourceFileEditor.scala:102)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$$anon$3$$anonfun$reconciled$1.apply(ScalaSourceFileEditor.scala:101)
+	at scala.collection.mutable.ArraySeq.foreach(ArraySeq.scala:74)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$$anon$3.reconciled(ScalaSourceFileEditor.scala:101)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$ReconcilingListeners$$anonfun$reconciled$3.apply(ScalaSourceFileEditor.scala:479)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$ReconcilingListeners$$anonfun$reconciled$3.apply(ScalaSourceFileEditor.scala:479)
+	at scala.collection.immutable.List.foreach(List.scala:381)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$ReconcilingListeners.reconciled(ScalaSourceFileEditor.scala:479)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor.reconciled(ScalaSourceFileEditor.scala:380)
+	at org.scalaide.ui.internal.reconciliation.ScalaReconcilingStrategy$$anonfun$reconcile$3.apply(ScalaReconcilingStrategy.scala:53)
+	at org.scalaide.ui.internal.reconciliation.ScalaReconcilingStrategy$$anonfun$reconcile$3.apply(ScalaReconcilingStrategy.scala:53)
+	at scala.Option.foreach(Option.scala:257)
+	at org.scalaide.ui.internal.reconciliation.ScalaReconcilingStrategy.reconcile(ScalaReconcilingStrategy.scala:53)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:86)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:77)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:206)
+2017-10-10 08:12:53,172 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Error thrown while initializing the presentation compiler.
+Java Model Exception: Java Model Status [SPARK_Programs does not exist]
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:556)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getPerProjectInfoCheckExistence(JavaModelManager.java:2344)
+	at org.eclipse.jdt.internal.core.JavaProject.getPerProjectInfo(JavaProject.java:1909)
+	at org.eclipse.jdt.internal.core.JavaProject.getRawClasspath(JavaProject.java:1931)
+	at org.scalaide.core.internal.project.ClasspathManagement$class.jdkPaths(ClasspathManagement.scala:147)
+	at org.scalaide.core.internal.project.ScalaProject.jdkPaths(ScalaProject.scala:147)
+	at org.scalaide.core.internal.project.ClasspathManagement$class.scalaClasspath(ClasspathManagement.scala:134)
+	at org.scalaide.core.internal.project.ScalaProject.scalaClasspath(ScalaProject.scala:147)
+	at org.scalaide.core.internal.project.ScalaProject.setupCompilerClasspath(ScalaProject.scala:500)
+	at org.scalaide.core.internal.project.ScalaProject.initializeCompilerSettings(ScalaProject.scala:486)
+	at org.scalaide.core.internal.project.ScalaProject.org$scalaide$core$internal$project$ScalaProject$$prepareCompilerSettings(ScalaProject.scala:435)
+	at org.scalaide.core.internal.project.ScalaProject$$anonfun$5.apply(ScalaProject.scala:159)
+	at org.scalaide.core.internal.project.ScalaProject$$anonfun$5.apply(ScalaProject.scala:159)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.liftedTree1$1(PresentationCompilerProxy.scala:152)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.create(PresentationCompilerProxy.scala:151)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.initialize(PresentationCompilerProxy.scala:116)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.obtainPc$1(PresentationCompilerProxy.scala:78)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.internal(PresentationCompilerProxy.scala:98)
+	at org.scalaide.ui.internal.editor.decorators.BaseSemanticAction.apply(BaseSemanticAction.scala:139)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$$anon$3$$anonfun$reconciled$1$$anonfun$apply$1.apply$mcV$sp(ScalaSourceFileEditor.scala:103)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$$anon$3$$anonfun$reconciled$1$$anonfun$apply$1.apply(ScalaSourceFileEditor.scala:103)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$$anon$3$$anonfun$reconciled$1$$anonfun$apply$1.apply(ScalaSourceFileEditor.scala:103)
+	at org.scalaide.util.eclipse.EclipseUtils$$anon$3.run(EclipseUtils.scala:214)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.scalaide.util.eclipse.EclipseUtils$.withSafeRunner(EclipseUtils.scala:210)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$$anon$3$$anonfun$reconciled$1.apply(ScalaSourceFileEditor.scala:102)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$$anon$3$$anonfun$reconciled$1.apply(ScalaSourceFileEditor.scala:101)
+	at scala.collection.mutable.ArraySeq.foreach(ArraySeq.scala:74)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$$anon$3.reconciled(ScalaSourceFileEditor.scala:101)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$ReconcilingListeners$$anonfun$reconciled$3.apply(ScalaSourceFileEditor.scala:479)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$ReconcilingListeners$$anonfun$reconciled$3.apply(ScalaSourceFileEditor.scala:479)
+	at scala.collection.immutable.List.foreach(List.scala:381)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$ReconcilingListeners.reconciled(ScalaSourceFileEditor.scala:479)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor.reconciled(ScalaSourceFileEditor.scala:380)
+	at org.scalaide.ui.internal.reconciliation.ScalaReconcilingStrategy$$anonfun$reconcile$3.apply(ScalaReconcilingStrategy.scala:53)
+	at org.scalaide.ui.internal.reconciliation.ScalaReconcilingStrategy$$anonfun$reconcile$3.apply(ScalaReconcilingStrategy.scala:53)
+	at scala.Option.foreach(Option.scala:257)
+	at org.scalaide.ui.internal.reconciliation.ScalaReconcilingStrategy.reconcile(ScalaReconcilingStrategy.scala:53)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:86)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:77)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:206)
+2017-10-10 08:17:21,515  WARN [Worker-5] - ScalaProject - Project Streaming has platform default sourceLevel.
+2017-10-10 08:17:21,516  WARN [Worker-5] - ScalaProject - Project Streaming runs on platform default installation.
+2017-10-10 08:31:38,255  WARN [Worker-14] - ScalaProject - Project Streaming has platform default sourceLevel.
+2017-10-10 08:31:38,256  WARN [Worker-14] - ScalaProject - Project Streaming runs on platform default installation.
+2017-10-10 08:31:57,579  WARN [Worker-17] - ScalaProject - Project SPARK_Programs has platform default sourceLevel.
+2017-10-10 08:31:57,579  WARN [Worker-17] - ScalaProject - Project SPARK_Programs runs on platform default installation.
+2017-10-10 08:31:57,810  WARN [Worker-17] - ScalaProject - Project SPARK_Programs has platform default sourceLevel.
+2017-10-10 08:31:57,811  WARN [Worker-17] - ScalaProject - Project SPARK_Programs runs on platform default installation.
+2017-10-10 08:32:04,223  WARN [main] - ScalaProject - Project SPARK_Programs has platform default sourceLevel.
+2017-10-10 08:32:04,224  WARN [main] - ScalaProject - Project SPARK_Programs runs on platform default installation.
+2017-10-10 08:33:02,465  WARN [Worker-15] - ScalaProject - Project Streaming has platform default sourceLevel.
+2017-10-10 08:33:02,466  WARN [Worker-15] - ScalaProject - Project Streaming runs on platform default installation.
+2017-10-10 08:33:11,627  WARN [Worker-15] - ScalaProject - Project Streaming has platform default sourceLevel.
+2017-10-10 08:33:11,627  WARN [Worker-15] - ScalaProject - Project Streaming runs on platform default installation.
+2017-10-10 08:33:11,874  WARN [Java indexing] - ScalaProject - Project Streaming has platform default sourceLevel.
+2017-10-10 08:33:11,874  WARN [Java indexing] - ScalaProject - Project Streaming runs on platform default installation.
+2017-10-10 08:33:46,999  WARN [Worker-17] - ScalaProject - Project Streaming has platform default sourceLevel.
+2017-10-10 08:33:46,999  WARN [Worker-17] - ScalaProject - Project Streaming runs on platform default installation.
+2017-10-10 08:37:00,150  WARN [Worker-17] - ScalaProject - Project Streaming has platform default sourceLevel.
+2017-10-10 08:37:00,150  WARN [Worker-17] - ScalaProject - Project Streaming runs on platform default installation.
+2017-10-10 08:39:26,162  WARN [Worker-16] - ScalaProject - Project Streaming has platform default sourceLevel.
+2017-10-10 08:39:26,163  WARN [Worker-16] - ScalaProject - Project Streaming runs on platform default installation.
+2017-10-10 08:40:59,111  WARN [Worker-18] - ScalaProject - Project Streaming has platform default sourceLevel.
+2017-10-10 08:40:59,111  WARN [Worker-18] - ScalaProject - Project Streaming runs on platform default installation.
+2017-10-10 08:41:10,462  WARN [Worker-16] - ScalaProject - Project Streaming has platform default sourceLevel.
+2017-10-10 08:41:10,463  WARN [Worker-16] - ScalaProject - Project Streaming runs on platform default installation.
+2017-10-10 08:42:14,893  WARN [Worker-17] - ScalaProject - Project Streaming has platform default sourceLevel.
+2017-10-10 08:42:14,893  WARN [Worker-17] - ScalaProject - Project Streaming runs on platform default installation.
+2017-10-10 08:42:55,063  WARN [Worker-22] - ScalaProject - Project Streaming has platform default sourceLevel.
+2017-10-10 08:42:55,063  WARN [Worker-22] - ScalaProject - Project Streaming runs on platform default installation.
+2017-10-10 08:43:15,940  WARN [Worker-20] - ScalaProject - Project Streaming has platform default sourceLevel.
+2017-10-10 08:43:15,940  WARN [Worker-20] - ScalaProject - Project Streaming runs on platform default installation.
+2017-10-10 08:43:49,220  WARN [Worker-16] - ScalaProject - Project Streaming has platform default sourceLevel.
+2017-10-10 08:43:49,220  WARN [Worker-16] - ScalaProject - Project Streaming runs on platform default installation.
+2017-10-10 08:44:02,807  WARN [Worker-23] - ScalaProject - Project Streaming has platform default sourceLevel.
+2017-10-10 08:44:02,807  WARN [Worker-23] - ScalaProject - Project Streaming runs on platform default installation.
+2017-10-10 08:44:59,257  WARN [Worker-23] - ScalaProject - Project Streaming has platform default sourceLevel.
+2017-10-10 08:44:59,257  WARN [Worker-23] - ScalaProject - Project Streaming runs on platform default installation.
+2017-10-10 08:45:15,216  WARN [Worker-22] - ScalaProject - Project Streaming has platform default sourceLevel.
+2017-10-10 08:45:15,216  WARN [Worker-22] - ScalaProject - Project Streaming runs on platform default installation.
+2017-10-10 08:45:19,081  WARN [Worker-16] - ScalaProject - Project Streaming has platform default sourceLevel.
+2017-10-10 08:45:19,081  WARN [Worker-16] - ScalaProject - Project Streaming runs on platform default installation.
+2017-10-10 08:46:41,672  WARN [Worker-16] - ScalaProject - Project Streaming has platform default sourceLevel.
+2017-10-10 08:46:41,672  WARN [Worker-16] - ScalaProject - Project Streaming runs on platform default installation.
+2017-10-10 08:46:45,036  WARN [Worker-20] - ScalaProject - Project Streaming has platform default sourceLevel.
+2017-10-10 08:46:45,037  WARN [Worker-20] - ScalaProject - Project Streaming runs on platform default installation.
+2017-10-10 08:47:03,572  WARN [Worker-23] - ScalaProject - Project Streaming has platform default sourceLevel.
+2017-10-10 08:47:03,572  WARN [Worker-23] - ScalaProject - Project Streaming runs on platform default installation.
+2017-10-10 08:48:07,734  WARN [Worker-24] - ScalaProject - Project Streaming has platform default sourceLevel.
+2017-10-10 08:48:07,734  WARN [Worker-24] - ScalaProject - Project Streaming runs on platform default installation.
+2017-10-10 08:48:13,276  WARN [Worker-20] - ScalaProject - Project Streaming has platform default sourceLevel.
+2017-10-10 08:48:13,276  WARN [Worker-20] - ScalaProject - Project Streaming runs on platform default installation.
+2017-10-10 08:49:29,380 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2017-10-10 08:49:29,382 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2017-10-10 08:49:29,382 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2017-10-10 08:49:29,382 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2017-10-10 08:50:38,913  WARN [Worker-22] - ScalaProject - Project Streaming has platform default sourceLevel.
+2017-10-10 08:50:38,914  WARN [Worker-22] - ScalaProject - Project Streaming runs on platform default installation.
+2017-10-10 08:51:29,717  WARN [Worker-22] - ScalaProject - Project Streaming has platform default sourceLevel.
+2017-10-10 08:51:29,717  WARN [Worker-22] - ScalaProject - Project Streaming runs on platform default installation.
+2017-10-10 08:54:40,846  WARN [Worker-17] - ScalaProject - Project Streaming has platform default sourceLevel.
+2017-10-10 08:54:40,847  WARN [Worker-17] - ScalaProject - Project Streaming runs on platform default installation.
+2017-10-10 08:55:19,172  WARN [Worker-20] - ScalaProject - Project Streaming has platform default sourceLevel.
+2017-10-10 08:55:19,173  WARN [Worker-20] - ScalaProject - Project Streaming runs on platform default installation.
+2017-10-10 08:55:34,602  WARN [Worker-27] - ScalaProject - Project Streaming has platform default sourceLevel.
+2017-10-10 08:55:34,603  WARN [Worker-27] - ScalaProject - Project Streaming runs on platform default installation.
+2017-10-10 08:55:45,974  WARN [Worker-27] - ScalaProject - Project Streaming has platform default sourceLevel.
+2017-10-10 08:55:45,974  WARN [Worker-27] - ScalaProject - Project Streaming runs on platform default installation.
+2017-10-10 08:56:03,822  WARN [Worker-26] - ScalaProject - Project Streaming has platform default sourceLevel.
+2017-10-10 08:56:03,822  WARN [Worker-26] - ScalaProject - Project Streaming runs on platform default installation.
+2017-10-10 08:56:14,184  WARN [Worker-26] - ScalaProject - Project Streaming has platform default sourceLevel.
+2017-10-10 08:56:14,184  WARN [Worker-26] - ScalaProject - Project Streaming runs on platform default installation.
+2017-10-10 08:56:19,984  WARN [Worker-17] - ScalaProject - Project Streaming has platform default sourceLevel.
+2017-10-10 08:56:19,984  WARN [Worker-17] - ScalaProject - Project Streaming runs on platform default installation.
+2017-10-10 08:56:27,027  WARN [Worker-26] - ScalaProject - Project Streaming has platform default sourceLevel.
+2017-10-10 08:56:27,028  WARN [Worker-26] - ScalaProject - Project Streaming runs on platform default installation.
+2017-10-10 08:56:40,469  WARN [Worker-17] - ScalaProject - Project Streaming has platform default sourceLevel.
+2017-10-10 08:56:40,470  WARN [Worker-17] - ScalaProject - Project Streaming runs on platform default installation.
+2017-10-10 08:56:43,779  WARN [Worker-28] - ScalaProject - Project Streaming has platform default sourceLevel.
+2017-10-10 08:56:43,779  WARN [Worker-28] - ScalaProject - Project Streaming runs on platform default installation.
+2017-10-10 08:56:58,358  WARN [Worker-28] - ScalaProject - Project Streaming has platform default sourceLevel.
+2017-10-10 08:56:58,358  WARN [Worker-28] - ScalaProject - Project Streaming runs on platform default installation.
+2017-10-10 08:57:18,409  WARN [Worker-27] - ScalaProject - Project Streaming has platform default sourceLevel.
+2017-10-10 08:57:18,409  WARN [Worker-27] - ScalaProject - Project Streaming runs on platform default installation.
+2017-10-10 08:57:28,396  WARN [Worker-27] - ScalaProject - Project Streaming has platform default sourceLevel.
+2017-10-10 08:57:28,396  WARN [Worker-27] - ScalaProject - Project Streaming runs on platform default installation.
+2017-10-10 08:57:41,013  WARN [Worker-20] - ScalaProject - Project Streaming has platform default sourceLevel.
+2017-10-10 08:57:41,014  WARN [Worker-20] - ScalaProject - Project Streaming runs on platform default installation.
+2017-10-10 08:58:13,550  WARN [Worker-27] - ScalaProject - Project Streaming has platform default sourceLevel.
+2017-10-10 08:58:13,550  WARN [Worker-27] - ScalaProject - Project Streaming runs on platform default installation.
+2017-10-10 08:58:31,530  WARN [Worker-17] - ScalaProject - Project Streaming has platform default sourceLevel.
+2017-10-10 08:58:31,530  WARN [Worker-17] - ScalaProject - Project Streaming runs on platform default installation.
+2017-10-10 08:58:47,249  WARN [Worker-27] - ScalaProject - Project Streaming has platform default sourceLevel.
+2017-10-10 08:58:47,249  WARN [Worker-27] - ScalaProject - Project Streaming runs on platform default installation.
+2017-10-10 08:59:32,250  WARN [Worker-27] - ScalaProject - Project Streaming has platform default sourceLevel.
+2017-10-10 08:59:32,250  WARN [Worker-27] - ScalaProject - Project Streaming runs on platform default installation.
+2017-10-10 08:59:34,402  WARN [Worker-27] - ScalaProject - Project Streaming has platform default sourceLevel.
+2017-10-10 08:59:34,402  WARN [Worker-27] - ScalaProject - Project Streaming runs on platform default installation.
+2017-10-10 09:00:00,835  WARN [Worker-28] - ScalaProject - Project Streaming has platform default sourceLevel.
+2017-10-10 09:00:00,835  WARN [Worker-28] - ScalaProject - Project Streaming runs on platform default installation.
+2017-10-10 09:00:14,135  WARN [Worker-26] - ScalaProject - Project Streaming has platform default sourceLevel.
+2017-10-10 09:00:14,135  WARN [Worker-26] - ScalaProject - Project Streaming runs on platform default installation.
+2017-10-10 09:01:54,539  WARN [Worker-29] - ScalaProject - Project Streaming has platform default sourceLevel.
+2017-10-10 09:01:54,540  WARN [Worker-29] - ScalaProject - Project Streaming runs on platform default installation.
+2017-10-10 09:02:30,018  WARN [Worker-32] - ScalaProject - Project Streaming has platform default sourceLevel.
+2017-10-10 09:02:30,019  WARN [Worker-32] - ScalaProject - Project Streaming runs on platform default installation.
+2017-10-10 09:03:57,250  WARN [Worker-31] - ScalaProject - Project Streaming has platform default sourceLevel.
+2017-10-10 09:03:57,250  WARN [Worker-31] - ScalaProject - Project Streaming runs on platform default installation.
+2017-10-10 09:10:46,215  WARN [Worker-32] - ScalaProject - Project Streaming has platform default sourceLevel.
+2017-10-10 09:10:46,216  WARN [Worker-32] - ScalaProject - Project Streaming runs on platform default installation.
+2017-10-10 09:10:53,102  WARN [Worker-35] - ScalaProject - Project Streaming has platform default sourceLevel.
+2017-10-10 09:10:53,102  WARN [Worker-35] - ScalaProject - Project Streaming runs on platform default installation.
+2017-11-05 12:50:59,951  WARN [main] - ScalaProject - Project Streaming has platform default sourceLevel.
+2017-11-05 12:50:59,975  WARN [main] - ScalaProject - Project Streaming runs on platform default installation.
+2017-11-05 12:50:59,998  WARN [main] - ScalaProject - Project Streaming has platform default sourceLevel.
+2017-11-05 12:50:59,998  WARN [main] - ScalaProject - Project Streaming runs on platform default installation.
+2017-11-05 12:55:25,058  WARN [ModalContext] - ScalaProject - Project ScalaPractice_June2017WeekEnd has platform default sourceLevel.
+2017-11-05 12:55:25,059  WARN [ModalContext] - ScalaProject - Project ScalaPractice_June2017WeekEnd runs on platform default installation.
+2017-11-05 12:55:25,408  WARN [Worker-4] - ScalaProject - Project ScalaPractice_June2017WeekEnd has platform default sourceLevel.
+2017-11-05 12:55:25,408  WARN [Worker-4] - ScalaProject - Project ScalaPractice_June2017WeekEnd runs on platform default installation.
+2017-11-05 12:56:10,394  WARN [main] - ScalaProject - Project ScalaPractice_June2017WeekEnd has platform default sourceLevel.
+2017-11-05 12:56:10,394  WARN [main] - ScalaProject - Project ScalaPractice_June2017WeekEnd runs on platform default installation.
+2017-11-05 12:56:13,924  WARN [Worker-7] - ScalaProject - Project ScalaPractice_June2017WeekEnd has platform default sourceLevel.
+2017-11-05 12:56:13,924  WARN [Worker-7] - ScalaProject - Project ScalaPractice_June2017WeekEnd runs on platform default installation.
+2017-11-05 12:56:14,271  WARN [Java indexing] - ScalaProject - Project ScalaPractice_June2017WeekEnd has platform default sourceLevel.
+2017-11-05 12:56:14,272  WARN [Java indexing] - ScalaProject - Project ScalaPractice_June2017WeekEnd runs on platform default installation.
+2017-11-05 12:56:17,814 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - An error occurred while trying to create a file.
+org.eclipse.core.internal.resources.ResourceException: Resource '/ScalaPractice_June2017WeekEnd/src/HelloWorld.scala' already exists.
+	at org.eclipse.core.internal.resources.Resource.checkDoesNotExist(Resource.java:320)
+	at org.eclipse.core.internal.resources.Resource.checkDoesNotExist(Resource.java:307)
+	at org.eclipse.core.internal.resources.File.create(File.java:112)
+	at org.eclipse.core.internal.resources.File.create(File.java:188)
+	at org.scalaide.util.eclipse.FileUtils$$anonfun$createFile$1.apply$mcV$sp(FileUtils.scala:93)
+	at org.scalaide.util.eclipse.FileUtils$$anonfun$createFile$1.apply(FileUtils.scala:84)
+	at org.scalaide.util.eclipse.FileUtils$$anonfun$createFile$1.apply(FileUtils.scala:84)
+	at scala.util.Try$.apply(Try.scala:192)
+	at org.scalaide.util.eclipse.FileUtils$.createFile(FileUtils.scala:84)
+	at org.scalaide.ui.internal.wizards.NewFileWizard$$anonfun$okPressed$1.apply(NewFileWizard.scala:284)
+	at org.scalaide.ui.internal.wizards.NewFileWizard$$anonfun$okPressed$1.apply(NewFileWizard.scala:283)
+	at scala.Option.foreach(Option.scala:257)
+	at org.scalaide.ui.internal.wizards.NewFileWizard$class.okPressed(NewFileWizard.scala:283)
+	at org.scalaide.ui.internal.wizards.NewFileWizardAdapter$$anon$1.okPressed(NewFileWizardAdapter.scala:28)
+	at org.scalaide.ui.internal.wizards.NewFileWizardAdapter.performFinish(NewFileWizardAdapter.scala:55)
+	at org.eclipse.jface.wizard.WizardDialog.finishPressed(WizardDialog.java:853)
+	at org.eclipse.jface.wizard.WizardDialog.buttonPressed(WizardDialog.java:438)
+	at org.eclipse.jface.dialogs.Dialog$2.widgetSelected(Dialog.java:619)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:248)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4454)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1388)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3799)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3409)
+	at org.eclipse.ui.internal.dialogs.EventLoopProgressMonitor.runEventLoop(EventLoopProgressMonitor.java:128)
+	at org.eclipse.ui.internal.dialogs.EventLoopProgressMonitor.isCanceled(EventLoopProgressMonitor.java:102)
+	at org.eclipse.core.internal.jobs.ThreadJob.isCanceled(ThreadJob.java:144)
+	at org.eclipse.core.internal.jobs.ThreadJob.waitForRun(ThreadJob.java:233)
+	at org.eclipse.core.internal.jobs.ThreadJob.joinRun(ThreadJob.java:197)
+	at org.eclipse.core.internal.jobs.ImplicitJobs.begin(ImplicitJobs.java:92)
+	at org.eclipse.core.internal.jobs.JobManager.beginRule(JobManager.java:290)
+	at org.eclipse.core.internal.resources.WorkManager.checkIn(WorkManager.java:118)
+	at org.eclipse.core.internal.resources.Workspace.prepareOperation(Workspace.java:2251)
+	at org.eclipse.core.internal.resources.File.setContents(File.java:356)
+	at org.eclipse.core.internal.resources.File.setContents(File.java:465)
+	at org.scalaide.ui.internal.wizards.NewFileWizard$class.openFileInSrcDir$1(NewFileWizard.scala:364)
+	at org.scalaide.ui.internal.wizards.NewFileWizard$class.org$scalaide$ui$internal$wizards$NewFileWizard$$openEditor(NewFileWizard.scala:375)
+	at org.scalaide.ui.internal.wizards.NewFileWizard$$anonfun$okPressed$1.apply(NewFileWizard.scala:287)
+	at org.scalaide.ui.internal.wizards.NewFileWizard$$anonfun$okPressed$1.apply(NewFileWizard.scala:283)
+	at scala.Option.foreach(Option.scala:257)
+	at org.scalaide.ui.internal.wizards.NewFileWizard$class.okPressed(NewFileWizard.scala:283)
+	at org.scalaide.ui.internal.wizards.NewFileWizardAdapter$$anon$1.okPressed(NewFileWizardAdapter.scala:28)
+	at org.scalaide.ui.internal.wizards.NewFileWizardAdapter.performFinish(NewFileWizardAdapter.scala:55)
+	at org.eclipse.jface.wizard.WizardDialog.finishPressed(WizardDialog.java:853)
+	at org.eclipse.jface.wizard.WizardDialog.buttonPressed(WizardDialog.java:438)
+	at org.eclipse.jface.dialogs.Dialog$2.widgetSelected(Dialog.java:619)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:248)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4454)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1388)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3799)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3409)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:832)
+	at org.eclipse.jface.window.Window.open(Window.java:808)
+	at org.eclipse.ui.internal.actions.NewWizardShortcutAction.run(NewWizardShortcutAction.java:136)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:519)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:595)
+	at org.eclipse.jface.action.ActionContributionItem.access$2(ActionContributionItem.java:511)
+	at org.eclipse.jface.action.ActionContributionItem$5.handleEvent(ActionContributionItem.java:420)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4454)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1388)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3799)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3409)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1032)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:148)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:636)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:579)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:135)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:648)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:603)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1438)
+2017-11-05 12:56:18,208  WARN [Worker-4] - ScalaProject - Project ScalaPractice_June2017WeekEnd has platform default sourceLevel.
+2017-11-05 12:56:18,208  WARN [Worker-4] - ScalaProject - Project ScalaPractice_June2017WeekEnd runs on platform default installation.
+2017-11-05 12:58:09,755  WARN [Worker-4] - ScalaProject - Project ScalaPractice_June2017WeekEnd has platform default sourceLevel.
+2017-11-05 12:58:09,755  WARN [Worker-4] - ScalaProject - Project ScalaPractice_June2017WeekEnd runs on platform default installation.
+2017-11-05 13:02:22,816 ERROR [Worker-7] - System.err - SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2017-11-05 13:02:22,816 ERROR [Worker-7] - System.err - SLF4J: Defaulting to no-operation (NOP) logger implementation
+2017-11-05 13:02:22,817 ERROR [Worker-7] - System.err - SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2017-11-05 13:03:46,775  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 68
+2017-11-05 13:03:51,355  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 70
+2017-11-05 13:04:14,641  WARN [Worker-10] - ScalaProject - Project ScalaPractice_June2017WeekEnd has platform default sourceLevel.
+2017-11-05 13:04:14,641  WARN [Worker-10] - ScalaProject - Project ScalaPractice_June2017WeekEnd runs on platform default installation.
+2017-11-05 13:06:40,552  WARN [Worker-9] - ScalaProject - Project ScalaPractice_June2017WeekEnd has platform default sourceLevel.
+2017-11-05 13:06:40,553  WARN [Worker-9] - ScalaProject - Project ScalaPractice_June2017WeekEnd runs on platform default installation.
+2017-11-05 13:06:56,478  WARN [Worker-9] - ScalaProject - Project ScalaPractice_June2017WeekEnd has platform default sourceLevel.
+2017-11-05 13:06:56,478  WARN [Worker-9] - ScalaProject - Project ScalaPractice_June2017WeekEnd runs on platform default installation.
+2017-11-05 13:06:59,764  WARN [Worker-9] - ScalaProject - Project ScalaPractice_June2017WeekEnd has platform default sourceLevel.
+2017-11-05 13:06:59,764  WARN [Worker-9] - ScalaProject - Project ScalaPractice_June2017WeekEnd runs on platform default installation.
+2017-11-05 13:07:28,668  WARN [Worker-10] - ScalaProject - Project ScalaPractice_June2017WeekEnd has platform default sourceLevel.
+2017-11-05 13:07:28,668  WARN [Worker-10] - ScalaProject - Project ScalaPractice_June2017WeekEnd runs on platform default installation.
+2017-11-05 13:08:51,455  WARN [Worker-9] - ScalaProject - Project ScalaPractice_June2017WeekEnd has platform default sourceLevel.
+2017-11-05 13:08:51,456  WARN [Worker-9] - ScalaProject - Project ScalaPractice_June2017WeekEnd runs on platform default installation.
+2017-11-05 13:09:06,168  WARN [Worker-9] - ScalaProject - Project ScalaPractice_June2017WeekEnd has platform default sourceLevel.
+2017-11-05 13:09:06,169  WARN [Worker-9] - ScalaProject - Project ScalaPractice_June2017WeekEnd runs on platform default installation.
+2017-11-05 13:09:36,814  WARN [Worker-12] - ScalaProject - Project ScalaPractice_June2017WeekEnd has platform default sourceLevel.
+2017-11-05 13:09:36,814  WARN [Worker-12] - ScalaProject - Project ScalaPractice_June2017WeekEnd runs on platform default installation.
+2017-11-05 13:09:38,938 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2017-11-05 13:09:38,938 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2017-11-05 13:09:43,160 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2017-11-05 13:09:43,174 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2017-11-05 13:09:43,174 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2017-11-05 13:09:43,174 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2017-11-05 13:09:44,161  WARN [Worker-9] - ScalaProject - Project ScalaPractice_June2017WeekEnd has platform default sourceLevel.
+2017-11-05 13:09:44,161  WARN [Worker-9] - ScalaProject - Project ScalaPractice_June2017WeekEnd runs on platform default installation.
+2017-11-05 13:10:44,592  WARN [Worker-7] - ScalaProject - Project ScalaPractice_June2017WeekEnd has platform default sourceLevel.
+2017-11-05 13:10:44,593  WARN [Worker-7] - ScalaProject - Project ScalaPractice_June2017WeekEnd runs on platform default installation.
+2017-11-05 13:11:05,903  WARN [Worker-14] - ScalaProject - Project ScalaPractice_June2017WeekEnd has platform default sourceLevel.
+2017-11-05 13:11:05,904  WARN [Worker-14] - ScalaProject - Project ScalaPractice_June2017WeekEnd runs on platform default installation.
+2017-11-05 13:16:28,231  WARN [Worker-16] - ScalaProject - Project ScalaPractice_June2017WeekEnd has platform default sourceLevel.
+2017-11-05 13:16:28,232  WARN [Worker-16] - ScalaProject - Project ScalaPractice_June2017WeekEnd runs on platform default installation.
+2017-11-05 13:16:46,062  WARN [Worker-15] - ScalaProject - Project ScalaPractice_June2017WeekEnd has platform default sourceLevel.
+2017-11-05 13:16:46,062  WARN [Worker-15] - ScalaProject - Project ScalaPractice_June2017WeekEnd runs on platform default installation.
+2017-11-05 13:16:56,640  WARN [Worker-19] - ScalaProject - Project ScalaPractice_June2017WeekEnd has platform default sourceLevel.
+2017-11-05 13:16:56,640  WARN [Worker-19] - ScalaProject - Project ScalaPractice_June2017WeekEnd runs on platform default installation.
+2017-11-05 13:17:01,796  WARN [Worker-18] - ScalaProject - Project ScalaPractice_June2017WeekEnd has platform default sourceLevel.
+2017-11-05 13:17:01,796  WARN [Worker-18] - ScalaProject - Project ScalaPractice_June2017WeekEnd runs on platform default installation.
+2017-11-05 13:18:10,631 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2017-11-05 13:18:10,636 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2017-11-05 13:18:10,636 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2017-11-05 13:18:12,056  WARN [Worker-17] - ScalaProject - Project ScalaPractice_June2017WeekEnd has platform default sourceLevel.
+2017-11-05 13:18:12,056  WARN [Worker-17] - ScalaProject - Project ScalaPractice_June2017WeekEnd runs on platform default installation.
+2017-11-05 13:18:27,367  WARN [Worker-17] - ScalaProject - Project ScalaPractice_June2017WeekEnd has platform default sourceLevel.
+2017-11-05 13:18:27,367  WARN [Worker-17] - ScalaProject - Project ScalaPractice_June2017WeekEnd runs on platform default installation.
+2017-11-05 13:18:45,637  WARN [Worker-18] - ScalaProject - Project ScalaPractice_June2017WeekEnd has platform default sourceLevel.
+2017-11-05 13:18:45,637  WARN [Worker-18] - ScalaProject - Project ScalaPractice_June2017WeekEnd runs on platform default installation.
+2017-11-05 13:18:55,218  WARN [Worker-15] - ScalaProject - Project ScalaPractice_June2017WeekEnd has platform default sourceLevel.
+2017-11-05 13:18:55,219  WARN [Worker-15] - ScalaProject - Project ScalaPractice_June2017WeekEnd runs on platform default installation.
+2017-11-05 13:19:18,182  WARN [Worker-15] - ScalaProject - Project ScalaPractice_June2017WeekEnd has platform default sourceLevel.
+2017-11-05 13:19:18,182  WARN [Worker-15] - ScalaProject - Project ScalaPractice_June2017WeekEnd runs on platform default installation.
+2017-11-05 13:20:04,588  WARN [Worker-15] - ScalaProject - Project ScalaPractice_June2017WeekEnd has platform default sourceLevel.
+2017-11-05 13:20:04,588  WARN [Worker-15] - ScalaProject - Project ScalaPractice_June2017WeekEnd runs on platform default installation.
+2017-11-05 13:20:15,900  WARN [Worker-18] - ScalaProject - Project ScalaPractice_June2017WeekEnd has platform default sourceLevel.
+2017-11-05 13:20:15,900  WARN [Worker-18] - ScalaProject - Project ScalaPractice_June2017WeekEnd runs on platform default installation.
+2017-11-05 13:20:22,982  WARN [Worker-15] - ScalaProject - Project ScalaPractice_June2017WeekEnd has platform default sourceLevel.
+2017-11-05 13:20:22,982  WARN [Worker-15] - ScalaProject - Project ScalaPractice_June2017WeekEnd runs on platform default installation.
+2017-11-05 13:20:46,707  WARN [Worker-15] - ScalaProject - Project ScalaPractice_June2017WeekEnd has platform default sourceLevel.
+2017-11-05 13:20:46,707  WARN [Worker-15] - ScalaProject - Project ScalaPractice_June2017WeekEnd runs on platform default installation.
+2017-11-05 13:20:54,753  WARN [Worker-15] - ScalaProject - Project ScalaPractice_June2017WeekEnd has platform default sourceLevel.
+2017-11-05 13:20:54,753  WARN [Worker-15] - ScalaProject - Project ScalaPractice_June2017WeekEnd runs on platform default installation.
+2017-11-05 13:20:57,894  WARN [Worker-18] - ScalaProject - Project ScalaPractice_June2017WeekEnd has platform default sourceLevel.
+2017-11-05 13:20:57,894  WARN [Worker-18] - ScalaProject - Project ScalaPractice_June2017WeekEnd runs on platform default installation.
+2017-11-05 13:21:18,823  WARN [Worker-20] - ScalaProject - Project ScalaPractice_June2017WeekEnd has platform default sourceLevel.
+2017-11-05 13:21:18,823  WARN [Worker-20] - ScalaProject - Project ScalaPractice_June2017WeekEnd runs on platform default installation.
+2017-11-05 13:21:46,331  WARN [Worker-17] - ScalaProject - Project ScalaPractice_June2017WeekEnd has platform default sourceLevel.
+2017-11-05 13:21:46,331  WARN [Worker-17] - ScalaProject - Project ScalaPractice_June2017WeekEnd runs on platform default installation.
+2017-11-05 13:21:49,768  WARN [Worker-18] - ScalaProject - Project ScalaPractice_June2017WeekEnd has platform default sourceLevel.
+2017-11-05 13:21:49,769  WARN [Worker-18] - ScalaProject - Project ScalaPractice_June2017WeekEnd runs on platform default installation.
+2017-11-05 13:22:10,490  WARN [Worker-17] - ScalaProject - Project ScalaPractice_June2017WeekEnd has platform default sourceLevel.
+2017-11-05 13:22:10,490  WARN [Worker-17] - ScalaProject - Project ScalaPractice_June2017WeekEnd runs on platform default installation.
+2017-11-05 13:22:15,655  WARN [Worker-17] - ScalaProject - Project ScalaPractice_June2017WeekEnd has platform default sourceLevel.
+2017-11-05 13:22:15,655  WARN [Worker-17] - ScalaProject - Project ScalaPractice_June2017WeekEnd runs on platform default installation.
+2017-11-05 13:22:34,122  WARN [Worker-15] - ScalaProject - Project ScalaPractice_June2017WeekEnd has platform default sourceLevel.
+2017-11-05 13:22:34,122  WARN [Worker-15] - ScalaProject - Project ScalaPractice_June2017WeekEnd runs on platform default installation.
+2017-11-05 13:23:07,192  WARN [Worker-15] - ScalaProject - Project ScalaPractice_June2017WeekEnd has platform default sourceLevel.
+2017-11-05 13:23:07,193  WARN [Worker-15] - ScalaProject - Project ScalaPractice_June2017WeekEnd runs on platform default installation.
+2017-11-05 13:24:32,380  WARN [Worker-17] - ScalaProject - Project ScalaPractice_June2017WeekEnd has platform default sourceLevel.
+2017-11-05 13:24:32,381  WARN [Worker-17] - ScalaProject - Project ScalaPractice_June2017WeekEnd runs on platform default installation.
+2017-11-05 13:26:22,906  WARN [Worker-22] - ScalaProject - Project ScalaPractice_June2017WeekEnd has platform default sourceLevel.
+2017-11-05 13:26:22,906  WARN [Worker-22] - ScalaProject - Project ScalaPractice_June2017WeekEnd runs on platform default installation.
+2017-11-05 13:28:32,075  WARN [Worker-22] - ScalaProject - Project ScalaPractice_June2017WeekEnd has platform default sourceLevel.
+2017-11-05 13:28:32,075  WARN [Worker-22] - ScalaProject - Project ScalaPractice_June2017WeekEnd runs on platform default installation.
+2017-11-05 13:28:55,115  WARN [Worker-24] - ScalaProject - Project ScalaPractice_June2017WeekEnd has platform default sourceLevel.
+2017-11-05 13:28:55,115  WARN [Worker-24] - ScalaProject - Project ScalaPractice_June2017WeekEnd runs on platform default installation.
+2017-11-05 13:38:18,412  WARN [Worker-29] - ScalaProject - Project ScalaPractice_June2017WeekEnd has platform default sourceLevel.
+2017-11-05 13:38:18,412  WARN [Worker-29] - ScalaProject - Project ScalaPractice_June2017WeekEnd runs on platform default installation.
+2017-11-05 13:38:37,999  WARN [Worker-29] - ScalaProject - Project ScalaPractice_June2017WeekEnd has platform default sourceLevel.
+2017-11-05 13:38:37,999  WARN [Worker-29] - ScalaProject - Project ScalaPractice_June2017WeekEnd runs on platform default installation.
+2017-11-05 13:39:13,805  WARN [Worker-27] - ScalaProject - Project ScalaPractice_June2017WeekEnd has platform default sourceLevel.
+2017-11-05 13:39:13,805  WARN [Worker-27] - ScalaProject - Project ScalaPractice_June2017WeekEnd runs on platform default installation.
+2017-11-05 13:39:17,944  WARN [Worker-27] - ScalaProject - Project ScalaPractice_June2017WeekEnd has platform default sourceLevel.
+2017-11-05 13:39:17,944  WARN [Worker-27] - ScalaProject - Project ScalaPractice_June2017WeekEnd runs on platform default installation.
+2017-11-05 13:41:42,378  WARN [Worker-28] - ScalaProject - Project ScalaPractice_June2017WeekEnd has platform default sourceLevel.
+2017-11-05 13:41:42,378  WARN [Worker-28] - ScalaProject - Project ScalaPractice_June2017WeekEnd runs on platform default installation.
+2017-11-05 13:42:12,498  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 1383
+2017-11-05 13:42:12,498  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 1383
+2017-11-05 13:42:14,543  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 1383
+2017-11-05 13:42:14,543  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 1383
+2017-11-05 13:42:22,092  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 1383
+2017-11-05 13:42:25,329  WARN [Worker-28] - ScalaProject - Project ScalaPractice_June2017WeekEnd has platform default sourceLevel.
+2017-11-05 13:42:25,330  WARN [Worker-28] - ScalaProject - Project ScalaPractice_June2017WeekEnd runs on platform default installation.
+2017-11-05 13:43:57,120  WARN [Worker-28] - ScalaProject - Project ScalaPractice_June2017WeekEnd has platform default sourceLevel.
+2017-11-05 13:43:57,120  WARN [Worker-28] - ScalaProject - Project ScalaPractice_June2017WeekEnd runs on platform default installation.
+2017-11-05 13:44:39,742  WARN [Worker-34] - ScalaProject - Project ScalaPractice_June2017WeekEnd has platform default sourceLevel.
+2017-11-05 13:44:39,742  WARN [Worker-34] - ScalaProject - Project ScalaPractice_June2017WeekEnd runs on platform default installation.
+2017-11-05 13:44:46,983  WARN [Worker-33] - ScalaProject - Project ScalaPractice_June2017WeekEnd has platform default sourceLevel.
+2017-11-05 13:44:46,983  WARN [Worker-33] - ScalaProject - Project ScalaPractice_June2017WeekEnd runs on platform default installation.
+2017-11-05 13:45:26,949  WARN [Worker-32] - ScalaProject - Project ScalaPractice_June2017WeekEnd has platform default sourceLevel.
+2017-11-05 13:45:26,950  WARN [Worker-32] - ScalaProject - Project ScalaPractice_June2017WeekEnd runs on platform default installation.
+2017-11-05 13:46:21,342  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 860
+2017-11-05 13:46:21,343  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 860
+2017-11-05 13:46:21,345  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 1048
+2017-11-05 13:46:21,346  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 1048
+2017-11-05 13:46:21,347  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 990
+2017-11-05 13:46:21,347  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 1026
+2017-11-05 13:46:21,348  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 1126
+2017-11-05 13:46:21,349  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 1126
+2017-11-05 13:46:21,349  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 1076
+2017-11-05 13:47:12,280  WARN [Worker-35] - ScalaProject - Project ScalaPractice_June2017WeekEnd has platform default sourceLevel.
+2017-11-05 13:47:12,280  WARN [Worker-35] - ScalaProject - Project ScalaPractice_June2017WeekEnd runs on platform default installation.
+2017-11-05 13:47:22,032  WARN [Worker-35] - ScalaProject - Project ScalaPractice_June2017WeekEnd has platform default sourceLevel.
+2017-11-05 13:47:22,032  WARN [Worker-35] - ScalaProject - Project ScalaPractice_June2017WeekEnd runs on platform default installation.
+2017-11-05 13:48:03,739  WARN [Worker-38] - ScalaProject - Project ScalaPractice_June2017WeekEnd has platform default sourceLevel.
+2017-11-05 13:48:03,739  WARN [Worker-38] - ScalaProject - Project ScalaPractice_June2017WeekEnd runs on platform default installation.
+2017-11-05 13:48:26,086  WARN [Worker-37] - ScalaProject - Project ScalaPractice_June2017WeekEnd has platform default sourceLevel.
+2017-11-05 13:48:26,087  WARN [Worker-37] - ScalaProject - Project ScalaPractice_June2017WeekEnd runs on platform default installation.
+2017-11-05 13:48:29,472  WARN [Worker-37] - ScalaProject - Project ScalaPractice_June2017WeekEnd has platform default sourceLevel.
+2017-11-05 13:48:29,472  WARN [Worker-37] - ScalaProject - Project ScalaPractice_June2017WeekEnd runs on platform default installation.
+2017-11-05 13:48:55,799  WARN [Worker-37] - ScalaProject - Project ScalaPractice_June2017WeekEnd has platform default sourceLevel.
+2017-11-05 13:48:55,799  WARN [Worker-37] - ScalaProject - Project ScalaPractice_June2017WeekEnd runs on platform default installation.
+2017-11-05 13:49:13,384  WARN [Worker-32] - ScalaProject - Project ScalaPractice_June2017WeekEnd has platform default sourceLevel.
+2017-11-05 13:49:13,384  WARN [Worker-32] - ScalaProject - Project ScalaPractice_June2017WeekEnd runs on platform default installation.
+2017-11-05 13:49:26,895  WARN [Worker-36] - ScalaProject - Project ScalaPractice_June2017WeekEnd has platform default sourceLevel.
+2017-11-05 13:49:26,895  WARN [Worker-36] - ScalaProject - Project ScalaPractice_June2017WeekEnd runs on platform default installation.
+2017-11-05 13:49:35,231 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2017-11-05 13:49:35,231 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2017-11-05 13:49:35,231 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2017-11-05 13:49:46,558  WARN [Worker-36] - ScalaProject - Project ScalaPractice_June2017WeekEnd has platform default sourceLevel.
+2017-11-05 13:49:46,563  WARN [Worker-36] - ScalaProject - Project ScalaPractice_June2017WeekEnd runs on platform default installation.
+2017-11-05 13:49:53,429  WARN [Worker-35] - ScalaProject - Project ScalaPractice_June2017WeekEnd has platform default sourceLevel.
+2017-11-05 13:49:53,429  WARN [Worker-35] - ScalaProject - Project ScalaPractice_June2017WeekEnd runs on platform default installation.
+2017-11-05 13:50:52,191  WARN [Worker-37] - ScalaProject - Project ScalaPractice_June2017WeekEnd has platform default sourceLevel.
+2017-11-05 13:50:52,191  WARN [Worker-37] - ScalaProject - Project ScalaPractice_June2017WeekEnd runs on platform default installation.
+2017-11-05 13:51:05,124 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2017-11-05 13:51:05,130 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2017-11-05 13:51:05,130 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2017-11-05 13:51:05,130 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2017-11-05 13:51:17,690  WARN [Worker-35] - ScalaProject - Project ScalaPractice_June2017WeekEnd has platform default sourceLevel.
+2017-11-05 13:51:17,690  WARN [Worker-35] - ScalaProject - Project ScalaPractice_June2017WeekEnd runs on platform default installation.
+2017-11-05 13:51:26,119  WARN [Worker-28] - ScalaProject - Project ScalaPractice_June2017WeekEnd has platform default sourceLevel.
+2017-11-05 13:51:26,119  WARN [Worker-28] - ScalaProject - Project ScalaPractice_June2017WeekEnd runs on platform default installation.
+2017-11-05 13:54:59,029  WARN [Worker-37] - ScalaProject - Project ScalaPractice_June2017WeekEnd has platform default sourceLevel.
+2017-11-05 13:54:59,029  WARN [Worker-37] - ScalaProject - Project ScalaPractice_June2017WeekEnd runs on platform default installation.
+2017-11-05 13:55:04,054  WARN [Worker-40] - ScalaProject - Project ScalaPractice_June2017WeekEnd has platform default sourceLevel.
+2017-11-05 13:55:04,054  WARN [Worker-40] - ScalaProject - Project ScalaPractice_June2017WeekEnd runs on platform default installation.
+2017-11-05 13:55:46,906  WARN [Worker-40] - ScalaProject - Project ScalaPractice_June2017WeekEnd has platform default sourceLevel.
+2017-11-05 13:55:46,906  WARN [Worker-40] - ScalaProject - Project ScalaPractice_June2017WeekEnd runs on platform default installation.
+2017-11-05 13:58:46,941  WARN [Worker-32] - ScalaProject - Project ScalaPractice_June2017WeekEnd has platform default sourceLevel.
+2017-11-05 13:58:46,941  WARN [Worker-32] - ScalaProject - Project ScalaPractice_June2017WeekEnd runs on platform default installation.
+2017-11-05 13:58:54,806  WARN [Worker-42] - ScalaProject - Project ScalaPractice_June2017WeekEnd has platform default sourceLevel.
+2017-11-05 13:58:54,806  WARN [Worker-42] - ScalaProject - Project ScalaPractice_June2017WeekEnd runs on platform default installation.
+2017-11-05 13:59:08,238  WARN [Worker-43] - ScalaProject - Project ScalaPractice_June2017WeekEnd has platform default sourceLevel.
+2017-11-05 13:59:08,238  WARN [Worker-43] - ScalaProject - Project ScalaPractice_June2017WeekEnd runs on platform default installation.

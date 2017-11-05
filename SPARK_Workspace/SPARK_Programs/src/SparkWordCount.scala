@@ -9,7 +9,6 @@ object SparkWordCount {
     
     // read in text file and split each document into words
     val tokenized = sc.textFile("file:///home/hadoop/h1.txt").flatMap(_.split(" "))
-
     // count the occurrence of each word
     val wordCounts = tokenized.map((_, 1)).reduceByKey(_ + _)
 

@@ -1,0 +1,12 @@
+
+
+object HelloWorld extends App{
+  println("Hello World")
+  for(str <- args) println("arg is "+str)
+  
+  val v1:Int=100
+  val v2=10000.0
+  
+  println(" value of v1="+v1)
+  
+}

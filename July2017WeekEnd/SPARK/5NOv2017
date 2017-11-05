@@ -1,0 +1,32 @@
+Spark SQL:::
+SparkSession
+
+DataStream API which can read data from structured sources like
+csv,parquet,orc,json -> infers schema
+-----------------------------------------
+spark.read
+
+val empDF=spark.read.option("header","true").csv("file:////home/hadoop/YARNBOX/WORKSPACES/Sept2016WEBatch_GitRepo/SET2/MapReduceCode/Joins-MapReduce/input/emp_header")
+
+
+ spark.sparkContext.
+textFile("file:///home/hadoop/YARNBOX/WORKSPACES/Sept2016WEBatch_GitRepo/SET2/MapReduceCode/Joins-MapReduce/input/emp").
+map(line=> (line.split(",")(0),line.split(",")(1),line.split(",")(2),line.split(",")(3))).
+toDF("id","name","sal","deptid")
+
+untyped or DataFrame operations:::
+empDF.select("empid").filter("empid>5").show
+--------------------------------------------------------
+
+empDF.write.option("append").orc("file:///home/hadoop/OutFiles/Orc_out")
+
+empDF.write.saveAsTable("hivepractice.emptest")
+
+--------------------------------------
+
+
+
+
+
+
+

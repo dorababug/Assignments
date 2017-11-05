@@ -4,6 +4,7 @@ import org.apache.log4j.Level
 import org.apache.spark.SparkConf
 import org.apache.spark.streaming.StreamingContext
 import org.apache.spark.streaming.Seconds
+import org.apache.spark.sql.SparkSession
 
 
 object MovieLens {
@@ -16,6 +17,10 @@ object MovieLens {
     
     
     val ssc = new StreamingContext(conf, Seconds(5))
+    
+
+    
+    
     //lines is DStream
     val lines = ssc.socketTextStream("localhost", 9999)
     
@@ -26,6 +31,7 @@ object MovieLens {
     .reduceByKey((x,y) => x+y)
     
     word_count.print()
+    
     
     ssc.start()
     ssc.awaitTermination()

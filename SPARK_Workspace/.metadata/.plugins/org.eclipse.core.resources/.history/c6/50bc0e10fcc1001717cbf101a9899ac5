@@ -1,0 +1,7 @@
+
+
+object HelloWorld extends App{
+  println("Hello World")
+  for(str <- args) println("arg is "+str)
+  
+}

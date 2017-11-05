@@ -1,0 +1,57 @@
+touch
+gedit
+Redirection
+wc -l
+more,less, head , tail
+
+grep pattern file
+grep test demo.txt | sed s/test/AAAAAA/g | grep 4096
+
+------------------------------
+ 2051  ls -l Desktop/
+ 2052  ls -l /home/hadoop/Desktop/
+
+absolute and relatie path
+
+Home work:::
+Q1)check who are part of a group::
+q2) check what groups the user is a memer???
+---------------------------------------
+q3) in a machine, who all have super user access?
+-------------------------------------------------
+
+how to find the folder size???
+du 
+-------------------------------------
+
+HW::
+ps -aux
+HW
+what are the top 5 process taking 
+more CPU
+more MEMORY
+--------------------------------
+
+Shell Script: tutorials point:::  loops, if, 
+-----------------------------------------------------------
+HW
+1) write a script that takes a folder and file as input(2 args)
+Check the folder is present, if not Create.
+and if the folder is present , check the file is present in the folder, if not create empty file.
+
+2) Find what are the files present in a folder which are more than 10KB and move all files >10KB into separate folder.
+----------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
