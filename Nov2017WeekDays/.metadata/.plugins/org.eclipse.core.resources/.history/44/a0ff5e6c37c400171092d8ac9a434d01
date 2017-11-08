@@ -1,0 +1,14 @@
+import org.apache.hadoop.conf.Configuration;
+
+public class WordCountDriver {
+	public static void main(String[] args) {
+		
+		//Job object
+		//We create job obeject by passing configuration
+		
+		Configuration conf=new Configuration();
+		
+		
+		
+	}
+}

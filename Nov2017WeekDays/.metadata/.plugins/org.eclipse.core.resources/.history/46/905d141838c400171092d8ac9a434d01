@@ -1,0 +1,37 @@
+import java.io.IOException;
+
+import org.apache.hadoop.conf.Configuration;
+import org.apache.hadoop.mapreduce.Job;
+
+public class WordCountDriver {
+	public static void main(String[] args) throws IOException {
+		
+		//Job object
+		//We create job obeject by passing configuration
+		
+		Configuration conf=new Configuration();
+		//Create Job obejct
+		//Job job=new Job();
+		Job job=Job.getInstance(conf,"Word Count");
+		
+		//Entry point
+		job.setJarByClass(WordCountDriver.class);
+		//what is the mapper
+		job.setMapperClass(WordCountMapper.class);
+		//What is reducer
+		job.setReducerClass(WordCountReducer.class);
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+}
