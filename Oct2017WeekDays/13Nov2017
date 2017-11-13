@@ -1,0 +1,13 @@
+13Nov2017 -> partitioner
+1) Read numbers as numbers and run the hash partitioner
+
+
+2) Separate words starting with aA->mM into part 0
+nN-zZ into part 1
+rest all words starting with other than a-z or A-Z to part 2
+
+Custom Partitioner
+----------------------------
+Identity Mapper and Reducer
+Combiner on large file
+------------------------------
