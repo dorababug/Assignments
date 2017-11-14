@@ -1,0 +1,6 @@
+i/p -> byteoffset,line -> map()-> split the value using delimiter comma, and take the first field as year.
+except the last field , take all the numbers and find min,max in that.
+-> take the year,min,max -> send it out
+-----------------------------
+Reducer logic is not req.
+------------------------------------------

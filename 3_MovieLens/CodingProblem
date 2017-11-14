@@ -2,11 +2,7 @@ C ODING P ROBLEM
 The problem mentioned below revolves around movies dataset. The dataset contains 4 files which
 are follows,
 
-File Name Description / Schema
-movies.dat MovieID – Title – Genres
-ratings.dat UserID – MovieID – Rating – Timestamp
-users.dat UserID – Gender – Age – Occupation – ZipCode
-README Additonal information / explanation about the above three files
+n / explanation about the above three files
 
 
 The dataset can be downloaded from the link : http://grouplens.org/datasets/movielens/1m/

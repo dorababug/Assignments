@@ -1,0 +1,53 @@
+hdfs -> namenode web UI  -> localhost:50070
+yarn -> RM web UI -> localhost:8088
+---------------------------------------------
+
+HDFS -> CRUD -> Create Read Update Delete
+of files 
+------------------------------------------------
+How to interact with HDFS?
+We need a Client program -> hdfs protocol 
+HDFS Client:::
+----------------------------------------------
+HDFS CLI client::::
+
+hadoop fs 
+hdfs dfs
+
+
+hadoop fs -put
+-appendToFile
+https://github.com/dorababugjntup
+
+-ls
+-cat 
+
+
+======================
+Home work : 12 Nov 2017
+hdfs commands ->
+
+explore the commands 
+hdfs 
+mapred
+yarn
+======================
+unix
+Core java -> JavaTPoint/hadoopTpoint
+SQL -> W3 schools
+======================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

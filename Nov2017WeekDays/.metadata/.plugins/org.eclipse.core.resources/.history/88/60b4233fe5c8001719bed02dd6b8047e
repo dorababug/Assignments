@@ -1,0 +1,14 @@
+package com.inv;
+
+import java.io.IOException;
+
+import org.apache.hadoop.conf.Configuration;
+import org.apache.hadoop.mapreduce.Job;
+
+public class Q1Driver {
+	public static void main(String[] args) throws IOException {
+		Configuration conf=new Configuration();
+		Job job=Job.getInstance(conf, "Q1 Driver");
+		
+	}
+}

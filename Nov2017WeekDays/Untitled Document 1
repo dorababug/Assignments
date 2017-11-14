@@ -1,0 +1,14 @@
+find the files with size 0 bytes , recursively in folder
+and move the files into a separate folder
+--------------------------
+shell script:::
+
+
+that script accepts a location  and file name
+print the script name and print the argulents
+and use a loop as well 
+and find whether the file is present in the location..
+if the file exists, print that file is present and print its size ...
+if file is not there, create an empty file
+
+
