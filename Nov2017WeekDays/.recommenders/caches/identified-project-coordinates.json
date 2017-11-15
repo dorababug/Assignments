@@ -1,1 +1,1 @@
-[[{"location":"/home/hadoop/YARNBOX/hadoop-2.7.2/share/hadoop/mapreduce/hadoop-mapreduce-client-core-2.7.2.jar","type":"JAR","hints":{}},"org.apache.hadoop:hadoop-mapreduce-client-core:2.7.2"],[{"location":"/home/hadoop/YARNBOX/jdk1.8.0_73","type":"JRE","hints":{"EXECUTION_ENVIRONMENT":"JavaSE-1.8"}},"jre:jre:1.8.0"],[{"location":"/home/hadoop/YARNBOX/hadoop-2.7.2/share/hadoop/common/hadoop-common-2.7.2.jar","type":"JAR","hints":{}},"org.apache.hadoop:hadoop-common:2.7.2"]]
+{}

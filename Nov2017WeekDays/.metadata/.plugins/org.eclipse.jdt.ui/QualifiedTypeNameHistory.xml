@@ -1,18 +1,24 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="org.apache.hadoop.mapreduce.Mapper"/>
 <fullyQualifiedTypeName name="java.util.StringTokenizer"/>
-<fullyQualifiedTypeName name="org.apache.hadoop.mapreduce.Reducer"/>
-<fullyQualifiedTypeName name="org.apache.hadoop.conf.Configuration"/>
-<fullyQualifiedTypeName name="org.apache.hadoop.mapreduce.Job"/>
 <fullyQualifiedTypeName name="WordCountDriver"/>
-<fullyQualifiedTypeName name="org.apache.hadoop.io.Text"/>
 <fullyQualifiedTypeName name="org.apache.hadoop.mapred.FileInputFormat"/>
 <fullyQualifiedTypeName name="WordCountMapper"/>
-<fullyQualifiedTypeName name="org.apache.hadoop.io.LongWritable"/>
 <fullyQualifiedTypeName name="WordCountReducer"/>
 <fullyQualifiedTypeName name="WordCountCombiner"/>
 <fullyQualifiedTypeName name="javax.naming.InterruptedNamingException"/>
 <fullyQualifiedTypeName name="java.lang.Integer"/>
+<fullyQualifiedTypeName name="org.apache.hadoop.mapreduce.Mapper"/>
+<fullyQualifiedTypeName name="org.apache.hadoop.io.LongWritable"/>
+<fullyQualifiedTypeName name="org.apache.hadoop.conf.Configuration"/>
+<fullyQualifiedTypeName name="org.apache.hadoop.mapreduce.Job"/>
+<fullyQualifiedTypeName name="com.inv.Q1Driver"/>
+<fullyQualifiedTypeName name="com.inv.Q1Mapper"/>
+<fullyQualifiedTypeName name="org.apache.hadoop.mapreduce.lib.input.FileInputFormat"/>
+<fullyQualifiedTypeName name="org.apache.hadoop.fs.Path"/>
+<fullyQualifiedTypeName name="org.apache.hadoop.mapreduce.lib.output.FileOutputFormat"/>
+<fullyQualifiedTypeName name="org.apache.hadoop.mapreduce.Reducer"/>
+<fullyQualifiedTypeName name="com.inv.Q1Reducer"/>
 <fullyQualifiedTypeName name="org.apache.hadoop.io.IntWritable"/>
+<fullyQualifiedTypeName name="org.apache.hadoop.io.Text"/>
 </qualifiedTypeNameHistroy>
