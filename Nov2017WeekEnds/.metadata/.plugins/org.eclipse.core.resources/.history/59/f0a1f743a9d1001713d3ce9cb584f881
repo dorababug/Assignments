@@ -1,0 +1,19 @@
+package com.inv;
+
+import org.apache.hadoop.conf.Configuration;
+import org.apache.hadoop.mapreduce.Job;
+
+public class WordCountDriver {
+	public static void main(String[] args) {
+		//args stored CLI arguments
+		// mrjob i/p file oplloc
+		//i.p file args[0]
+		//op loc -> args[1]
+		//1) create conf object
+		Configuration conf=new Configuration();
+		//2) using this conf, create Job Object
+		Job 
+		
+		
+	}
+}

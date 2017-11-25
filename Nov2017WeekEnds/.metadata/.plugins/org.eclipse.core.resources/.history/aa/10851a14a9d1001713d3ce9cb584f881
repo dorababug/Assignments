@@ -1,0 +1,16 @@
+package com.inv;
+
+import org.apache.hadoop.conf.Configuration;
+
+public class WordCountDriver {
+	public static void main(String[] args) {
+		//args stored CLI arguments
+		// mrjob i/p file oplloc
+		//i.p file args[0]
+		//op loc -> args[1]
+		
+		Configuration conf=new Configuration();
+		
+		
+	}
+}

@@ -1,0 +1,49 @@
+package com.inv;
+
+import java.io.IOException;
+
+import org.apache.hadoop.conf.Configuration;
+import org.apache.hadoop.fs.Path;
+import org.apache.hadoop.io.IntWritable;
+import org.apache.hadoop.io.Text;
+import org.apache.hadoop.mapreduce.Job;
+import org.apache.hadoop.mapreduce.lib.input.FileInputFormat;
+import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
+
+public class WordCountDriver {
+	public static void main(String[] args) throws IOException {
+		//args stored CLI arguments
+		// mrjob i/p file oplloc
+		//i.p file args[0]
+		//op loc -> args[1]
+		//1) create conf object
+		
+		Configuration conf=new Configuration();
+		//2) using this conf, create Job Object
+		Job job=Job.getInstance(conf, "Word Count");
+		
+		//Entry point
+		job.setJarByClass(WordCountDriver.class);
+		//mapper class
+		job.setMapperClass(WordCountMapper.class);
+		//Reduer class
+		job.setReducerClass(WordCountReducer.class);
+		
+		// If your job input data types and job output types
+		// are different , then specify the output types.
+		
+		job.setOutputKeyClass(Text.class);
+		job.setOutputValueClass(IntWritable.class);
+		
+		FileInputFormat.addInputPath(job,new Path(args[0]));
+		FileOutputFormat.setOutputPath(job, new Path(args[1]));
+		
+		
+			
+		
+		
+		
+		
+		
+	}
+}

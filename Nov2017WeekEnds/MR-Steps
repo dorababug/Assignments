@@ -1,0 +1,15 @@
+Create a java project
+Add the MR jar files -> external libraries
+hadoop2.7.2/share/hadoop/
+
+common/ 3jarfiles
+common/lib -> all jar files
+share/hadoop/hdfs  jarfiles
+share/hadoop/mapreduce -> jarfiles
+share/hadoop/yarn -> jar files
+
+Write Mapper class -> map method
+Write Reducer class -> reduce method
+Driver -> main method 
+compile the java -> package them into Jar file
+Execute this jar file -> submit the job to RM.

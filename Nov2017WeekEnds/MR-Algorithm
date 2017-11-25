@@ -1,0 +1,6 @@
+we receive byteoffset and line
+divide line into words -> split(" ")-> array -> take one word -> context.write(word,1)
+
+s/s/g -> word,<1,1,1,1> -> Reducer -> take each value from the list and add it to sum -> send (word,sum)
+
+
