@@ -1,0 +1,28 @@
+1) put 5 files into a folder and place the folder in hdfs
+give the folder as input location to wordcount program::
+note down how many paths/splits
+
+2)run your wordcount on wiki file and see the output.
+--------------------------------------------------------
+
+3) solve Electrical Q1 
+
+4) Write wordcount using java. donot use MR framework.
+file reading
+file writing
+HashMap
+----------------------------------------------------------
+
+JavaTpoint -> java
+W3schools/ http://sqlzoo.net/   -> for SQL
+
+------------------------------------------------------
+
+
+
+
+
+
+
+
+
