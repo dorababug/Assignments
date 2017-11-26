@@ -1,0 +1,25 @@
+1)while copying from one cluster to other DISTCP, what precautions you take
+(if any of cluster is down?)
+2)how to check on which all are the nodes data is saved?  
+Ans:	-- hadoop fsck /user/tom/part-00007 -files -blocks -racks
+3)hive script contains 100 queries,how to run parallelly.hive -f. script is txt also or only .hql?
+4)out of 100 queries 5 are failed where to check the details?
+5)my data contains whitespaces how to load by removing them into table in hive?
+CREATE TABLE myTable(
+    string1 STRING, alpha STRING, string2 STRING, beta STRING, string3 STRING
+) ROW FORMAT DELIMITED FIELDS TERMINATED BY ',' LOCATION '\\server\path\file.csv'
+
+INSERT INTO myOtherTable
+SELECT string1,
+       CAST(TRIM(alpha) AS INT),
+       string2,
+       CAST(TRIM(beta) AS INT),
+       string3
+FROM myTable;
+6)which compression format you are using? and compression technique ?
+7)how long it will take to select 5 GB file? hardly 1 min i told.
+8)how do you schedule a script in cron tab? script is shell script or direct HQL file you give?
+9)ur cluster is in single location or multiple locations?
+10)cluster configuration?
+11)external table is dropped.how to get it back the schema?
+12)table is not showing after sqoop import to hive

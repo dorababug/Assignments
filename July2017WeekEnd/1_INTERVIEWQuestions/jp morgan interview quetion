@@ -1,0 +1,19 @@
+What is meant by Splittable compression? Why we call that it is Splittable?
+how to perform UNION operation in Hive?while in duplication
+explain about UDFS and UDAFs in Hive?--- user defined functions and user defined aggregative functions
+what is nohup ?--- runs query in background after exit from terminal
+explain about your previous project?
+explain about meta store and its types?--- embedded metastore,local and remote metastore
+which version are used in your in project?--- hadoop 2.x, spark 2.x
+difference between hive and hbase?
+storage types in hive?--- parque,orc,rc and avero
+What are the stages present in a hdfs?
+can u able check hive table in hdfs ? and how?
+what is block scanner in hdfs?--- 
+why hdfs is not used by the hive metastore for storage?
+when serialization is required?
+comparision between mapreduce and yarn?
+
+
+hive--- batch processing, analytical queries
+hbase--- transactional processing,real time querying

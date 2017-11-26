@@ -1,0 +1,15 @@
+AffineAnalytics:
+1.Write a Scala program to sum of n natural no?
+2.write a scala program to create Fibonacci series?
+3.Find the last but one element of a list (1,1,2,3,5,8)?
+4.we support that a list contains elements that are list themselves. The objective is to sort the elements  of the  list according to their length Eg: short list first, longer list later, or vice versa.?
+
+5.give a range of integres by its lower and upper limit, construct a list of all prime numbers in that range?
+range(7 to 31)?
+
+6.we support that a list contains elements that are lists themselves. but this time the objective is to sort the elements according to their length frequency; i.e in the default, sorting is done ascendingly, list with rare lengths are placed, other with a more frequency length come later?
+
+Example:
+ scala> Isortfreq(List(List('a,'b,'c), List('d,'e),List('f,'g,'h), List('d,'e), List('i,'j,'k,'I),List('m,'n), List('o)))
+
+res1: List[List[Symbol]] = List(List('i,'j,'k,'l), List('o), List('a,'b,'c), List('f,'g,'h), List('d,'e), List('d,'e), List('m,'n))

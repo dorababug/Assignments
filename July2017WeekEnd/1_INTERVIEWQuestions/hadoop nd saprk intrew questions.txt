@@ -1,0 +1,162 @@
+Konzentix:
+
+
+1) what are different executive modes in spark?
+2) hive client and hive server
+3) write a simple UDF in hive
+4) what are different ways to create a tables in hive ?
+5) spark -Submit Command
+6) What is Maven
+7) group and Co-group
+8) difference between yarn cluster and  
+9) Differences between UDF and UDAF
+
+			DELOITE QUESTIONS
+
+
+1) How can we use join in cassandra?
+2) What is the difference between spark 1 and spark 2?
+3) What is the difference between dataframe and dataset?
+4) What is the major and minor compaction in HBase?
+5) What is partition is Map Reduce?
+6) What is the difference between Yarn and Map Reduce?
+7) What is the difference between partitioning and bucketing in hive?
+8) Which scala version u r using?
+9) Which spark version u r using?
+8) What is window and sliding interval in spark streaming?
+9) How to convert Dataframe to RDD?
+10)What are performance tuning u did in ur project?
+11)Size of cluster u r using?
+12)How much data daily u r getting?
+
+                 	 Kogentix Hyderabad 
+
+1) They started with tell me about ur profile. 					                                                                                      2) Draw the latest project outline and explain. 										
+3) From our explanation, they start with questioning. 				
+4) He asked me about which data ingestion tools u used. I said SQOOP. 		
+5) Then he asked how u using incremental load in importing data in SQOOP. 	
+6) From which database u are importing data. 
+7) How many data daily u are getting. 						
+8) How many node clusters u have.						 
+9) From how many years previous data is there. 				
+10) What is the per node configuration in ur cluster? 				
+
+11) Which Spark version u are using. 						
+12) Which distribustion u are using with version. 				
+13) What is the difference between RDD and Dataframe? 				
+14) RDD operations. 								
+15) Write some preprocessing steps in Spark. 					
+16) How to convert RDD into Dataframe. 						
+17) Write some Dataframe operations. 						
+18) Write some complex Dataframe operations. 					
+19) After writing those operations he is asking who told u to implement these in ur team. 									
+20) How many members in ur team. 						
+21) Is there Devop engineer in ur team. 					
+22) He asked how we apply Hive UDF in Spark. 					
+23) Dataframe is very Hot topic in my interview.(I think he worked more on SparkSQL).									 
+24) Which Flume Source type you used in ur project. 				
+25) Explain Flume flow.(Actually he has very great knowledge on Flume). 	
+26) How to create partition table. 						
+27) How to load data in Hive Dynamically. 					
+28) Then its time of Performance Tuning, He asked me how u did performance tuning in ur project. (In Spark project, i.e  how to set executor-memory options in spark-submit) 							
+29) Difference between Parquate and Avro file format. 				
+30) How we will use in Hive.							 
+31) Write any scala code u written in ur project. 				
+32) Finally question why u wants to switch the job.  
+
+			IBM
+Hive varaible 
+Object inspector
+Cosildation in hive
+Mapreduce n YARN difference
+Spark n mapreduce difference
+RDD n data frames in spark
+Sqoop import 
+Hive views
+Hive external n managed
+HBase n Hive differences
+Orderby,sortby n clustered by
+Speculative execution
+Alter column command in hive
+
+IBM interview questions on 01-03-2017
+
+What is lazy evaluation in pig?
+What is dynamic partition and static partition in hive?
+What is the use of partitions and bucketing in hive?
+Explain the flow of mapreduce program?
+What is default partition in mapreduce and how can we override it?
+What is difference between key class and value class in mapreduce?
+What is the level of sub queries in hive?
+What is transformation and action in spark?
+
+			INFOSYS
+
+1)what is fair schedular
+
+ Fair scheduling is a method of assigning resources to jobs such that all jobs get, on average, an equal share of resources over time. When there is a single job running, that job uses the entire cluster. ... The fair scheduler organizes jobs into pools, and divides resources fairly between these pools.
+
+2)what is serde
+
+SerDe is short for Serializer/Deserializer. Hive uses the SerDe interface for IO. ... A SerDe allows Hive to read in data from a table, and write it back out to HDFS in any custom format. Anyone can write their own SerDe for their own data formats.
+
+3)about parquet
+
+Apache Parquet is a columnar storage format available to any project in the Hadoop ecosystem, regardless of the choice of data processing framework, data model or programming language.
+
+4)how to find out the third highest salary
+
+1 ;select name , salary From (
+    select name, salary from 
+    employee sort by salary desc limit 3)
+    result sort by salary limit 1;
+
+2:select name, salary
+from (
+  select name
+    , salary
+    , row_number() over (partition by country order by salary desc) idx
+  from employee ) x
+where idx = 3
+
+
+5)about sqoop incremental imports
+6) what is sparkinmemory technique
+7)types of inmemory computing 
+8)Project flow
+ 9)what is the role of your project
+10)how to load the data from rdbms to nosql databases
+
+				SRIKANTH
+what is context object
+custom partitioner in map reduce
+which case you can use HBase
+What are the components in HBase
+what is increment in HBase
+Difference b/w Hive and HBase
+What is Standard location path 
+How to handle log objects in sqoop
+
+			MANGESH QUESTIONS
+what is companion object in scala
+what is auxillary constructor in scala
+what is traits in scala
+reduceByKey and GroupByKey difference and which is better
+spark streaming ------countByValue and window in scala 
+what is difference between concurrency and parallelism
+What is options in scala
+What is Nino in scala
+What is Some in scala
+And other question are same as previous.
+
+				ORACLE HADOOP
+1 what is the RSA key in mapreduce
+2 partitioner in mapreduce
+3 ls which side map side or reduce side
+4 any transaction in hive
+5 big data follow etl or elt
+6 rowid in hbase
+7 map reduce on hbase
+8 how to write singleton class in java,singletonscala,relared singleton questions in scala
+9 imprerative vs functional programing importance of functional
+10 spark to cassandra and cassandra to spark

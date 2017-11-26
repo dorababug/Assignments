@@ -1,0 +1,38 @@
+Write Kafka Producer?
+monad class?
+How much flume-ng data is reliable?
+what is Interceptor?
+flume-ng Channel types?
+Base class in java?
+Base class in scala?
+what is RDD?
+what is Fault tolarence?
+Immutable data?
+dataframes vs datasets?
+Types of faults in RDD?
+No of executors in your project?
+what trade in scala?
+map vs flatemap?
+pyspark?
+Dstream?
+Zero vs Null vs None in scala?
+Transformations?--- 
+Actions?---
+Yarn mode?
+execute Momery?
+Driver memory?
+what type of data losses in RDD?
+Flume-ng ?
+Apache Kafka?
+Concurrency and Parallelism?
+How does HashPartitioner work?
+
+RDD(string,value).leftOuterJoint(RDD(string, boolean)?
+
+i want unique values from two array list of RDD?
+
+create new column with function in spark dataframe?
+
+how to read multiple text files into a single RDD?
+
+Repartition vs Coalesce?

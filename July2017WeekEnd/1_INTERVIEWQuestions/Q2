@@ -1,0 +1,23 @@
+7node  16core 128gb cluster (total 50tb Ram---3PB Harddisk ---6000vcors , ---160nods, container 16gb)
+log files from a bunch of servers then Flume will be better choise
+storage by org.apache.hadoop.hbasestoragehandler.
+BlinkDB --- balanced query accuracy with quick responce time
+uber,pinterest
+catalyst framework --- sparksql-- optimization to bulid faster processing system
+Dstream--Discretized Stream is a sequence of RDD
+Sliding Window controls transmission of data packets between various computer networks
+Apache mesos---dynamic partitioning between Spark and other big data frameworks.
+spark mlib,spark streaming,sparkGraphx,sparksql
+spark.cleaner.ttl--- setting perameter
+avoid suffling --- minimizes datatransfer in spark
+Apache Mesos -it has rich resource scheduling capabilities &  reducses cpu allocation
+A sparse vector has two parallel arrays –one for indices and the other for values. 
+
+var data = partitionedFile.partitionBy(new RangePartitioner(2, partitionedFile))
+
+Kafks-0.10.2 Flume-1.6 Hive-2.0 Pig- 0.15 Hadoop-2.7  HBase-1.1  Spark-2.0  sqoop-1.4 scala-2.12
+Cassandra 2.1 Mysql-5.5
+
+orc -- optimized record columnar file
+rc -- record columar file
+parque -- stores nested data in flat columar formate

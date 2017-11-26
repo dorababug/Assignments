@@ -1,0 +1,26 @@
+Wipro:
+Difference between clustermode and client mode in Spark?
+how to delete rows in a table created from a spark dataframe?
+scala IDE, Maven-- pull Spark and dependencies
+tool used for code deployment?---  git or svn
+how to delete and update a record in hive table?
+unique values in hive table?
+duplicate values in hive table?
+which cases manage tables and external tables where used?
+how to get sequence numbers in spark ? --- range dat type
+In dynamic partition NULL values goes in which partition?--- null partition
+difference between dataframes and datasets? 
+Catalyst optimizer?-- internally it will creates RDD for easy processing data
+table contains 10records , i want to get 9 records in spark? row no function
+(or ) table contains 10columns , i want to get 9 columns in spark?
+resource managers used in your project?--- Yarn, Spark on Cloud
+MR1 vs MR2?
+how to set the memory in Spark ? --- execute memory       executor?    where we use Hbase in your project?
+which formate of files your transfering to HDFS using Sqoop?
+Types of reducers?--- identity reducer, custom reducer,chain reducer
+NAS vs HDFS?
+MR vs HDFS?
+Incremental data ?--- append, last modified
+where do you used Cassendra in your project?
+How to split single HDFS block into partitions RDD ?--repartation
+how to handle case sensitives in spark?--- sql functions
