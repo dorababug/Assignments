@@ -1,0 +1,98 @@
+1) pick the delimiters::
+field delim @, collection |
+
+2) Clean the dataset
+:: -> @ , create a table with one single col.
+
+3) read and clean data and load into another table.
+and for this location, create external table with the delimiters.
+
+4) every year how many movies released?
+--------------------------------------------
+set dbname=hivepractice;
+
+create table ${hiveconf:dbname}.movies_raw(line string) 
+stored as TEXTFILE
+location '/movies_raw';
+
+load data local inpath '/home/hadoop/Music/Classes/MovieLens-Work/ml-1m/movies.dat' into table moives_raw;
+
+select fn(line)
+from movies_raw limit 10;
+--------------------------------------
+
+locate(string substr, string str[, int pos])
+
+instr(string str, string substr)
+regexp_extract(string subject, string pattern, int index)
+ 	
+regexp_replace(string INITIAL_STRING, string PATTERN, string REPLACEMENT)
+
+select regexp_replace(line,"::","@") from movies_raw limit 10;
+
+select regexp_extract(line,"\((\d{4})\)$",1) from movies_raw limit 10;
+
+
+select instr(line,"("),line from movies_raw limit 10;
+
+select instr(line,"("),line from movies_raw limit 10;
+
+
+select regexp_extract(line,"(\\d){4}",0), line from movies_raw limit 1000;
+
+select regexp_extract(line,"\\((\\d){4}\\)",0) from movies_raw ;
+
+
+select substr(line,instr(line,"(")+1,4),line from movies_raw limit 1000;
+
+select  substring_index(line, ")",4),line from movies_raw limit 1000;
+
+
+
+select  substring_index(line, ")",1),line from movies_raw limit 1000;
+
+
+
+select  reverse(substr(reverse(substring_index(line, ")",1)),0,4)),line from movies_raw limit 1000;
+
+
+select  cast(reverse(substr(reverse(substring_index(line, ")",1)),0,4)) as int) year from movies_raw  ;
+
+
+select  substring_index(substring_index(line, ")",1), "(",-1),line from movies_raw limit 1000;
+--------------------------------------
+
+
+
+create external table 
+${hiveconf:dbname}.movies(id int,name string,gener array<string>,year int) 
+row format delimited 
+fields terminated by '@'
+collection items terminated by '|'
+stored as TEXTFILE
+location '/movies';
+
+
+select count(id), year from movies
+group  by year;
+
+
+
+
+insert overwrite DIRECTORY '/movies_cleansed'
+
+select
+
+concat_ws("@",   regexp_replace(line,"::","@"),
+regexp_replace(
+regexp_replace(
+regexp_extract(line,"\\((\\d){4}\\)",0) 
+ ,"\\(","")
+ ,"\\)",""
+ )
+
+)
+
+from movies_raw limit 10;
+
+
