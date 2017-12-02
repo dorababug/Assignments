@@ -2,13 +2,16 @@
 <qualifiedTypeNameHistroy>
 <fullyQualifiedTypeName name="org.apache.hadoop.mapreduce.Mapper"/>
 <fullyQualifiedTypeName name="org.apache.hadoop.io.LongWritable"/>
+<fullyQualifiedTypeName name="org.apache.hadoop.hdfs.server.namenode.FsImageProto.StringTableSection"/>
 <fullyQualifiedTypeName name="java.util.StringTokenizer"/>
 <fullyQualifiedTypeName name="org.apache.hadoop.mapreduce.Reducer"/>
+<fullyQualifiedTypeName name="org.apache.hadoop.hdfs.server.namenode.INodeWithAdditionalFields"/>
+<fullyQualifiedTypeName name="org.apache.hadoop.conf.Configurable"/>
 <fullyQualifiedTypeName name="org.apache.hadoop.conf.Configuration"/>
 <fullyQualifiedTypeName name="org.apache.hadoop.mapreduce.Job"/>
-<fullyQualifiedTypeName name="com.inv.WordCountDriver"/>
 <fullyQualifiedTypeName name="com.inv.WordCountMapper"/>
 <fullyQualifiedTypeName name="com.inv.WordCountReducer"/>
+<fullyQualifiedTypeName name="com.inv.WordCountDriver"/>
 <fullyQualifiedTypeName name="org.apache.hadoop.io.Text"/>
 <fullyQualifiedTypeName name="org.apache.hadoop.io.IntWritable"/>
 <fullyQualifiedTypeName name="org.apache.hadoop.mapreduce.lib.input.FileInputFormat"/>
