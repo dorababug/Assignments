@@ -1,0 +1,42 @@
+package com.inv;
+
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.StringTokenizer;
+
+import org.apache.hadoop.conf.Configuration;
+import org.apache.hadoop.io.IntWritable;
+import org.apache.hadoop.io.LongWritable;
+import org.apache.hadoop.io.NullWritable;
+import org.apache.hadoop.io.Text;
+import org.apache.hadoop.mapreduce.Mapper;
+
+public class WordCountMapper extends 
+	Mapper<LongWritable, Text, Text	, NullWritable>{
+	
+	
+	@Override
+	protected void setup(Context context)
+			throws IOException, InterruptedException {
+		Configuration conf=context.getConfiguration();
+		String searchword=conf.get("sword");
+		
+	
+	}
+	@Override
+	protected void map(LongWritable key, Text value, 
+				Mapper<LongWritable, Text, Text, NullWritable>.Context context)
+			throws IOException, InterruptedException {
+			
+			
+			
+			
+		if(value.toString().toLowerCase().contains(searchword.toLowerCase())){
+			context.write(value, NullWritable.get());
+		}
+		
+		
+	}
+	
+
+}

@@ -7,14 +7,18 @@
 <fullyQualifiedTypeName name="org.apache.hadoop.mapreduce.Reducer"/>
 <fullyQualifiedTypeName name="org.apache.hadoop.hdfs.server.namenode.INodeWithAdditionalFields"/>
 <fullyQualifiedTypeName name="org.apache.hadoop.conf.Configurable"/>
+<fullyQualifiedTypeName name="com.inv.WordCountDriver"/>
 <fullyQualifiedTypeName name="org.apache.hadoop.conf.Configuration"/>
 <fullyQualifiedTypeName name="org.apache.hadoop.mapreduce.Job"/>
-<fullyQualifiedTypeName name="com.inv.WordCountMapper"/>
-<fullyQualifiedTypeName name="com.inv.WordCountReducer"/>
-<fullyQualifiedTypeName name="com.inv.WordCountDriver"/>
-<fullyQualifiedTypeName name="org.apache.hadoop.io.Text"/>
-<fullyQualifiedTypeName name="org.apache.hadoop.io.IntWritable"/>
 <fullyQualifiedTypeName name="org.apache.hadoop.mapreduce.lib.input.FileInputFormat"/>
 <fullyQualifiedTypeName name="org.apache.hadoop.fs.Path"/>
 <fullyQualifiedTypeName name="org.apache.hadoop.mapreduce.lib.output.FileOutputFormat"/>
+<fullyQualifiedTypeName name="org.omg.PortableInterceptor.SYSTEM_EXCEPTION"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="com.inv.WordCountMapper"/>
+<fullyQualifiedTypeName name="com.sun.jersey.core.impl.provider.entity.XMLJAXBElementProvider.Text"/>
+<fullyQualifiedTypeName name="org.apache.hadoop.io.Text"/>
+<fullyQualifiedTypeName name="java.lang.Integer"/>
+<fullyQualifiedTypeName name="org.apache.hadoop.io.IntWritable"/>
+<fullyQualifiedTypeName name="com.inv.WordCountReducer"/>
 </qualifiedTypeNameHistroy>
