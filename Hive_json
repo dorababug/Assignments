@@ -1,0 +1,2 @@
+SELECT get_json_object(src_json.json, 
+'$.menu.popup.menuitem\[2]') FROM src_json;

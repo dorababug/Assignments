@@ -1,0 +1,60 @@
+create table abc as select * from employee_partitioned;
+
+
+create table employee_bkp like employee_partitioned;
+
+insert into employee_bkp partition(year,month)
+select * from employee_partitioned;
+
+create table employee_bkp like employee_partitioned;
+dfs -cp /hive/practice/employee_partitioned /hive/practice/employee_bkp/
+msck repair table employee_bkp;
+
+truncate table employee_bkp;
+alter table employee_bkp drop partition(year=1000,month=100);
+
+
+
+create table movies_partitioned(id int,name string,gener array<string>) partitioned by (year int);
+
+
+insert into movies_partitioned partition(year) select * from movies;
+-------------------------------------------------
+
+
+ [CLUSTERED BY (col_name, col_name, ...) [SORTED BY (col_name [ASC|DESC], ...)] INTO num_buckets BUCKETS]
+
+
+
+
+CREATE TABLE IF NOT EXISTS employee_hr_bucketed
+(
+  name string,
+  employee_id int,
+  sin_number string,
+  start_date date
+)
+clustered by (employee_id) into 3 buckets
+ROW FORMAT DELIMITED
+FIELDS TERMINATED BY '|'
+STORED AS TEXTFILE;
+
+CREATE TABLE IF NOT EXISTS employee_hr_bucketed_sorted
+(
+  name string,
+  employee_id int,
+  sin_number string,
+  start_date date
+)
+clustered by (employee_id) sorted by (employee_id) into 3 buckets
+ROW FORMAT DELIMITED
+FIELDS TERMINATED BY '|'
+STORED AS TEXTFILE;
+
+
+
+
+
+
+
+

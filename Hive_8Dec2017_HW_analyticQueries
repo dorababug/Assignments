@@ -1,0 +1,41 @@
+stu1,1000,2017-01-01
+stu1,2000,2017-01-02
+stu1,3000,2017-01-03
+stu2,1000,2017-01-01
+stu2,2000,2017-01-02
+stu3,3000,2017-01-09
+stu3,1000,2017-01-01
+stu3,2000,2017-01-02
+stu3,6000,2017-01-06
+stu4,1000,2017-01-01
+stu4,2000,2017-01-02
+stu4,3000,2017-01-03
+stu5,1000,2017-01-01
+stu5,2000,2017-01-02
+stu5,3000,2017-01-05
+---------------------------------------------
+final fee paid:::::
+stu1,3000,2017-01-03
+stu2,2000,2017-01-02
+stu3,3000,2017-01-09
+stu4,3000,2017-01-03
+stu5,3000,2017-01-05
+
+
+second last fee paid::
+stu1,2000,2017-01-02
+stu2,2000,2017-01-02
+
+
+
+select name,marks,dept, 
+rank() over (order by marks desc ) as  rnk,
+dense_rank() over(order by marks desc) as dnsrnk,
+row_number() over(order by marks desc) as rno,
+
+rank() over (partition by dept order by marks desc ) as  dept_rnk,
+dense_rank() over (partition by dept order by marks desc) as dept_dnsrnk,
+row_number() over  (partition by dept order by marks desc) as dept_rno
+
+
+from student;
