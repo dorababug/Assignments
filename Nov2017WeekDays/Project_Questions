@@ -1,0 +1,33 @@
+Project Related Question:
+11 Dec 2017::
+-----------------------------------------
+Project Architecture -> EDW implemetation Hadoop/Bigdata
+
+When to go for RDBMS vs BigData vs NoSQL
+
+What is :::
+	Data size -> incremental vs Full data
+	Team Size
+	How many nodes? 
+	For your project How much resources (RAM/cores)
+	How much time the queries will run
+
+Data flow architecture
+Tools used in your project 
+Streaming used in your project?
+
+What RDBMS are used in your project?
+
+How are you conneting hive with your database in ur project?
+
+Versions of each software.
+
+Cluster configuration? How many nodes/RAM/Vcores
+	config of each node
+	config NN/RM -> NN HA?
+	Are you using SNN? 
+	what is checkpoint node?
+
+
+	
+	
