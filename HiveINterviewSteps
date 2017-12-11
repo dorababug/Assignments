@@ -1,0 +1,17 @@
+8Dec2017
+
+1)UDF , have u written any, write the code
+2) what file formats u use in your cluster
+3) how many tables in your project, explian some
+4) have developed any custom serde?
+5) what is a serde, diff serde's u have used in ur project.
+6) what is row oriented vs column oriented -> file foramt
+7) what is partitioning and bucketing?
+8) static vs dynamic, give partitiin and bucket DDL, DML::
+
+9) wc using hive.
+10) windowing functions rank,dense,row number..
+11) 
+
+
+

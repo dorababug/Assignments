@@ -1,0 +1,40 @@
+11 Dec 2017
+----------------
+Project Stages:
+1)Data acq    -> hdfs cli,HQL for files, RDBMS -> sqoop, Streams-> Flume, Kafka 
+	[ real time replication??  of RDBMS into NoSql DB]
+	
+	Full refresh / Incremental Refresh	
+
+2)Data Pre-processing -> make data ready for processing
+	clean the bad records
+	Bring semi, unstructured data into Structured form
+	Convert NULLs
+
+	MR,HQL,PigLatin/Spark Core/Streaming(kafka/spark)
+	Data remediation -> Master Data Stewardship
+	Data wrangling
+	https://www.sap.com/documents/2017/04/5e2249b3-b57c-0010-82c7-eda71af511fa.html
+3) Data Processing -> Development
+
+	HQL/SparkSQL for batch processing
+	MR/PigLatin/Spark Core
+	E&L-> Transform -> Business logic 
+	join data sets -> Fact table.
+	AAA -> 
+4) Data Query -> Business Analyst -> Adhoc queries
+		Testing -> Functional,Performance
+		Tester methodological
+	Hive -> Informatica/Terada 
+
+5) Analytics/Reports/Dashboards:
+	Reporting tools: Tableau/Qlikview/Tibco Spotfire/
+	(Storytelling) PowerBI/
+	ETL tools: ABnitio/Talend/Data Stage/Informatica BD/
+
+  Processed data -> Reporting tools
+Data -> ETL/SQOOP -> RDBMS -> Reporting tools
+---------------------------------------------------------
+
+
+
