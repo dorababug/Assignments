@@ -1,0 +1,39 @@
+1) query to get data types to create MR job
+2) query to get the min PK and max of PK.-> boundary value query 
+BoundingValsQuery: SELECT MIN(`id`), MAX(`id`) FROM `usstates`
+
+3) number of mappers -> 4 number
+select * from usstates where id between 1 and 16
+select * from usstates where id between 17 and 32
+
+4) MR job is submited to cluster
+sqoop 1 it is map only job, sqoop 2 we can have map and reduce stages.
+
+5) once job completed, prints how many records imported.
+--------------------------------------------------
+1) full refresh, all the columns 
+2) where the data will be saved? Home directory of hdfs, the filder name is same as table name.( change the target directory)
+3) what is the default delimiter?
+(HW - read this table by hive, using CSV serde, and row format lazy simple serde)
+4) if a field have demiter in it, we can enclosed by
+5) How the Blobs and Clobs are imported?
+
+----------------------------
+if i dont have PK -> use composite key by using split-by
+if no column is qualified to take as range, specify boundary value query.
+
+num of mappers? each mapper i want 4gb container
+
+-------------------------------
+any custom SERDEs u have developed?
+what is  SERDE?
+
+what UDFs u have written? in what language?
+write a UDF to extract gmail id.
+
+please contact me on abc@tcs.com and my alternate email id is def@gmail.com
+
+select extract_mail(col1) from tble -> def@gmail.com
+
+select extract_mail("please contact me on abc@tcs.com and my alternate email id is def@gmail.com") ;
+
