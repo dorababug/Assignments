@@ -1,0 +1,126 @@
+[hdp@hdprd-c01-edge-01 sqoop]$ cat BD_call_etl_for_full_load.ksh
+#################################################################################
+#! /usr/bin/ksh
+# mb_call_etl_for_full_load.ksh
+# Purpose  : ETL script for full load sqoop process
+# History  :
+# --------------------------------------------------------
+# Date           Updated By                    Comments
+# ------------   ------------                  ---------------------
+# 12/20/2013                        Initial Creation
+#################################################################################
+
+#BASELINE  DIRECTORY
+#BIGDATA_BASEDIR=/users/hdpproj1/development/mbd_pilots/pilot1_altrep/etl
+#LOG_DIR=$BIGDATA_BASEDIR/logs
+
+if [[ $# -ne 2 ]]
+then
+echo "Incorrect number of parameters."
+echo "Usage: $0 [job_name]"
+exit 1
+fi
+
+job_name="$2"
+
+. ./BD_standard_settings.ini
+. ./BD_table_info_for_import.ini "$job_name"
+#SCRIPTS_LOC_APPS=`dirname $0`
+
+db_nm="$1"
+db_user=$1_USR
+#db_pwd=$1_PWD
+db_pwd=/app/MKT/dbobjects/sqoop/$1.txt
+
+ETLLogFile=$LOG_DIR/$job_name.log.`date +%Y%m%d%H%M%S`
+ETLLogFile2=$LOG_DIR/$job_name.hive.log.`date +%Y%m%d%H%M%S`
+ETLTrigger=$LOG_DIR/$job_name.trig
+#user_name=arcverma@cisco.com
+user_name="mktg_hadoop_prod_support@cisco.com"
+
+################################################################################
+echo "-----------Start: ETL process for " $job_name "`date`-------------" >> $ETLLogFile
+
+########## STEP :1 CHECK WHETHER TRIGGER FILE EXISTS ##########
+echo "====================================================">>$ETLLogFile
+
+if [ -f $ETLTrigger ]
+then
+       echo "Trigger file - $ETLTrigger exists, STOP processing" >> $ETLLogFile
+       echo "$job_name Errored Out" | mailx -s "$job_name Instance Already Running `date`"  $user_name < $ETLLogFile
+
+
+       exit 1
+else
+       echo "No duplicate instance running, proceed with processing" >> $ETLLogFile
+       touch $ETLTrigger
+fi
+######### STEP :2 REMOVE THE TMP FILES ##########
+        echo "====================================================">>$ETLLogFile
+        echo "Removing .java Tmp Files at - `date`" >>$ETLLogFile
+        rm -f $BIGDATA_BASEDIR/QueryResult.java
+        rm -f $BIGDATA_BASEDIR/*.java
+
+######### STEP :3 CALLING THE STEP 1 for $job_name PROCESS ##########
+
+echo "====================================================">>$ETLLogFile
+      echo "Starting - SQOOP IMPORT at - `date`" >>$ETLLogFile
+
+echo "---------Log file" $LOG_DIR
+
+
+sqoop import -Dmapreduce.mapr.memory.mb=4096 --connect "${!db_nm}" --username "${!db_user}" --password-file "$db_pwd"  --query "$query  \$CONDITIONS" --hive-table "$hive_tab_nm" --hive-overwrite --hive-import --fields-terminated-by "$hive_delimiter" --hive-drop-import-delims --split-by "$split_by" --target-dir "$target_dir" --null-string '' --null-non-string '' &>> $ETLLogFile2
+
+ lvStatus=$?
+      if [ $lvStatus -ne 0 ]
+      then
+      echo "====================================================">>$ETLLogFile
+      echo "ERROR: SQOOP executing $job_name - " >> $ETLLogFile
+      echo "$job_name Errored Out" | mailx -s "$job_name `date`"  $user_name < $ETLLogFile2
+        hadoop fs -rmr "$target_dir" >>$ETLLogFile
+        rm -f $ETLTrigger
+      exit 1
+      else
+      echo "====================================================">>$ETLLogFile
+      echo "SQOOP executing $job_name completed successfully - `date`"  >> $ETLLogFile
+      rm -f $ETLTrigger
+
+      echo "$job_name Completed Successfully" | mailx -s "$job_name Success `date`"  $user_name < $ETLLogFile
+
+     # exit
+      fi
+
+echo "-----------END: ETL COMPLETED process for " $job_name `date` "-------------" >> $ETLLogFile
+exit 0
+
+
+
+=================================================================================================================
+
+.ini
+
+[hdpd@hdprd-c01-edge-01 sqoop]$ cat BD_standard_settings.ini
+############################################################################
+# File Name: BD_standard_settings.ini
+# Purpose  : This is a standard connection file
+# Created By : 
+# Modifications :
+# --------------
+# Date        Updated By   Comments
+# ----------  ----------   ------------------------------------------------
+# 03-Jan-2014          Added connections
+# 18-Mar-2014          Added connections
+############################################################################
+
+##Baseline Directories##
+export BIGDATA_BASEDIR=/apps/mapr/prod/app/MarketingIT/dbobjects/sqoop
+export LOG_DIR=/apps/mapr/prod/app/MarketingIT/dbobjects/logs
+
+##mailing file
+export MAIL_DIR_PATH=$BIGDATA_BASEDIR/maillist.txt
+
+#User, Passwords for MODS_RO@MODSPRD schema ##
+export MODSPRD_USR=
+export MODSPRD_PWD=
+export MODSPRD=jdbc:oracle:thin:@//173.37.112.253:1536/MODSPRD
+
