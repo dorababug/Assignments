@@ -1,0 +1,28 @@
+20 Dec 2017
+-----------------
+How to change dirver/executor cores/ram
+How to change no of executors
+How partitions are decided? and how to change?
+spark application flow? 
+Responsibilities of Driver and exector??
+
+How rdds are fault torelent? resilient
+
+Lineage graph?
+
+Spark Context?
+
+what is an RDD ?
+
+what is a spark JOb -> stage -> task ?
+
+what is the flow when a spark job is submitted?
+-------------------------------
+WHat is spark? 
+diff data sources supported? 
+-----------------------------
+
+When to go for Spark vs Hadoop ecosystem?
+-----------------------------------
+
+
