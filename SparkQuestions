@@ -25,4 +25,5 @@ diff data sources supported?
 When to go for Spark vs Hadoop ecosystem?
 -----------------------------------
 
-
+21Dec2017::
+list vs Vector :: difference and performance for each operations
