@@ -1,0 +1,185 @@
+Date 22Dec2017
+
+val 
+var
+lazy val 
+----------------
+functional programming:
+1) functions are first class members::
+they can exist anywhere.
+{
+  val x=10;
+  val y=20;
+  val z=x+y;
+  z
+}
+
+val result={
+  val x=10;
+  val y=20;
+  val z=x+y;
+  z
+}
+
+
+
+val fn1={
+val x:Int=10;
+val y:Int=10;
+
+println(x)
+println(y)
+println("printing sum of x,y")
+x+y
+}
+
+val fn1=()=>{
+val x:Int=10;
+val y:Int=10;
+
+println(x)
+println(y)
+println("printing sum of x,y")
+x+y
+}
+
+transformation operator or rocket
+val fn=(x:Int,y:Int) => {
+println(x)
+println(y)
+println("printing sum of x,y")
+x+y
+}
+
+
+val fn=(x:Int,y:Int) => {
+println(x)
+println(y)
+println("printing sum of x,y")
+x+y
+}
+------------------------------------------
+method:::
+
+def fn2(x:Int,y:Int)= {
+println(x)
+println(y)
+println("printing sum of x,y")
+x+y
+}
+
+
+Method with default values as arguments::::
+def fn2(x:Int,y:Int=1000)= {
+println(x);println(y)
+println("printing sum of x,y");x+y
+}
+fn2(10,20) => 30
+fn2(10) => 10+1000
+fn2(y=100,x=200) => 200 +100
+
+Functions -> partially applied functions::
+val fn=(x:Int,y:Int) => {
+println(x)
+println(y)
+println("printing sum of x,y")
+x+y
+}
+
+val fn_p=fn(_:Int,1000)
+fn_p: Int => Int = <function1>
+fn_p(10)
+
+
+
+
+----------------------------
+Higer order functions:
+a function that accepts another function as arguement or returns a function.
+
+val sum=(x:Int,y:Int) => {
+ println("+++++Inside SUM")
+ println("value of x="+x+" and Value of y"+y)
+
+ x+y
+}
+
+
+val sub=(x:Int,y:Int)=> {
+ println("-----Inside SUB")
+ println("value of x="+x+" and Value of y"+y)
+
+ x-y
+}
+
+-- Method :
+def sub(x:Int,y:Int)={
+println("-----Inside SUB Method")
+ println("value of x="+x+" and Value of y"+y)
+
+ x+y
+}
+
+
+
+def operation(A:Int,B:Int,fn:(Int, Int) => Int)={
+ println("-----Inside Operation Method")
+ println("Inside Operation Method \n value of A="+A+" and Value of B"+B)
+
+ fn(A,B)
+}
+
+operation: (A: Int, B: Int, fn: (Int, Int) => Int)Int
+
+operation(1,2,sum)
+operation(1,2,sub)
+
+val operation=(A:Int,B:Int,fn:(Int, Int) => Int)=>{
+ println("-----Inside Operation Method")
+ println("Inside Operation Method \n value of A="+A+" and Value of B"+B)
+
+ fn(A,B)
+}
+----------------------------
+
+
+Collections::: Mutable vs Immutable 
+Array
+Map
+List
+Range
+-----
+Tuple
+--------------------------
+
+Array::
+val vals=Array(1,2,3)
+vals(0)
+
+for( a <- vals) println(a)
+
+<- generator 
+
+vals.foreach(println)
+Annonymous functions
+scala> vals.foreach(x=>{
+println(x)
+println(x+10000)
+})
+
+
+val print_fn=(x:Int)=> { 
+println(x)
+println(x+10000)
+}
+vals.foreach(print_fn)
+
+scala> vals.map(x=>x+100)
+
+
+
+------------------------------------------
+
+
+
+
