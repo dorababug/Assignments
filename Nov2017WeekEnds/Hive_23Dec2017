@@ -1,0 +1,40 @@
+Extract tar balls
+place in standard location -> YARN
+PATH ->
+
+sudo gedit .bashrc 
+go to end copy the entries
+
+change configuration in -> hive-env.sh 
+
+hive/conf
+-------------------------------------
+which hive
+Home work 23Dec2017
+hive --help
+hive -H
+
+understand options for each command.
+
+What is beeline client?
+hive thrift client?
+
+What is hive service? and what is hiveserver?
+
+How will you executre one sql query in hive?
+How to execute a hql script in hive?
+
+what is metastore? what is embedded meta store?
+
+Go through below resources: google..
+hive DDL manual
+hive DML manual
+Hive Select query
+Hive UDFs
+Hive analytic windowing functions
+Hive Configuration
+Hive Optimization
+
+Apache Hive essentials -> packt pub
+
+
