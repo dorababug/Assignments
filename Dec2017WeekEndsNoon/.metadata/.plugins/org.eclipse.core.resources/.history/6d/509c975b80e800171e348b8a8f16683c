@@ -1,0 +1,22 @@
+package com.inv;
+
+import org.apache.hadoop.conf.Configuration;
+import org.apache.hadoop.mapreduce.Job;
+
+public class WordCountDriver {
+	public static void main(String[] args) {
+		// Jarfile entryclass inputfile outputlocation
+		//args[0] input loc
+		//args[1] output loc
+		
+		//JOB object depends configuration 
+		//Get configuration object
+		Configuration conf = new Configuration();
+		Job job=Job.getInstance(conf, "WordCount Inventateq");
+		
+		
+		
+		
+	}
+
+}

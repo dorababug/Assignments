@@ -1,0 +1,45 @@
+Create Java project
+Close un related projects
+Add MR jar files: build path -> configure build path -> Popup -> libraries -> Add External Jars
+Files to be added::
+hadoop 2.7.2/share/hadoop
+common -> 3 jar files
+common/lib -> all
+hdfs 
+mapreduce
+yarn
+---------------------
+4) Mapper
+5) Reducer
+6) Driver -> main method
+7) Run the program in Psudo distributed mode
+---------------------------------------------------------------
+
+HomeWork : 24Dec2017
+Create a hdfs folder /test , place 5 files 
+give this test folder as input to MR job
+1) How many input paths
+2) how many mappers
+3) how many reducers
+
+---------
+Driver class :: job.setNumReduceTasks(0)
+Objeserve the output.
+
+------------------
+Can we have a mapreduce job without mapper class and reducer class??
+what is the output?
+in the same code  job.setNumReduceTasks(0)
+and see the output
+------------------------
+
+https://en.wikipedia.org/wiki/Apache_Hadoop 
+copy and save it into text data and run the WordCount program.
+
+
+
+
+
+
+
+

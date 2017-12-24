@@ -1,0 +1,36 @@
+1) list files with zero size , list files with more than 1MB
+more than 1GB
+2) cut all zero files and move it to a folder
+
+3) Shell script examples
+ i) script should take file name as argument and 
+check whether the file is present in home directory
+if present display message 
+*******************
+File finename is present in PWD
+*****************
+if not present , create empty file in the home directory.
+--------------------------------------
+
+HW) what are all the ways we can submit a program in background
+what nohup, & 
+
+How to find the top 5 memory consuming / cpu consuming
+disply the processes.
+
+ps -eu
+ps -aux
+
+du / df  -> how to find a actual folder size?? 
+
+----------------------------------------------
+sudo apt-get update
+sudo apt-get openssh-server openssh-client
+sudo service ssh status
+-----------------------------------------
+
+
+
+
+
+
