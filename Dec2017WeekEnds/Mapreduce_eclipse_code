@@ -1,0 +1,15 @@
+Create Java project
+Close un related projects
+Add MR jar files: build path -> configure build path -> Popup -> libraries -> Add External Jars
+Files to be added::
+hadoop 2.7.2/share/hadoop
+common -> 3 jar files
+common/lib -> all
+hdfs 
+mapreduce
+yarn
+---------------------
+4) Mapper
+5) Reducer
+6) Driver -> main method
+7) Run the program in Psudo distributed mode

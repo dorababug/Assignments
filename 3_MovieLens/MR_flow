@@ -1,0 +1,12 @@
+23Dec2017
+WordCount -> Type of file ? Text file -> TextInputFormat -> (k,v) -> byte offset, line -> map method
+
+
+map(LongWritable key,Text value,Context) -> Every line at a time -> 
+
+take the value.toString().split(" ") -> array of values ->
+
+take the array-> take each word -> context.write(new Text(word), new IntWritable(1) )  -> n/w ->
+
+Shuffle+Sort+group -> key,<list of values> -> reudce(key,<list>,Context) -> context.write(key,new IntWritable(sum)) -> HDFS
+
