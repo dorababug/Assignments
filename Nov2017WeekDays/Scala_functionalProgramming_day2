@@ -1,0 +1,63 @@
+26Dec2017
+call by reference
+call by name by using => , we force scala to use call by name.
+-----------------------------------
+collection operations:
+set,map,seq
+List
+val ls=(1 to 10).toList
+val ls=List(1,2,3,4,5,6)
+val ls = 1::2::3::Nil
+
+val map=Map("x"->1,"y"->2)
+
+tuple :: is like a table row
+scala> val t=(1,("stu1",200.00))
+Quesion, swap the elements of inner tuple:
+t: (Int, (String, Double)) = (1,(stu1,200.0))
+scala> t.swap
+res10: ((String, Double), Int) = ((stu1,200.0),1)
+scala> t.swap._1
+res11: (String, Double) = (stu1,200.0)
+scala> t.swap._1.swap
+res12: (Double, String) = (200.0,stu1)
+t._2.swap
+------------------------------------
+
+List operations
+IndexOf,head,tail
+
+foreach
+ls.foreach(println)
+val fn=(x:Int)=> println(x)
+ls.foreach(fn)
+ls.foreach(x=> println(x) )
+
+
+map::::
+Create a list student, with each element contains his name and gender.
+create 5 students, stu1,M 2,F, 3F, 4M 5M
+val students=List(("stu1","M"),("stu2","F"),("stu3","F"),("stu4","M"),("stu5","M"))
+
+q1) print each student name::
+students.foreach(x=> println( x._1))
+
+q2) get only students names into a list
+students.map(x=> {println( x._1);x._1} )
+
+q3) get only male students  into a list
+scala> students.map(x=> {if( x._2 =="M") x })
+res47: List[Any] = List((stu1,M), (), (), (stu4,M), (stu5,M))
+filter
+
+scala> students.filter(x=> x._2 =="M")
+res48: List[(String, String)] = List((stu1,M), (stu4,M), (stu5,M))
+
+scala> students.filterNot(x=> x._2 =="M")
+res49: List[(String, String)] = List((stu2,F), (stu3,F))
+
+------------------
+Partition
+
+
+
