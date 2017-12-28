@@ -1,0 +1,44 @@
+Spark Programming::
+
+Spark Core Programming::
+RDD operations.
+
+Driver -> SparkContext ->using this sc object->RDD
+RDDs represents data.
+
+Spark context Web UI available at http://192.168.43.160:4040
+Spark context available as 'sc' (master = local[*], app id = local-1514433671258).
+Spark session available as 'spark'.
+
+
+SC vairble, RM -> Spark Standalone
+Resource manager -> Yarn, Mesos in production
+
+
+
+
+sc. all methods::
+accumulator
+broadcast
+parallelize -> is used to convert a collection into RDD
+
+setCheckpointDir -> What is checkpoiting? 
+diff between checkpoint/cache/persit?
+
+getConf -> returns SparkCOnf object
+sc.textFile -> take a path (text data)-> returns RDD[Strings]
+----------------------------
+TextData-> Create an RDD -> and apply RDD methods
+1.x programming -> learn RDD methods.
+-----------------------------------------
+https://spark.apache.org/docs/2.0.2/api/scala/index.html#org.apache.spark.rdd.RDD
+
+--------------------------------------------
+
+
+
+
+
+
+
+

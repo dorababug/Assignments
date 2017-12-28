@@ -57,7 +57,11 @@ scala> students.filterNot(x=> x._2 =="M")
 res49: List[(String, String)] = List((stu2,F), (stu3,F))
 
 ------------------
-Partition
+Date:27Dec2017
+
+
+q) all male students to in one collection, "F" in another collection, with single line of code
+
 
 
 
