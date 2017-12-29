@@ -1,0 +1,73 @@
+val input=sc.textFile("sample.txt")
+val words=input.flatMap(line=>line.split(" "))
+
+words.groupBy(word=>word).map(x=>(x._1,x._2.size)).saveAsTextFile("OutFiles/SparkWC2")
+
+Not an efficient way::
+sc.textFile("sample.txt").flatMap(line=>line.split(" ")).groupBy(word=>word).map(x=>(x._1,x._2.size)).saveAsTextFile("OutFiles/SparkWC2")
+-----------------------------
+line-> words-> (word,1) -> Reducebykey -> for key get all values -> take a key, we have list of values -> take 2 values and add it.
+pair RDD -> every element in an RDD have k/v.
+on Pair RDD we can perform special ops
+
+sc.textFile("sample.txt").
+flatMap(line=>line.split(" ")).
+map(word=>(word,1)).
+reduceByKey((x,y)=>x+y).
+saveAsTextFile("OutFiles/sparkwc_reducebykey")
+
+sc.textFile("sample.txt").
+flatMap(line=>line.split(" ")).
+map(word=>(word,1)).
+groupByKey().collect
+saveAsTextFile("OutFiles/sparkwc_reducebykey")
+
+
+
+sc.textFile("sample.txt").
+flatMap(line=>line.split(" ")).
+map(word=>(word,1)).
+groupByKey().map(elem=>(elem._1,elem._2.size)).saveAsTextFile("OutFiles/sparkwc_groupbykey")
+
+
+sc.textFile("sample.txt").
+flatMap(line=>line.split(" ")).
+map(word=>(word,1)).
+reduceByKey((x,y)=>x+y).
+repartition(1).collect
+
+
+sc.textFile("sample.txt").
+flatMap(line=>line.split(" ")).
+map(word=>(word,1)).
+reduceByKey((x,y)=>x+y,1).saveAsTextFile("OutFiles/sparkwc_partout")
+
+
+
+
+sc.textFile("sample.txt").
+flatMap(line=>line.split(" ")).
+map(word=>(word,1)).
+reduceByKey((x,y)=>x+y,1).sortBy(t=>t._1).collect
+
+
+
+
+sc.textFile("sample.txt").
+flatMap(line=>line.split(" ")).
+map(word=>(word,1)).
+reduceByKey((x,y)=>x+y).sortBy(t=>t._1).collect
+
+
+sc.textFile("sample.txt").
+flatMap(line=>line.split(" ")).
+map(word=>(word,1)).
+reduceByKey((x,y)=>x+y,1).sortBy(t=>t._1).saveAsTextFile("OutFiles/sparkwc_partout")
+
+
+
+sc.textFile("sample.txt").
+flatMap(line=>line.split(" ")).
+map(word=>(word,1)).
+reduceByKey((x,y)=>x+y).sortBy(t=>t._1).saveAsTextFile("OutFiles/sparkwc_partout")
+
