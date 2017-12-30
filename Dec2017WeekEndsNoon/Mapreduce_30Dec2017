@@ -1,0 +1,34 @@
+1) MR program -> without a mapper class and without a reducer class.  IdentityMapper / IdentityReducer
+
+2) MR -> with mapper class, but with no reducer class
+
+3) MR -> on large data set -> the output
+extra daemons -> MRappmaster , YarnChild
+Data locality/speculative execution
+only one reducer is handling all data -> use combiner
+
+3.1) more than one reducer -> Partitioner -> Hash partitioner
+Key.hashcode() % noofreducers -> INT 
+
+4) Optimization of MR 
+----------------------------------
+
+5) Joins in MapReduce
+6) Configuration API
+--------------------------------
+
+Homework::: Write custom partitioner:::
+
+1) wiki file -> all words startting with Aa->mM send it to part0 file, Nn-zZ -> part1 file and rest of all words starting with other than A-Z ->send to part 2 file
+
+2) All words starts with Aa -> part 0, Bb -> 1, zZ->25, rest all words part 26
+
+3) Mapreduce Use cases.
+
+4) Implement WordCount using only core java -> not mapreduce
+open the file -> read line -> wordcount -> write the file
+
+
+JavaTpoint
+HadoopTpoint
+sqlzoo.net/w3schools
