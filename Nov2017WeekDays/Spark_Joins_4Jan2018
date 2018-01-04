@@ -1,0 +1,110 @@
+RDD Joins::
+
+https://spark.apache.org/docs/2.0.2/api/scala/index.html#org.apache.spark.rdd.RDD
+
+http://spark.apache.org/docs/latest/api/scala/index.html#org.apache.spark.rdd.PairRDDFunctions
+
+we can perform joins only on pair RDD
+Joining key you keep as key in pair RDD.
+
+RDD(k,v).join(RDD(k,W))
+RDD(k,(v,W))
+
+val empRDD=sc.textFile("/home/hadoop/Desktop/Link to SET2/MapReduceCode/Joins-MapReduce/input/emp").map(line=>(line.split(",")(3),line))
+
+val deptRDD=sc.textFile("/home/hadoop/Desktop/Link to SET2/MapReduceCode/Joins-MapReduce/input/dept").map(line=>(line.split(",")(0),line.split(",")(1)))
+
+val joinRDD=empRDD.leftOuterJoin(deptRDD,1)
+
+joinRDD.map(x=>x._2._1+","+x._2._2.getOrElse("-")).saveAsTextFile("OutFiles/joinOutput1")
+-----------------------------------------
+Spark SQL module:::
+DataFrame,DataSet
+DataSet -> compile time you will mention the data types ->Strictly typed
+DataFrame -> during runtime the datatypes will inferred
+
+spark 1.x 2.x -> spark 2.x Encoders -> are much efficient than java serialization or Kryo serialization
+
+Spark SQL Entry point-> 1.x sqlContext, 2.x SparkSession 
+SQL -> Data abstractions in 1.x/2.x-> DataFrame,DataSet
+
+DataFrame -> Structured data-> 1.x RDD + with schema
+			       2.x -> Dataset[ROW objects]
+
+DataFrame -> is like a table ->data + schema (metastore->inmemory/derby -> hivemetastore(mysql))
+
+in any language -> if u run sql queries -> result is DF
+Datasets are supported in only-> java,scala
+--------------------------------------------
+Ways to Create DF::
+1) Create an RDD -> sc.textFile -> convert RDD into DataFrame by providing schema
+2) Load data from structured sources like ORD,Parquet,csv,json
+then the result is DF
+3) apply sql , result is DF
+4) Create DF from DataSet[ROW object]
+----------------------------------
+1) RDD -> DF -> Movies data set..
+
+result -> in every year , how many movies released???
+
+val extractYear=(line:String)=>{
+val year=line.substring(line.lastIndexOf("(")+1,line.lastIndexOf(")"))
+(year.toInt,1)
+}
+
+val yearRDD=sc.textFile("file:///home/hadoop/Music/Classes/MovieLens-Work-SPARK/ml-1m_nov2017Weekdays/movies.dat").map(extractYear)
+
+yearRDD.take(10).foreach(println)
+Questions: years with more than 200 movies got released
+
+yearRDD.reduceByKey((x,y)=>x+y).sortBy(x=>x._2,false).filter(x=>x._2>200).collect
+
+
+Process the data using SQL::
+val yearDF=yearRDD.toDF("yr","cnt")
+
+
+core -> RDD map,flatmap -> DF operations Domain specific language (DSL) 
+
+RDD -> DSL -> SQL
+
+yearDF.groupBy("yr").count.show
+
+import org.apache.spark.sql.functions._
+
+yearDF.groupBy("yr").count.orderBy(desc("count")).show
+
+Apply SQL on DataFrames::
+ registerTempTable 
+createOrReplaceTempView
+createTempView
+
+yearDF.createOrReplaceTempView("t_year")
+spark.sql("select yr,count(cnt) mv_count from t_year group by yr having count(cnt) > 200 order by mv_count desc   ").show
++----+--------+
+
+How to store the result into a persistent table::
+
+spark.sql("create table res as select yr,count(cnt) mv_count from t_year group by yr order by mv_count desc limit 10  ")
+
+spark.sql("select yr,count(cnt) mv_count from t_year group by yr having count(cnt) > 200 order by mv_count desc   ").
+write.saveAsTable("res1")
+
+spark.sql("select yr,count(cnt) mv_count from t_year group by yr having count(cnt) > 200 order by mv_count desc   ").
+write.orc("path to file")
+
+spark.read.orc("path to file")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
