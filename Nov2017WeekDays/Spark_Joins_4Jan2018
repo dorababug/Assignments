@@ -93,10 +93,10 @@ write.saveAsTable("res1")
 spark.sql("select yr,count(cnt) mv_count from t_year group by yr having count(cnt) > 200 order by mv_count desc   ").
 write.orc("path to file")
 
-spark.read.orc("path to file")
+spark.read.orc("path to file") returns a DF
 
 
-
+RDD -> DF -> to table -> spark.sql -> DF -> write -> saveAsTable or write.parquet
 
 
 
