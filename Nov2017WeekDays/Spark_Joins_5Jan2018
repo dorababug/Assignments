@@ -1,0 +1,70 @@
+1.x -> sc.textFile(file).map().toDF(columnnames)
+
+val empDF1=sc.textFile("/home/hadoop/Desktop/Link to SET2/MapReduceCode/Joins-MapReduce/input/emp").map(line=>{ val arr=line.split(" "); (arr(0),arr(1),arr(2),arr(3))}).toDF("id","name","sal","deptid")
+
+
+2.x -> spark.read
+val empDF2=spark.read.csv("/home/hadoop/Desktop/Link to SET2/MapReduceCode/Joins-MapReduce/input/emp_header")
+the columns are also read as data.
+
+Infer schema from the csv file::::
+spark.read.option("header","true").csv("/home/hadoop/Desktop/Link to SET2/MapReduceCode/Joins-MapReduce/input/emp_header")
+
+spark.read.format("csv").option("header", "true").load("../Downloads/*.csv")
+
+mode="DROPMALFORMED"
+
+val empDF2=spark.read.option("header","true").option("mode","DROPMALFORMED").csv("/home/hadoop/Desktop/Link to SET2/MapReduceCode/Joins-MapReduce/input/emp_header")
+
+
+
+spark.read.option("header","true").csv("/home/hadoop/Desktop/Link to SET2/MapReduceCode/Joins-MapReduce/input/emp_header").filter(row=>row.anyNull).show
+
+spark.read.option("header","true").csv("/home/hadoop/Desktop/Link to SET2/MapReduceCode/Joins-MapReduce/input/emp_header").filter(row=>row.anyNull).show
+
+spark.read.option("header","true").csv("/home/hadoop/Desktop/Link to SET2/MapReduceCode/Joins-MapReduce/input/emp_header").filter(row=> !row.anyNull).show
+
+
+----------------------------------------------
+
+
+empDF2.createTempView("emp_temp")
+spark.sql("create table emp as select * from emp_temp").show
+empDF2.write.insertInto("emp")
+spark.sql("select * from emp").count
+
+Insert the data using sql::
+spark.sql("insert into emp select * from emp_temp")
+spark.sql("insert overwrite table emp select * from emp_temp")
+spark.sql("select * from emp").count
+
+
+empDF2.write.mode("append").orc("OutFiles/orc_out")
+spark.read.orc("OutFiles/orc_out").count
+
+
+empDF2.write.partitionBy("empid").save("OutFiles/abc")
+empDF2.write.bucketBy(3,"empid").format("csv").saveAsTable("emp_buketed")
+
+---------------------------------------------------------------------------------------
+
+How to submit the jobs to cluster(RM)??
+spark-shell -> learning
+spark-submit -> to submit a spark application
+spark-sql -> to submit a sql/hql file/query
+
+
+Home Work:
+solve all Movielens using core/sql/DF DSL. -> Spark-shell/spark-sql/spark-submit
+
+integrate -> HDFS and Spark / Hive and Spark
+
+How to develop spark standalone apps and submit to cluster(eclopse developement/spark-submit)
+----------------------------------------
+
+
+
+
+
+
+
