@@ -63,6 +63,13 @@ How to develop spark standalone apps and submit to cluster(eclopse developement/
 ----------------------------------------
 
 
+Create DF::
+rdd.toDF
+sql
+DF.dsl ops
+load from external structured sources
+
+
 
 
 
