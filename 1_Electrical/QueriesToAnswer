@@ -6,8 +6,8 @@ Solve all the questions with MR, Java, Scala, Python:::
 3) each YEAR , AVG ACTUAL , VAL PRESENT IN FILE, EQUAL/NOT EQAL
 4) for the entire file what is "min consumption-year - MIN", what is "max consumption -year -MAX"
 expected op::
-min consumption  2 1979
-max consumption 45 1985
+min consumption  0 1985,2000
+max consumption 43 1984,1979
 
     Jan,Feb,Mar,Apr,May,Jun,Jul,Aug,Sep,Oct,Nov,Dec,Avg
 1979,23,23,2,43,24,25,26,26,26,26,25,26,25

@@ -24,6 +24,8 @@ public class WordCountDriver {
 		job.setJarByClass(WordCountDriver.class); //Entry point of job
 		job.setMapperClass(WordCountMapper.class);
 		job.setReducerClass(WordCountReducer.class);
+		//job.setCombinerClass(WordCountReducer.class);
+		job.setNumReduceTasks(3);
 		
 		//job input types  and job output types different 
 		//below lines need to be mentioned
