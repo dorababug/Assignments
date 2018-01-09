@@ -1,0 +1,61 @@
+SparkSession -> DF 
+
+Create DF:
+1) loading from structured source orc and parquet
+SparkSession.read. -> DF
+2) RDD.toDF(column names) -> DF
+3) Any language, sql query output will be a DF
+4) DF DSL, unchecked operations,
+.select .group .limit .filter
+
+--------------------------
+How to process DF using SQL? 
+DF-> register or save as table -> the table can be used in sql.
+spark-shell -> sparksession.sql(sql query) -> DF
+spark-sql -> directly write sql 
+---------------------------
+
+Integrate Spark with HDFS::
+export HADOOP_CONF_DIR=$HADOOP_HOME/etc/hadoop
+
+How to read tables present in Hive:::
+HDFS -> export HADOOP_CONF_DIR=$HADOOP_HOME/etc/hadoop
+Hive -> hive-site.xml -> copy to spark conf.
+Copy the mysql driver into spark jars
+-------------------------------------
+list all movies released in  year 2000 and its avg rating:
+
+We solve by only SQL:
+spark.read
+get moives from movies data set-> extract year -> filter moives relased in 2000
+
+from ratings data set, movie id and rating -> find avg rating for all movies and join with above result and store data into a table.
+-------------
+1) store the movies and ratings in memory
+2) cache the data and see the performance
+3) store store the movies and ratings in hive metastore
+4) broad cast the movies data set and see the performance
+
+spark.read.textFile("file:///home/hadoop/Music/Classes/MovieLens-Work-SPARK/ml-1m/movies.dat").createOrReplaceTempView("movies_ip")
+
+spark.read.textFile("file:///home/hadoop/Music/Classes/MovieLens-Work-SPARK/ml-1m/ratings.dat").createOrReplaceTempView("ratings_ip")
+
+spark.sql("select split(value,\"::\") from movies_ip limit 1").show
+spark.sql("select split(value,\"::\")[0] as mvid,split(value,\"::\")[1] as mvname from movies_ip limit 1").show
+
+
+spark.sql("""select 
+split(value,'::')[0] as mvid,
+split(value,'::')[1] as mvname,
+regexp_extract(split(value,'::')[1],'\\d+',0) as year 
+from movies_ip """).createOrReplaceTempView("movies");
+
+spark.sql("select distinct year  from movies").collect.foreach(println)
+
+substring_index(split(value,'::')[1], string delim, int count)
+select length(split(value,'::')[1] )
+
+substring(split(value,'::')[1], , int len)
+
+
+
