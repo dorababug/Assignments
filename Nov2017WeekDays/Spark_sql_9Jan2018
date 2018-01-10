@@ -40,22 +40,37 @@ spark.read.textFile("file:///home/hadoop/Music/Classes/MovieLens-Work-SPARK/ml-1
 
 spark.read.textFile("file:///home/hadoop/Music/Classes/MovieLens-Work-SPARK/ml-1m/ratings.dat").createOrReplaceTempView("ratings_ip")
 
-spark.sql("select split(value,\"::\") from movies_ip limit 1").show
-spark.sql("select split(value,\"::\")[0] as mvid,split(value,\"::\")[1] as mvname from movies_ip limit 1").show
-
 
 spark.sql("""select 
 split(value,'::')[0] as mvid,
 split(value,'::')[1] as mvname,
-regexp_extract(split(value,'::')[1],'\\d+',0) as year 
+substring(split(value,'::')[1],length(split(value,'::')[1])-4 , 4) as year 
 from movies_ip """).createOrReplaceTempView("movies");
 
-spark.sql("select distinct year  from movies").collect.foreach(println)
-
-substring_index(split(value,'::')[1], string delim, int count)
-select length(split(value,'::')[1] )
-
-substring(split(value,'::')[1], , int len)
+-- spark.sql("select * from movies").show
 
 
+spark.sql("""select 
+split(value,'::')[0] as usrid,
+split(value,'::')[1] as mvid,
+split(value,'::')[2] as rating
+from ratings_ip """).createOrReplaceTempView("ratings");
+
+spark.sql("select mvid,round(avg(rating),2) as avgrating from ratings group by mvid").createOrReplaceTempView("avg_ratings")
+
+spark.sql("""select m.mvid,m.mvname,r.avgrating
+from movies m 
+join avg_ratings r on m.mvid=r.mvid 
+where m.year=2000 order by avgrating desc """).repartition(1).write.mode("overwrite").saveAsTable("hivepractice.mvTop200")
+------------------------------------------------------------
+
+
+
+all ur data and tables will be present in Datalake:
+
+create database hdpdatalake;
+
+spark.read.textFile("file:///home/hadoop/Music/Classes/MovieLens-Work-SPARK/ml-1m/movies.dat").write.mode("overwrite").saveAsTable("hdpdatalake.movies_ip");
+
+spark.read.textFile("file:///home/hadoop/Music/Classes/MovieLens-Work-SPARK/ml-1m/ratings.dat").write.mode("overwrite").saveAsTable("hdpdatalake.ratings_ip");
 
