@@ -1,0 +1,24 @@
+import org.apache.log4j.Logger
+import org.apache.log4j.Level
+import org.apache.spark.sql.SparkSession
+
+object DemoSQL {
+  def main(args: Array[String]): Unit = {
+    
+    Logger.getLogger("org").setLevel(Level.ERROR)
+
+   val spark = SparkSession.builder().appName("Sample SQL")
+   .getOrCreate() 
+   val userRDD=spark.sparkContext.textFile(args(0))
+   
+   // age group 35, how many M/F user are present
+   //case class user(
+   
+   userRDD.map(line->( line.split("::")(0),line.split("::")(1),line.split("::")(2),line.split("::")(3),vline.split("::")(4))
+       
+   
+   
+   
+    
+  }
+}

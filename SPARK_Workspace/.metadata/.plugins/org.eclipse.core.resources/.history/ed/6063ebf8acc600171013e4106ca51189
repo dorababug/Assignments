@@ -1,0 +1,10 @@
+import org.apache.spark.SparkContext
+
+
+object WordCount {
+  
+  //Spark Core::
+  val sc = new SparkContext("local[*]", "WordCount")
+  
+  
+}

@@ -1,0 +1,9 @@
+
+
+object ScalaDemo {
+  def main(args: Array[String]): Unit ={
+    //String args[] String[] args
+    
+  }
+  
+}

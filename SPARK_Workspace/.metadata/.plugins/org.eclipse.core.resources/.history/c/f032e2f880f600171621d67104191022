@@ -1,0 +1,17 @@
+
+
+object ScalaDemo {
+  def main(args: Array[String]): Unit ={
+    //String args[] String[] args
+    println("Hello Scala")
+    for(t <- args) println("argument is "+ t)
+    args.foreach(t => println("argument is(function) "+ t))
+  }
+  
+}
+
+class Student(val id:Int=1,var name:String,gender:String){
+  
+  
+  
+}

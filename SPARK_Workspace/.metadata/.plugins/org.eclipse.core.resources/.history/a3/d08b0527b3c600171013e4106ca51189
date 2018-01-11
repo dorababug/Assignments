@@ -1,0 +1,11 @@
+import org.apache.log4j.Logger
+import org.apache.log4j.Level
+
+object DemoSQL {
+  def main(args: Array[String]): Unit = {
+    
+    Logger.getLogger("org").setLevel(Level.ERROR)
+
+    
+  }
+}

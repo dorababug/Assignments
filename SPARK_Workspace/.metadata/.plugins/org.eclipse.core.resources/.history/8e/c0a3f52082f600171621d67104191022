@@ -1,0 +1,34 @@
+
+
+object ScalaDemo {
+  def main(args: Array[String]): Unit ={
+    //String args[] String[] args
+    println("Hello Scala")
+    for(t <- args) println("argument is "+ t)
+    args.foreach(t => println("argument is(function) "+ t))
+    
+    
+    val obj=new Student()
+    
+  }
+  
+}
+
+class Student(val id:Int=1,var name:String="def",gender:String){
+    private var salutation="Mr"
+    
+    println("id is"+id);
+    //id=100;
+    println("1 -> name is"+name);
+    name="inventateq"
+    println("2 -> name is"+name);
+    
+    println("1 -> Salutation is"+salutation);
+    salutation="abc"
+    def setSalutation(){
+      salutation="Mrs"
+    }
+    println("2 -> Salutation is"+salutation);
+  
+  
+}

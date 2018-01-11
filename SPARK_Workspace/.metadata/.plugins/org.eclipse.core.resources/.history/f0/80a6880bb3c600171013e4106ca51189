@@ -1,0 +1,10 @@
+
+
+object DemoSQL {
+  def main(args: Array[String]): Unit = {
+    
+    Logger.getLogger("org").setLevel(Level.ERROR)
+
+    
+  }
+}

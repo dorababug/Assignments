@@ -1,0 +1,46 @@
+How to submit a spark jobs in production?
+
+spark-shell -> REPL -> Dev
+if it is sql -> spark-sql ->Dev
+---------------------------
+
+1) Create a spark application
+IDE-> eclipse -> Scala code/spark apis
+netBeans, intelliJ
+2) compile and package -> Jar
+
+3) submit the jar(spark application) using -> spark-submit
+-----------------------------------
+Scala OOP::::
+Encapsulation  -> The variable and methods to modify the variable 
+polymorphsm -> overloading /overriding 
+inheritance -> 
+abstration ->
+
+scala is pure OOP -> 
+keyword -> object we can create singleton object
+
+we can have number of methods defined in an object
+Entry point? 2 ways
+1st -> main 
+
+getters -> accessors
+setters -> mutators
+
+-----------------------
+HW->
+case class?
+auxillary constructors
+companion object
+
+
+
+
+
+
+
+
+
+
+
+

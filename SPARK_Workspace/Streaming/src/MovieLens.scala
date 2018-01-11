@@ -17,22 +17,16 @@ object MovieLens {
     
     
     val ssc = new StreamingContext(conf, Seconds(5))
-    
-
-    
-    
+      
     //lines is DStream
     val lines = ssc.socketTextStream("localhost", 9999)
-    
-    
     
     val word_count= lines.flatMap(x => x.split(" "))
     .map(word => (word, 1))
     .reduceByKey((x,y) => x+y)
     
     word_count.print()
-    
-    
+       
     ssc.start()
     ssc.awaitTermination()
     

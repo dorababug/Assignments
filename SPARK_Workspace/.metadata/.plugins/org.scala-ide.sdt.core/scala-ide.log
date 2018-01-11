@@ -7522,3 +7522,346 @@ org.eclipse.core.internal.resources.ResourceException: Resource '/ScalaPractice_
 2017-11-05 13:58:54,806  WARN [Worker-42] - ScalaProject - Project ScalaPractice_June2017WeekEnd runs on platform default installation.
 2017-11-05 13:59:08,238  WARN [Worker-43] - ScalaProject - Project ScalaPractice_June2017WeekEnd has platform default sourceLevel.
 2017-11-05 13:59:08,238  WARN [Worker-43] - ScalaProject - Project ScalaPractice_June2017WeekEnd runs on platform default installation.
+2017-11-11 12:02:28,560  WARN [main] - ScalaProject - Project ScalaPractice_June2017WeekEnd has platform default sourceLevel.
+2017-11-11 12:02:28,585  WARN [main] - ScalaProject - Project ScalaPractice_June2017WeekEnd runs on platform default installation.
+2017-11-11 12:02:28,607  WARN [main] - ScalaProject - Project ScalaPractice_June2017WeekEnd has platform default sourceLevel.
+2017-11-11 12:02:28,607  WARN [main] - ScalaProject - Project ScalaPractice_June2017WeekEnd runs on platform default installation.
+2017-11-11 12:09:57,654  WARN [ModalContext] - ScalaProject - Project SparkPractice_June2017Weekend has platform default sourceLevel.
+2017-11-11 12:09:57,655  WARN [ModalContext] - ScalaProject - Project SparkPractice_June2017Weekend runs on platform default installation.
+2017-11-11 12:09:57,938  WARN [Worker-5] - ScalaProject - Project SparkPractice_June2017Weekend has platform default sourceLevel.
+2017-11-11 12:09:57,939  WARN [Worker-5] - ScalaProject - Project SparkPractice_June2017Weekend runs on platform default installation.
+2017-11-11 12:11:11,116  WARN [Worker-5] - ScalaProject - Project SparkPractice_June2017Weekend has platform default sourceLevel.
+2017-11-11 12:11:11,117  WARN [Worker-5] - ScalaProject - Project SparkPractice_June2017Weekend runs on platform default installation.
+2017-11-11 12:11:11,319  WARN [Worker-5] - ScalaProject - Project SparkPractice_June2017Weekend has platform default sourceLevel.
+2017-11-11 12:11:11,319  WARN [Worker-5] - ScalaProject - Project SparkPractice_June2017Weekend runs on platform default installation.
+2017-11-11 12:15:53,595  WARN [main] - ScalaProject - Project SparkPractice_June2017Weekend has platform default sourceLevel.
+2017-11-11 12:15:53,595  WARN [main] - ScalaProject - Project SparkPractice_June2017Weekend runs on platform default installation.
+2017-11-11 12:15:57,757  WARN [main] - ScalaProject - Project SparkPractice_June2017Weekend has platform default sourceLevel.
+2017-11-11 12:15:57,758  WARN [main] - ScalaProject - Project SparkPractice_June2017Weekend runs on platform default installation.
+2017-11-11 12:15:58,131  WARN [Worker-6] - ScalaProject - Project SparkPractice_June2017Weekend has platform default sourceLevel.
+2017-11-11 12:15:58,131  WARN [Worker-6] - ScalaProject - Project SparkPractice_June2017Weekend runs on platform default installation.
+2017-11-11 12:16:06,464  WARN [Worker-9] - ScalaProject - Project SparkPractice_June2017Weekend has platform default sourceLevel.
+2017-11-11 12:16:06,465  WARN [Worker-9] - ScalaProject - Project SparkPractice_June2017Weekend runs on platform default installation.
+2017-11-11 12:17:46,671  WARN [Worker-1] - ScalaProject - Project SparkPractice_June2017Weekend has platform default sourceLevel.
+2017-11-11 12:17:46,672  WARN [Worker-1] - ScalaProject - Project SparkPractice_June2017Weekend runs on platform default installation.
+2017-11-11 12:19:34,392  WARN [Worker-12] - ScalaProject - Project SparkPractice_June2017Weekend has platform default sourceLevel.
+2017-11-11 12:19:34,393  WARN [Worker-12] - ScalaProject - Project SparkPractice_June2017Weekend runs on platform default installation.
+2017-11-11 12:20:27,815  WARN [Worker-8] - ScalaProject - Project SPARK_Programs has platform default sourceLevel.
+2017-11-11 12:20:27,815  WARN [Worker-8] - ScalaProject - Project SPARK_Programs runs on platform default installation.
+2017-11-11 12:20:32,405  WARN [main] - ScalaProject - Project SPARK_Programs has platform default sourceLevel.
+2017-11-11 12:20:32,406  WARN [main] - ScalaProject - Project SPARK_Programs runs on platform default installation.
+2017-11-11 12:20:55,335  WARN [Worker-11] - ScalaProject - Project SparkPractice_June2017Weekend has platform default sourceLevel.
+2017-11-11 12:20:55,335  WARN [Worker-11] - ScalaProject - Project SparkPractice_June2017Weekend runs on platform default installation.
+2017-11-11 12:23:07,244  WARN [Worker-1] - ScalaProject - Project SparkPractice_June2017Weekend has platform default sourceLevel.
+2017-11-11 12:23:07,245  WARN [Worker-1] - ScalaProject - Project SparkPractice_June2017Weekend runs on platform default installation.
+2017-11-11 12:23:13,864  WARN [Worker-8] - ScalaProject - Project SparkPractice_June2017Weekend has platform default sourceLevel.
+2017-11-11 12:23:13,864  WARN [Worker-8] - ScalaProject - Project SparkPractice_June2017Weekend runs on platform default installation.
+2017-11-11 12:23:26,368  WARN [Worker-8] - ScalaProject - Project SparkPractice_June2017Weekend has platform default sourceLevel.
+2017-11-11 12:23:26,368  WARN [Worker-8] - ScalaProject - Project SparkPractice_June2017Weekend runs on platform default installation.
+2017-11-11 12:24:50,237 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2017-11-11 12:24:50,247 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2017-11-11 12:24:50,248 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2017-11-11 12:24:50,248 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2017-11-11 12:25:06,273  WARN [Worker-8] - ScalaProject - Project SparkPractice_June2017Weekend has platform default sourceLevel.
+2017-11-11 12:25:06,274  WARN [Worker-8] - ScalaProject - Project SparkPractice_June2017Weekend runs on platform default installation.
+2017-11-11 12:26:43,197  WARN [Worker-1] - ScalaProject - Project SparkPractice_June2017Weekend has platform default sourceLevel.
+2017-11-11 12:26:43,197  WARN [Worker-1] - ScalaProject - Project SparkPractice_June2017Weekend runs on platform default installation.
+2017-11-11 12:28:25,637 ERROR [Worker-13] - System.err - SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2017-11-11 12:28:25,637 ERROR [Worker-13] - System.err - SLF4J: Defaulting to no-operation (NOP) logger implementation
+2017-11-11 12:28:25,637 ERROR [Worker-13] - System.err - SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2017-11-11 12:29:37,490  WARN [Worker-13] - ScalaProject - Project SparkPractice_June2017Weekend has platform default sourceLevel.
+2017-11-11 12:29:37,490  WARN [Worker-13] - ScalaProject - Project SparkPractice_June2017Weekend runs on platform default installation.
+2017-11-11 12:30:35,987  WARN [Worker-13] - ScalaProject - Project SparkPractice_June2017Weekend has platform default sourceLevel.
+2017-11-11 12:30:35,988  WARN [Worker-13] - ScalaProject - Project SparkPractice_June2017Weekend runs on platform default installation.
+2017-11-11 12:32:10,079  WARN [Worker-1] - ScalaProject - Project SparkPractice_June2017Weekend has platform default sourceLevel.
+2017-11-11 12:32:10,079  WARN [Worker-1] - ScalaProject - Project SparkPractice_June2017Weekend runs on platform default installation.
+2017-11-11 12:36:36,581  WARN [Worker-18] - ScalaProject - Project SparkPractice_June2017Weekend has platform default sourceLevel.
+2017-11-11 12:36:36,582  WARN [Worker-18] - ScalaProject - Project SparkPractice_June2017Weekend runs on platform default installation.
+2017-11-11 12:36:36,769  WARN [Worker-20] - ScalaProject - Project SparkPractice_June2017Weekend has platform default sourceLevel.
+2017-11-11 12:36:36,769  WARN [Worker-20] - ScalaProject - Project SparkPractice_June2017Weekend runs on platform default installation.
+2017-11-11 12:36:37,457  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project SparkPractice_June2017Weekend has platform default sourceLevel.
+2017-11-11 12:36:37,457  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project SparkPractice_June2017Weekend runs on platform default installation.
+2017-11-11 12:38:39,247  WARN [Worker-20] - ScalaProject - Project SparkPractice_June2017Weekend has platform default sourceLevel.
+2017-11-11 12:38:39,247  WARN [Worker-20] - ScalaProject - Project SparkPractice_June2017Weekend runs on platform default installation.
+2017-11-11 12:39:16,240  WARN [Worker-19] - ScalaProject - Project SparkPractice_June2017Weekend has platform default sourceLevel.
+2017-11-11 12:39:16,240  WARN [Worker-19] - ScalaProject - Project SparkPractice_June2017Weekend runs on platform default installation.
+2017-11-11 12:39:42,824  WARN [Worker-20] - ScalaProject - Project SparkPractice_June2017Weekend has platform default sourceLevel.
+2017-11-11 12:39:42,825  WARN [Worker-20] - ScalaProject - Project SparkPractice_June2017Weekend runs on platform default installation.
+2017-11-11 12:39:56,122  WARN [Worker-22] - ScalaProject - Project SparkPractice_June2017Weekend has platform default sourceLevel.
+2017-11-11 12:39:56,123  WARN [Worker-22] - ScalaProject - Project SparkPractice_June2017Weekend runs on platform default installation.
+2017-11-11 12:40:54,593  WARN [Worker-1] - ScalaProject - Project SparkPractice_June2017Weekend has platform default sourceLevel.
+2017-11-11 12:40:54,593  WARN [Worker-1] - ScalaProject - Project SparkPractice_June2017Weekend runs on platform default installation.
+2017-11-11 12:41:09,271  WARN [Worker-19] - ScalaProject - Project SparkPractice_June2017Weekend has platform default sourceLevel.
+2017-11-11 12:41:09,272  WARN [Worker-19] - ScalaProject - Project SparkPractice_June2017Weekend runs on platform default installation.
+2017-11-11 12:41:17,290  WARN [Worker-19] - ScalaProject - Project SparkPractice_June2017Weekend has platform default sourceLevel.
+2017-11-11 12:41:17,290  WARN [Worker-19] - ScalaProject - Project SparkPractice_June2017Weekend runs on platform default installation.
+2017-11-11 12:41:25,865  WARN [Worker-19] - ScalaProject - Project SparkPractice_June2017Weekend has platform default sourceLevel.
+2017-11-11 12:41:25,865  WARN [Worker-19] - ScalaProject - Project SparkPractice_June2017Weekend runs on platform default installation.
+2017-11-11 12:42:36,849  WARN [Worker-19] - ScalaProject - Project SparkPractice_June2017Weekend has platform default sourceLevel.
+2017-11-11 12:42:36,849  WARN [Worker-19] - ScalaProject - Project SparkPractice_June2017Weekend runs on platform default installation.
+2017-11-11 12:44:55,059  WARN [Worker-20] - ScalaProject - Project SparkPractice_June2017Weekend has platform default sourceLevel.
+2017-11-11 12:44:55,059  WARN [Worker-20] - ScalaProject - Project SparkPractice_June2017Weekend runs on platform default installation.
+2017-11-11 13:05:40,986  WARN [ModalContext] - ScalaProject - Project SparkSQL_June2017Weekend has platform default sourceLevel.
+2017-11-11 13:05:40,986  WARN [ModalContext] - ScalaProject - Project SparkSQL_June2017Weekend runs on platform default installation.
+2017-11-11 13:05:41,145  WARN [Worker-30] - ScalaProject - Project SparkSQL_June2017Weekend has platform default sourceLevel.
+2017-11-11 13:05:41,145  WARN [Worker-30] - ScalaProject - Project SparkSQL_June2017Weekend runs on platform default installation.
+2017-11-11 13:05:58,899  WARN [main] - ScalaProject - Project SparkSQL_June2017Weekend has platform default sourceLevel.
+2017-11-11 13:05:58,900  WARN [main] - ScalaProject - Project SparkSQL_June2017Weekend runs on platform default installation.
+2017-11-11 13:06:02,914  WARN [main] - ScalaProject - Project SparkSQL_June2017Weekend has platform default sourceLevel.
+2017-11-11 13:06:02,915  WARN [main] - ScalaProject - Project SparkSQL_June2017Weekend runs on platform default installation.
+2017-11-11 13:06:03,203  WARN [Worker-30] - ScalaProject - Project SparkSQL_June2017Weekend has platform default sourceLevel.
+2017-11-11 13:06:03,203  WARN [Worker-30] - ScalaProject - Project SparkSQL_June2017Weekend runs on platform default installation.
+2017-11-11 13:06:22,703  WARN [Worker-32] - ScalaProject - Project SparkSQL_June2017Weekend has platform default sourceLevel.
+2017-11-11 13:06:22,703  WARN [Worker-32] - ScalaProject - Project SparkSQL_June2017Weekend runs on platform default installation.
+2017-11-11 13:06:35,432  WARN [Worker-28] - ScalaProject - Project SparkSQL_June2017Weekend has platform default sourceLevel.
+2017-11-11 13:06:35,432  WARN [Worker-28] - ScalaProject - Project SparkSQL_June2017Weekend runs on platform default installation.
+2017-11-11 13:06:58,347  WARN [Worker-31] - ScalaProject - Project SparkSQL_June2017Weekend has platform default sourceLevel.
+2017-11-11 13:06:58,347  WARN [Worker-31] - ScalaProject - Project SparkSQL_June2017Weekend runs on platform default installation.
+2017-11-11 13:06:58,521  WARN [Worker-30] - ScalaProject - Project SparkSQL_June2017Weekend has platform default sourceLevel.
+2017-11-11 13:06:58,521  WARN [Worker-30] - ScalaProject - Project SparkSQL_June2017Weekend runs on platform default installation.
+2017-11-11 13:06:59,303  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project SparkSQL_June2017Weekend has platform default sourceLevel.
+2017-11-11 13:06:59,303  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project SparkSQL_June2017Weekend runs on platform default installation.
+2017-11-11 13:07:21,578  WARN [Worker-32] - ScalaProject - Project SparkSQL_June2017Weekend has platform default sourceLevel.
+2017-11-11 13:07:21,578  WARN [Worker-32] - ScalaProject - Project SparkSQL_June2017Weekend runs on platform default installation.
+2017-11-11 13:08:06,977  WARN [Worker-28] - ScalaProject - Project SparkSQL_June2017Weekend has platform default sourceLevel.
+2017-11-11 13:08:06,977  WARN [Worker-28] - ScalaProject - Project SparkSQL_June2017Weekend runs on platform default installation.
+2017-11-11 13:08:38,550  WARN [Worker-33] - ScalaProject - Project SparkSQL_June2017Weekend has platform default sourceLevel.
+2017-11-11 13:08:38,550  WARN [Worker-33] - ScalaProject - Project SparkSQL_June2017Weekend runs on platform default installation.
+2017-11-11 13:08:49,594  WARN [Worker-30] - ScalaProject - Project SparkSQL_June2017Weekend has platform default sourceLevel.
+2017-11-11 13:08:49,594  WARN [Worker-30] - ScalaProject - Project SparkSQL_June2017Weekend runs on platform default installation.
+2017-11-11 13:10:02,950  WARN [Worker-30] - ScalaProject - Project SparkSQL_June2017Weekend has platform default sourceLevel.
+2017-11-11 13:10:02,950  WARN [Worker-30] - ScalaProject - Project SparkSQL_June2017Weekend runs on platform default installation.
+2017-11-11 13:12:13,174  WARN [Worker-26] - ScalaProject - Project SparkSQL_June2017Weekend has platform default sourceLevel.
+2017-11-11 13:12:13,174  WARN [Worker-26] - ScalaProject - Project SparkSQL_June2017Weekend runs on platform default installation.
+2017-11-11 13:13:30,046  WARN [Worker-36] - ScalaProject - Project SparkSQL_June2017Weekend has platform default sourceLevel.
+2017-11-11 13:13:30,047  WARN [Worker-36] - ScalaProject - Project SparkSQL_June2017Weekend runs on platform default installation.
+2017-11-11 13:13:51,633  WARN [Worker-32] - ScalaProject - Project SparkSQL_June2017Weekend has platform default sourceLevel.
+2017-11-11 13:13:51,633  WARN [Worker-32] - ScalaProject - Project SparkSQL_June2017Weekend runs on platform default installation.
+2017-11-11 13:15:45,412  WARN [Worker-36] - ScalaProject - Project SparkSQL_June2017Weekend has platform default sourceLevel.
+2017-11-11 13:15:45,412  WARN [Worker-36] - ScalaProject - Project SparkSQL_June2017Weekend runs on platform default installation.
+2017-11-11 13:16:23,995 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2017-11-11 13:16:24,020 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2017-11-11 13:16:24,020 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2017-11-11 13:16:24,021 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2017-11-11 13:17:03,814  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 417
+2017-11-11 13:17:03,814  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 417
+2017-11-11 13:17:28,834  WARN [Worker-35] - ScalaProject - Project SparkSQL_June2017Weekend has platform default sourceLevel.
+2017-11-11 13:17:28,835  WARN [Worker-35] - ScalaProject - Project SparkSQL_June2017Weekend runs on platform default installation.
+2017-11-11 13:18:12,922  WARN [Worker-36] - ScalaProject - Project SparkSQL_June2017Weekend has platform default sourceLevel.
+2017-11-11 13:18:12,922  WARN [Worker-36] - ScalaProject - Project SparkSQL_June2017Weekend runs on platform default installation.
+2017-11-11 13:18:52,682 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2017-11-11 13:18:52,689 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2017-11-11 13:18:52,690 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2017-11-11 13:18:52,690 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2017-11-11 13:20:03,764  WARN [Worker-37] - ScalaProject - Project SparkSQL_June2017Weekend has platform default sourceLevel.
+2017-11-11 13:20:03,765  WARN [Worker-37] - ScalaProject - Project SparkSQL_June2017Weekend runs on platform default installation.
+2017-11-11 13:20:44,053  WARN [Worker-40] - ScalaProject - Project SparkSQL_June2017Weekend has platform default sourceLevel.
+2017-11-11 13:20:44,053  WARN [Worker-40] - ScalaProject - Project SparkSQL_June2017Weekend runs on platform default installation.
+2017-11-11 13:23:27,437  WARN [Worker-35] - ScalaProject - Project SparkSQL_June2017Weekend has platform default sourceLevel.
+2017-11-11 13:23:27,438  WARN [Worker-35] - ScalaProject - Project SparkSQL_June2017Weekend runs on platform default installation.
+2017-11-11 13:23:43,627  WARN [Worker-41] - ScalaProject - Project SparkSQL_June2017Weekend has platform default sourceLevel.
+2017-11-11 13:23:43,627  WARN [Worker-41] - ScalaProject - Project SparkSQL_June2017Weekend runs on platform default installation.
+2017-11-11 13:24:17,782  WARN [Worker-41] - ScalaProject - Project SparkSQL_June2017Weekend has platform default sourceLevel.
+2017-11-11 13:24:17,784  WARN [Worker-41] - ScalaProject - Project SparkSQL_June2017Weekend runs on platform default installation.
+2017-11-11 13:24:26,903 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2017-11-11 13:24:26,904 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2017-11-11 13:24:39,423  WARN [Worker-42] - ScalaProject - Project SparkSQL_June2017Weekend has platform default sourceLevel.
+2017-11-11 13:24:39,423  WARN [Worker-42] - ScalaProject - Project SparkSQL_June2017Weekend runs on platform default installation.
+2017-11-11 13:24:42,713  WARN [Worker-35] - ScalaProject - Project SparkSQL_June2017Weekend has platform default sourceLevel.
+2017-11-11 13:24:42,714  WARN [Worker-35] - ScalaProject - Project SparkSQL_June2017Weekend runs on platform default installation.
+2017-11-11 13:25:33,140  WARN [Worker-41] - ScalaProject - Project SparkSQL_June2017Weekend has platform default sourceLevel.
+2017-11-11 13:25:33,140  WARN [Worker-41] - ScalaProject - Project SparkSQL_June2017Weekend runs on platform default installation.
+2017-11-11 13:25:56,962  WARN [Worker-42] - ScalaProject - Project SparkSQL_June2017Weekend has platform default sourceLevel.
+2017-11-11 13:25:56,962  WARN [Worker-42] - ScalaProject - Project SparkSQL_June2017Weekend runs on platform default installation.
+2017-11-11 13:27:37,090  WARN [Worker-40] - ScalaProject - Project SparkSQL_June2017Weekend has platform default sourceLevel.
+2017-11-11 13:27:37,090  WARN [Worker-40] - ScalaProject - Project SparkSQL_June2017Weekend runs on platform default installation.
+2017-11-11 13:28:45,253  WARN [Worker-35] - ScalaProject - Project SparkSQL_June2017Weekend has platform default sourceLevel.
+2017-11-11 13:28:45,253  WARN [Worker-35] - ScalaProject - Project SparkSQL_June2017Weekend runs on platform default installation.
+2017-11-11 13:28:57,915  WARN [Worker-42] - ScalaProject - Project SparkSQL_June2017Weekend has platform default sourceLevel.
+2017-11-11 13:28:57,915  WARN [Worker-42] - ScalaProject - Project SparkSQL_June2017Weekend runs on platform default installation.
+2017-11-11 13:30:36,894  WARN [Worker-43] - ScalaProject - Project SparkSQL_June2017Weekend has platform default sourceLevel.
+2017-11-11 13:30:36,894  WARN [Worker-43] - ScalaProject - Project SparkSQL_June2017Weekend runs on platform default installation.
+2017-11-11 13:30:44,132  WARN [Worker-32] - ScalaProject - Project SparkSQL_June2017Weekend has platform default sourceLevel.
+2017-11-11 13:30:44,132  WARN [Worker-32] - ScalaProject - Project SparkSQL_June2017Weekend runs on platform default installation.
+2017-11-11 13:31:48,413  WARN [Worker-35] - ScalaProject - Project SparkSQL_June2017Weekend has platform default sourceLevel.
+2017-11-11 13:31:48,414  WARN [Worker-35] - ScalaProject - Project SparkSQL_June2017Weekend runs on platform default installation.
+2017-11-11 13:33:44,338  WARN [Worker-40] - ScalaProject - Project SparkSQL_June2017Weekend has platform default sourceLevel.
+2017-11-11 13:33:44,338  WARN [Worker-40] - ScalaProject - Project SparkSQL_June2017Weekend runs on platform default installation.
+2017-11-11 13:33:59,916  WARN [Worker-35] - ScalaProject - Project SparkSQL_June2017Weekend has platform default sourceLevel.
+2017-11-11 13:33:59,917  WARN [Worker-35] - ScalaProject - Project SparkSQL_June2017Weekend runs on platform default installation.
+2017-11-11 13:34:03,528  WARN [Worker-35] - ScalaProject - Project SparkSQL_June2017Weekend has platform default sourceLevel.
+2017-11-11 13:34:03,529  WARN [Worker-35] - ScalaProject - Project SparkSQL_June2017Weekend runs on platform default installation.
+2017-11-11 13:34:35,202  WARN [Worker-44] - ScalaProject - Project SparkSQL_June2017Weekend has platform default sourceLevel.
+2017-11-11 13:34:35,202  WARN [Worker-44] - ScalaProject - Project SparkSQL_June2017Weekend runs on platform default installation.
+2017-11-11 13:36:43,275  WARN [Worker-35] - ScalaProject - Project SparkSQL_June2017Weekend has platform default sourceLevel.
+2017-11-11 13:36:43,275  WARN [Worker-35] - ScalaProject - Project SparkSQL_June2017Weekend runs on platform default installation.
+2017-11-11 13:37:20,730  WARN [Worker-32] - ScalaProject - Project SparkSQL_June2017Weekend has platform default sourceLevel.
+2017-11-11 13:37:20,731  WARN [Worker-32] - ScalaProject - Project SparkSQL_June2017Weekend runs on platform default installation.
+2017-11-11 13:43:44,531  WARN [Worker-45] - ScalaProject - Project SparkSQL_June2017Weekend has platform default sourceLevel.
+2017-11-11 13:43:44,532  WARN [Worker-45] - ScalaProject - Project SparkSQL_June2017Weekend runs on platform default installation.
+2017-11-11 13:45:22,498  WARN [Worker-47] - ScalaProject - Project Streaming has platform default sourceLevel.
+2017-11-11 13:45:22,498  WARN [Worker-47] - ScalaProject - Project Streaming runs on platform default installation.
+2017-11-11 13:45:22,850  WARN [Worker-35] - ScalaProject - Project Streaming has platform default sourceLevel.
+2017-11-11 13:45:22,850  WARN [Worker-35] - ScalaProject - Project Streaming runs on platform default installation.
+2017-11-11 13:45:22,856  WARN [Worker-35] - ScalaProject - Project Streaming has platform default sourceLevel.
+2017-11-11 13:45:22,856  WARN [Worker-35] - ScalaProject - Project Streaming runs on platform default installation.
+2017-11-11 13:45:33,733  WARN [main] - ScalaProject - Project Streaming has platform default sourceLevel.
+2017-11-11 13:45:33,733  WARN [main] - ScalaProject - Project Streaming runs on platform default installation.
+2017-11-11 13:54:48,442  WARN [Worker-54] - ScalaProject - Project Streaming has platform default sourceLevel.
+2017-11-11 13:54:48,442  WARN [Worker-54] - ScalaProject - Project Streaming runs on platform default installation.
+2017-11-11 14:11:05,980  WARN [main] - ScalaProject - Project Streaming has platform default sourceLevel.
+2017-11-11 14:11:05,982  WARN [main] - ScalaProject - Project Streaming runs on platform default installation.
+2017-11-11 14:11:05,990  WARN [main] - ScalaProject - Project Streaming has platform default sourceLevel.
+2017-11-11 14:11:05,990  WARN [main] - ScalaProject - Project Streaming runs on platform default installation.
+2017-11-11 14:11:27,842  WARN [Worker-4] - ScalaProject - Project SparkSQL_June2017Weekend has platform default sourceLevel.
+2017-11-11 14:11:27,843  WARN [Worker-4] - ScalaProject - Project SparkSQL_June2017Weekend runs on platform default installation.
+2017-11-11 14:11:48,072  WARN [Java indexing] - ScalaProject - Project SparkSQL_June2017Weekend has platform default sourceLevel.
+2017-11-11 14:11:48,073  WARN [Java indexing] - ScalaProject - Project SparkSQL_June2017Weekend runs on platform default installation.
+2018-01-11 08:28:27,568  WARN [main] - ScalaProject - Project Streaming has platform default sourceLevel.
+2018-01-11 08:28:27,593  WARN [main] - ScalaProject - Project Streaming runs on platform default installation.
+2018-01-11 08:28:27,626  WARN [main] - ScalaProject - Project Streaming has platform default sourceLevel.
+2018-01-11 08:28:27,626  WARN [main] - ScalaProject - Project Streaming runs on platform default installation.
+2018-01-11 08:28:32,686  WARN [main] - ScalaProject - Project SparkSQL_June2017Weekend has platform default sourceLevel.
+2018-01-11 08:28:32,687  WARN [main] - ScalaProject - Project SparkSQL_June2017Weekend runs on platform default installation.
+2018-01-11 08:28:56,657  WARN [main] - ScalaProject - Project SparkSQL_June2017Weekend has platform default sourceLevel.
+2018-01-11 08:28:56,658  WARN [main] - ScalaProject - Project SparkSQL_June2017Weekend runs on platform default installation.
+2018-01-11 08:30:04,149  WARN [ModalContext] - ScalaProject - Project Nov2017WeekDays has platform default sourceLevel.
+2018-01-11 08:30:04,150  WARN [ModalContext] - ScalaProject - Project Nov2017WeekDays runs on platform default installation.
+2018-01-11 08:30:04,410  WARN [Worker-2] - ScalaProject - Project Nov2017WeekDays has platform default sourceLevel.
+2018-01-11 08:30:04,410  WARN [Worker-2] - ScalaProject - Project Nov2017WeekDays runs on platform default installation.
+2018-01-11 08:38:45,913  WARN [main] - ScalaProject - Project Nov2017WeekDays has platform default sourceLevel.
+2018-01-11 08:38:45,913  WARN [main] - ScalaProject - Project Nov2017WeekDays runs on platform default installation.
+2018-01-11 08:38:54,690  WARN [Worker-7] - ScalaProject - Project Nov2017WeekDays has platform default sourceLevel.
+2018-01-11 08:38:54,690  WARN [Worker-7] - ScalaProject - Project Nov2017WeekDays runs on platform default installation.
+2018-01-11 08:38:55,036  WARN [Java indexing] - ScalaProject - Project Nov2017WeekDays has platform default sourceLevel.
+2018-01-11 08:38:55,037  WARN [Java indexing] - ScalaProject - Project Nov2017WeekDays runs on platform default installation.
+2018-01-11 08:38:59,022  WARN [Worker-7] - ScalaProject - Project Nov2017WeekDays has platform default sourceLevel.
+2018-01-11 08:38:59,022  WARN [Worker-7] - ScalaProject - Project Nov2017WeekDays runs on platform default installation.
+2018-01-11 08:47:08,045  WARN [Worker-12] - ScalaProject - Project Nov2017WeekDays has platform default sourceLevel.
+2018-01-11 08:47:08,045  WARN [Worker-12] - ScalaProject - Project Nov2017WeekDays runs on platform default installation.
+2018-01-11 08:50:01,920  WARN [Worker-15] - ScalaProject - Project Nov2017WeekDays has platform default sourceLevel.
+2018-01-11 08:50:01,920  WARN [Worker-15] - ScalaProject - Project Nov2017WeekDays runs on platform default installation.
+2018-01-11 08:50:36,121  WARN [Worker-15] - ScalaProject - Project Nov2017WeekDays has platform default sourceLevel.
+2018-01-11 08:50:36,121  WARN [Worker-15] - ScalaProject - Project Nov2017WeekDays runs on platform default installation.
+2018-01-11 08:51:12,958  WARN [Worker-12] - ScalaProject - Project Nov2017WeekDays has platform default sourceLevel.
+2018-01-11 08:51:12,958  WARN [Worker-12] - ScalaProject - Project Nov2017WeekDays runs on platform default installation.
+2018-01-11 08:51:18,790  WARN [Worker-15] - ScalaProject - Project Nov2017WeekDays has platform default sourceLevel.
+2018-01-11 08:51:18,791  WARN [Worker-15] - ScalaProject - Project Nov2017WeekDays runs on platform default installation.
+2018-01-11 08:52:03,007  WARN [Worker-12] - ScalaProject - Project Nov2017WeekDays has platform default sourceLevel.
+2018-01-11 08:52:03,007  WARN [Worker-12] - ScalaProject - Project Nov2017WeekDays runs on platform default installation.
+2018-01-11 08:54:31,383 ERROR [Worker-15] - System.err - SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2018-01-11 08:54:31,383 ERROR [Worker-15] - System.err - SLF4J: Defaulting to no-operation (NOP) logger implementation
+2018-01-11 08:54:31,383 ERROR [Worker-15] - System.err - SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2018-01-11 09:01:21,828  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 134
+2018-01-11 09:01:23,372  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 135
+2018-01-11 09:01:53,435  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 136
+2018-01-11 09:01:54,453  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 137
+2018-01-11 09:01:55,513  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 138
+2018-01-11 09:01:55,514  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 138
+2018-01-11 09:01:56,542  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 136
+2018-01-11 09:02:17,248  WARN [Worker-21] - ScalaProject - Project Nov2017WeekDays has platform default sourceLevel.
+2018-01-11 09:02:17,248  WARN [Worker-21] - ScalaProject - Project Nov2017WeekDays runs on platform default installation.
+2018-01-11 09:02:26,519  WARN [Worker-13] - ScalaProject - Project Nov2017WeekDays has platform default sourceLevel.
+2018-01-11 09:02:26,519  WARN [Worker-13] - ScalaProject - Project Nov2017WeekDays runs on platform default installation.
+2018-01-11 09:03:08,152  WARN [Worker-21] - ScalaProject - Project Nov2017WeekDays has platform default sourceLevel.
+2018-01-11 09:03:08,153  WARN [Worker-21] - ScalaProject - Project Nov2017WeekDays runs on platform default installation.
+2018-01-11 09:03:22,185  WARN [Worker-21] - ScalaProject - Project Nov2017WeekDays has platform default sourceLevel.
+2018-01-11 09:03:22,185  WARN [Worker-21] - ScalaProject - Project Nov2017WeekDays runs on platform default installation.
+2018-01-11 09:03:35,099 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2018-01-11 09:03:35,108 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2018-01-11 09:03:35,108 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2018-01-11 09:03:35,108 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2018-01-11 09:03:39,702  WARN [Worker-22] - ScalaProject - Project Nov2017WeekDays has platform default sourceLevel.
+2018-01-11 09:03:39,703  WARN [Worker-22] - ScalaProject - Project Nov2017WeekDays runs on platform default installation.
+2018-01-11 09:03:48,466  WARN [Worker-22] - ScalaProject - Project Nov2017WeekDays has platform default sourceLevel.
+2018-01-11 09:03:48,467  WARN [Worker-22] - ScalaProject - Project Nov2017WeekDays runs on platform default installation.
+2018-01-11 09:04:06,393  WARN [Worker-21] - ScalaProject - Project Nov2017WeekDays has platform default sourceLevel.
+2018-01-11 09:04:06,394  WARN [Worker-21] - ScalaProject - Project Nov2017WeekDays runs on platform default installation.
+2018-01-11 09:04:16,758  WARN [Worker-13] - ScalaProject - Project Nov2017WeekDays has platform default sourceLevel.
+2018-01-11 09:04:16,758  WARN [Worker-13] - ScalaProject - Project Nov2017WeekDays runs on platform default installation.
+2018-01-11 09:05:14,477  WARN [Worker-20] - ScalaProject - Project Nov2017WeekDays has platform default sourceLevel.
+2018-01-11 09:05:14,477  WARN [Worker-20] - ScalaProject - Project Nov2017WeekDays runs on platform default installation.
+2018-01-11 09:07:19,126  WARN [Worker-22] - ScalaProject - Project Nov2017WeekDays has platform default sourceLevel.
+2018-01-11 09:07:19,126  WARN [Worker-22] - ScalaProject - Project Nov2017WeekDays runs on platform default installation.
+2018-01-11 09:07:29,720  WARN [Worker-21] - ScalaProject - Project Nov2017WeekDays has platform default sourceLevel.
+2018-01-11 09:07:29,721  WARN [Worker-21] - ScalaProject - Project Nov2017WeekDays runs on platform default installation.
+2018-01-11 09:08:54,579  WARN [Worker-22] - ScalaProject - Project Nov2017WeekDays has platform default sourceLevel.
+2018-01-11 09:08:54,580  WARN [Worker-22] - ScalaProject - Project Nov2017WeekDays runs on platform default installation.
+2018-01-11 09:09:03,616  WARN [Worker-25] - ScalaProject - Project Nov2017WeekDays has platform default sourceLevel.
+2018-01-11 09:09:03,616  WARN [Worker-25] - ScalaProject - Project Nov2017WeekDays runs on platform default installation.
+2018-01-11 09:09:05,866  WARN [Worker-20] - ScalaProject - Project Nov2017WeekDays has platform default sourceLevel.
+2018-01-11 09:09:05,867  WARN [Worker-20] - ScalaProject - Project Nov2017WeekDays runs on platform default installation.
+2018-01-11 09:09:07,931  WARN [Worker-26] - ScalaProject - Project Nov2017WeekDays has platform default sourceLevel.
+2018-01-11 09:09:07,931  WARN [Worker-26] - ScalaProject - Project Nov2017WeekDays runs on platform default installation.
+2018-01-11 09:12:20,732  WARN [Worker-30] - ScalaProject - Project Nov2017WeekDays has platform default sourceLevel.
+2018-01-11 09:12:20,733  WARN [Worker-30] - ScalaProject - Project Nov2017WeekDays runs on platform default installation.
+2018-01-11 09:12:30,041  WARN [Worker-29] - ScalaProject - Project Nov2017WeekDays has platform default sourceLevel.
+2018-01-11 09:12:30,041  WARN [Worker-29] - ScalaProject - Project Nov2017WeekDays runs on platform default installation.
+2018-01-11 09:12:55,011  WARN [Worker-29] - ScalaProject - Project Nov2017WeekDays has platform default sourceLevel.
+2018-01-11 09:12:55,011  WARN [Worker-29] - ScalaProject - Project Nov2017WeekDays runs on platform default installation.
+2018-01-11 09:12:57,093  WARN [Worker-30] - ScalaProject - Project Nov2017WeekDays has platform default sourceLevel.
+2018-01-11 09:12:57,093  WARN [Worker-30] - ScalaProject - Project Nov2017WeekDays runs on platform default installation.
+2018-01-11 09:13:21,572  WARN [Worker-30] - ScalaProject - Project Nov2017WeekDays has platform default sourceLevel.
+2018-01-11 09:13:21,573  WARN [Worker-30] - ScalaProject - Project Nov2017WeekDays runs on platform default installation.
+2018-01-11 09:13:43,557  WARN [Worker-29] - ScalaProject - Project Nov2017WeekDays has platform default sourceLevel.
+2018-01-11 09:13:43,557  WARN [Worker-29] - ScalaProject - Project Nov2017WeekDays runs on platform default installation.
+2018-01-11 09:14:23,052  WARN [Worker-30] - ScalaProject - Project Nov2017WeekDays has platform default sourceLevel.
+2018-01-11 09:14:23,052  WARN [Worker-30] - ScalaProject - Project Nov2017WeekDays runs on platform default installation.
+2018-01-11 09:14:43,094  WARN [Worker-28] - ScalaProject - Project Nov2017WeekDays has platform default sourceLevel.
+2018-01-11 09:14:43,094  WARN [Worker-28] - ScalaProject - Project Nov2017WeekDays runs on platform default installation.
+2018-01-11 09:14:54,377  WARN [Worker-28] - ScalaProject - Project Nov2017WeekDays has platform default sourceLevel.
+2018-01-11 09:14:54,377  WARN [Worker-28] - ScalaProject - Project Nov2017WeekDays runs on platform default installation.
+2018-01-11 09:15:17,822  WARN [Worker-30] - ScalaProject - Project Nov2017WeekDays has platform default sourceLevel.
+2018-01-11 09:15:17,822  WARN [Worker-30] - ScalaProject - Project Nov2017WeekDays runs on platform default installation.
+2018-01-11 09:15:55,117  WARN [Worker-30] - ScalaProject - Project Nov2017WeekDays has platform default sourceLevel.
+2018-01-11 09:15:55,117  WARN [Worker-30] - ScalaProject - Project Nov2017WeekDays runs on platform default installation.
+2018-01-11 09:16:02,956  WARN [Worker-30] - ScalaProject - Project Nov2017WeekDays has platform default sourceLevel.
+2018-01-11 09:16:02,956  WARN [Worker-30] - ScalaProject - Project Nov2017WeekDays runs on platform default installation.
+2018-01-11 09:16:14,063  WARN [Worker-30] - ScalaProject - Project Nov2017WeekDays has platform default sourceLevel.
+2018-01-11 09:16:14,063  WARN [Worker-30] - ScalaProject - Project Nov2017WeekDays runs on platform default installation.
+2018-01-11 09:16:36,839  WARN [Worker-31] - ScalaProject - Project Nov2017WeekDays has platform default sourceLevel.
+2018-01-11 09:16:36,839  WARN [Worker-31] - ScalaProject - Project Nov2017WeekDays runs on platform default installation.
+2018-01-11 09:17:20,940  WARN [Worker-30] - ScalaProject - Project Nov2017WeekDays has platform default sourceLevel.
+2018-01-11 09:17:20,940  WARN [Worker-30] - ScalaProject - Project Nov2017WeekDays runs on platform default installation.
+2018-01-11 09:17:22,686  WARN [Worker-30] - ScalaProject - Project Nov2017WeekDays has platform default sourceLevel.
+2018-01-11 09:17:22,686  WARN [Worker-30] - ScalaProject - Project Nov2017WeekDays runs on platform default installation.
+2018-01-11 09:17:39,694  WARN [Worker-29] - ScalaProject - Project Nov2017WeekDays has platform default sourceLevel.
+2018-01-11 09:17:39,694  WARN [Worker-29] - ScalaProject - Project Nov2017WeekDays runs on platform default installation.
+2018-01-11 09:17:54,331  WARN [Worker-29] - ScalaProject - Project Nov2017WeekDays has platform default sourceLevel.
+2018-01-11 09:17:54,331  WARN [Worker-29] - ScalaProject - Project Nov2017WeekDays runs on platform default installation.
+2018-01-11 09:17:58,955  WARN [Worker-31] - ScalaProject - Project Nov2017WeekDays has platform default sourceLevel.
+2018-01-11 09:17:58,955  WARN [Worker-31] - ScalaProject - Project Nov2017WeekDays runs on platform default installation.
+2018-01-11 09:18:41,843  WARN [Worker-30] - ScalaProject - Project Nov2017WeekDays has platform default sourceLevel.
+2018-01-11 09:18:41,843  WARN [Worker-30] - ScalaProject - Project Nov2017WeekDays runs on platform default installation.
+2018-01-11 09:18:46,276  WARN [Worker-29] - ScalaProject - Project Nov2017WeekDays has platform default sourceLevel.
+2018-01-11 09:18:46,276  WARN [Worker-29] - ScalaProject - Project Nov2017WeekDays runs on platform default installation.
+2018-01-11 09:19:27,288  WARN [Worker-28] - ScalaProject - Project Nov2017WeekDays has platform default sourceLevel.
+2018-01-11 09:19:27,288  WARN [Worker-28] - ScalaProject - Project Nov2017WeekDays runs on platform default installation.
+2018-01-11 09:19:37,577  WARN [Worker-30] - ScalaProject - Project Nov2017WeekDays has platform default sourceLevel.
+2018-01-11 09:19:37,577  WARN [Worker-30] - ScalaProject - Project Nov2017WeekDays runs on platform default installation.
+2018-01-11 09:19:42,328  WARN [Worker-31] - ScalaProject - Project Nov2017WeekDays has platform default sourceLevel.
+2018-01-11 09:19:42,328  WARN [Worker-31] - ScalaProject - Project Nov2017WeekDays runs on platform default installation.
+2018-01-11 09:20:12,834  WARN [Worker-30] - ScalaProject - Project Nov2017WeekDays has platform default sourceLevel.
+2018-01-11 09:20:12,834  WARN [Worker-30] - ScalaProject - Project Nov2017WeekDays runs on platform default installation.
+2018-01-11 09:20:21,897  WARN [Worker-31] - ScalaProject - Project Nov2017WeekDays has platform default sourceLevel.
+2018-01-11 09:20:21,898  WARN [Worker-31] - ScalaProject - Project Nov2017WeekDays runs on platform default installation.
+2018-01-11 09:20:49,336  WARN [Worker-28] - ScalaProject - Project Nov2017WeekDays has platform default sourceLevel.
+2018-01-11 09:20:49,337  WARN [Worker-28] - ScalaProject - Project Nov2017WeekDays runs on platform default installation.
+2018-01-11 09:21:35,535  WARN [Worker-28] - ScalaProject - Project Nov2017WeekDays has platform default sourceLevel.
+2018-01-11 09:21:35,535  WARN [Worker-28] - ScalaProject - Project Nov2017WeekDays runs on platform default installation.
+2018-01-11 09:22:20,953  WARN [Worker-22] - ScalaProject - Project Nov2017WeekDays has platform default sourceLevel.
+2018-01-11 09:22:20,953  WARN [Worker-22] - ScalaProject - Project Nov2017WeekDays runs on platform default installation.
+2018-01-11 09:22:28,318  WARN [Worker-22] - ScalaProject - Project Nov2017WeekDays has platform default sourceLevel.
+2018-01-11 09:22:28,318  WARN [Worker-22] - ScalaProject - Project Nov2017WeekDays runs on platform default installation.
+2018-01-11 09:23:09,910  WARN [Worker-30] - ScalaProject - Project Nov2017WeekDays has platform default sourceLevel.
+2018-01-11 09:23:09,910  WARN [Worker-30] - ScalaProject - Project Nov2017WeekDays runs on platform default installation.
+2018-01-11 09:23:54,863  WARN [Worker-29] - ScalaProject - Project Nov2017WeekDays has platform default sourceLevel.
+2018-01-11 09:23:54,864  WARN [Worker-29] - ScalaProject - Project Nov2017WeekDays runs on platform default installation.
+2018-01-11 09:24:22,340  WARN [Worker-29] - ScalaProject - Project Nov2017WeekDays has platform default sourceLevel.
+2018-01-11 09:24:22,340  WARN [Worker-29] - ScalaProject - Project Nov2017WeekDays runs on platform default installation.
+2018-01-11 09:24:39,538  WARN [Worker-28] - ScalaProject - Project Nov2017WeekDays has platform default sourceLevel.
+2018-01-11 09:24:39,538  WARN [Worker-28] - ScalaProject - Project Nov2017WeekDays runs on platform default installation.
+2018-01-11 09:24:47,016  WARN [Worker-30] - ScalaProject - Project Nov2017WeekDays has platform default sourceLevel.
+2018-01-11 09:24:47,016  WARN [Worker-30] - ScalaProject - Project Nov2017WeekDays runs on platform default installation.
+2018-01-11 09:27:10,951  WARN [Worker-31] - ScalaProject - Project Nov2017WeekDays has platform default sourceLevel.
+2018-01-11 09:27:10,951  WARN [Worker-31] - ScalaProject - Project Nov2017WeekDays runs on platform default installation.
