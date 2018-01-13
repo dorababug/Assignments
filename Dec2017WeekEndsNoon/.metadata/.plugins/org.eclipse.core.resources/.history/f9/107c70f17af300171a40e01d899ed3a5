@@ -1,0 +1,6 @@
+package snippet;
+
+public class Snippet {
+	alter table emp_bkp1 rename to default.emp_bkp1;
+}
+

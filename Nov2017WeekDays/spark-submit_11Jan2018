@@ -32,8 +32,16 @@ HW->
 case class?
 auxillary constructors
 companion object
+trait
 
 
+Case class:: generate boilerplate code
+POJO -> case 
+create object -> no need to new keyword
+all members are vals-> accessors
+create object-> object is Immutable 
+compare case class -> copy method -> element by element 
+-----------------------
 
 
 

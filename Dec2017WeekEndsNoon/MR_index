@@ -1,0 +1,21 @@
+mapreduce framework
+wc
+consumption
+movielens
+
+grep
+sed
+wiki -> 
+
+joins -> mapside reduce side -> emp/dept
+distributed cache 
+
+combiner
+paritioner -> hash partitioner-> custompartitioner
+
+Configuration conf.set -D
+-----------------
+Compression
+File based Data structeres-> rowformats and columnformats
+
+
