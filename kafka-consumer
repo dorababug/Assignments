@@ -1,0 +1,75 @@
+import java.util.Arrays;
+import java.util.Properties;
+
+import org.apache.kafka.clients.consumer.ConsumerRecord;
+import org.apache.kafka.clients.consumer.ConsumerRecords;
+import org.apache.kafka.clients.consumer.KafkaConsumer;
+
+public class DemoConsumer {
+	public static void main(String[] args) {
+		String topic="novDemo";
+		String group="sample";
+		Properties props = new Properties();
+		props.put("bootstrap.servers", "localhost:9092"); //kafka server list
+		props.put("group.id", group);
+		//serialized values will be stored in Kafka
+		props.put("key.deserializer",          
+		         "org.apache.kafka.common.serialization.StringDeserializer");
+		props.put("value.deserializer", 
+		         "org.apache.kafka.common.serialization.StringDeserializer");
+		
+		//create consumer object , 
+		KafkaConsumer<String, String> consumer=new KafkaConsumer<String,String>(props);
+		//subscribe to a topic
+		consumer.subscribe(Arrays.asList(topic));
+		//run consumer in loop
+		while(true){
+			ConsumerRecords<String, String> records=consumer.poll(100);
+			for (ConsumerRecord<String, String> record : records){
+				System.out.printf("offset = %d, key = %s, value = %s\n",
+						record.offset(), record.key(), record.value());
+				
+				
+			}
+		}
+		
+		
+	}
+}
+
+-----------------------------------------------------
+package kafkaDemoNov2017;
+
+import java.util.Properties;
+
+import org.apache.kafka.clients.producer.KafkaProducer;
+import org.apache.kafka.clients.producer.ProducerRecord;
+
+public class DemoProducer {
+
+	public static void main(String[] args) {
+		String topic="novDemo";
+		Properties props = new Properties();
+		props.put("bootstrap.servers", "localhost:9092"); //kafka server list
+		//serialized values will be stored in Kafka
+		props.put("key.serializer",          
+		         "org.apache.kafka.common.serialization.StringSerializer");
+		props.put("value.serializer", 
+		         "org.apache.kafka.common.serialization.StringSerializer");
+		
+		KafkaProducer<String, String> producer=new KafkaProducer<String,String>(props);
+		
+		for (int i = 4000; i < 4010; i++) {
+			ProducerRecord<String, String> rec=new ProducerRecord<String, String>(topic,  
+					Integer.toString(i),"dummy::"+i );
+			producer.send(rec);
+			
+		}
+		System.out.println("Message sent successfully to Kafka");
+		producer.close();
+		
+		
+	}
+	
+}
+
