@@ -1,0 +1,23 @@
+1) how to remove duplicates from a table?
+1,stu1,1000,2018-01-01
+1,stu1,2000,2018-01-02
+1,stu1,5000,2018-01-03
+2,stu2,1000,2018-01-01
+2,stu2,2000,2018-01-02
+
+row_number() function
+--------------------------------
+2) Time variabce 
+1,sut1,1000,2000,5000
+2,stu2,1000,2000,null
+---------------------------------
+3) How to handle incremental records in partitioned hive table.
+
+-----------------------------
+4) All movie lens queries using hive:
+clean the dataset-> create external tables
+Choose proper partitioning and bucketing,sotring
+
+----------------------------
+
+

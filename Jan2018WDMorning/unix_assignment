@@ -1,0 +1,26 @@
+date: 25Jan2018
+what is cron
+find folder size using du
+
+
+---------------------
+find zero sized files in a folder
+cut the zero files and move it to a separate folder
+-----------
+
+
+
+Shell script
+write a shell script, that take a folder name and a file name as arguements. -> print all arguments
+check whether the file is present in the folder 
+if it is not there print a message.. file not present
+then create the file . and exit with return status 0
+if the file is present , print message the file already present. exit with return status 1.
+----------------------------------------
+
+Processes::
+ssh
+gzip
+tar
+vi editor 
+how to run the commands in background

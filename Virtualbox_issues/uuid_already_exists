@@ -1,0 +1,3 @@
+How to Reset the UUID
+
+VBoxManage internalcommands sethduuid vidfile

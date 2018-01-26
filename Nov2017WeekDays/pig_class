@@ -1,0 +1,22 @@
+divs = load 'NYSE_dividends' using PigStorage('\t') as (exchange:chararray, symbol:chararray, date:chararray, dividends:float) ;
+
+divs_cye = filter divs by symbol=='CYE'
+
+describe divs_cye
+
+daily = load 'NYSE_daily' using PigStorage('\t') as (
+exchange:chararray, symbol:chararray, date:chararray, open:float, high:float,low:float, close:float, volume:int, adj_close:float)
+
+jnd = join divs_cye by (symbol,date),daily by (symbol,date)
+
+res = foreach jnd generate divs_cye::exchange as exchange,divs_cye::symbol as symbol, dividends, daily::date as date, open,high,volume ;
+
+How many times each company has given dividends
+
+grpd = group divs by symbol;
+
+(CYS,{(NYSE,CYS,2009-10-01,0.35),(NYSE,CYS,2009-12-29,0.55)})
+
+res = foreach grpd generate group as symbol,COUNT(divs.symbol) as cnt;
+store res into 'result/abc' using PigStorage('|');
+

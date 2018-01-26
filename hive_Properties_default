@@ -1,0 +1,16 @@
+Date:21Jan2018
+hive.mapred.supports.subdirectories
+hive.exec.compress.output
+hive.exec.compress.intermediate
+hive.exec.parallel -> 
+hive.auto.convert.join ->
+hive.exec.dynamic.partition.mode
+hive.exec.default.partition.name
+hive.default.fileformat=orc
+hive.metastore.warehouse.dir
+hive.warehouse.subdir.inherit.perms
+hive.tez.container.size
+hive.tez.java.opts
+hive.tez.log.level
+hive.tez.cpu.vcores
+hive.txn.manager

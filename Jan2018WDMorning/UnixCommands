@@ -1,0 +1,86 @@
+Date Jan252018
+--------------------
+Access:
+Logged in user is hadoop
+list of groups : cat /etc/group
+su -> switch user
+
+sudo su
+sudo su - hadoop
+sudo -l -> list super user privileges
+whoami
+cat /etc/group | grep hadoop -> list of users for a group
+
+groups hadoop -> user present in list of groups
+hadoop : hadoop adm cdrom sudo dip plugdev lpadmin sambashare
+
+-----------------------------------
+File permissions::
+alias lt='ls -lhrt'
+type lt
+
+read only for user,group/others no permissions:
+rwx rwx rwx
+r-- --- ---
+chmod
+chmod 400 f1.txt 
+ chmod 750 f1.txt 
+chmod ugo+wrx f1.txt
+
+sudo chgrp root f1.txt 
+sudo chown root f1.txt 
+sudo chown hadoop:hadoop f1.txt
+adduser
+addgroup
+deluser
+delgroup
+----------------------------------
+Redirection::
+cmd to file >   >>
+cmd to cmd | 
+wc word count wc -l
+ls -l | wc -l
+ls -l >> f1.txt
+
+more less head tail
+head f1.txt | tail -5
+
+
+grep Dec* f1.txt
+sed s/Dec*/QQQQQ/ f1.txt | grep QQQ
+ sed s/hadoop/SPARK/g f1.txt
+
+
+mkdir folder_`date +'%Y_%m_%d'`
+
+df -h
+du -h 
+===================================
+26Jan2018
+Process
+ps -ef | grep script
+find pid -> kill -9 pid
++++++++++++++++++
+#!/bin/bash
+echo "inside the script $0"
+for i in {1..100}
+do
+echo "*** hi $i"
+sleep 1
+done
++++++++++++++++++
+
+chmod 755 samplescript.sh
+
+nohup ./samplescript.sh 2>&1 > logfile.log &
+tail -f logfile.log
+
+
+ssh
+scp
+
+
+
+
+
+
