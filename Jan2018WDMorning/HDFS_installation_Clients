@@ -1,0 +1,39 @@
+Date: 29Jan2018
+tar.gz -> extract -> YARN
+PATH variable all bin -> .bashrc
+-----------------
+changed configuration -> site.xml -> etc/hadoop
+hadoop namenode -format
+hdfs namenode -format
+------------------------
+inter process communication
+Java programs
+
+ssh protocol -> 
+the comunicatin encrypted-> password less authentication
+password less ssh.
+
+----------------------------
+
+hdfs web UI -> 
+NN web UI localhost:50070
+RM web UI -> localhost:8088
+
+--------------------
+FIle system ops in HDFS
+CRUD  -> create , read , update , delete
+
+hdfs client::: 
+ls
+cat
+put
+get
+setrep
+text
+test
+--------------------
+
+
+
+
+

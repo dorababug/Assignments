@@ -1,3 +1,29 @@
+######################
+Author: G Dorababu 
+BigDataTech.IN
+######################
 How to Reset the UUID
-
 VBoxManage internalcommands sethduuid vidfile
+
+
+
+Linux-ubuntu 16.04 version 
+Date:27Jan2018
+This command will print the exact status of your system.
+ubuntu-support-status
+
+sudo apt-get update this is failing with
+/var/lib/apt/lists/lock failed to acquire, so remove it. sudo rm the file.	 
+
+
+Guest addtions issue::: even after installing guest addtions
+below error is coming.
+mout.vboxsf mounting failed
+
+
+Finally the worked one is ::::::
+ sudo apt-get install virtualbox-guest-dkms
+
+Mysql 5.7 in the JDBC string use
+&amp;u‌​seSSL=false
+
