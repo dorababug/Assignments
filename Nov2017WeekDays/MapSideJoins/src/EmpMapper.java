@@ -26,14 +26,14 @@ public class EmpMapper extends Mapper<LongWritable, Text, Text, Text>{
 		
 	}
 	
-	File f=new File("dept");
+	File f=new File("user");
 	BufferedReader reader=new BufferedReader(new FileReader(f));
 	try{	
 		String line="";
 		while((line=reader.readLine())!=null){
 			//001,hadoop
-			String deptId=line.split(",")[0];
-			String deptName=line.split(",")[1];
+			String deptId=line.split(" ")[0];
+			String deptName=line.split(" ")[1];
 			deptMap.put(deptId, deptName);
 		}
 	}finally{
@@ -53,7 +53,7 @@ public class EmpMapper extends Mapper<LongWritable, Text, Text, Text>{
 			throws IOException, InterruptedException {
 		//1,name,2000,001
 		//Extract join key-> Dept ID
-		String deptid=value.toString().split(",")[3];
+		String deptid=value.toString().split(" ")[2];
 		String deptName="";
 		try{
 			deptName=deptMap.get(deptid);

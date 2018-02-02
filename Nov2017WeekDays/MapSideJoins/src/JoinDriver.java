@@ -1,3 +1,4 @@
+import java.io.FilterReader;
 import java.io.IOException;
 import java.net.URI;
 
@@ -26,11 +27,11 @@ public class JoinDriver extends Configured implements Tool {
 
 		}
 		Configuration conf=this.getConf();
-		conf.set("mapreduce.output.textoutputformat.separator", ",");
+		conf.set("mapreduce.output.textoutputformat.separator", " ");
 		
 		Job job=Job.getInstance(conf,"Map Side Joins");
 		//yarn jar prgram.jar mainclass -files f1,f2 /empdataset /ouput
-		job.addCacheFile(new URI("file:///home/hadoop/inputFiles/input/dept"));
+		job.addCacheFile(new URI("file:///home/hadoop/Desktop/Pig_Problem/user"));
 		
 		job.setJarByClass(JoinDriver.class);
 		
@@ -43,8 +44,24 @@ public class JoinDriver extends Configured implements Tool {
 		
 		FileInputFormat.addInputPath(job, new Path(arg0[0]));
 		FileOutputFormat.setOutputPath(job, new Path(arg0[1]));
-		return job.waitForCompletion(true)?0:1;
+		
+		Job job1=Job.getInstance(conf,"Filter Data");
+		job1.setJarByClass(JoinDriver.class);
+		job1.setMapperClass(FilterMapper.class);
+		job1.setReducerClass(FilterReducer.class);
+		job1.setOutputKeyClass(Text.class);
+		job1.setOutputValueClass(Text.class);
+		FileInputFormat.addInputPath(job1, new Path(arg0[1]));
+		FileOutputFormat.setOutputPath(job1, new Path(arg0[2]));
+		boolean status=job.waitForCompletion(true);
+		
+		if( status){
+			return job1.waitForCompletion(true)?0:1;
+		}else
+			return status?0:1;
 			
+		
+		
 	}
 	
 	public static void main(String[] args) throws Exception {

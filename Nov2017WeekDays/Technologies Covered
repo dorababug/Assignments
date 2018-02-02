@@ -1,0 +1,21 @@
+Hadoop
+MR
+HDFS
+YARN
+HIVE
+Sqoop
+Spark
+Scala
+Pig
+Flume
+Kafka
+Oozie
+HBASE
+Project Explanation
+--------------------
+MR,JAVA,Sqoop,Hive
+Scala,Spark (core,sql,How to submit spark jobs)
+--------------------
+java8 and java7
+java9 REPL 
+
