@@ -1,0 +1,8 @@
+package com.inv;
+
+public class Parent_ex {
+	int p1=1000;
+	String name="inventateq";
+	
+	
+}

@@ -1,0 +1,7 @@
+package com.inv;
+
+public class HelloWorld {
+	//class variables
+	int i=10;
+
+}
