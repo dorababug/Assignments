@@ -16,7 +16,6 @@ public class WordCountDriver {
 		Configuration conf=new Configuration();
 		// create Job object
 		Job job=Job.getInstance(conf, "Word Count");
-		
 		job.setMapperClass(WordCountMapper.class);
 		job.setReducerClass(WordCountReducer.class);
 		job.setJarByClass(WordCountDriver.class);
@@ -29,8 +28,6 @@ public class WordCountDriver {
 		//set the input file location
 		FileInputFormat.addInputPath(job, new Path(args[0]));
 		//path object converts string into URI
-		//FileInputFormat.addInputPath(job, new Path(args[1]));
-
 		FileOutputFormat.setOutputPath(job, new Path(args[1]));
 			
 		//submit job to cluster

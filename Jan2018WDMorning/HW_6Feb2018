@@ -1,0 +1,21 @@
+6Feb2018
+1) implement GREP functionality using MR
+take a file ->  welcome is the serach word -> what are lines having the search word, should be sent to output file
+
+2) implement SED 
+search word hadoop / replace all hadoop word with spark
+
+3) create a folder in hdfs , keep 5 files
+and observer 
+	i) how many input splits
+	ii) how many map tasks
+	iii) how many reduce tasks
+
+4) apache hadoop wikipedia -> note pad file, run MR
+
+5) create 400MB file , and run MR programs
+for i in {1..1000};do cat smallfile>>bigfile ; done
+
+6) electrical consumption use case with MR
+
+
