@@ -1,0 +1,13 @@
+Date 8 Feb 2018
+
+
+1.Write a Scala program to sum of n natural no?
+def sum1(n:Int, total:Long=0):Long={
+if(n==0) total
+else sum1(n-1,total+n)
+}
+sum(10)
+
+2.write a scala program to create Fibonacci series
+0 1 1 2 3 5 8 13 21
+

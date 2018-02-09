@@ -1,0 +1,17 @@
+date 7Feb 2018
+
+Palindrome 121 131 144441 1331 
+
+number%10
+number/100
+number/1000
+number/1000
+
+
+-------------------
+a=10
+b=21
+a=a+b
+b=a-b now b=10, a=31
+a=a-b now b=10, 31-10=21
+-------------------

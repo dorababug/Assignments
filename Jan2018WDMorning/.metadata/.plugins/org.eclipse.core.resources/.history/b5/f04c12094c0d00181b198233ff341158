@@ -1,0 +1,40 @@
+import java.io.IOException;
+
+import org.apache.hadoop.conf.Configuration;
+import org.apache.hadoop.fs.Path;
+import org.apache.hadoop.io.NullWritable;
+import org.apache.hadoop.io.Text;
+import org.apache.hadoop.mapreduce.Job;
+import org.apache.hadoop.mapreduce.lib.input.FileInputFormat;
+import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
+
+
+public class GrepDriver {
+	public static void main(String[] args) throws IOException, ClassNotFoundException, InterruptedException {
+		//This program is to demonstrate custom configuration
+		Configuration conf=new Configuration();
+		conf.set("search_word", "June");
+		conf.set("mapreduce.job.name", "AAAAAAAAAA");
+		
+		Job job=Job.getInstance(conf);
+		job.setJarByClass(GrepDriver.class);
+		job.setMapperClass(GrepMapper.class);
+		//job.setReducer()
+		
+		//job.setNumReduceTasks(0);
+		
+		job.setOutputKeyClass(Text.class);
+		job.setOutputValueClass(NullWritable.class);
+		//psuedo hdfs://localhsot:9000    fs.defaultFS
+		//local mode file://
+		FileInputFormat.addInputPath(job, new Path(args[0]));
+		FileOutputFormat.setOutputPath(job, new Path(args[1]));
+		
+		System.exit(job.waitForCompletion(true)?0:1);
+		
+		
+		
+		
+	}
+
+}

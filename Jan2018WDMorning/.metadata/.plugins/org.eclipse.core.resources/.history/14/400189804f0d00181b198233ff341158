@@ -1,0 +1,67 @@
+import java.io.IOException;
+
+import org.apache.hadoop.conf.Configuration;
+import org.apache.hadoop.conf.Configured;
+import org.apache.hadoop.fs.Path;
+import org.apache.hadoop.io.NullWritable;
+import org.apache.hadoop.io.Text;
+import org.apache.hadoop.mapreduce.Job;
+import org.apache.hadoop.mapreduce.lib.input.FileInputFormat;
+import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
+import org.apache.hadoop.util.Tool;
+import org.apache.hadoop.util.ToolRunner;
+
+
+public class GrepDriver extends Configured implements Tool{
+	
+	
+	@Override
+	public int run(String[] arg0) throws Exception {
+		Configuration conf=new Configuration();
+		//conf.set("search_word", "June");
+		conf.set("mapreduce.job.name", "AAAAAAAAAA");
+		for (int i = 0; i < arg0.length; i++) {
+			System.out.println("****INSIDE RUN argument "+i+" is:::"+args[i]);
+		}	
+		
+		//conf.set("mapreduce.job.reduces", "10");
+		Job job=Job.getInstance(conf);
+		job.setJarByClass(GrepDriver.class);
+		job.setMapperClass(GrepMapper.class);
+		//job.setReducer()
+		
+		//job.setNumReduceTasks(0);
+		
+		job.setOutputKeyClass(Text.class);
+		job.setOutputValueClass(NullWritable.class);
+		
+		job.setMapOutputKeyClass(Text.class);
+		job.setMapOutputValueClass(NullWritable.class);
+		//psuedo hdfs://localhsot:9000    fs.defaultFS
+		//local mode file://
+		FileInputFormat.addInputPath(job, new Path(arg0[0]));
+		FileOutputFormat.setOutputPath(job, new Path(arg0[1]));
+		return job.waitForCompletion(true)?0:1;
+	}
+
+	
+	
+	
+	
+	public static void main(String[] args) throws Exception {
+	
+		for (int i = 0; i < args.length; i++) {
+			System.out.println("**** INSIDE MAIN argument "+i+" is:::"+args[i]);
+		}
+		
+		int res=ToolRunner.run(new GrepDriver(), args);
+		
+		System.exit(res);
+		
+		
+		
+		
+	}
+
+	
+}
