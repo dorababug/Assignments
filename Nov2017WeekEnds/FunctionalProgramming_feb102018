@@ -1,0 +1,54 @@
+Functions :::
+fucntion is code block { }
+
+function literal
+val x={
+ val x=10
+ val y=100
+ x+y
+}
+
+x is 110 and it is int.
+function return value is the result last line
+----------------------------------
+function that accepts arguments
+
+
+val sum=(x:Int,y:Int)=>{
+ println(x)
+ println(y)
+ x+y
+}
+=> transformation operator
+sum is called function variable
+sum: (Int, Int) => Int = <function2>
+
+Method:::::
+def sum1(x:Int,y:Int)={
+ println(x)
+ println(y)
+ x+y
+}
+sum1: (x: Int, y: Int)Int
+
+-----------------------------
+annonymous functions -> lambda expression
+function without a name
+(x:Int)=> { println(x)}
+(x:Int)=>  println(x)
+(x:Int) => {val y=x+10 ; val z=y+10 }
+
+val student=List((1,"stu1","M"),(2,"stu2","F"),(3,"stu3","M"),(4,"stu4","M"))
+
+val (m1,f1)=student.partition(x=>x._3=="M")
+
+foreach
+filter
+map
+parition
+
+
+
+
+
+

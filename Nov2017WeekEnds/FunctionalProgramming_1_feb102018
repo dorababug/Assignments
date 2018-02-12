@@ -1,0 +1,17 @@
+val sum=(x:Int,y:Int)=>{
+ println(x)
+ println(y)
+ x+y
+}
+val mul=(x:Int,y:Int)=>{
+ println(x)
+ println(y)
+ x*y
+}
+
+def operation(a:Int,b:Int,fn:(Int,Int)=>Int)={
+println("inside operation method")
+fn(a,b)
+}
+operation(10,20,sum)
+operation(10,20,mul)

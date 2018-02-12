@@ -15,3 +15,16 @@ max consumption 43 1984,1979
 1981,31,32,32,32,33,34,35,36,36,34,34,34,34
 1984,39,38,39,39,39,41,42,43,40,39,38,38,40
 1985,38,39,39,39,39,41,41,41,00,40,39,39,45
+
+
+File format - Text data
+field delimiter -> comma
+ip key,ip value-> 0,(1979,23,23,2,43,24,25,26,26,26,26,25,26,25)
+map output key and map output value?
+key consumption, value is year
+23,1979
+23,1979
+2,1979
+0,< 1985
+
+

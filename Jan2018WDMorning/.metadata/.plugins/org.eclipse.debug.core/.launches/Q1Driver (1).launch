@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+<listEntry value="/ElectricalQ4/src/com/inv/Q1Driver.java"/>
+</listAttribute>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+<listEntry value="1"/>
+</listAttribute>
+<booleanAttribute key="org.eclipse.jdt.launching.ATTR_USE_START_ON_FIRST_THREAD" value="true"/>
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="com.inv.Q1Driver"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROGRAM_ARGUMENTS" value="/home/hadoop/Music/Classes/Assignments/Assignments/1_Electrical/electricalConsumption   /home/hadoop/Music/Classes/Assignments/Assignments/1_Electrical/Q4Out"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="ElectricalQ4"/>
+</launchConfiguration>

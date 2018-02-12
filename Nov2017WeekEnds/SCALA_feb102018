@@ -1,0 +1,57 @@
+type inference
+type safty 
+immutability -> val 
+lazy evaluation -> lazy val 
+
+In scala every line is an expression (retuns a value)
+statements (donot return a valye)
+-------------------------
+functional vs oop
+oop-> create object -> change state of object using methods 
+change the values in place
+fucntional -> we use immutable types-> functon -> create new variable -> immutabilty -> suitable for multicore cpus.
+---------------------------
+80% functional 20% oop
+----------------------------
+scala collections:::
+mutable collections, immutable collections
+by defalt in scala -> creates immutable collections.
+
+scala> val class1= Array("stu1","stu2")
+class1: Array[String] = Array(stu1, stu2)
+
+scala> val class2= Array("stu1",10)
+class2: Array[Any] = Array(stu1, 10)
+
+scala> val class2= Array(true,15.0)
+class2: Array[AnyVal] = Array(true, 15.0) 	
+------------------------
+for(x <- class1) println(x)
+<- generator operator
+
+------------------------
+TUPLE -> 
+scala> val t=(10,"stu10",100.50,"class1")
+
+t._1,t._2
+--------------------------
+Range -> collection -> 1 to 10 by 2
+
+LIST-> 
+scala> val l=List(1,2,3,4,5)
+scala> val l= (1 to 10).toList
+scala> val l= 1::2::Nil
+
+
+---------------------------
+
+
+
+
+
+
+
+
+
+
+
