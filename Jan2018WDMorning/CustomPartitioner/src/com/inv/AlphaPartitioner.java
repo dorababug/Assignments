@@ -13,12 +13,16 @@ public class AlphaPartitioner extends Partitioner<Text, IntWritable>{
 	public int getPartition(Text key, IntWritable value, int noOfReducers) {
 	System.out.println("*****INSIDE PARTITIONER");
 		char ch=key.toString().toLowerCase().charAt(0);
-		if(ch >=97 && ch <=109){
+		/*if(ch >=97 && ch <=109){
 			return 0;
 		}
 		else if(ch >109 && ch <=122){
 			return 1;
-		}else return 2;
+		}else return 2;*/
+		if(ch>=97 && ch<=122){
+			return ch-97;
+		}else
+			return 26;
 	}
 
 }

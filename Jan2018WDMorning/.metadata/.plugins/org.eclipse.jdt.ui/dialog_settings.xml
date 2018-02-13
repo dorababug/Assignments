@@ -47,8 +47,8 @@
 		<item value="2" key="pageIndex"/>
 	</section>
 	<section name="completion_proposal_size">
-		<item value="238" key="size.y"/>
-		<item value="671" key="size.x"/>
+		<item value="204" key="size.y"/>
+		<item value="884" key="size.x"/>
 	</section>
 	<section name="JarPackageWizard">
 		<item value="false" key="JarPackageWizardPage.INCLUDE_DIRECTORY_ENTRIES"/>

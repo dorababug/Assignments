@@ -2,7 +2,7 @@
 <section name="Workbench">
 	<section name="org.eclipse.jdt.debug.ui.MAIN_METHOD_SELECTION_DIALOG">
 		<item value="true" key="ShowStatusLine"/>
-		<item value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0A;&lt;History&gt;&#x0A;&lt;historyRootNode/&gt;&#x0A;&lt;/History&gt;" key="History"/>
+		<item value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0A;&lt;History&gt;&#x0A;&lt;historyRootNode&gt;&#x0A;&lt;infoNode&gt;=Joins_MapSideJoins/\/home\/hadoop\/YARNBOX\/hadoop-2.7.2\/share\/hadoop\/mapreduce\/hadoop-mapreduce-examples-2.7.2.jar&amp;lt;org.apache.hadoop.examples(Join.class[Join&lt;/infoNode&gt;&#x0A;&lt;infoNode&gt;=Joins_MapSideJoins/src&amp;lt;com.inv{JoinDriver.java[JoinDriver&lt;/infoNode&gt;&#x0A;&lt;/historyRootNode&gt;&#x0A;&lt;/History&gt;" key="History"/>
 		<section name="DialogBoundsSettings">
 			<item value="600" key="DIALOG_WIDTH"/>
 			<item value="1|Ubuntu|11.0|0|GTK|1|" key="DIALOG_FONT_NAME"/>

@@ -8,6 +8,6 @@
 </listAttribute>
 <booleanAttribute key="org.eclipse.jdt.launching.ATTR_USE_START_ON_FIRST_THREAD" value="true"/>
 <stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="com.inv.WordCountDriver"/>
-<stringAttribute key="org.eclipse.jdt.launching.PROGRAM_ARGUMENTS" value="/home/hadoop/INPUT/wiki.txt  /home/hadoop/INPUT/wiki_out"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROGRAM_ARGUMENTS" value="/home/hadoop/INPUT/wiki.txt  /home/hadoop/INPUT/ALphaOut"/>
 <stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="CustomPartitioner"/>
 </launchConfiguration>

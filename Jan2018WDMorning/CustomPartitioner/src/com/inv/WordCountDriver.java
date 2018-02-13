@@ -22,7 +22,7 @@ public class WordCountDriver {
 		job.setJarByClass(WordCountDriver.class);
 		//job.setCombinerClass(WordCountReducer.class);
 		job.setPartitionerClass(AlphaPartitioner.class);
-		job.setNumReduceTasks(3);
+		job.setNumReduceTasks(27);
 		//when job input and job output types are diff
 		// we have set datatypes of job output  key value pairs
 		job.setOutputKeyClass(Text.class);

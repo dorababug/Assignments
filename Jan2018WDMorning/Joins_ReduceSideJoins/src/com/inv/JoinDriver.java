@@ -14,6 +14,7 @@ import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
 public class JoinDriver {
 	public static void main(String[] args) throws IOException, ClassNotFoundException, InterruptedException {
 		Configuration conf=new Configuration();
+		conf.set("mapreduce.output.textoutputformat.separator", "|");
 		Job job=Job.getInstance(conf,"Reduceside joins");
 		
 		job.setJarByClass(JoinDriver.class);
