@@ -1,0 +1,45 @@
+Hadoop Architecture
+HDFS Architecture
+Hadoop Interview questions:
+Hadoop T Point
+
+Hadoop Definitive guide 4th Edition
+Map Reduce Model -> WordCount 
+----------------------------
+Unix interview questions-> 
+Shell Sciprt
+Java OOP /Collections /Thereads
+Java -> File API
+
+JAVA T POINT
+SQL  -> DML/DDL/Select -> W3Schools 
+DataWarehousing concepts
+Testing
+-----------------------------
+
+write a shell script that accecepts 2 arguements, one arg folder name, and file name.
+
+print scirpt name, all arugments .
+
+check whether the file is present in the folder (of root dir) of HDFS.
+If the the folder is present print a message-> file already exists -> exit the script with return code 1
+else -> print a message that file not present 
+the create the folder in root direcotry and create empty file with the file name.
+once created, if successful -> echo file is successfully created, the exit the script with return code 0
+
+for printting message ... create a small function in shell scirpt
+
+function ()
+echo ***********************
+ecoh $message
+echo ***********************
+
+------------------------
+UNIX in linux -> check a folder having any zero sized files, 
+then move all empty files in to a separate folder.
+-----------------------
+
+
+
+
+

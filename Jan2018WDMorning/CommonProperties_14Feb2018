@@ -1,0 +1,45 @@
+Date Feb 14 2018
+--------------------
+fs.defaultFS -> namenode address
+dfs.replication -> for the file-> each block how many copies need to be maintained.
+
+dfs.blocksize 
+mapreduce.job.name
+mapreduce.job.reduces
+
+
+mapreduce.output.textoutputformat.separator
+
+-------------------------
+how to change container 
+
+mapreduce.map.memory.mb
+mapreduce.reduce.memory.mb
+mapreduce.map.cpu.vcores
+mapreduce.reduce.cpu.vcores
+
+
+
+<name>mapred.child.java.opts</name>
+  <value>-Xmx200m</value>
+
+mapreduce.map.java.opts
+mapreduce.reduce.java.opts
+
+conf.set("","")
+site.xml 
+<property>
+  <name>mapred.child.java.opts</name>
+  <value>-Xmx200m</value>
+</property>
+
+Generic options ->  -D""="" 
+-conf xml file loc
+
+
+
+
+
+
+
+
