@@ -1,0 +1,34 @@
+package com.inv;
+
+import java.io.IOException;
+import java.util.StringTokenizer;
+
+import org.apache.hadoop.io.IntWritable;
+import org.apache.hadoop.io.LongWritable;
+import org.apache.hadoop.io.Text;
+import org.apache.hadoop.mapreduce.Mapper;
+
+public class Q1Maper  extends Mapper<LongWritable, Text, Text, IntWritable>{
+	Text mvid=new Text();
+	
+	@Override
+	protected void map(LongWritable key, Text value, Mapper<LongWritable, Text, Text, IntWritable>.Context context)
+			throws IOException, InterruptedException {
+		//1::1193::5::978300760  userid,movieid,rating
+		String mvid=value.toString().split("::")[1];
+		context.write(arg0, arg1);
+	}
+	
+	
+}
+
+
+
+
+
+
+
+
+
+
+

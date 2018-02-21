@@ -1,0 +1,58 @@
+package com.inv;
+
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileReader;
+import java.io.IOException;
+import java.util.HashMap;
+import java.util.StringTokenizer;
+
+import org.apache.hadoop.io.IntWritable;
+import org.apache.hadoop.io.LongWritable;
+import org.apache.hadoop.io.Text;
+import org.apache.hadoop.mapreduce.Mapper;
+
+public class Q1SortMapper  extends Mapper<LongWritable, Text, IntWritable, Text>{
+	Text t_mvid=new Text();
+	IntWritable t_cnt=new IntWritable(1);
+	HashMap<String, String> movies_map=new HashMap<String,String>();
+	
+	
+	@Override
+	protected void setup(Mapper<LongWritable, Text, IntWritable, Text>.Context context)
+			throws IOException, InterruptedException {
+		File f=new File("movies.dat");
+		BufferedReader reader=new BufferedReader(new FileReader(f));
+		String line="";
+		while((line=reader.readLine())!=null){
+			String mvid=line.split("::")[0];
+			String mvname=line.split("::")[1];
+			movies_map.put(mvid, mvname);
+		}
+	
+	}
+	
+	@Override
+	protected void map(LongWritable key, Text value, Context context)
+			throws IOException, InterruptedException {
+		//1::1193::5::978300760  userid,movieid,rating
+		String mvid=value.toString().split("\t")[0];
+		int mv_count=Integer.parseInt(value.toString().split("\t")[1]);
+		t_mvid.set(mvid+"\t"+movies_map.get(mvid));
+		t_cnt.set(mv_count*-1);
+		context.write(t_cnt,t_mvid );
+	}
+	
+	
+}
+
+
+
+
+
+
+
+
+
+
+

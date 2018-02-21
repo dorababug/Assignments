@@ -1,0 +1,82 @@
+package com.inv;
+
+import java.io.IOException;
+import java.net.URI;
+import java.net.URISyntaxException;
+
+import org.apache.hadoop.conf.Configuration;
+import org.apache.hadoop.fs.Path;
+import org.apache.hadoop.io.IntWritable;
+import org.apache.hadoop.io.Text;
+import org.apache.hadoop.io.SequenceFile.CompressionType;
+import org.apache.hadoop.mapreduce.Job;
+import org.apache.hadoop.mapreduce.lib.input.FileInputFormat;
+import org.apache.hadoop.mapreduce.lib.input.SequenceFileInputFormat;
+import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
+import org.apache.hadoop.mapreduce.lib.output.SequenceFileOutputFormat;
+
+public class WordCountDriver {
+	public static void main(String[] args) throws IOException, ClassNotFoundException, InterruptedException, URISyntaxException {
+		Configuration conf=new Configuration();
+		Job job1=Job.getInstance(conf, "Word Count");
+		
+		job1.setMapperClass(Q1Maper.class);
+		job1.setReducerClass(Q1Reducer.class);
+		job1.setJarByClass(WordCountDriver.class);
+		job1.setOutputKeyClass(Text.class);
+		job1.setOutputValueClass(IntWritable.class);
+		
+		FileInputFormat.addInputPath(job1, new Path(args[0]));
+		FileOutputFormat.setOutputPath(job1, new Path(args[1]));
+			
+		//submit job to cluster
+		boolean result=job1.waitForCompletion(true);
+		int status=result?0:1;
+		if(status==0){
+			conf.set("mapreduce.output.textoutputformat.separator", "||||");
+			Job job2=Job.getInstance(conf, "Word Count");
+			
+			job2.setMapperClass(Q1SortMapper.class);
+			job2.setReducerClass(Q1SortReducer.class);
+			job2.setJarByClass(WordCountDriver.class);
+			job2.setOutputKeyClass(Text.class);
+			job2.setOutputValueClass(IntWritable.class);
+			
+			job2.setMapOutputKeyClass(IntWritable.class);
+			job2.setMapOutputValueClass(Text.class);
+			
+			job2.addCacheFile(new URI("/home/hadoop/Music/Classes/MovieLens-Work/ml-1m/movies.dat"));
+			
+			FileInputFormat.addInputPath(job2, new Path(args[1]));
+			FileOutputFormat.setOutputPath(job2, new Path(args[2]));
+				
+			//submit job to cluster
+			boolean result1=job2.waitForCompletion(true);
+			int status1=result?0:1;
+			System.exit(status1);
+		}
+		else 
+			System.exit(status);
+		
+		
+		
+		
+		/*
+		 * -files movies.dat  /home/hadoop/Music/Classes/MovieLens-Work/ml-1m/ratings.dat  
+		 * /home/hadoop/Music/Classes/MovieLens-Work/ml-1m/Q1_out  
+		 * /home/hadoop/Music/Classes/MovieLens-Work/ml-1m/Q1_final_out
+		 */
+		
+	}
+
+}
+
+
+
+
+
+
+
+
+
+

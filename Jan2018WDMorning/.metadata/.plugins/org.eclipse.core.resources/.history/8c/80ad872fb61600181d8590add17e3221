@@ -1,0 +1,38 @@
+package com.inv;
+
+import java.io.IOException;
+import java.util.StringTokenizer;
+
+import org.apache.hadoop.io.IntWritable;
+import org.apache.hadoop.io.LongWritable;
+import org.apache.hadoop.io.Text;
+import org.apache.hadoop.mapreduce.Mapper;
+
+public class Q1SortMapper  extends Mapper<LongWritable, Text, Text, IntWritable>{
+	Text t_mvid=new Text();
+	IntWritable t_cnt=new IntWritable(1);
+	
+	@Override
+	protected void map(LongWritable key, Text value, Mapper<LongWritable, Text, Text, IntWritable>.Context context)
+			throws IOException, InterruptedException {
+		//1::1193::5::978300760  userid,movieid,rating
+		String mvid=value.toString().split("\t")[0];
+		int mv_count=Integer.parseInt(value.toString().split("\t")[1]);
+		t_mvid.set(mvid);
+		t_cnt.set(mv_count*-1);
+		context.write(t_mvid, t_cnt);
+	}
+	
+	
+}
+
+
+
+
+
+
+
+
+
+
+
