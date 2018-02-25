@@ -1,0 +1,40 @@
+val empDF=spark.read.csv("file:///home/hadoop/INPUT/input/emp")
+
+empDF.foreach(x=>x.toS) -> fail
+empDF.foreach(x=>println(x.toString))
+
+
+
+https://spark.apache.org/docs/2.1.1/api/java/index.html?org/apache/spark/sql/DataFrameReader.html
+
+val empDF=spark.read.option("sep",",")
+.option("header","true")
+.option("inferSchema","true")
+.option("mode","DROPMALFORMED")
+.csv("file:///home/hadoop/INPUT/input/emp_header_correctdata")
+show 
+schema
+take(n)
+
+
+import org.apache.spark.sql.types._
+import org.apache.spark.sql.types.StructType
+
+val schema1 = StructType(Array(StructField("deptid",IntegerType,true), StructField("deptname",StringType,true)))
+specify schema using an .schema(structTpe)
+
+val deptDF=spark.read.format("csv").option("inferSchema","true").schema(schema1).load("file:///home/hadoop/INPUT/input/dept")
+
+
+empDF.createOrReplaceTempView("t_emp")
+deptDF.createOrReplaceTempView("t_dept")
+
+
+val resDF=spark.sql(""" select e.empid,e.empname,e.empdeptid as deptid,
+nvl(d.deptname,'-') as deptname
+from t_emp e left join t_dept d on e.empdeptid=d.deptid
+""")
+
+
+resDF.write.mode("overwrite").format("parquet").save("OutFiles/resOut")
+

@@ -1,0 +1,10 @@
+package com.inv;
+
+import org.apache.hadoop.conf.Configuration;
+
+public class WordCountDriver {
+	public static void main(String[] args) {
+		//create configuration object
+		Configuration conf=new Configuration();
+	}
+}

@@ -1,5 +1,7 @@
 spark.read.format("csv").option("header","true").option("inferSchema","true").load("emp")
 
+deptRDD.select("deptid","deptname").where("deptid < 3").show
+
 change data type
 empDF.withColumn("empsal",column("empsal").cast("float")).printSchema
 spark.sql("select cast(empsal as float) from emp").printSchema
