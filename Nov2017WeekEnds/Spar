@@ -1,0 +1,18 @@
+sc.textFile("/home/hadoop/INPUT/wiki_big.txt").flatMap(line=>line.split(" ")).map(word=>(word,1)).reduceByKey((x,y)=>x+y).saveAsTextFile("OutFiles/wikiBigOut")
+
+
+sc.textFile("/home/hadoop/INPUT/wiki_big.txt").flatMap(line=>line.split(" ")).map(word=>(word,1)).groupByKey().first
+
+
+sc.textFile("/home/hadoop/INPUT/wiki_big.txt").flatMap(line=>line.split(" ")).map(word=>(word,1)).groupByKey().map(x=>(x._1,x._2.size)).groupByKey().repartition(1).count
+
+ sc.textFile("/home/hadoop/INPUT/wiki_big.txt").flatMap(line=>line.split(" ")).map(word=>(word,1)).reduceByKey((x,y)=>x+y).filter(x=>x._1.toLowerCase.startsWith("h")).saveAsTextFile("OutFiles/words_h1")
+
+
+ sc.textFile("/home/hadoop/INPUT/wiki_big.txt").flatMap(line=>line.split(" ")).map(word=>(word,1)).reduceByKey((x,y)=>x+y).filter(x=>x._1.toLowerCase.startsWith("h")).saveAsTextFile("OutFiles/words_h1")
+
+
+
+ sc.textFile("/home/hadoop/INPUT/wiki_big.txt").flatMap(line=>line.split(" ")).filter(x=>x.toLowerCase.startsWith("h")).map(word=>(word,1)).reduceByKey((x,y)=>x+y).saveAsTextFile("OutFiles/words_h1")
+
+

@@ -1,0 +1,79 @@
+sc.textFile("/home/hadoop/INPUT/wiki_big.txt").flatMap(line=>line.split(" ")).map(word=>(word,1)).reduceByKey((x,y)=>x+y).saveAsTextFile("OutFiles/wikiBigOut")
+
+
+sc.textFile("/home/hadoop/INPUT/wiki_big.txt").flatMap(line=>line.split(" ")).map(word=>(word,1)).groupByKey().first
+
+
+sc.textFile("/home/hadoop/INPUT/wiki_big.txt").flatMap(line=>line.split(" ")).map(word=>(word,1)).groupByKey().map(x=>(x._1,x._2.size)).groupByKey().repartition(1).count
+
+ sc.textFile("/home/hadoop/INPUT/wiki_big.txt").flatMap(line=>line.split(" ")).map(word=>(word,1)).reduceByKey((x,y)=>x+y).filter(x=>x._1.toLowerCase.startsWith("h")).saveAsTextFile("OutFiles/words_h1")
+
+
+ sc.textFile("/home/hadoop/INPUT/wiki_big.txt").flatMap(line=>line.split(" ")).map(word=>(word,1)).reduceByKey((x,y)=>x+y).filter(x=>x._1.toLowerCase.startsWith("h")).saveAsTextFile("OutFiles/words_h1")
+
+
+
+ sc.textFile("/home/hadoop/INPUT/wiki_big.txt")
+.flatMap(line=>line.split(" "))
+.filter(x=>x.toLowerCase.startsWith("h"))
+.map(word=>(word,1)).reduceByKey((x,y)=>x+y)
+.saveAsTextFile("OutFiles/words_h1")
+--------------------------------------
+
+
+
+
+
+joins ->
+empRDD -> pair RDD-> (k,v) ->( join key , all values emp dataset)
+
+deptRDD-> (deptid,deptname)
+
+2501  val empRDD=sc.textFile("/home/hadoop/INPUT/input/emp")
+2506  val empPairRDD=empRDD.map(empRec=>(empRec.split(",")(3),empRec))
+empPairRDD.keys.foreach(println)
+
+2515  val deptRDD=sc.textFile("/home/hadoop/INPUT/input/dept")
+2516  val deptPairRDD=deptRDD.map(deptRec=>(deptRec.split(",")(0),deptRec.split(",")(1)))
+
+val joinRDD=empPairRDD.join(deptPairRDD)
+
+2518  val joinRDD=empPairRDD.join(deptPairRDD)
+
+2520  joinRDD.foreach(println)
+
+joinRDD.map(x=>x._2).saveAsTextFile("OutFiles/JoinOut")
+
+
+scala> val joinRDD=empPairRDD.leftOuterJoin(deptPairRDD)
+joinRDD: org.apache.spark.rdd.RDD[(String, (String, Option[String]))] = MapPartitionsRDD[21] at leftOuterJoin at <console>:32
+
+scala> joinRDD.foreach(println)
+(003,(4,name4,7000,003,Some(pig)))
+(005,(3,name3,5000,005,Some(oozie)))
+(005,(8,name8,5000,005,Some(oozie)))
+(001,(1,name,2000,001,Some(hadoop)))
+(004,(5,name5,8000,004,None))
+(004,(6,name6,8000,004,None))
+(002,(2,name2,4000,002,Some(hive)))
+(002,(7,name7,4000,002,Some(hive)))
+
+
+scala> joinRDD.map(x=>(x._2._1,x._2._2.getOrElse("+++"))).foreach(println)
+(5,name5,8000,004,+++)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
