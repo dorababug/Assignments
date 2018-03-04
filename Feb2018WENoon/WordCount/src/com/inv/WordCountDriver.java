@@ -20,11 +20,13 @@ public class WordCountDriver {
 		job.setJarByClass(WordCountDriver.class);
 		job.setMapperClass(WordCountMapper.class);
 		job.setReducerClass(WordCountReducer.class);
+		//job.setCombinerClass(WordCountReducer.class);
 		
 		//when job input and job output data types are different
 		//set below properties
 		job.setOutputKeyClass(Text.class);
 		job.setOutputValueClass(IntWritable.class);
+		
 		
 		FileInputFormat.addInputPath(job, new Path(args[0]));
 		FileOutputFormat.setOutputPath(job, new Path(args[1]));

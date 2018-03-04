@@ -1,0 +1,10 @@
+package com.inv;
+
+public class HashCodeDemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,29 @@
+
+
+object ScalaDemo extends App{
+  /*def main(args: Array[String]): Unit = {
+    println("Scala Demo")
+    for(a<-args) println(a)
+    args.foreach(println)
+  }*/
+  
+  println("Using APP")
+  //args.foreach(println)
+  val obj1=new Person(1,"stu1","class1")
+
+  
+}
+
+class Person(val id:Int,var name:String, var classname:String){
+  //accessors getters //Mutators setters
+  private var fee:Float=0.0f
+  def  getFee():Float={
+    fee
+  }
+  def setFee( fee1:Float)={
+    this.fee=fee1;
+  }
+  def feeIncr={
+    fee+100.0f
+  }
+}

@@ -1,0 +1,12 @@
+
+
+object CompanionObjectDemo {
+  def main(args: Array[String]): Unit = {
+    
+  }
+  
+  }
+
+class Person(var id:Int){
+  
+}

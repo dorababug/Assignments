@@ -1,0 +1,18 @@
+
+
+object CaseClassDemo {
+  def main(args: Array[String]): Unit = {
+    
+    val stu1=Student(1,"stu1",100)
+    println(stu1.id+"::"+stu1.name)
+  val stu2=stu1;
+    
+    println(stu2.id+"::"+stu2.name)
+    val stu3=stu1.copy(2)
+  }
+}
+
+case class Student(id:Int,name:String,fee:Int)
+
+// case class arguments are  vals
+//how to create object of case class

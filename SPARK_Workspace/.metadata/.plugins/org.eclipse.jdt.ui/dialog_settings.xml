@@ -48,11 +48,11 @@
 		<item value="false" key="JarManifestWizardPage.SAVE_MANIFEST"/>
 		<item value="false" key="JarPackageWizardPage.EXPORT_OUTPUT_FOLDER"/>
 		<list key="JarPackageWizardPage.DESTINATION_NAMES_ID">
+			<item value="/home/hadoop/Desktop/sparkWC1.jar"/>
 			<item value="/home/hadoop/Desktop/sparkWC.jar"/>
 			<item value="/home/hadoop/Desktop/SparkStreaming.jar"/>
 			<item value="/home/hadoop/Desktop/WordCountSpark.jar"/>
 			<item value="/home/hadoop/Desktop/mvlens.jar"/>
-			<item value="/home/hadoop/Desktop/stream.jar"/>
 		</list>
 	</section>
 	<section name="JavaElementSearchActions">

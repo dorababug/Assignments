@@ -1,0 +1,93 @@
+CREATE TABLE `employee_hr`(
+  `name` string, 
+  `employee_id` int, 
+  `sin_number` string, 
+  `start_date` date)
+ROW FORMAT SERDE 
+  'org.apache.hadoop.hive.serde2.lazy.LazySimpleSerDe' 
+WITH SERDEPROPERTIES ( 
+  'field.delim'='|', 
+  'serialization.format'='|') 
+STORED AS INPUTFORMAT 
+  'org.apache.hadoop.mapred.TextInputFormat' 
+OUTPUTFORMAT 
+  'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
+
+
+
+CREATE TABLE `employee_hr_bucketed`(
+  `name` string, 
+  `employee_id` int, 
+  `sin_number` string, 
+  `start_date` date)
+clustered by (employee_id) into 3 buckets
+row format delimited
+fields terminated by '|'
+stored as textfile;
+
+
+
+CREATE TABLE `employee_hr_bucketed_sorted`(
+  `name` string, 
+  `employee_id` int, 
+  `sin_number` string, 
+  `start_date` date)
+clustered by (employee_id) sorted by (employee_id) into 3 buckets
+row format delimited
+fields terminated by '|'
+stored as textfile;
+
+
+CREATE TABLE `employee_hr_partitioned_bucketed_sorted`(
+  `name` string, 
+  `employee_id` int, 
+  `sin_number` string, 
+  `start_date` date
+)
+partitioned by (year int)
+clustered by (employee_id) sorted by (employee_id) into 3 buckets
+row format delimited
+fields terminated by '|';
+
+insert into employee_hr_partitioned_bucketed_sorted partition(year)
+select *,year(start_date) as year
+from employee_hr;
+
+
+ select * from employee_hr_buckted TABLESAMPLE(BUCKET 1 OUT OF 4 ON rand()) s
+
+
+
+what is the diff b/n 
+order by 
+distribute by
+sort by
+cluster by
+
+
+
+CTAS vs Create table like
+------------------------------
+on partitioned table.
+employee_partitioned
+partition columns
+partitions -> 9 partitions
+18 rows
+
+CTAS -> loose partition info
+CT like -> all partition columns
+insert overwrite in the table.-> launch MR jobs -> analyses entire data of table.
+
+---------------
+fastest way:::
+CT like 
+copy the data from source to dest table using hdfs dfs -cp command
+dfs -cp /hive/practice/employee_partitioned/* /hive/practice/cp2/
+msck repair table cp2
+
+
+
+
+
+
+

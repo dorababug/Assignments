@@ -1,0 +1,22 @@
+
+
+object CompanionObjectDemo {
+  def main(args: Array[String]): Unit = {
+    
+    val obj1=new Person1(100)
+    println(obj1.name)
+    
+  }
+  
+  }
+
+class Person1(var id:Int){
+  
+}
+object Person1{
+  val name="Person1"
+  def printName={
+    println("inside Companion ObjectName Method"+name)
+  }
+  
+}

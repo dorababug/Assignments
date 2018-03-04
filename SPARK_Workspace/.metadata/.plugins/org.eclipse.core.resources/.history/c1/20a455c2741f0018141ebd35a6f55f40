@@ -1,0 +1,9 @@
+
+
+object CaseClassDemo {
+  def main(args: Array[String]): Unit = {
+    
+  }
+}
+
+case class Student(id:Int,name:String,fee:Int)

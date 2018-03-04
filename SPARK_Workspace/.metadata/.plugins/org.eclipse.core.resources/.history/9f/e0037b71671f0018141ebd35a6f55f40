@@ -1,0 +1,13 @@
+
+
+object ScalaDemo extends App{
+  /*def main(args: Array[String]): Unit = {
+    println("Scala Demo")
+    for(a<-args) println(a)
+    args.foreach(println)
+  }*/
+  
+  println("Using APP")
+  args.foreach(println)
+  
+}

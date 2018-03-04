@@ -1,0 +1,513 @@
+select current_timestam();
+select current_timestamp();
+select current_timestamp(),to_utc_timestamp(unix_timestamp(),'IST');
+select current_timestamp(),from_utc_timestamp(to_utc_timestamp(unix_timestamp(),'IST'),'PST');
+select current_timestamp(),from_utc_timestamp(to_utc_timestamp(timestamp '2018-01-14 11:50:34','IST'),'PST');
+select current_timestamp(),from_utc_timestamp(to_utc_timestamp(timestamp '2018-01-14 11:51:36','IST'),'PST');
+select current_timestamp(),from_utc_timestamp(to_utc_timestamp(current_timestamp(),'IST'),'PST');
+select current_timestamp(),from_utc_timestamp(to_utc_timestamp(timestamp '2017-01-11 11:51:36','IST'),'PST');
+select coalesce(NULL,NULL,NULL,10,20,NULL)
+;
+select nvl(100,"defval")
+;
+select nvl(NULL,"defval")
+;
+show databases;
+desc database default;
+dfs -ls /
+;
+dfs -ls /user/
+;
+dfs -ls -R /user/;
+dfs -ls -R /user/hive;
+create database testdb;
+show databases;
+desc database testdb;
+create database testdb1 location '/testloc';
+show databases;
+desc database testdb1;
+show databases;
+select current_database();
+create table tbl1(id string,name string);
+create table testdb.tbl2(id string,name string);
+desc testdb.tbl2;
+desc extended testdb.tbl2;
+desc formatted testdb.tbl2;
+show tables;
+set;
+set fs.defaultFS;
+set dfs.blocksize;
+set hive.cli.print.current.db;
+set hive.cli.print.current.db=true;
+use testdb;
+set hive.cli.print.current.db;
+show databases;
+set hive.cli.print.header;
+set hive.cli.print.header=true;
+show databases;
+set hive.cli.print.header=true;
+set hive.cli.print.current.db;
+set hive.cli.print.current.db=true;
+use default;
+set hive.cli.print.current.db=false;
+!pwd;
+source .hiverc
+;
+source .hiverc
+;
+source .hiverc;
+drop database testdb;
+drop database testdb1;
+drop database testdb cascade;
+show databases;
+use default
+;
+use testdb;
+show tables;
+desc formatted tbl1;
+exit
+;
+show tables;
+use hivepractice
+;
+select * from tbl1
+;
+show databases;
+use hivepractice
+;
+show tables;
+select * from employee_hr;
+select * from employee_hr where year(start_date)=2014
+;
+show tables like 'emp*';
+select * from hivepractice.employee_hr 
+      where year(start_date)=2014;
+show tables like 'emp*';
+desc formatted employee_hr
+;
+ dfs -mkdir /hive/practice/employee_hr 
+;
+ dfs -mkdir /hive/practice/employee_hr/abc;
+select * from employee_hr;
+set mapreduce.fileinputformat.input.directory.recursive=true;
+select * from employee_hr;
+set mapreduce.input.fileinputformat.input.dir.recursive=true;
+select * from employee_hr;
+set mapreduce.input.fileinputformat.input.dir.recursive=false'
+;';
+set mapreduce.input.fileinputformat.input.dir.recursive=false;
+select * from employee_hr;
+set mapreduce.input.fileinputformat.input.dir.recursive=true;
+show tables;
+select * from employee_partitioned;
+show partitions employee_partitioned;
+show create table employee_partitioned;
+CREATE external TABLE default.tweets
+  ROW FORMAT SERDE
+     'org.apache.hadoop.hive.serde2.avro.AvroSerDe'
+  STORED AS INPUTFORMAT
+     'org.apache.hadoop.hive.ql.io.avro.AvroContainerInputFormat'
+  OUTPUTFORMAT
+     'org.apache.hadoop.hive.ql.io.avro.AvroContainerOutputFormat'
+LOCATION '/twitter_sample/' 
+  TBLPROPERTIES ('avro.schema.url'='file:///home/hadoop/YARNBOX/WORKSPACES/Sept2016WEBatch_GitRepo/SET2/SqFluOozHBase/FLUME/twitter_LinkedInAcq/TwitterAvroSchemaFile.avsc') ;
+;
+desc default.tweets;
+select user_location from tweets;
+select text from tweets;
+select text from tweets limit 1;
+select text from tweets limit 2;
+select * from tweets limit 2;
+set hive.fetch.task.conversion;
+select work_place from employee_partitioned;
+use hivepractice;select work_place from employee_partitioned;
+set hive.fetch.task.conversion=adfasd;
+set hive.fetch.task.conversion=none;
+select work_place from employee_partitioned;
+set hive.fetch.task.conversion=more;
+select work_place from employee_partitioned where name like 'abc%';
+set hive.fetch.task.conversion=minimal;
+select work_place from employee_partitioned where name like 'abc%';
+set hive.fetch.task.conversion=none;
+select work_place from employee_partitioned where name like 'abc%';
+set hive.fetch.task.conversion=more;
+create external table wcinput (col1 string)
+stored as textfile;
+select * from wcinput;
+select split(col1) from wcinput;
+select split(col1," ") from wcinput;
+select explode(split(col1," ")) as word from wcinput;
+select explode(split(col1," ")) as word from wcinput
+group by explode(split(col1," "));
+select A.word,A.count(word) cnt from 
+put) A
+group by A.word
+;
+select A.word,A.count(word) cnt from 
+put ) A
+group by A.word;
+!pwd;
+source wc.hql
+;
+source wc.hql
+;
+source wc.hql
+;
+select map("k1","v1","k2","v2");
+select explode(map("k1","v1","k2","v2"));
+select array("k1","v1","k2","v2");
+select posexplode( array("k1","v1","k2","v2")),explode( array("k1","v1","k2","v2"));
+select posexplode( array("k1","v1","k2","v2"));
+select map(posexplode( array("k1","v1","k2","v2")));
+select map(pos,val) from (select posexplode( array("k1","v1","k2","v2")))A
+;
+set hive.exec.parallel;
+select count(*) from employee_partitioned union all select count(*) from employee_partitioned union all select count(*) from employee_partitioned;
+set hive.exec.parallel=true;
+select count(*) from employee_partitioned union all select count(*) from employee_partitioned union all select count(*) from employee_partitioned;
+set  hive.exec.default.partition.name;
+ create table student(name string,
+marks int,
+dept string)
+row format delimited fields terminated by ',';
+select * from student;
+desc formatted student;
+select * from student;
+.inv.Salutation';
+show functions like 'add*';
+desc function add_salutation;
+desc function extended add_salutation;
+select name , gender_age.gender,add_salutation(name),add_salutation(gender_age.gender,name) from employee_partitioned;
+add file upper.py
+;
+select name,TRANSFORM(name) USING 'python upper.py' from employee_partitioned;
+select TRANSFORM(name) USING 'python upper.py' from employee_partitioned;
+;
+select TRANSFORM(name,gender_age.gender) USING 'python upper.py' as (caps_name,caps_gender) from employee_partitioned;
+set color;
+set;
+set dfs.replication;
+set color;
+set color=red;
+set color;
+set hiveconf:color;
+set hivevar:color;
+set hivevar:color=BLUE;
+set color;
+set hivevar:color;
+set hiveconf:color;
+create table ${color}(col1 string);
+show tables;
+create table ${hiveconf:color}(col1 string);
+show tables;
+set color;
+show databases;
+desc database default;
+set hive.metastore.warehouse.dir;
+set hive.cli.print.current.db;
+set hive.cli.print.current.db=false;
+set hive.cli.print.current.db=true;
+select current_database();
+show databases;
+create database testdb;
+desc database testdb;
+use testdb;
+create table tbl1(col1 string);
+show tables;
+desc tbl1;
+desc extended tbl1;
+desc formatted tbl1;
+dfs -ls /
+;
+create database hivepractice
+location '/hive/practice';
+dfs -ls / ;
+dfs -ls -R /;
+dfs -ls -
+;
+dfs -ls /hive;
+use hivepractice;
+desc hivepractice;
+desc database hivepractice;
+CREATE external TABLE hbase_table_sample( 
+id string, 
+value1 string, 
+value2 string, 
+value3 string 
+) 
+STORED BY 'org.apache.hadoop.hive.hbase.HBaseStorageHandler' 
+WITH SERDEPROPERTIES ("hbase.columns.mapping" = ":key,data:col1,data:col2,data:col3") 
+TBLPROPERTIES ("hbase.table.name" = "test");
+select * from hbase_table_sample;
+insert into table hbase_table_sample values("r6","c1",NULL,NULL)
+;
+CREATE external TABLE hbase_table_emp( 
+id string, 
+value1 string, 
+value2 string, 
+value3 string,
+value3 string
+) 
+STORED BY 'org.apache.hadoop.hive.hbase.HBaseStorageHandler' 
+WITH SERDEPROPERTIES ("hbase.columns.mapping" = ":key,personal:city,personal:name,professional:designation,professional:salary") 
+TBLPROPERTIES ("hbase.table.name" = "emp");
+CREATE external TABLE hbase_table_emp( 
+id string, 
+value1 string, 
+value2 string, 
+value3 string,
+value4 string
+) 
+STORED BY 'org.apache.hadoop.hive.hbase.HBaseStorageHandler' 
+WITH SERDEPROPERTIES ("hbase.columns.mapping" = ":key,personal:city,personal:name,professional:designation,professional:salary") 
+TBLPROPERTIES ("hbase.table.name" = "emp");
+select * from  hbase_table_emp;
+create database if not exists hdpdlake 
+location '/users/hive/hdpdlake'
+comment 'datalake database';
+create database if not exists hdpdlake 
+location "/users/hive/hdpdlake"
+comment 'datalake database';
+create database  hdpdlake 
+location "/users/hive/hdpdlake"
+comment 'datalake database';
+create database  hdpdlake 
+location "/users/hive/hdpdlake";
+drop database hdpdlake;
+create database  hdpdlake 
+location "/users/hive/hdpdlake";
+comment "datalake database";
+drop database hdpdlake;
+create database  hdpdlake 
+location "/users/hive/hdpdlake"
+comment "datalake database";
+create database  hdpdlake 
+comment "datalake database"
+location "/users/hive/hdpdlake";
+show databasesl
+show databasesl;
+show databases;
+show create database hdpdlake
+;
+use hdpdlake
+l
+;
+use hdpdlake;
+show tables;
+CREATE DATABASE `hdpdlake`
+COMMENT
+  'datalake database'
+LOCATION
+  'hdfs://localhost:9000/users/hive/hdpdlake'
+;
+use default
+;
+show create table usstates;
+show tables;
+show dtabases;
+show databases;
+use hdpdlake
+;
+show tables;
+use default;
+show tables;
+show tables like dl_usstates
+;
+show tables;
+show create table dl_usstates
+;
+CREATE TABLE hdpdlake.dl_usstates(
+  `state` string, 
+  `standardabbreviation` string, 
+  `postalcode` string, 
+  `capitalcity` string, 
+  `created_date` string, 
+  `modified_date` string, 
+  `id` bigint)
+COMMENT 'Imported by sqoop into data lake hdpdlake'
+STORED AS PARQUET
+LOCATION
+  'hdfs://localhost:9000/user/hive/warehouse/dl_usstates'
+;
+CREATE DATABASE `hdpdlake`
+COMMENT
+  'datalake database'
+LOCATION
+  'hdfs://localhost:9000/users/hive/hdpdlake'
+;
+CREATE TABLE hdpdlake.dl_usstates(
+  `state` string, 
+  `standardabbreviation` string, 
+  `postalcode` string, 
+  `capitalcity` string, 
+  `created_date` string, 
+  `modified_date` string, 
+  `id` bigint)
+COMMENT 'Imported by sqoop into data lake hdpdlake'
+STORED AS PARQUET
+LOCATION
+  'hdfs://localhost:9000/user/hive/warehouse/dl_usstates'
+;
+show databases;
+use hivepractice
+;
+show tables;
+drop table like emp*
+;
+drop table like 'emp*'
+;
+show tables like 'us*';
+drop table usstates1;
+show tables like 'us*';
+desc formatted usstates;
+ select * from usstates;
+show databases;
+desc default;
+desc database default;
+set;
+set hive.metastore.warehouse.dir
+;
+set hive.metastore.warehouse.dir;
+use default;
+select current_database();
+show tables;
+create table test(id string,name string);
+show tables;
+desc database default;
+desc test;
+desc extended test;
+desc formatted test;
+create database sales;
+show databases;
+select current_database();
+create table sales.test_sales(id string,name string);
+show tables;
+show tables in sales;
+show tables like 't*';
+show tables like sales.'t*';
+show tables;
+use sales;
+set hive.cli.print.current.db;
+set hive.cli.print.current.db=true;
+show tables;
+select * from test_sales;
+set hive.cli.print.header;
+set hive.cli.print.header=true;
+select * from test_sales;
+set hive.cli.print.header;
+set hive.cli.print.current.db;
+set COLOR;
+set COLOR=BLUE;
+set COLOR;
+set hiveconf:COLOR;
+set hivevar:COLOR;
+set hivevar:COLOR=RED;
+set COLOR;
+set hivevar:COLOR;
+set hiveconf:COLOR;
+create table ${hivevar:COLOR}($hiveconf:COLOR string,col2 string);
+create table ${hivevar:COLOR}(${hiveconf:COLOR} string,col2 string);
+show tables;
+desc red;
+set COLOR;
+set hiveconf:COLOR;
+set;
+show databases;
+create table test_def(abc string);
+show tables;
+CREATE DATABASE hivepractice;
+desc database hivepractice;
+use hivepractice;
+show tables;
+create table test_emp(id String,name string);
+show tables;
+desc test_emp;
+desc formatted test_emp;
+show create table test_emp;
+drop database hivepractice;
+drop database hivepractice cascade;
+show databases;
+use default;
+CREATE DATABASE IF NOT EXISTS hivepractice
+COMMENT 'hive practice database'
+LOCATION '/hive/practice'
+WITH DBPROPERTIES ('creator'='inventateq','date'='2016-06-01');
+create table hivepractice.test_emp(id String,name string);
+show tables in hivepractice;
+use hivepractice;
+show tables;
+desc formatted test_emp;
+create table hivepractice.test_emp1(id String,name string) LOCATION "/AAAAAAAAAA";
+SHOW TABLES;
+DESC FORMATTED test_emp1;
+SHOW COLUMNS IN id                  g              ame                g  
+;
+show columns in test_emp1;
+select * from test_emp1;
+select * from test_emp1 limit 1;
+history;
+history
+;
+SHOW TABLES;
+select * from test_emp1 ;
+show create table test_emp1;
+desc formatted test_emp1;
+show create table test_emp1;
+CREATE TABLE `test_emp2`(
+  `id` string, 
+  `name` string)
+location '/AAAAAAAAAA'
+row format delimited 
+fields terminated by ',';
+CREATE TABLE `test_emp2`(
+  `id` string, 
+  `name` string)
+row format delimited 
+fields terminated by ','
+location '/AAAAAAAAAA';
+show CREATE TABLE `test_emp2`;
+CREATE TABLE `test_emp3`(
+  `id` string, 
+  `name` string)
+row format serde 'org.apache.hadoop.hive.serde2.lazy.LazySimpleSerDe'
+with SERDEPROPERTIES ('field.delim'=',')
+location '/AAAAAAAAAA';
+show CREATE TABLE `test_emp3`;
+select * from  `test_emp1`;
+select * from  `test_emp2`;
+select * from  `test_emp3`;
+create table test_emp4 as select * from test_emp2;
+select * from  test_emp4 ;
+create table test_emp5 row format delimited fields terminated by '#'  as select * from test_emp2;
+show create table test_emp5 ;
+create table test_emp_orc(col1 string,col2 string) stored as ORC ;
+show create table test_emp_orc;
+insert into test_emp_orc select * from test_emp2;
+select * from  test_emp_orc 
+;
+set hive.execution.engine;
+set mapreduce.job.name=DDDDDD
+;
+create table test_emp6 row format delimited fields terminated by '#'  as select * from test_emp2;
+set hive.default.fileformat;
+create table test_emp_1(col1 string,col2 string) ;
+show create table test_emp_1;
+set hive.default.fileformat=PARQUET;
+set hive.default.fileformat=parquet;
+set hive.default.fileformat=orc;
+create table test_emp_2(col1 string,col2 string) ;
+show create table test_emp_2;
+set hive.default.fileformat=orc;
+
+
+
+
+hadoop@hadoop:~$ hdfs dfs -appendToFile - /AAAAAAAAAA/sample.txt
+1,stu1,300 
+2,stu2,500
+3,stu3,100
+hadoop@hadoop:~$ hdfs dfs -cp /AAAAAAAAAA/sample.txt  /AAAAAAAAAA/sample1.txt
+hadoop@hadoop:~$ hdfs dfs -cp /AAAAAAAAAA/sample.txt  /AAAAAAAAAA/sample2.txt
+hadoop@hadoop:~$ 
+
+

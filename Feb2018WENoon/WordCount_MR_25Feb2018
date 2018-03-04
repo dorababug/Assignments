@@ -10,6 +10,9 @@ mapreduce
 yarn
 
 -----------------
+https://github.com/dorababugjntup
+https://github.com/dorababugjntup/Assignments/tree/master/Feb2018WENoon
+
 Assignment
 1)Wordcount -> paper as well
 2) WC progrm using core java 
@@ -18,4 +21,8 @@ and run WC program with that HDFS folder as input
 observe -> no of paths, no of splits , no of mappers
 4)https://en.wikipedia.org/wiki/Apache_Hadoop
 save the page into notepad, and run word count and see the ouput
+
+
+-----------------------
+5) implement GREP with MR
 

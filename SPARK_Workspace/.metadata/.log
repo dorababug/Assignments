@@ -4492,3 +4492,417 @@ java.lang.Throwable
 
 !ENTRY org.scala-ide.sdt.core 1 0 2017-11-05 13:23:07.763
 !MESSAGE Timeout while resolving hyperlink in /home/hadoop/YARN/SPARK_Workspace/ScalaPractice_June2017WeekEnd/src/HelloWorld.scala at: offset: 738, length: 0
+!SESSION 2018-01-11 08:27:36.533 -----------------------------------------------
+eclipse.buildId=4.4.1-vfinal-2016-05-04T11:16:00Z-Typesafe
+java.version=1.8.0_73
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_IN
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.scala-ide.sdt.core 4 0 2018-01-12 08:45:33.074
+!MESSAGE Unexptected error - most likely due to an illegal position
+!STACK 0
+java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.lang.String.substring(String.java:1967)
+	at scala.tools.refactoring.common.EnrichedTrees$TreeMethodsForPositions.nameString(EnrichedTrees.scala:355)
+	at scala.tools.refactoring.common.EnrichedTrees$TreeMethodsForPositions.namePosition(EnrichedTrees.scala:262)
+	at org.scalaide.core.internal.decorators.semantichighlighting.classifier.SafeSymbol$$anonfun$8.apply(SafeSymbol.scala:138)
+	at org.scalaide.core.internal.decorators.semantichighlighting.classifier.SafeSymbol$$anonfun$8.apply(SafeSymbol.scala:138)
+	at scala.tools.nsc.util.InterruptReq.execute(InterruptReq.scala:26)
+	at scala.tools.nsc.interactive.Global$$anonfun$pollForWork$1.apply$mcV$sp(Global.scala:457)
+	at scala.util.control.Breaks.breakable(Breaks.scala:38)
+	at scala.tools.nsc.interactive.Global.pollForWork(Global.scala:431)
+	at scala.tools.nsc.interactive.PresentationCompilerThread.run(PresentationCompilerThread.scala:22)
+
+!ENTRY org.scala-ide.sdt.core 4 0 2018-01-12 08:45:46.783
+!MESSAGE Unexptected error - most likely due to an illegal position
+!STACK 0
+java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.lang.String.substring(String.java:1967)
+	at scala.tools.refactoring.common.EnrichedTrees$TreeMethodsForPositions.nameString(EnrichedTrees.scala:355)
+	at scala.tools.refactoring.common.EnrichedTrees$TreeMethodsForPositions.namePosition(EnrichedTrees.scala:255)
+	at org.scalaide.core.internal.decorators.semantichighlighting.classifier.SafeSymbol$$anonfun$8.apply(SafeSymbol.scala:138)
+	at org.scalaide.core.internal.decorators.semantichighlighting.classifier.SafeSymbol$$anonfun$8.apply(SafeSymbol.scala:138)
+	at scala.tools.nsc.util.InterruptReq.execute(InterruptReq.scala:26)
+	at scala.tools.nsc.interactive.Global$$anonfun$pollForWork$1.apply$mcV$sp(Global.scala:457)
+	at scala.util.control.Breaks.breakable(Breaks.scala:38)
+	at scala.tools.nsc.interactive.Global.pollForWork(Global.scala:431)
+	at scala.tools.nsc.interactive.PresentationCompilerThread.run(PresentationCompilerThread.scala:22)
+
+!ENTRY org.scala-ide.sdt.core 4 0 2018-01-12 08:45:48.424
+!MESSAGE Unexptected error - most likely due to an illegal position
+!STACK 0
+java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.lang.String.substring(String.java:1967)
+	at scala.tools.refactoring.common.EnrichedTrees$TreeMethodsForPositions.nameString(EnrichedTrees.scala:355)
+	at scala.tools.refactoring.common.EnrichedTrees$TreeMethodsForPositions.namePosition(EnrichedTrees.scala:255)
+	at org.scalaide.core.internal.decorators.semantichighlighting.classifier.SafeSymbol$$anonfun$8.apply(SafeSymbol.scala:138)
+	at org.scalaide.core.internal.decorators.semantichighlighting.classifier.SafeSymbol$$anonfun$8.apply(SafeSymbol.scala:138)
+	at scala.tools.nsc.util.InterruptReq.execute(InterruptReq.scala:26)
+	at scala.tools.nsc.interactive.Global$$anonfun$pollForWork$1.apply$mcV$sp(Global.scala:457)
+	at scala.util.control.Breaks.breakable(Breaks.scala:38)
+	at scala.tools.nsc.interactive.Global.pollForWork(Global.scala:431)
+	at scala.tools.nsc.interactive.PresentationCompilerThread.run(PresentationCompilerThread.scala:22)
+
+!ENTRY org.scala-ide.sdt.core 4 0 2018-01-12 08:45:50.389
+!MESSAGE Unexptected error - most likely due to an illegal position
+!STACK 0
+java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.lang.String.substring(String.java:1967)
+	at scala.tools.refactoring.common.EnrichedTrees$TreeMethodsForPositions.nameString(EnrichedTrees.scala:355)
+	at scala.tools.refactoring.common.EnrichedTrees$TreeMethodsForPositions.namePosition(EnrichedTrees.scala:255)
+	at org.scalaide.core.internal.decorators.semantichighlighting.classifier.SafeSymbol$$anonfun$8.apply(SafeSymbol.scala:138)
+	at org.scalaide.core.internal.decorators.semantichighlighting.classifier.SafeSymbol$$anonfun$8.apply(SafeSymbol.scala:138)
+	at scala.tools.nsc.util.InterruptReq.execute(InterruptReq.scala:26)
+	at scala.tools.nsc.interactive.Global$$anonfun$pollForWork$1.apply$mcV$sp(Global.scala:457)
+	at scala.util.control.Breaks.breakable(Breaks.scala:38)
+	at scala.tools.nsc.interactive.Global.pollForWork(Global.scala:431)
+	at scala.tools.nsc.interactive.PresentationCompilerThread.run(PresentationCompilerThread.scala:22)
+
+!ENTRY org.scala-ide.sdt.core 4 0 2018-01-12 08:45:53.954
+!MESSAGE Unexptected error - most likely due to an illegal position
+!STACK 0
+java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.lang.String.substring(String.java:1967)
+	at scala.tools.refactoring.common.EnrichedTrees$TreeMethodsForPositions.nameString(EnrichedTrees.scala:355)
+	at scala.tools.refactoring.common.EnrichedTrees$TreeMethodsForPositions.namePosition(EnrichedTrees.scala:255)
+	at org.scalaide.core.internal.decorators.semantichighlighting.classifier.SafeSymbol$$anonfun$8.apply(SafeSymbol.scala:138)
+	at org.scalaide.core.internal.decorators.semantichighlighting.classifier.SafeSymbol$$anonfun$8.apply(SafeSymbol.scala:138)
+	at scala.tools.nsc.util.InterruptReq.execute(InterruptReq.scala:26)
+	at scala.tools.nsc.interactive.Global$$anonfun$pollForWork$1.apply$mcV$sp(Global.scala:457)
+	at scala.util.control.Breaks.breakable(Breaks.scala:38)
+	at scala.tools.nsc.interactive.Global.pollForWork(Global.scala:431)
+	at scala.tools.nsc.interactive.PresentationCompilerThread.run(PresentationCompilerThread.scala:22)
+
+!ENTRY org.scala-ide.sdt.core 4 0 2018-01-12 08:45:57.094
+!MESSAGE Unexptected error - most likely due to an illegal position
+!STACK 0
+java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.lang.String.substring(String.java:1967)
+	at scala.tools.refactoring.common.EnrichedTrees$TreeMethodsForPositions.nameString(EnrichedTrees.scala:355)
+	at scala.tools.refactoring.common.EnrichedTrees$TreeMethodsForPositions.namePosition(EnrichedTrees.scala:255)
+	at org.scalaide.core.internal.decorators.semantichighlighting.classifier.SafeSymbol$$anonfun$8.apply(SafeSymbol.scala:138)
+	at org.scalaide.core.internal.decorators.semantichighlighting.classifier.SafeSymbol$$anonfun$8.apply(SafeSymbol.scala:138)
+	at scala.tools.nsc.util.InterruptReq.execute(InterruptReq.scala:26)
+	at scala.tools.nsc.interactive.Global$$anonfun$pollForWork$1.apply$mcV$sp(Global.scala:457)
+	at scala.util.control.Breaks.breakable(Breaks.scala:38)
+	at scala.tools.nsc.interactive.Global.pollForWork(Global.scala:431)
+	at scala.tools.nsc.interactive.PresentationCompilerThread.run(PresentationCompilerThread.scala:22)
+
+!ENTRY org.scala-ide.sdt.core 4 0 2018-01-12 08:45:58.706
+!MESSAGE Unexptected error - most likely due to an illegal position
+!STACK 0
+java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.lang.String.substring(String.java:1967)
+	at scala.tools.refactoring.common.EnrichedTrees$TreeMethodsForPositions.nameString(EnrichedTrees.scala:355)
+	at scala.tools.refactoring.common.EnrichedTrees$TreeMethodsForPositions.namePosition(EnrichedTrees.scala:255)
+	at org.scalaide.core.internal.decorators.semantichighlighting.classifier.SafeSymbol$$anonfun$8.apply(SafeSymbol.scala:138)
+	at org.scalaide.core.internal.decorators.semantichighlighting.classifier.SafeSymbol$$anonfun$8.apply(SafeSymbol.scala:138)
+	at scala.tools.nsc.util.InterruptReq.execute(InterruptReq.scala:26)
+	at scala.tools.nsc.interactive.Global$$anonfun$pollForWork$1.apply$mcV$sp(Global.scala:457)
+	at scala.util.control.Breaks.breakable(Breaks.scala:38)
+	at scala.tools.nsc.interactive.Global.pollForWork(Global.scala:431)
+	at scala.tools.nsc.interactive.PresentationCompilerThread.run(PresentationCompilerThread.scala:22)
+
+!ENTRY org.scala-ide.sdt.core 4 0 2018-01-12 08:46:01.155
+!MESSAGE Unexptected error - most likely due to an illegal position
+!STACK 0
+java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.lang.String.substring(String.java:1967)
+	at scala.tools.refactoring.common.EnrichedTrees$TreeMethodsForPositions.nameString(EnrichedTrees.scala:355)
+	at scala.tools.refactoring.common.EnrichedTrees$TreeMethodsForPositions.namePosition(EnrichedTrees.scala:255)
+	at org.scalaide.core.internal.decorators.semantichighlighting.classifier.SafeSymbol$$anonfun$8.apply(SafeSymbol.scala:138)
+	at org.scalaide.core.internal.decorators.semantichighlighting.classifier.SafeSymbol$$anonfun$8.apply(SafeSymbol.scala:138)
+	at scala.tools.nsc.util.InterruptReq.execute(InterruptReq.scala:26)
+	at scala.tools.nsc.interactive.Global$$anonfun$pollForWork$1.apply$mcV$sp(Global.scala:457)
+	at scala.util.control.Breaks.breakable(Breaks.scala:38)
+	at scala.tools.nsc.interactive.Global.pollForWork(Global.scala:431)
+	at scala.tools.nsc.interactive.PresentationCompilerThread.run(PresentationCompilerThread.scala:22)
+
+!ENTRY org.scala-ide.sdt.core 4 0 2018-01-12 08:46:11.164
+!MESSAGE Unexptected error - most likely due to an illegal position
+!STACK 0
+java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.lang.String.substring(String.java:1967)
+	at scala.tools.refactoring.common.EnrichedTrees$TreeMethodsForPositions.nameString(EnrichedTrees.scala:355)
+	at scala.tools.refactoring.common.EnrichedTrees$TreeMethodsForPositions.namePosition(EnrichedTrees.scala:255)
+	at org.scalaide.core.internal.decorators.semantichighlighting.classifier.SafeSymbol$$anonfun$8.apply(SafeSymbol.scala:138)
+	at org.scalaide.core.internal.decorators.semantichighlighting.classifier.SafeSymbol$$anonfun$8.apply(SafeSymbol.scala:138)
+	at scala.tools.nsc.util.InterruptReq.execute(InterruptReq.scala:26)
+	at scala.tools.nsc.interactive.Global$$anonfun$pollForWork$1.apply$mcV$sp(Global.scala:457)
+	at scala.util.control.Breaks.breakable(Breaks.scala:38)
+	at scala.tools.nsc.interactive.Global.pollForWork(Global.scala:431)
+	at scala.tools.nsc.interactive.PresentationCompilerThread.run(PresentationCompilerThread.scala:22)
+
+!ENTRY org.scala-ide.sdt.core 4 0 2018-01-12 08:46:12.991
+!MESSAGE Unexptected error - most likely due to an illegal position
+!STACK 0
+java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.lang.String.substring(String.java:1967)
+	at scala.tools.refactoring.common.EnrichedTrees$TreeMethodsForPositions.nameString(EnrichedTrees.scala:355)
+	at scala.tools.refactoring.common.EnrichedTrees$TreeMethodsForPositions.namePosition(EnrichedTrees.scala:255)
+	at org.scalaide.core.internal.decorators.semantichighlighting.classifier.SafeSymbol$$anonfun$8.apply(SafeSymbol.scala:138)
+	at org.scalaide.core.internal.decorators.semantichighlighting.classifier.SafeSymbol$$anonfun$8.apply(SafeSymbol.scala:138)
+	at scala.tools.nsc.util.InterruptReq.execute(InterruptReq.scala:26)
+	at scala.tools.nsc.interactive.Global$$anonfun$pollForWork$1.apply$mcV$sp(Global.scala:457)
+	at scala.util.control.Breaks.breakable(Breaks.scala:38)
+	at scala.tools.nsc.interactive.Global.pollForWork(Global.scala:431)
+	at scala.tools.nsc.interactive.PresentationCompilerThread.run(PresentationCompilerThread.scala:22)
+
+!ENTRY org.scala-ide.sdt.core 4 0 2018-01-12 08:46:15.941
+!MESSAGE Unexptected error - most likely due to an illegal position
+!STACK 0
+java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.lang.String.substring(String.java:1967)
+	at scala.tools.refactoring.common.EnrichedTrees$TreeMethodsForPositions.nameString(EnrichedTrees.scala:355)
+	at scala.tools.refactoring.common.EnrichedTrees$TreeMethodsForPositions.namePosition(EnrichedTrees.scala:255)
+	at org.scalaide.core.internal.decorators.semantichighlighting.classifier.SafeSymbol$$anonfun$8.apply(SafeSymbol.scala:138)
+	at org.scalaide.core.internal.decorators.semantichighlighting.classifier.SafeSymbol$$anonfun$8.apply(SafeSymbol.scala:138)
+	at scala.tools.nsc.util.InterruptReq.execute(InterruptReq.scala:26)
+	at scala.tools.nsc.interactive.Global$$anonfun$pollForWork$1.apply$mcV$sp(Global.scala:457)
+	at scala.util.control.Breaks.breakable(Breaks.scala:38)
+	at scala.tools.nsc.interactive.Global.pollForWork(Global.scala:431)
+	at scala.tools.nsc.interactive.PresentationCompilerThread.run(PresentationCompilerThread.scala:22)
+
+!ENTRY org.scala-ide.sdt.core 4 0 2018-01-12 08:46:44.883
+!MESSAGE Unexptected error - most likely due to an illegal position
+!STACK 0
+java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.lang.String.substring(String.java:1967)
+	at scala.tools.refactoring.common.EnrichedTrees$TreeMethodsForPositions.nameString(EnrichedTrees.scala:355)
+	at scala.tools.refactoring.common.EnrichedTrees$TreeMethodsForPositions.namePosition(EnrichedTrees.scala:255)
+	at org.scalaide.core.internal.decorators.semantichighlighting.classifier.SafeSymbol$$anonfun$8.apply(SafeSymbol.scala:138)
+	at org.scalaide.core.internal.decorators.semantichighlighting.classifier.SafeSymbol$$anonfun$8.apply(SafeSymbol.scala:138)
+	at scala.tools.nsc.util.InterruptReq.execute(InterruptReq.scala:26)
+	at scala.tools.nsc.interactive.Global$$anonfun$pollForWork$1.apply$mcV$sp(Global.scala:457)
+	at scala.util.control.Breaks.breakable(Breaks.scala:38)
+	at scala.tools.nsc.interactive.Global.pollForWork(Global.scala:431)
+	at scala.tools.nsc.interactive.PresentationCompilerThread.run(PresentationCompilerThread.scala:22)
+
+!ENTRY org.scala-ide.sdt.core 1 0 2018-01-12 09:31:33.260
+!MESSAGE Timeout while resolving hyperlink in /home/hadoop/YARN/SPARK_Workspace/Nov2017WeekDays/src/ScalaDemo.scala at: offset: 1, length: 0
+!SESSION 2018-02-12 10:38:55.173 -----------------------------------------------
+eclipse.buildId=4.4.1-vfinal-2016-05-04T11:16:00Z-Typesafe
+java.version=1.8.0_73
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_IN
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.jdt.core 4 0 2018-02-12 10:39:50.540
+!MESSAGE Invalid ZIP archive: /home/hadoop/YARNBOX/spark-2.0.2-bin-hadoop2.7/jars/mysql-connector-java-5.1.38-bin.jar
+!SESSION 2018-02-25 12:07:42.023 -----------------------------------------------
+eclipse.buildId=4.4.1-vfinal-2016-05-04T11:16:00Z-Typesafe
+java.version=1.8.0_73
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_IN
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.scala-ide.sdt.core 4 0 2018-02-25 12:08:49.514
+!MESSAGE Error thrown while initializing the presentation compiler.
+!STACK 1
+Java Model Exception: Java Model Status [Streaming does not exist]
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:556)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getPerProjectInfoCheckExistence(JavaModelManager.java:2344)
+	at org.eclipse.jdt.internal.core.JavaProject.getPerProjectInfo(JavaProject.java:1909)
+	at org.eclipse.jdt.internal.core.JavaProject.getRawClasspath(JavaProject.java:1931)
+	at org.scalaide.core.internal.project.ClasspathManagement$class.jdkPaths(ClasspathManagement.scala:147)
+	at org.scalaide.core.internal.project.ScalaProject.jdkPaths(ScalaProject.scala:147)
+	at org.scalaide.core.internal.project.ClasspathManagement$class.scalaClasspath(ClasspathManagement.scala:134)
+	at org.scalaide.core.internal.project.ScalaProject.scalaClasspath(ScalaProject.scala:147)
+	at org.scalaide.core.internal.project.ScalaProject.setupCompilerClasspath(ScalaProject.scala:500)
+	at org.scalaide.core.internal.project.ScalaProject.initializeCompilerSettings(ScalaProject.scala:486)
+	at org.scalaide.core.internal.project.ScalaProject.org$scalaide$core$internal$project$ScalaProject$$prepareCompilerSettings(ScalaProject.scala:435)
+	at org.scalaide.core.internal.project.ScalaProject$$anonfun$5.apply(ScalaProject.scala:159)
+	at org.scalaide.core.internal.project.ScalaProject$$anonfun$5.apply(ScalaProject.scala:159)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.liftedTree1$1(PresentationCompilerProxy.scala:152)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.create(PresentationCompilerProxy.scala:151)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.initialize(PresentationCompilerProxy.scala:116)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.obtainPc$1(PresentationCompilerProxy.scala:78)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.internal(PresentationCompilerProxy.scala:98)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.apply(PresentationCompilerProxy.scala:56)
+	at org.scalaide.core.compiler.InteractiveCompilationUnit$class.forceReconcile(InteractiveCompilationUnit.scala:150)
+	at org.scalaide.core.internal.jdt.model.ScalaSourceFile.forceReconcile(ScalaSourceFile.scala:66)
+	at org.scalaide.ui.internal.reconciliation.ScalaReconcilingStrategy.reconcile(ScalaReconcilingStrategy.scala:43)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:86)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:77)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:206)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2018-02-25 12:08:49.517
+!MESSAGE Streaming does not exist
+
+!ENTRY org.scala-ide.sdt.core 4 0 2018-02-25 12:08:49.543
+!MESSAGE Error thrown while initializing the presentation compiler.
+!STACK 1
+Java Model Exception: Java Model Status [Streaming does not exist]
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:556)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getPerProjectInfoCheckExistence(JavaModelManager.java:2344)
+	at org.eclipse.jdt.internal.core.JavaProject.getPerProjectInfo(JavaProject.java:1909)
+	at org.eclipse.jdt.internal.core.JavaProject.getRawClasspath(JavaProject.java:1931)
+	at org.scalaide.core.internal.project.ClasspathManagement$class.jdkPaths(ClasspathManagement.scala:147)
+	at org.scalaide.core.internal.project.ScalaProject.jdkPaths(ScalaProject.scala:147)
+	at org.scalaide.core.internal.project.ClasspathManagement$class.scalaClasspath(ClasspathManagement.scala:134)
+	at org.scalaide.core.internal.project.ScalaProject.scalaClasspath(ScalaProject.scala:147)
+	at org.scalaide.core.internal.project.ScalaProject.setupCompilerClasspath(ScalaProject.scala:500)
+	at org.scalaide.core.internal.project.ScalaProject.initializeCompilerSettings(ScalaProject.scala:486)
+	at org.scalaide.core.internal.project.ScalaProject.org$scalaide$core$internal$project$ScalaProject$$prepareCompilerSettings(ScalaProject.scala:435)
+	at org.scalaide.core.internal.project.ScalaProject$$anonfun$5.apply(ScalaProject.scala:159)
+	at org.scalaide.core.internal.project.ScalaProject$$anonfun$5.apply(ScalaProject.scala:159)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.liftedTree1$1(PresentationCompilerProxy.scala:152)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.create(PresentationCompilerProxy.scala:151)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.initialize(PresentationCompilerProxy.scala:116)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.obtainPc$1(PresentationCompilerProxy.scala:78)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.internal(PresentationCompilerProxy.scala:98)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.apply(PresentationCompilerProxy.scala:56)
+	at org.scalaide.core.compiler.InteractiveCompilationUnit$class.currentProblems(InteractiveCompilationUnit.scala:183)
+	at org.scalaide.core.internal.jdt.model.ScalaSourceFile.currentProblems(ScalaSourceFile.scala:66)
+	at org.scalaide.core.compiler.InteractiveCompilationUnit$class.forceReconcile(InteractiveCompilationUnit.scala:151)
+	at org.scalaide.core.internal.jdt.model.ScalaSourceFile.forceReconcile(ScalaSourceFile.scala:66)
+	at org.scalaide.ui.internal.reconciliation.ScalaReconcilingStrategy.reconcile(ScalaReconcilingStrategy.scala:43)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:86)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:77)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:206)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2018-02-25 12:08:49.543
+!MESSAGE Streaming does not exist
+
+!ENTRY org.scala-ide.sdt.core 4 0 2018-02-25 12:08:49.544
+!MESSAGE Error thrown while initializing the presentation compiler.
+!STACK 1
+Java Model Exception: Java Model Status [Streaming does not exist]
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:556)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getPerProjectInfoCheckExistence(JavaModelManager.java:2344)
+	at org.eclipse.jdt.internal.core.JavaProject.getPerProjectInfo(JavaProject.java:1909)
+	at org.eclipse.jdt.internal.core.JavaProject.getRawClasspath(JavaProject.java:1931)
+	at org.scalaide.core.internal.project.ClasspathManagement$class.jdkPaths(ClasspathManagement.scala:147)
+	at org.scalaide.core.internal.project.ScalaProject.jdkPaths(ScalaProject.scala:147)
+	at org.scalaide.core.internal.project.ClasspathManagement$class.scalaClasspath(ClasspathManagement.scala:134)
+	at org.scalaide.core.internal.project.ScalaProject.scalaClasspath(ScalaProject.scala:147)
+	at org.scalaide.core.internal.project.ScalaProject.setupCompilerClasspath(ScalaProject.scala:500)
+	at org.scalaide.core.internal.project.ScalaProject.initializeCompilerSettings(ScalaProject.scala:486)
+	at org.scalaide.core.internal.project.ScalaProject.org$scalaide$core$internal$project$ScalaProject$$prepareCompilerSettings(ScalaProject.scala:435)
+	at org.scalaide.core.internal.project.ScalaProject$$anonfun$5.apply(ScalaProject.scala:159)
+	at org.scalaide.core.internal.project.ScalaProject$$anonfun$5.apply(ScalaProject.scala:159)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.liftedTree1$1(PresentationCompilerProxy.scala:152)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.create(PresentationCompilerProxy.scala:151)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.initialize(PresentationCompilerProxy.scala:116)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.obtainPc$1(PresentationCompilerProxy.scala:78)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.internal(PresentationCompilerProxy.scala:98)
+	at org.scalaide.ui.internal.editor.decorators.BaseSemanticAction.apply(BaseSemanticAction.scala:139)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$$anon$3$$anonfun$reconciled$1$$anonfun$apply$1.apply$mcV$sp(ScalaSourceFileEditor.scala:103)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$$anon$3$$anonfun$reconciled$1$$anonfun$apply$1.apply(ScalaSourceFileEditor.scala:103)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$$anon$3$$anonfun$reconciled$1$$anonfun$apply$1.apply(ScalaSourceFileEditor.scala:103)
+	at org.scalaide.util.eclipse.EclipseUtils$$anon$3.run(EclipseUtils.scala:214)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.scalaide.util.eclipse.EclipseUtils$.withSafeRunner(EclipseUtils.scala:210)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$$anon$3$$anonfun$reconciled$1.apply(ScalaSourceFileEditor.scala:102)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$$anon$3$$anonfun$reconciled$1.apply(ScalaSourceFileEditor.scala:101)
+	at scala.collection.mutable.ArraySeq.foreach(ArraySeq.scala:74)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$$anon$3.reconciled(ScalaSourceFileEditor.scala:101)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$ReconcilingListeners$$anonfun$reconciled$3.apply(ScalaSourceFileEditor.scala:479)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$ReconcilingListeners$$anonfun$reconciled$3.apply(ScalaSourceFileEditor.scala:479)
+	at scala.collection.immutable.List.foreach(List.scala:381)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$ReconcilingListeners.reconciled(ScalaSourceFileEditor.scala:479)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor.reconciled(ScalaSourceFileEditor.scala:380)
+	at org.scalaide.ui.internal.reconciliation.ScalaReconcilingStrategy$$anonfun$reconcile$3.apply(ScalaReconcilingStrategy.scala:53)
+	at org.scalaide.ui.internal.reconciliation.ScalaReconcilingStrategy$$anonfun$reconcile$3.apply(ScalaReconcilingStrategy.scala:53)
+	at scala.Option.foreach(Option.scala:257)
+	at org.scalaide.ui.internal.reconciliation.ScalaReconcilingStrategy.reconcile(ScalaReconcilingStrategy.scala:53)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:86)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:77)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:206)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2018-02-25 12:08:49.545
+!MESSAGE Streaming does not exist
+
+!ENTRY org.scala-ide.sdt.core 4 0 2018-02-25 12:08:49.547
+!MESSAGE Error thrown while initializing the presentation compiler.
+!STACK 1
+Java Model Exception: Java Model Status [Streaming does not exist]
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:556)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getPerProjectInfoCheckExistence(JavaModelManager.java:2344)
+	at org.eclipse.jdt.internal.core.JavaProject.getPerProjectInfo(JavaProject.java:1909)
+	at org.eclipse.jdt.internal.core.JavaProject.getRawClasspath(JavaProject.java:1931)
+	at org.scalaide.core.internal.project.ClasspathManagement$class.jdkPaths(ClasspathManagement.scala:147)
+	at org.scalaide.core.internal.project.ScalaProject.jdkPaths(ScalaProject.scala:147)
+	at org.scalaide.core.internal.project.ClasspathManagement$class.scalaClasspath(ClasspathManagement.scala:134)
+	at org.scalaide.core.internal.project.ScalaProject.scalaClasspath(ScalaProject.scala:147)
+	at org.scalaide.core.internal.project.ScalaProject.setupCompilerClasspath(ScalaProject.scala:500)
+	at org.scalaide.core.internal.project.ScalaProject.initializeCompilerSettings(ScalaProject.scala:486)
+	at org.scalaide.core.internal.project.ScalaProject.org$scalaide$core$internal$project$ScalaProject$$prepareCompilerSettings(ScalaProject.scala:435)
+	at org.scalaide.core.internal.project.ScalaProject$$anonfun$5.apply(ScalaProject.scala:159)
+	at org.scalaide.core.internal.project.ScalaProject$$anonfun$5.apply(ScalaProject.scala:159)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.liftedTree1$1(PresentationCompilerProxy.scala:152)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.create(PresentationCompilerProxy.scala:151)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.initialize(PresentationCompilerProxy.scala:116)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.obtainPc$1(PresentationCompilerProxy.scala:78)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.internal(PresentationCompilerProxy.scala:98)
+	at org.scalaide.ui.internal.editor.decorators.BaseSemanticAction.apply(BaseSemanticAction.scala:139)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$$anon$3$$anonfun$reconciled$1$$anonfun$apply$1.apply$mcV$sp(ScalaSourceFileEditor.scala:103)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$$anon$3$$anonfun$reconciled$1$$anonfun$apply$1.apply(ScalaSourceFileEditor.scala:103)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$$anon$3$$anonfun$reconciled$1$$anonfun$apply$1.apply(ScalaSourceFileEditor.scala:103)
+	at org.scalaide.util.eclipse.EclipseUtils$$anon$3.run(EclipseUtils.scala:214)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.scalaide.util.eclipse.EclipseUtils$.withSafeRunner(EclipseUtils.scala:210)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$$anon$3$$anonfun$reconciled$1.apply(ScalaSourceFileEditor.scala:102)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$$anon$3$$anonfun$reconciled$1.apply(ScalaSourceFileEditor.scala:101)
+	at scala.collection.mutable.ArraySeq.foreach(ArraySeq.scala:74)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$$anon$3.reconciled(ScalaSourceFileEditor.scala:101)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$ReconcilingListeners$$anonfun$reconciled$3.apply(ScalaSourceFileEditor.scala:479)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$ReconcilingListeners$$anonfun$reconciled$3.apply(ScalaSourceFileEditor.scala:479)
+	at scala.collection.immutable.List.foreach(List.scala:381)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$ReconcilingListeners.reconciled(ScalaSourceFileEditor.scala:479)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor.reconciled(ScalaSourceFileEditor.scala:380)
+	at org.scalaide.ui.internal.reconciliation.ScalaReconcilingStrategy$$anonfun$reconcile$3.apply(ScalaReconcilingStrategy.scala:53)
+	at org.scalaide.ui.internal.reconciliation.ScalaReconcilingStrategy$$anonfun$reconcile$3.apply(ScalaReconcilingStrategy.scala:53)
+	at scala.Option.foreach(Option.scala:257)
+	at org.scalaide.ui.internal.reconciliation.ScalaReconcilingStrategy.reconcile(ScalaReconcilingStrategy.scala:53)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:86)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:77)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:206)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2018-02-25 12:08:49.548
+!MESSAGE Streaming does not exist
+
+!ENTRY org.scala-ide.sdt.core 4 0 2018-02-25 12:08:49.548
+!MESSAGE Error thrown while initializing the presentation compiler.
+!STACK 1
+Java Model Exception: Java Model Status [Streaming does not exist]
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:556)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getPerProjectInfoCheckExistence(JavaModelManager.java:2344)
+	at org.eclipse.jdt.internal.core.JavaProject.getPerProjectInfo(JavaProject.java:1909)
+	at org.eclipse.jdt.internal.core.JavaProject.getRawClasspath(JavaProject.java:1931)
+	at org.scalaide.core.internal.project.ClasspathManagement$class.jdkPaths(ClasspathManagement.scala:147)
+	at org.scalaide.core.internal.project.ScalaProject.jdkPaths(ScalaProject.scala:147)
+	at org.scalaide.core.internal.project.ClasspathManagement$class.scalaClasspath(ClasspathManagement.scala:134)
+	at org.scalaide.core.internal.project.ScalaProject.scalaClasspath(ScalaProject.scala:147)
+	at org.scalaide.core.internal.project.ScalaProject.setupCompilerClasspath(ScalaProject.scala:500)
+	at org.scalaide.core.internal.project.ScalaProject.initializeCompilerSettings(ScalaProject.scala:486)
+	at org.scalaide.core.internal.project.ScalaProject.org$scalaide$core$internal$project$ScalaProject$$prepareCompilerSettings(ScalaProject.scala:435)
+	at org.scalaide.core.internal.project.ScalaProject$$anonfun$5.apply(ScalaProject.scala:159)
+	at org.scalaide.core.internal.project.ScalaProject$$anonfun$5.apply(ScalaProject.scala:159)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.liftedTree1$1(PresentationCompilerProxy.scala:152)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.create(PresentationCompilerProxy.scala:151)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.initialize(PresentationCompilerProxy.scala:116)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.obtainPc$1(PresentationCompilerProxy.scala:78)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.internal(PresentationCompilerProxy.scala:98)
+	at org.scalaide.ui.internal.editor.decorators.BaseSemanticAction.apply(BaseSemanticAction.scala:139)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$$anon$3$$anonfun$reconciled$1$$anonfun$apply$1.apply$mcV$sp(ScalaSourceFileEditor.scala:103)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$$anon$3$$anonfun$reconciled$1$$anonfun$apply$1.apply(ScalaSourceFileEditor.scala:103)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$$anon$3$$anonfun$reconciled$1$$anonfun$apply$1.apply(ScalaSourceFileEditor.scala:103)
+	at org.scalaide.util.eclipse.EclipseUtils$$anon$3.run(EclipseUtils.scala:214)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.scalaide.util.eclipse.EclipseUtils$.withSafeRunner(EclipseUtils.scala:210)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$$anon$3$$anonfun$reconciled$1.apply(ScalaSourceFileEditor.scala:102)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$$anon$3$$anonfun$reconciled$1.apply(ScalaSourceFileEditor.scala:101)
+	at scala.collection.mutable.ArraySeq.foreach(ArraySeq.scala:74)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$$anon$3.reconciled(ScalaSourceFileEditor.scala:101)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$ReconcilingListeners$$anonfun$reconciled$3.apply(ScalaSourceFileEditor.scala:479)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$ReconcilingListeners$$anonfun$reconciled$3.apply(ScalaSourceFileEditor.scala:479)
+	at scala.collection.immutable.List.foreach(List.scala:381)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$ReconcilingListeners.reconciled(ScalaSourceFileEditor.scala:479)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor.reconciled(ScalaSourceFileEditor.scala:380)
+	at org.scalaide.ui.internal.reconciliation.ScalaReconcilingStrategy$$anonfun$reconcile$3.apply(ScalaReconcilingStrategy.scala:53)
+	at org.scalaide.ui.internal.reconciliation.ScalaReconcilingStrategy$$anonfun$reconcile$3.apply(ScalaReconcilingStrategy.scala:53)
+	at scala.Option.foreach(Option.scala:257)
+	at org.scalaide.ui.internal.reconciliation.ScalaReconcilingStrategy.reconcile(ScalaReconcilingStrategy.scala:53)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:86)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:77)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:206)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2018-02-25 12:08:49.549
+!MESSAGE Streaming does not exist

@@ -1,0 +1,9 @@
+
+
+object ScalaDemo {
+  def main(args: Array[String]): Unit = {
+    println("Scala Demo")
+    for(a<-args) println(a)
+  }
+  
+}

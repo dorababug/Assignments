@@ -7865,3 +7865,1029 @@ org.eclipse.core.internal.resources.ResourceException: Resource '/ScalaPractice_
 2018-01-11 09:24:47,016  WARN [Worker-30] - ScalaProject - Project Nov2017WeekDays runs on platform default installation.
 2018-01-11 09:27:10,951  WARN [Worker-31] - ScalaProject - Project Nov2017WeekDays has platform default sourceLevel.
 2018-01-11 09:27:10,951  WARN [Worker-31] - ScalaProject - Project Nov2017WeekDays runs on platform default installation.
+2018-01-12 08:25:24,773  WARN [Worker-37] - ScalaProject - Project Nov2017WeekDays has platform default sourceLevel.
+2018-01-12 08:25:24,774  WARN [Worker-37] - ScalaProject - Project Nov2017WeekDays runs on platform default installation.
+2018-01-12 08:25:32,289  WARN [Worker-38] - ScalaProject - Project Nov2017WeekDays has platform default sourceLevel.
+2018-01-12 08:25:32,289  WARN [Worker-38] - ScalaProject - Project Nov2017WeekDays runs on platform default installation.
+2018-01-12 08:25:41,975  WARN [Worker-38] - ScalaProject - Project Nov2017WeekDays has platform default sourceLevel.
+2018-01-12 08:25:41,975  WARN [Worker-38] - ScalaProject - Project Nov2017WeekDays runs on platform default installation.
+2018-01-12 08:25:43,860  WARN [Worker-40] - ScalaProject - Project Nov2017WeekDays has platform default sourceLevel.
+2018-01-12 08:25:43,860  WARN [Worker-40] - ScalaProject - Project Nov2017WeekDays runs on platform default installation.
+2018-01-12 08:28:22,550  WARN [Worker-41] - ScalaProject - Project Nov2017WeekDays has platform default sourceLevel.
+2018-01-12 08:28:22,551  WARN [Worker-41] - ScalaProject - Project Nov2017WeekDays runs on platform default installation.
+2018-01-12 08:28:32,877  WARN [Worker-33] - ScalaProject - Project Nov2017WeekDays has platform default sourceLevel.
+2018-01-12 08:28:32,877  WARN [Worker-33] - ScalaProject - Project Nov2017WeekDays runs on platform default installation.
+2018-01-12 08:28:50,435  WARN [Worker-38] - ScalaProject - Project Nov2017WeekDays has platform default sourceLevel.
+2018-01-12 08:28:50,435  WARN [Worker-38] - ScalaProject - Project Nov2017WeekDays runs on platform default installation.
+2018-01-12 08:29:01,738  WARN [Worker-38] - ScalaProject - Project Nov2017WeekDays has platform default sourceLevel.
+2018-01-12 08:29:01,738  WARN [Worker-38] - ScalaProject - Project Nov2017WeekDays runs on platform default installation.
+2018-01-12 08:30:29,469  WARN [Worker-42] - ScalaProject - Project Nov2017WeekDays has platform default sourceLevel.
+2018-01-12 08:30:29,469  WARN [Worker-42] - ScalaProject - Project Nov2017WeekDays runs on platform default installation.
+2018-01-12 08:30:56,924  WARN [Worker-33] - ScalaProject - Project Nov2017WeekDays has platform default sourceLevel.
+2018-01-12 08:30:56,924  WARN [Worker-33] - ScalaProject - Project Nov2017WeekDays runs on platform default installation.
+2018-01-12 08:31:01,538  WARN [Worker-40] - ScalaProject - Project Nov2017WeekDays has platform default sourceLevel.
+2018-01-12 08:31:01,538  WARN [Worker-40] - ScalaProject - Project Nov2017WeekDays runs on platform default installation.
+2018-01-12 08:31:56,415  WARN [Worker-33] - ScalaProject - Project Nov2017WeekDays has platform default sourceLevel.
+2018-01-12 08:31:56,415  WARN [Worker-33] - ScalaProject - Project Nov2017WeekDays runs on platform default installation.
+2018-01-12 08:32:10,487  WARN [Worker-38] - ScalaProject - Project Nov2017WeekDays has platform default sourceLevel.
+2018-01-12 08:32:10,487  WARN [Worker-38] - ScalaProject - Project Nov2017WeekDays runs on platform default installation.
+2018-01-12 08:32:31,986  WARN [Worker-38] - ScalaProject - Project Nov2017WeekDays has platform default sourceLevel.
+2018-01-12 08:32:31,986  WARN [Worker-38] - ScalaProject - Project Nov2017WeekDays runs on platform default installation.
+2018-01-12 08:33:33,412  WARN [Worker-40] - ScalaProject - Project Nov2017WeekDays has platform default sourceLevel.
+2018-01-12 08:33:33,412  WARN [Worker-40] - ScalaProject - Project Nov2017WeekDays runs on platform default installation.
+2018-01-12 08:36:50,094  WARN [Worker-45] - ScalaProject - Project Nov2017WeekDays has platform default sourceLevel.
+2018-01-12 08:36:50,094  WARN [Worker-45] - ScalaProject - Project Nov2017WeekDays runs on platform default installation.
+2018-01-12 08:37:34,175  WARN [Worker-38] - ScalaProject - Project Nov2017WeekDays has platform default sourceLevel.
+2018-01-12 08:37:34,175  WARN [Worker-38] - ScalaProject - Project Nov2017WeekDays runs on platform default installation.
+2018-01-12 08:37:55,134  WARN [Worker-40] - ScalaProject - Project Nov2017WeekDays has platform default sourceLevel.
+2018-01-12 08:37:55,134  WARN [Worker-40] - ScalaProject - Project Nov2017WeekDays runs on platform default installation.
+2018-01-12 08:38:05,831  WARN [Worker-43] - ScalaProject - Project Nov2017WeekDays has platform default sourceLevel.
+2018-01-12 08:38:05,831  WARN [Worker-43] - ScalaProject - Project Nov2017WeekDays runs on platform default installation.
+2018-01-12 08:38:34,261  WARN [Worker-46] - ScalaProject - Project Nov2017WeekDays has platform default sourceLevel.
+2018-01-12 08:38:34,261  WARN [Worker-46] - ScalaProject - Project Nov2017WeekDays runs on platform default installation.
+2018-01-12 08:39:38,826  WARN [Worker-44] - ScalaProject - Project Nov2017WeekDays has platform default sourceLevel.
+2018-01-12 08:39:38,827  WARN [Worker-44] - ScalaProject - Project Nov2017WeekDays runs on platform default installation.
+2018-01-12 08:40:58,514  WARN [Worker-44] - ScalaProject - Project Nov2017WeekDays has platform default sourceLevel.
+2018-01-12 08:40:58,515  WARN [Worker-44] - ScalaProject - Project Nov2017WeekDays runs on platform default installation.
+2018-01-12 08:41:51,732  WARN [Worker-45] - ScalaProject - Project Nov2017WeekDays has platform default sourceLevel.
+2018-01-12 08:41:51,733  WARN [Worker-45] - ScalaProject - Project Nov2017WeekDays runs on platform default installation.
+2018-01-12 08:43:07,822  WARN [Worker-44] - ScalaProject - Project Nov2017WeekDays has platform default sourceLevel.
+2018-01-12 08:43:07,822  WARN [Worker-44] - ScalaProject - Project Nov2017WeekDays runs on platform default installation.
+2018-01-12 08:43:36,716  WARN [Worker-45] - ScalaProject - Project Nov2017WeekDays has platform default sourceLevel.
+2018-01-12 08:43:36,716  WARN [Worker-45] - ScalaProject - Project Nov2017WeekDays runs on platform default installation.
+2018-01-12 08:45:33,082 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Unexptected error - most likely due to an illegal position
+java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.lang.String.substring(String.java:1967)
+	at scala.tools.refactoring.common.EnrichedTrees$TreeMethodsForPositions.nameString(EnrichedTrees.scala:355)
+	at scala.tools.refactoring.common.EnrichedTrees$TreeMethodsForPositions.namePosition(EnrichedTrees.scala:262)
+	at org.scalaide.core.internal.decorators.semantichighlighting.classifier.SafeSymbol$$anonfun$8.apply(SafeSymbol.scala:138)
+	at org.scalaide.core.internal.decorators.semantichighlighting.classifier.SafeSymbol$$anonfun$8.apply(SafeSymbol.scala:138)
+	at scala.tools.nsc.util.InterruptReq.execute(InterruptReq.scala:26)
+	at scala.tools.nsc.interactive.Global$$anonfun$pollForWork$1.apply$mcV$sp(Global.scala:457)
+	at scala.util.control.Breaks.breakable(Breaks.scala:38)
+	at scala.tools.nsc.interactive.Global.pollForWork(Global.scala:431)
+	at scala.tools.nsc.interactive.PresentationCompilerThread.run(PresentationCompilerThread.scala:22)
+2018-01-12 08:45:46,783 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Unexptected error - most likely due to an illegal position
+java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.lang.String.substring(String.java:1967)
+	at scala.tools.refactoring.common.EnrichedTrees$TreeMethodsForPositions.nameString(EnrichedTrees.scala:355)
+	at scala.tools.refactoring.common.EnrichedTrees$TreeMethodsForPositions.namePosition(EnrichedTrees.scala:255)
+	at org.scalaide.core.internal.decorators.semantichighlighting.classifier.SafeSymbol$$anonfun$8.apply(SafeSymbol.scala:138)
+	at org.scalaide.core.internal.decorators.semantichighlighting.classifier.SafeSymbol$$anonfun$8.apply(SafeSymbol.scala:138)
+	at scala.tools.nsc.util.InterruptReq.execute(InterruptReq.scala:26)
+	at scala.tools.nsc.interactive.Global$$anonfun$pollForWork$1.apply$mcV$sp(Global.scala:457)
+	at scala.util.control.Breaks.breakable(Breaks.scala:38)
+	at scala.tools.nsc.interactive.Global.pollForWork(Global.scala:431)
+	at scala.tools.nsc.interactive.PresentationCompilerThread.run(PresentationCompilerThread.scala:22)
+2018-01-12 08:45:48,425 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Unexptected error - most likely due to an illegal position
+java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.lang.String.substring(String.java:1967)
+	at scala.tools.refactoring.common.EnrichedTrees$TreeMethodsForPositions.nameString(EnrichedTrees.scala:355)
+	at scala.tools.refactoring.common.EnrichedTrees$TreeMethodsForPositions.namePosition(EnrichedTrees.scala:255)
+	at org.scalaide.core.internal.decorators.semantichighlighting.classifier.SafeSymbol$$anonfun$8.apply(SafeSymbol.scala:138)
+	at org.scalaide.core.internal.decorators.semantichighlighting.classifier.SafeSymbol$$anonfun$8.apply(SafeSymbol.scala:138)
+	at scala.tools.nsc.util.InterruptReq.execute(InterruptReq.scala:26)
+	at scala.tools.nsc.interactive.Global$$anonfun$pollForWork$1.apply$mcV$sp(Global.scala:457)
+	at scala.util.control.Breaks.breakable(Breaks.scala:38)
+	at scala.tools.nsc.interactive.Global.pollForWork(Global.scala:431)
+	at scala.tools.nsc.interactive.PresentationCompilerThread.run(PresentationCompilerThread.scala:22)
+2018-01-12 08:45:50,392 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Unexptected error - most likely due to an illegal position
+java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.lang.String.substring(String.java:1967)
+	at scala.tools.refactoring.common.EnrichedTrees$TreeMethodsForPositions.nameString(EnrichedTrees.scala:355)
+	at scala.tools.refactoring.common.EnrichedTrees$TreeMethodsForPositions.namePosition(EnrichedTrees.scala:255)
+	at org.scalaide.core.internal.decorators.semantichighlighting.classifier.SafeSymbol$$anonfun$8.apply(SafeSymbol.scala:138)
+	at org.scalaide.core.internal.decorators.semantichighlighting.classifier.SafeSymbol$$anonfun$8.apply(SafeSymbol.scala:138)
+	at scala.tools.nsc.util.InterruptReq.execute(InterruptReq.scala:26)
+	at scala.tools.nsc.interactive.Global$$anonfun$pollForWork$1.apply$mcV$sp(Global.scala:457)
+	at scala.util.control.Breaks.breakable(Breaks.scala:38)
+	at scala.tools.nsc.interactive.Global.pollForWork(Global.scala:431)
+	at scala.tools.nsc.interactive.PresentationCompilerThread.run(PresentationCompilerThread.scala:22)
+2018-01-12 08:45:53,954 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Unexptected error - most likely due to an illegal position
+java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.lang.String.substring(String.java:1967)
+	at scala.tools.refactoring.common.EnrichedTrees$TreeMethodsForPositions.nameString(EnrichedTrees.scala:355)
+	at scala.tools.refactoring.common.EnrichedTrees$TreeMethodsForPositions.namePosition(EnrichedTrees.scala:255)
+	at org.scalaide.core.internal.decorators.semantichighlighting.classifier.SafeSymbol$$anonfun$8.apply(SafeSymbol.scala:138)
+	at org.scalaide.core.internal.decorators.semantichighlighting.classifier.SafeSymbol$$anonfun$8.apply(SafeSymbol.scala:138)
+	at scala.tools.nsc.util.InterruptReq.execute(InterruptReq.scala:26)
+	at scala.tools.nsc.interactive.Global$$anonfun$pollForWork$1.apply$mcV$sp(Global.scala:457)
+	at scala.util.control.Breaks.breakable(Breaks.scala:38)
+	at scala.tools.nsc.interactive.Global.pollForWork(Global.scala:431)
+	at scala.tools.nsc.interactive.PresentationCompilerThread.run(PresentationCompilerThread.scala:22)
+2018-01-12 08:45:57,094 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Unexptected error - most likely due to an illegal position
+java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.lang.String.substring(String.java:1967)
+	at scala.tools.refactoring.common.EnrichedTrees$TreeMethodsForPositions.nameString(EnrichedTrees.scala:355)
+	at scala.tools.refactoring.common.EnrichedTrees$TreeMethodsForPositions.namePosition(EnrichedTrees.scala:255)
+	at org.scalaide.core.internal.decorators.semantichighlighting.classifier.SafeSymbol$$anonfun$8.apply(SafeSymbol.scala:138)
+	at org.scalaide.core.internal.decorators.semantichighlighting.classifier.SafeSymbol$$anonfun$8.apply(SafeSymbol.scala:138)
+	at scala.tools.nsc.util.InterruptReq.execute(InterruptReq.scala:26)
+	at scala.tools.nsc.interactive.Global$$anonfun$pollForWork$1.apply$mcV$sp(Global.scala:457)
+	at scala.util.control.Breaks.breakable(Breaks.scala:38)
+	at scala.tools.nsc.interactive.Global.pollForWork(Global.scala:431)
+	at scala.tools.nsc.interactive.PresentationCompilerThread.run(PresentationCompilerThread.scala:22)
+2018-01-12 08:45:58,650  WARN [Worker-44] - ScalaProject - Project Nov2017WeekDays has platform default sourceLevel.
+2018-01-12 08:45:58,650  WARN [Worker-44] - ScalaProject - Project Nov2017WeekDays runs on platform default installation.
+2018-01-12 08:45:58,707 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Unexptected error - most likely due to an illegal position
+java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.lang.String.substring(String.java:1967)
+	at scala.tools.refactoring.common.EnrichedTrees$TreeMethodsForPositions.nameString(EnrichedTrees.scala:355)
+	at scala.tools.refactoring.common.EnrichedTrees$TreeMethodsForPositions.namePosition(EnrichedTrees.scala:255)
+	at org.scalaide.core.internal.decorators.semantichighlighting.classifier.SafeSymbol$$anonfun$8.apply(SafeSymbol.scala:138)
+	at org.scalaide.core.internal.decorators.semantichighlighting.classifier.SafeSymbol$$anonfun$8.apply(SafeSymbol.scala:138)
+	at scala.tools.nsc.util.InterruptReq.execute(InterruptReq.scala:26)
+	at scala.tools.nsc.interactive.Global$$anonfun$pollForWork$1.apply$mcV$sp(Global.scala:457)
+	at scala.util.control.Breaks.breakable(Breaks.scala:38)
+	at scala.tools.nsc.interactive.Global.pollForWork(Global.scala:431)
+	at scala.tools.nsc.interactive.PresentationCompilerThread.run(PresentationCompilerThread.scala:22)
+2018-01-12 08:46:01,156 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Unexptected error - most likely due to an illegal position
+java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.lang.String.substring(String.java:1967)
+	at scala.tools.refactoring.common.EnrichedTrees$TreeMethodsForPositions.nameString(EnrichedTrees.scala:355)
+	at scala.tools.refactoring.common.EnrichedTrees$TreeMethodsForPositions.namePosition(EnrichedTrees.scala:255)
+	at org.scalaide.core.internal.decorators.semantichighlighting.classifier.SafeSymbol$$anonfun$8.apply(SafeSymbol.scala:138)
+	at org.scalaide.core.internal.decorators.semantichighlighting.classifier.SafeSymbol$$anonfun$8.apply(SafeSymbol.scala:138)
+	at scala.tools.nsc.util.InterruptReq.execute(InterruptReq.scala:26)
+	at scala.tools.nsc.interactive.Global$$anonfun$pollForWork$1.apply$mcV$sp(Global.scala:457)
+	at scala.util.control.Breaks.breakable(Breaks.scala:38)
+	at scala.tools.nsc.interactive.Global.pollForWork(Global.scala:431)
+	at scala.tools.nsc.interactive.PresentationCompilerThread.run(PresentationCompilerThread.scala:22)
+2018-01-12 08:46:01,606  WARN [Worker-44] - ScalaProject - Project Nov2017WeekDays has platform default sourceLevel.
+2018-01-12 08:46:01,606  WARN [Worker-44] - ScalaProject - Project Nov2017WeekDays runs on platform default installation.
+2018-01-12 08:46:11,165 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Unexptected error - most likely due to an illegal position
+java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.lang.String.substring(String.java:1967)
+	at scala.tools.refactoring.common.EnrichedTrees$TreeMethodsForPositions.nameString(EnrichedTrees.scala:355)
+	at scala.tools.refactoring.common.EnrichedTrees$TreeMethodsForPositions.namePosition(EnrichedTrees.scala:255)
+	at org.scalaide.core.internal.decorators.semantichighlighting.classifier.SafeSymbol$$anonfun$8.apply(SafeSymbol.scala:138)
+	at org.scalaide.core.internal.decorators.semantichighlighting.classifier.SafeSymbol$$anonfun$8.apply(SafeSymbol.scala:138)
+	at scala.tools.nsc.util.InterruptReq.execute(InterruptReq.scala:26)
+	at scala.tools.nsc.interactive.Global$$anonfun$pollForWork$1.apply$mcV$sp(Global.scala:457)
+	at scala.util.control.Breaks.breakable(Breaks.scala:38)
+	at scala.tools.nsc.interactive.Global.pollForWork(Global.scala:431)
+	at scala.tools.nsc.interactive.PresentationCompilerThread.run(PresentationCompilerThread.scala:22)
+2018-01-12 08:46:12,863  WARN [Worker-40] - ScalaProject - Project Nov2017WeekDays has platform default sourceLevel.
+2018-01-12 08:46:12,863  WARN [Worker-40] - ScalaProject - Project Nov2017WeekDays runs on platform default installation.
+2018-01-12 08:46:12,992 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Unexptected error - most likely due to an illegal position
+java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.lang.String.substring(String.java:1967)
+	at scala.tools.refactoring.common.EnrichedTrees$TreeMethodsForPositions.nameString(EnrichedTrees.scala:355)
+	at scala.tools.refactoring.common.EnrichedTrees$TreeMethodsForPositions.namePosition(EnrichedTrees.scala:255)
+	at org.scalaide.core.internal.decorators.semantichighlighting.classifier.SafeSymbol$$anonfun$8.apply(SafeSymbol.scala:138)
+	at org.scalaide.core.internal.decorators.semantichighlighting.classifier.SafeSymbol$$anonfun$8.apply(SafeSymbol.scala:138)
+	at scala.tools.nsc.util.InterruptReq.execute(InterruptReq.scala:26)
+	at scala.tools.nsc.interactive.Global$$anonfun$pollForWork$1.apply$mcV$sp(Global.scala:457)
+	at scala.util.control.Breaks.breakable(Breaks.scala:38)
+	at scala.tools.nsc.interactive.Global.pollForWork(Global.scala:431)
+	at scala.tools.nsc.interactive.PresentationCompilerThread.run(PresentationCompilerThread.scala:22)
+2018-01-12 08:46:15,932  WARN [Worker-44] - ScalaProject - Project Nov2017WeekDays has platform default sourceLevel.
+2018-01-12 08:46:15,932  WARN [Worker-44] - ScalaProject - Project Nov2017WeekDays runs on platform default installation.
+2018-01-12 08:46:15,942 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Unexptected error - most likely due to an illegal position
+java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.lang.String.substring(String.java:1967)
+	at scala.tools.refactoring.common.EnrichedTrees$TreeMethodsForPositions.nameString(EnrichedTrees.scala:355)
+	at scala.tools.refactoring.common.EnrichedTrees$TreeMethodsForPositions.namePosition(EnrichedTrees.scala:255)
+	at org.scalaide.core.internal.decorators.semantichighlighting.classifier.SafeSymbol$$anonfun$8.apply(SafeSymbol.scala:138)
+	at org.scalaide.core.internal.decorators.semantichighlighting.classifier.SafeSymbol$$anonfun$8.apply(SafeSymbol.scala:138)
+	at scala.tools.nsc.util.InterruptReq.execute(InterruptReq.scala:26)
+	at scala.tools.nsc.interactive.Global$$anonfun$pollForWork$1.apply$mcV$sp(Global.scala:457)
+	at scala.util.control.Breaks.breakable(Breaks.scala:38)
+	at scala.tools.nsc.interactive.Global.pollForWork(Global.scala:431)
+	at scala.tools.nsc.interactive.PresentationCompilerThread.run(PresentationCompilerThread.scala:22)
+2018-01-12 08:46:44,884 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Unexptected error - most likely due to an illegal position
+java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.lang.String.substring(String.java:1967)
+	at scala.tools.refactoring.common.EnrichedTrees$TreeMethodsForPositions.nameString(EnrichedTrees.scala:355)
+	at scala.tools.refactoring.common.EnrichedTrees$TreeMethodsForPositions.namePosition(EnrichedTrees.scala:255)
+	at org.scalaide.core.internal.decorators.semantichighlighting.classifier.SafeSymbol$$anonfun$8.apply(SafeSymbol.scala:138)
+	at org.scalaide.core.internal.decorators.semantichighlighting.classifier.SafeSymbol$$anonfun$8.apply(SafeSymbol.scala:138)
+	at scala.tools.nsc.util.InterruptReq.execute(InterruptReq.scala:26)
+	at scala.tools.nsc.interactive.Global$$anonfun$pollForWork$1.apply$mcV$sp(Global.scala:457)
+	at scala.util.control.Breaks.breakable(Breaks.scala:38)
+	at scala.tools.nsc.interactive.Global.pollForWork(Global.scala:431)
+	at scala.tools.nsc.interactive.PresentationCompilerThread.run(PresentationCompilerThread.scala:22)
+2018-01-12 08:47:20,651  WARN [Worker-43] - ScalaProject - Project Nov2017WeekDays has platform default sourceLevel.
+2018-01-12 08:47:20,651  WARN [Worker-43] - ScalaProject - Project Nov2017WeekDays runs on platform default installation.
+2018-01-12 08:47:24,803  WARN [Worker-40] - ScalaProject - Project Nov2017WeekDays has platform default sourceLevel.
+2018-01-12 08:47:24,804  WARN [Worker-40] - ScalaProject - Project Nov2017WeekDays runs on platform default installation.
+2018-01-12 08:47:28,506  WARN [Worker-38] - ScalaProject - Project Nov2017WeekDays has platform default sourceLevel.
+2018-01-12 08:47:28,506  WARN [Worker-38] - ScalaProject - Project Nov2017WeekDays runs on platform default installation.
+2018-01-12 08:47:35,670  WARN [Worker-46] - ScalaProject - Project Nov2017WeekDays has platform default sourceLevel.
+2018-01-12 08:47:35,670  WARN [Worker-46] - ScalaProject - Project Nov2017WeekDays runs on platform default installation.
+2018-01-12 08:48:06,532  WARN [Worker-46] - ScalaProject - Project Nov2017WeekDays has platform default sourceLevel.
+2018-01-12 08:48:06,532  WARN [Worker-46] - ScalaProject - Project Nov2017WeekDays runs on platform default installation.
+2018-01-12 08:48:40,485  WARN [Worker-45] - ScalaProject - Project Nov2017WeekDays has platform default sourceLevel.
+2018-01-12 08:48:40,485  WARN [Worker-45] - ScalaProject - Project Nov2017WeekDays runs on platform default installation.
+2018-01-12 08:50:23,339  WARN [Worker-44] - ScalaProject - Project Nov2017WeekDays has platform default sourceLevel.
+2018-01-12 08:50:23,339  WARN [Worker-44] - ScalaProject - Project Nov2017WeekDays runs on platform default installation.
+2018-01-12 08:50:45,451  WARN [Worker-40] - ScalaProject - Project Nov2017WeekDays has platform default sourceLevel.
+2018-01-12 08:50:45,451  WARN [Worker-40] - ScalaProject - Project Nov2017WeekDays runs on platform default installation.
+2018-01-12 08:50:59,603  WARN [Worker-40] - ScalaProject - Project Nov2017WeekDays has platform default sourceLevel.
+2018-01-12 08:50:59,603  WARN [Worker-40] - ScalaProject - Project Nov2017WeekDays runs on platform default installation.
+2018-01-12 08:51:06,426  WARN [Worker-40] - ScalaProject - Project Nov2017WeekDays has platform default sourceLevel.
+2018-01-12 08:51:06,426  WARN [Worker-40] - ScalaProject - Project Nov2017WeekDays runs on platform default installation.
+2018-01-12 08:51:40,488  WARN [Worker-46] - ScalaProject - Project Nov2017WeekDays has platform default sourceLevel.
+2018-01-12 08:51:40,488  WARN [Worker-46] - ScalaProject - Project Nov2017WeekDays runs on platform default installation.
+2018-01-12 08:51:44,130  WARN [Worker-40] - ScalaProject - Project Nov2017WeekDays has platform default sourceLevel.
+2018-01-12 08:51:44,131  WARN [Worker-40] - ScalaProject - Project Nov2017WeekDays runs on platform default installation.
+2018-01-12 08:52:29,769  WARN [Worker-44] - ScalaProject - Project Nov2017WeekDays has platform default sourceLevel.
+2018-01-12 08:52:29,769  WARN [Worker-44] - ScalaProject - Project Nov2017WeekDays runs on platform default installation.
+2018-01-12 08:52:43,583  WARN [Worker-40] - ScalaProject - Project Nov2017WeekDays has platform default sourceLevel.
+2018-01-12 08:52:43,583  WARN [Worker-40] - ScalaProject - Project Nov2017WeekDays runs on platform default installation.
+2018-01-12 08:54:49,480  WARN [Worker-46] - ScalaProject - Project Nov2017WeekDays has platform default sourceLevel.
+2018-01-12 08:54:49,480  WARN [Worker-46] - ScalaProject - Project Nov2017WeekDays runs on platform default installation.
+2018-01-12 08:55:07,067  WARN [Worker-43] - ScalaProject - Project Nov2017WeekDays has platform default sourceLevel.
+2018-01-12 08:55:07,067  WARN [Worker-43] - ScalaProject - Project Nov2017WeekDays runs on platform default installation.
+2018-01-12 08:55:45,159  WARN [Worker-44] - ScalaProject - Project Nov2017WeekDays has platform default sourceLevel.
+2018-01-12 08:55:45,160  WARN [Worker-44] - ScalaProject - Project Nov2017WeekDays runs on platform default installation.
+2018-01-12 08:57:21,150  WARN [Worker-46] - ScalaProject - Project Nov2017WeekDays has platform default sourceLevel.
+2018-01-12 08:57:21,150  WARN [Worker-46] - ScalaProject - Project Nov2017WeekDays runs on platform default installation.
+2018-01-12 08:57:37,697  WARN [Worker-47] - ScalaProject - Project Nov2017WeekDays has platform default sourceLevel.
+2018-01-12 08:57:37,697  WARN [Worker-47] - ScalaProject - Project Nov2017WeekDays runs on platform default installation.
+2018-01-12 08:59:08,347  WARN [Worker-43] - ScalaProject - Project Nov2017WeekDays has platform default sourceLevel.
+2018-01-12 08:59:08,347  WARN [Worker-43] - ScalaProject - Project Nov2017WeekDays runs on platform default installation.
+2018-01-12 09:00:17,930  WARN [Worker-46] - ScalaProject - Project Nov2017WeekDays has platform default sourceLevel.
+2018-01-12 09:00:17,930  WARN [Worker-46] - ScalaProject - Project Nov2017WeekDays runs on platform default installation.
+2018-01-12 09:00:50,103  WARN [Worker-43] - ScalaProject - Project Nov2017WeekDays has platform default sourceLevel.
+2018-01-12 09:00:50,104  WARN [Worker-43] - ScalaProject - Project Nov2017WeekDays runs on platform default installation.
+2018-01-12 09:01:01,421  WARN [Worker-43] - ScalaProject - Project Nov2017WeekDays has platform default sourceLevel.
+2018-01-12 09:01:01,421  WARN [Worker-43] - ScalaProject - Project Nov2017WeekDays runs on platform default installation.
+2018-01-12 09:01:51,694  WARN [Worker-48] - ScalaProject - Project Nov2017WeekDays has platform default sourceLevel.
+2018-01-12 09:01:51,694  WARN [Worker-48] - ScalaProject - Project Nov2017WeekDays runs on platform default installation.
+2018-01-12 09:02:03,430  WARN [Worker-46] - ScalaProject - Project Nov2017WeekDays has platform default sourceLevel.
+2018-01-12 09:02:03,430  WARN [Worker-46] - ScalaProject - Project Nov2017WeekDays runs on platform default installation.
+2018-01-12 09:02:27,209  WARN [Worker-48] - ScalaProject - Project Nov2017WeekDays has platform default sourceLevel.
+2018-01-12 09:02:27,209  WARN [Worker-48] - ScalaProject - Project Nov2017WeekDays runs on platform default installation.
+2018-01-12 09:02:34,084  WARN [Worker-46] - ScalaProject - Project Nov2017WeekDays has platform default sourceLevel.
+2018-01-12 09:02:34,084  WARN [Worker-46] - ScalaProject - Project Nov2017WeekDays runs on platform default installation.
+2018-01-12 09:02:50,676  WARN [Worker-44] - ScalaProject - Project Nov2017WeekDays has platform default sourceLevel.
+2018-01-12 09:02:50,676  WARN [Worker-44] - ScalaProject - Project Nov2017WeekDays runs on platform default installation.
+2018-01-12 09:03:32,986  WARN [Worker-48] - ScalaProject - Project Nov2017WeekDays has platform default sourceLevel.
+2018-01-12 09:03:32,987  WARN [Worker-48] - ScalaProject - Project Nov2017WeekDays runs on platform default installation.
+2018-01-12 09:03:37,965  WARN [Worker-43] - ScalaProject - Project Nov2017WeekDays has platform default sourceLevel.
+2018-01-12 09:03:37,966  WARN [Worker-43] - ScalaProject - Project Nov2017WeekDays runs on platform default installation.
+2018-01-12 09:05:55,208  WARN [Worker-44] - ScalaProject - Project Nov2017WeekDays has platform default sourceLevel.
+2018-01-12 09:05:55,209  WARN [Worker-44] - ScalaProject - Project Nov2017WeekDays runs on platform default installation.
+2018-01-12 09:07:59,531  WARN [Worker-44] - ScalaProject - Project Nov2017WeekDays has platform default sourceLevel.
+2018-01-12 09:07:59,532  WARN [Worker-44] - ScalaProject - Project Nov2017WeekDays runs on platform default installation.
+2018-01-12 09:08:42,815  WARN [Worker-44] - ScalaProject - Project Nov2017WeekDays has platform default sourceLevel.
+2018-01-12 09:08:42,815  WARN [Worker-44] - ScalaProject - Project Nov2017WeekDays runs on platform default installation.
+2018-01-12 09:08:42,840  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 801
+2018-01-12 09:08:42,841  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 801
+2018-01-12 09:08:53,332  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 801
+2018-01-12 09:08:53,333  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 801
+2018-01-12 09:08:54,914  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 801
+2018-01-12 09:08:54,917  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 801
+2018-01-12 09:08:57,617  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 801
+2018-01-12 09:09:02,709  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 801
+2018-01-12 09:09:05,293  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 801
+2018-01-12 09:09:09,625  WARN [Worker-44] - ScalaProject - Project Nov2017WeekDays has platform default sourceLevel.
+2018-01-12 09:09:09,625  WARN [Worker-44] - ScalaProject - Project Nov2017WeekDays runs on platform default installation.
+2018-01-12 09:12:06,784  WARN [Worker-47] - ScalaProject - Project Nov2017WeekDays has platform default sourceLevel.
+2018-01-12 09:12:06,785  WARN [Worker-47] - ScalaProject - Project Nov2017WeekDays runs on platform default installation.
+2018-01-12 09:12:49,682  WARN [Worker-47] - ScalaProject - Project Nov2017WeekDays has platform default sourceLevel.
+2018-01-12 09:12:49,683  WARN [Worker-47] - ScalaProject - Project Nov2017WeekDays runs on platform default installation.
+2018-01-12 09:13:38,973  WARN [Worker-55] - ScalaProject - Project Nov2017WeekDays has platform default sourceLevel.
+2018-01-12 09:13:38,974  WARN [Worker-55] - ScalaProject - Project Nov2017WeekDays runs on platform default installation.
+2018-01-12 09:13:56,441  WARN [Worker-56] - ScalaProject - Project Nov2017WeekDays has platform default sourceLevel.
+2018-01-12 09:13:56,441  WARN [Worker-56] - ScalaProject - Project Nov2017WeekDays runs on platform default installation.
+2018-01-12 09:14:19,016  WARN [Worker-53] - ScalaProject - Project Nov2017WeekDays has platform default sourceLevel.
+2018-01-12 09:14:19,016  WARN [Worker-53] - ScalaProject - Project Nov2017WeekDays runs on platform default installation.
+2018-01-12 09:14:27,252  WARN [Worker-53] - ScalaProject - Project Nov2017WeekDays has platform default sourceLevel.
+2018-01-12 09:14:27,252  WARN [Worker-53] - ScalaProject - Project Nov2017WeekDays runs on platform default installation.
+2018-01-12 09:15:48,053  WARN [Worker-55] - ScalaProject - Project Nov2017WeekDays has platform default sourceLevel.
+2018-01-12 09:15:48,053  WARN [Worker-55] - ScalaProject - Project Nov2017WeekDays runs on platform default installation.
+2018-01-12 09:26:06,246  WARN [Worker-61] - ScalaProject - Project Nov2017WeekDays has platform default sourceLevel.
+2018-01-12 09:26:06,246  WARN [Worker-61] - ScalaProject - Project Nov2017WeekDays runs on platform default installation.
+2018-01-12 09:26:25,549  WARN [Worker-61] - ScalaProject - Project Nov2017WeekDays has platform default sourceLevel.
+2018-01-12 09:26:25,549  WARN [Worker-61] - ScalaProject - Project Nov2017WeekDays runs on platform default installation.
+2018-01-12 09:26:32,132  WARN [Worker-59] - ScalaProject - Project Nov2017WeekDays has platform default sourceLevel.
+2018-01-12 09:26:32,132  WARN [Worker-59] - ScalaProject - Project Nov2017WeekDays runs on platform default installation.
+2018-01-12 09:27:05,516  WARN [Worker-59] - ScalaProject - Project Nov2017WeekDays has platform default sourceLevel.
+2018-01-12 09:27:05,516  WARN [Worker-59] - ScalaProject - Project Nov2017WeekDays runs on platform default installation.
+2018-01-12 09:27:16,846  WARN [Worker-56] - ScalaProject - Project Nov2017WeekDays has platform default sourceLevel.
+2018-01-12 09:27:16,846  WARN [Worker-56] - ScalaProject - Project Nov2017WeekDays runs on platform default installation.
+2018-01-12 09:28:53,517  WARN [Worker-56] - ScalaProject - Project Nov2017WeekDays has platform default sourceLevel.
+2018-01-12 09:28:53,517  WARN [Worker-56] - ScalaProject - Project Nov2017WeekDays runs on platform default installation.
+2018-01-12 09:28:59,627  WARN [Worker-62] - ScalaProject - Project Nov2017WeekDays has platform default sourceLevel.
+2018-01-12 09:28:59,628  WARN [Worker-62] - ScalaProject - Project Nov2017WeekDays runs on platform default installation.
+2018-01-12 09:29:28,884  WARN [Worker-56] - ScalaProject - Project Nov2017WeekDays has platform default sourceLevel.
+2018-01-12 09:29:28,884  WARN [Worker-56] - ScalaProject - Project Nov2017WeekDays runs on platform default installation.
+2018-01-12 09:29:39,375  WARN [Worker-64] - ScalaProject - Project Nov2017WeekDays has platform default sourceLevel.
+2018-01-12 09:29:39,375  WARN [Worker-64] - ScalaProject - Project Nov2017WeekDays runs on platform default installation.
+2018-01-12 09:30:39,396  WARN [Worker-66] - ScalaProject - Project Nov2017WeekDays has platform default sourceLevel.
+2018-01-12 09:30:39,396  WARN [Worker-66] - ScalaProject - Project Nov2017WeekDays runs on platform default installation.
+2018-01-12 09:31:32,704  WARN [Worker-65] - ScalaProject - Project Nov2017WeekDays has platform default sourceLevel.
+2018-01-12 09:31:32,705  WARN [Worker-65] - ScalaProject - Project Nov2017WeekDays runs on platform default installation.
+2018-01-12 09:31:46,137  WARN [Worker-65] - ScalaProject - Project Nov2017WeekDays has platform default sourceLevel.
+2018-01-12 09:31:46,137  WARN [Worker-65] - ScalaProject - Project Nov2017WeekDays runs on platform default installation.
+2018-01-12 09:32:15,768  WARN [Worker-64] - ScalaProject - Project Nov2017WeekDays has platform default sourceLevel.
+2018-01-12 09:32:15,768  WARN [Worker-64] - ScalaProject - Project Nov2017WeekDays runs on platform default installation.
+2018-01-12 09:32:20,607  WARN [Worker-67] - ScalaProject - Project Nov2017WeekDays has platform default sourceLevel.
+2018-01-12 09:32:20,607  WARN [Worker-67] - ScalaProject - Project Nov2017WeekDays runs on platform default installation.
+2018-01-12 09:33:07,537  WARN [main] - ScalaProject - Project Nov2017WeekDays has platform default sourceLevel.
+2018-01-12 09:33:07,537  WARN [main] - ScalaProject - Project Nov2017WeekDays runs on platform default installation.
+2018-01-12 09:33:07,923  WARN [Worker-67] - ScalaProject - Project Nov2017WeekDays has platform default sourceLevel.
+2018-01-12 09:33:07,923  WARN [Worker-67] - ScalaProject - Project Nov2017WeekDays runs on platform default installation.
+2018-01-12 09:33:42,538  WARN [Worker-67] - ScalaProject - Project Nov2017WeekDays has platform default sourceLevel.
+2018-01-12 09:33:42,538  WARN [Worker-67] - ScalaProject - Project Nov2017WeekDays runs on platform default installation.
+2018-01-12 09:33:42,728  WARN [Worker-67] - ScalaProject - Project Nov2017WeekDays has platform default sourceLevel.
+2018-01-12 09:33:42,728  WARN [Worker-67] - ScalaProject - Project Nov2017WeekDays runs on platform default installation.
+2018-01-12 09:33:43,150  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project Nov2017WeekDays has platform default sourceLevel.
+2018-01-12 09:33:43,150  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project Nov2017WeekDays runs on platform default installation.
+2018-01-12 09:34:35,303  WARN [Worker-56] - ScalaProject - Project Nov2017WeekDays has platform default sourceLevel.
+2018-01-12 09:34:35,303  WARN [Worker-56] - ScalaProject - Project Nov2017WeekDays runs on platform default installation.
+2018-01-12 09:34:39,888  WARN [Worker-56] - ScalaProject - Project Nov2017WeekDays has platform default sourceLevel.
+2018-01-12 09:34:39,888  WARN [Worker-56] - ScalaProject - Project Nov2017WeekDays runs on platform default installation.
+2018-01-12 09:34:59,165  WARN [Worker-65] - ScalaProject - Project Nov2017WeekDays has platform default sourceLevel.
+2018-01-12 09:34:59,165  WARN [Worker-65] - ScalaProject - Project Nov2017WeekDays runs on platform default installation.
+2018-01-12 09:37:56,064  WARN [Worker-65] - ScalaProject - Project Nov2017WeekDays has platform default sourceLevel.
+2018-01-12 09:37:56,064  WARN [Worker-65] - ScalaProject - Project Nov2017WeekDays runs on platform default installation.
+2018-01-12 09:38:10,172  WARN [Worker-66] - ScalaProject - Project Nov2017WeekDays has platform default sourceLevel.
+2018-01-12 09:38:10,172  WARN [Worker-66] - ScalaProject - Project Nov2017WeekDays runs on platform default installation.
+2018-01-12 09:38:45,285  WARN [Worker-65] - ScalaProject - Project Nov2017WeekDays has platform default sourceLevel.
+2018-01-12 09:38:45,285  WARN [Worker-65] - ScalaProject - Project Nov2017WeekDays runs on platform default installation.
+2018-01-12 09:39:32,766  WARN [Worker-69] - ScalaProject - Project Nov2017WeekDays has platform default sourceLevel.
+2018-01-12 09:39:32,766  WARN [Worker-69] - ScalaProject - Project Nov2017WeekDays runs on platform default installation.
+2018-01-12 09:39:47,563  WARN [Worker-69] - ScalaProject - Project Nov2017WeekDays has platform default sourceLevel.
+2018-01-12 09:39:47,563  WARN [Worker-69] - ScalaProject - Project Nov2017WeekDays runs on platform default installation.
+2018-01-12 09:41:15,177  WARN [Worker-72] - ScalaProject - Project Nov2017WeekDays has platform default sourceLevel.
+2018-01-12 09:41:15,177  WARN [Worker-72] - ScalaProject - Project Nov2017WeekDays runs on platform default installation.
+2018-01-12 09:46:05,116  WARN [Worker-71] - ScalaProject - Project Nov2017WeekDays has platform default sourceLevel.
+2018-01-12 09:46:05,116  WARN [Worker-71] - ScalaProject - Project Nov2017WeekDays runs on platform default installation.
+2018-01-12 09:46:29,404  WARN [Worker-77] - ScalaProject - Project Nov2017WeekDays has platform default sourceLevel.
+2018-01-12 09:46:29,404  WARN [Worker-77] - ScalaProject - Project Nov2017WeekDays runs on platform default installation.
+2018-01-12 09:46:52,629  WARN [Worker-70] - ScalaProject - Project Nov2017WeekDays has platform default sourceLevel.
+2018-01-12 09:46:52,629  WARN [Worker-70] - ScalaProject - Project Nov2017WeekDays runs on platform default installation.
+2018-01-12 09:46:54,114  WARN [Worker-76] - ScalaProject - Project Nov2017WeekDays has platform default sourceLevel.
+2018-01-12 09:46:54,115  WARN [Worker-76] - ScalaProject - Project Nov2017WeekDays runs on platform default installation.
+2018-01-16 08:23:41,816  WARN [main] - ScalaProject - Project Nov2017WeekDays has platform default sourceLevel.
+2018-01-16 08:23:41,842  WARN [main] - ScalaProject - Project Nov2017WeekDays runs on platform default installation.
+2018-01-16 08:23:41,873  WARN [main] - ScalaProject - Project Nov2017WeekDays has platform default sourceLevel.
+2018-01-16 08:23:41,874  WARN [main] - ScalaProject - Project Nov2017WeekDays runs on platform default installation.
+2018-01-16 08:28:47,908  WARN [Worker-4] - ScalaProject - Project Nov2017WeekDays has platform default sourceLevel.
+2018-01-16 08:28:47,909  WARN [Worker-4] - ScalaProject - Project Nov2017WeekDays runs on platform default installation.
+2018-01-16 08:28:47,948  WARN [Worker-4] - ScalaProject - Project Nov2017WeekDays has platform default sourceLevel.
+2018-01-16 08:28:47,949  WARN [Worker-4] - ScalaProject - Project Nov2017WeekDays runs on platform default installation.
+2018-01-16 08:29:00,082  WARN [Worker-7] - ScalaProject - Project Nov2017WeekDays has platform default sourceLevel.
+2018-01-16 08:29:00,082  WARN [Worker-7] - ScalaProject - Project Nov2017WeekDays runs on platform default installation.
+2018-01-16 08:29:20,139  WARN [Worker-8] - ScalaProject - Project DecEveClass_Prog1 has platform default sourceLevel.
+2018-01-16 08:29:20,139  WARN [Worker-8] - ScalaProject - Project DecEveClass_Prog1 runs on platform default installation.
+2018-01-16 08:29:38,122  WARN [Java indexing] - ScalaProject - Project DecEveClass_Prog1 has platform default sourceLevel.
+2018-01-16 08:29:38,123  WARN [Java indexing] - ScalaProject - Project DecEveClass_Prog1 runs on platform default installation.
+2018-01-16 09:05:46,639  WARN [Worker-5] - ScalaProject - Project Nov2017WeekDays has platform default sourceLevel.
+2018-01-16 09:05:46,641  WARN [Worker-5] - ScalaProject - Project Nov2017WeekDays runs on platform default installation.
+2018-01-16 09:06:04,565  WARN [Worker-13] - ScalaProject - Project DecWeekEndClass has platform default sourceLevel.
+2018-01-16 09:06:04,565  WARN [Worker-13] - ScalaProject - Project DecWeekEndClass runs on platform default installation.
+2018-01-16 09:06:13,686  WARN [main] - ScalaProject - Project DecWeekEndClass has platform default sourceLevel.
+2018-01-16 09:06:13,686  WARN [main] - ScalaProject - Project DecWeekEndClass runs on platform default installation.
+2018-01-16 09:09:35,374  WARN [Worker-13] - ScalaProject - Project Nov2017WeekDays has platform default sourceLevel.
+2018-01-16 09:09:35,374  WARN [Worker-13] - ScalaProject - Project Nov2017WeekDays runs on platform default installation.
+2018-01-16 09:12:39,336  WARN [Worker-16] - ScalaProject - Project Nov2017WeekDays has platform default sourceLevel.
+2018-01-16 09:12:39,336  WARN [Worker-16] - ScalaProject - Project Nov2017WeekDays runs on platform default installation.
+2018-01-16 09:12:42,587  WARN [Worker-11] - ScalaProject - Project Nov2017WeekDays has platform default sourceLevel.
+2018-01-16 09:12:42,587  WARN [Worker-11] - ScalaProject - Project Nov2017WeekDays runs on platform default installation.
+2018-01-16 09:13:07,425  WARN [Worker-17] - ScalaProject - Project Nov2017WeekDays has platform default sourceLevel.
+2018-01-16 09:13:07,425  WARN [Worker-17] - ScalaProject - Project Nov2017WeekDays runs on platform default installation.
+2018-01-16 09:14:23,587  WARN [Worker-18] - ScalaProject - Project Nov2017WeekDays has platform default sourceLevel.
+2018-01-16 09:14:23,587  WARN [Worker-18] - ScalaProject - Project Nov2017WeekDays runs on platform default installation.
+2018-01-16 09:14:30,608  WARN [Worker-16] - ScalaProject - Project Nov2017WeekDays has platform default sourceLevel.
+2018-01-16 09:14:30,609  WARN [Worker-16] - ScalaProject - Project Nov2017WeekDays runs on platform default installation.
+2018-01-16 09:14:37,121  WARN [Worker-11] - ScalaProject - Project Nov2017WeekDays has platform default sourceLevel.
+2018-01-16 09:14:37,121  WARN [Worker-11] - ScalaProject - Project Nov2017WeekDays runs on platform default installation.
+2018-01-16 09:15:22,769  WARN [Worker-18] - ScalaProject - Project Nov2017WeekDays has platform default sourceLevel.
+2018-01-16 09:15:22,769  WARN [Worker-18] - ScalaProject - Project Nov2017WeekDays runs on platform default installation.
+2018-01-16 09:15:27,713  WARN [Worker-16] - ScalaProject - Project Nov2017WeekDays has platform default sourceLevel.
+2018-01-16 09:15:27,713  WARN [Worker-16] - ScalaProject - Project Nov2017WeekDays runs on platform default installation.
+2018-01-16 09:15:47,547  WARN [Worker-17] - ScalaProject - Project Nov2017WeekDays has platform default sourceLevel.
+2018-01-16 09:15:47,548  WARN [Worker-17] - ScalaProject - Project Nov2017WeekDays runs on platform default installation.
+2018-01-16 09:19:42,152  WARN [Worker-20] - ScalaProject - Project Nov2017WeekDays has platform default sourceLevel.
+2018-01-16 09:19:42,152  WARN [Worker-20] - ScalaProject - Project Nov2017WeekDays runs on platform default installation.
+2018-01-16 09:20:09,031  WARN [Worker-21] - ScalaProject - Project Nov2017WeekDays has platform default sourceLevel.
+2018-01-16 09:20:09,031  WARN [Worker-21] - ScalaProject - Project Nov2017WeekDays runs on platform default installation.
+2018-01-16 09:24:05,859 ERROR [Worker-20] - System.err - SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2018-01-16 09:24:05,860 ERROR [Worker-20] - System.err - SLF4J: Defaulting to no-operation (NOP) logger implementation
+2018-01-16 09:24:05,860 ERROR [Worker-20] - System.err - SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2018-01-16 09:24:27,334  WARN [Worker-24] - ScalaProject - Project Nov2017WeekDays has platform default sourceLevel.
+2018-01-16 09:24:27,334  WARN [Worker-24] - ScalaProject - Project Nov2017WeekDays runs on platform default installation.
+2018-01-16 09:24:34,919  WARN [Worker-21] - ScalaProject - Project Nov2017WeekDays has platform default sourceLevel.
+2018-01-16 09:24:34,919  WARN [Worker-21] - ScalaProject - Project Nov2017WeekDays runs on platform default installation.
+2018-01-16 09:26:03,721  WARN [Worker-24] - ScalaProject - Project Nov2017WeekDays has platform default sourceLevel.
+2018-01-16 09:26:03,721  WARN [Worker-24] - ScalaProject - Project Nov2017WeekDays runs on platform default installation.
+2018-01-16 09:33:30,697  WARN [Worker-30] - ScalaProject - Project Nov2017WeekDays has platform default sourceLevel.
+2018-01-16 09:33:30,697  WARN [Worker-30] - ScalaProject - Project Nov2017WeekDays runs on platform default installation.
+2018-01-16 09:35:15,960  WARN [Worker-31] - ScalaProject - Project Nov2017WeekDays has platform default sourceLevel.
+2018-01-16 09:35:15,960  WARN [Worker-31] - ScalaProject - Project Nov2017WeekDays runs on platform default installation.
+2018-01-17 08:47:24,784  WARN [Worker-39] - ScalaProject - Project Nov2017WeekDays has platform default sourceLevel.
+2018-01-17 08:47:24,785  WARN [Worker-39] - ScalaProject - Project Nov2017WeekDays runs on platform default installation.
+2018-02-12 10:39:48,755  WARN [main] - ScalaProject - Project Nov2017WeekDays has platform default sourceLevel.
+2018-02-12 10:39:48,780  WARN [main] - ScalaProject - Project Nov2017WeekDays runs on platform default installation.
+2018-02-12 10:39:48,812  WARN [main] - ScalaProject - Project Nov2017WeekDays has platform default sourceLevel.
+2018-02-12 10:39:48,812  WARN [main] - ScalaProject - Project Nov2017WeekDays runs on platform default installation.
+2018-02-12 10:39:55,571  WARN [main] - ScalaProject - Project DecEveClass_Prog1 has platform default sourceLevel.
+2018-02-12 10:39:55,572  WARN [main] - ScalaProject - Project DecEveClass_Prog1 runs on platform default installation.
+2018-02-12 10:39:55,579  WARN [main] - ScalaProject - Project DecWeekEndClass has platform default sourceLevel.
+2018-02-12 10:39:55,579  WARN [main] - ScalaProject - Project DecWeekEndClass runs on platform default installation.
+2018-02-12 10:40:02,532  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project Nov2017WeekDays has platform default sourceLevel.
+2018-02-12 10:40:02,542  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project Nov2017WeekDays runs on platform default installation.
+2018-02-12 10:40:03,474  WARN [Worker-1] - ScalaProject - Project DecEveClass_Prog1 has platform default sourceLevel.
+2018-02-12 10:40:03,474  WARN [Worker-1] - ScalaProject - Project DecEveClass_Prog1 runs on platform default installation.
+2018-02-12 10:40:03,633  WARN [Worker-1] - ScalaProject - Project DecEveClass_Prog1 has platform default sourceLevel.
+2018-02-12 10:40:03,633  WARN [Worker-1] - ScalaProject - Project DecEveClass_Prog1 runs on platform default installation.
+2018-02-12 10:40:05,490  WARN [Worker-1] - ScalaProject - Project DecWeekEndClass has platform default sourceLevel.
+2018-02-12 10:40:05,490  WARN [Worker-1] - ScalaProject - Project DecWeekEndClass runs on platform default installation.
+2018-02-12 10:40:05,507  WARN [Worker-1] - ScalaProject - Project DecWeekEndClass has platform default sourceLevel.
+2018-02-12 10:40:05,509  WARN [Worker-1] - ScalaProject - Project DecWeekEndClass runs on platform default installation.
+2018-02-12 10:40:07,711  WARN [Worker-1] - ScalaProject - Project Nov2017WeekDays has platform default sourceLevel.
+2018-02-12 10:40:07,713  WARN [Worker-1] - ScalaProject - Project Nov2017WeekDays runs on platform default installation.
+2018-02-12 10:40:07,732  WARN [Worker-1] - ScalaProject - Project Nov2017WeekDays has platform default sourceLevel.
+2018-02-12 10:40:07,734  WARN [Worker-1] - ScalaProject - Project Nov2017WeekDays runs on platform default installation.
+2018-02-12 11:07:56,102  WARN [main] - ScalaProject - Project DecWeekEndClass has platform default sourceLevel.
+2018-02-12 11:07:56,102  WARN [main] - ScalaProject - Project DecWeekEndClass runs on platform default installation.
+2018-02-12 11:07:57,117  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CallByNameParamAtCreationPresenter - Timeout while waiting for `askLoadedTyped` during semantic highlighting.
+2018-02-12 11:08:05,288  WARN [Worker-14] - ScalaProject - Project Streaming has platform default sourceLevel.
+2018-02-12 11:08:05,289  WARN [Worker-14] - ScalaProject - Project Streaming runs on platform default installation.
+2018-02-12 11:08:05,741  WARN [Worker-4] - ScalaProject - Project Streaming has platform default sourceLevel.
+2018-02-12 11:08:05,741  WARN [Worker-4] - ScalaProject - Project Streaming runs on platform default installation.
+2018-02-12 11:08:05,750  WARN [Worker-4] - ScalaProject - Project Streaming has platform default sourceLevel.
+2018-02-12 11:08:05,751  WARN [Worker-4] - ScalaProject - Project Streaming runs on platform default installation.
+2018-02-12 11:08:10,935  WARN [main] - ScalaProject - Project Streaming has platform default sourceLevel.
+2018-02-12 11:08:10,936  WARN [main] - ScalaProject - Project Streaming runs on platform default installation.
+2018-02-12 11:08:31,780  WARN [Worker-8] - ScalaProject - Project Streaming has platform default sourceLevel.
+2018-02-12 11:08:31,790  WARN [Worker-8] - ScalaProject - Project Streaming runs on platform default installation.
+2018-02-12 11:08:46,674  WARN [Worker-8] - ScalaProject - Project Streaming has platform default sourceLevel.
+2018-02-12 11:08:46,693  WARN [Worker-8] - ScalaProject - Project Streaming runs on platform default installation.
+2018-02-12 11:09:00,280  WARN [Worker-4] - ScalaProject - Project Streaming has platform default sourceLevel.
+2018-02-12 11:09:00,280  WARN [Worker-4] - ScalaProject - Project Streaming runs on platform default installation.
+2018-02-12 11:09:00,614  WARN [Java indexing] - ScalaProject - Project Streaming has platform default sourceLevel.
+2018-02-12 11:09:00,614  WARN [Java indexing] - ScalaProject - Project Streaming runs on platform default installation.
+2018-02-12 11:09:01,367  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ImplicitHighlightingPresenter - Timeout while waiting for `askLoadedTyped` during semantic highlighting.
+2018-02-12 11:09:01,569  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - CustomSemanticAction - Timeout while waiting for `askLoadedTyped` during semantic highlighting.
+2018-02-12 11:21:29,130  WARN [main] - ScalaProject - Project Nov2017WeekDays has platform default sourceLevel.
+2018-02-12 11:21:29,130  WARN [main] - ScalaProject - Project Nov2017WeekDays runs on platform default installation.
+2018-02-12 11:22:03,193 ERROR [Worker-16] - System.err - SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2018-02-12 11:22:03,193 ERROR [Worker-16] - System.err - SLF4J: Defaulting to no-operation (NOP) logger implementation
+2018-02-12 11:22:03,193 ERROR [Worker-16] - System.err - SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2018-02-25 12:08:24,876  WARN [main] - ScalaProject - Project Streaming has platform default sourceLevel.
+2018-02-25 12:08:24,910  WARN [main] - ScalaProject - Project Streaming runs on platform default installation.
+2018-02-25 12:08:24,941  WARN [main] - ScalaProject - Project Streaming has platform default sourceLevel.
+2018-02-25 12:08:24,941  WARN [main] - ScalaProject - Project Streaming runs on platform default installation.
+2018-02-25 12:08:30,221  WARN [main] - ScalaProject - Project DecEveClass_Prog1 has platform default sourceLevel.
+2018-02-25 12:08:30,222  WARN [main] - ScalaProject - Project DecEveClass_Prog1 runs on platform default installation.
+2018-02-25 12:08:30,229  WARN [main] - ScalaProject - Project DecWeekEndClass has platform default sourceLevel.
+2018-02-25 12:08:30,229  WARN [main] - ScalaProject - Project DecWeekEndClass runs on platform default installation.
+2018-02-25 12:08:30,235  WARN [main] - ScalaProject - Project Nov2017WeekDays has platform default sourceLevel.
+2018-02-25 12:08:30,236  WARN [main] - ScalaProject - Project Nov2017WeekDays runs on platform default installation.
+2018-02-25 12:08:49,253  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project Streaming has platform default sourceLevel.
+2018-02-25 12:08:49,259  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project Streaming runs on platform default installation.
+2018-02-25 12:08:49,268  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project Streaming has platform default sourceLevel.
+2018-02-25 12:08:49,268  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project Streaming runs on platform default installation.
+2018-02-25 12:08:49,275  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project Streaming has platform default sourceLevel.
+2018-02-25 12:08:49,275  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project Streaming runs on platform default installation.
+2018-02-25 12:08:49,283  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project Streaming has platform default sourceLevel.
+2018-02-25 12:08:49,284  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project Streaming runs on platform default installation.
+2018-02-25 12:08:49,289  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project Streaming has platform default sourceLevel.
+2018-02-25 12:08:49,289  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project Streaming runs on platform default installation.
+2018-02-25 12:08:49,540 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Error thrown while initializing the presentation compiler.
+Java Model Exception: Java Model Status [Streaming does not exist]
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:556)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getPerProjectInfoCheckExistence(JavaModelManager.java:2344)
+	at org.eclipse.jdt.internal.core.JavaProject.getPerProjectInfo(JavaProject.java:1909)
+	at org.eclipse.jdt.internal.core.JavaProject.getRawClasspath(JavaProject.java:1931)
+	at org.scalaide.core.internal.project.ClasspathManagement$class.jdkPaths(ClasspathManagement.scala:147)
+	at org.scalaide.core.internal.project.ScalaProject.jdkPaths(ScalaProject.scala:147)
+	at org.scalaide.core.internal.project.ClasspathManagement$class.scalaClasspath(ClasspathManagement.scala:134)
+	at org.scalaide.core.internal.project.ScalaProject.scalaClasspath(ScalaProject.scala:147)
+	at org.scalaide.core.internal.project.ScalaProject.setupCompilerClasspath(ScalaProject.scala:500)
+	at org.scalaide.core.internal.project.ScalaProject.initializeCompilerSettings(ScalaProject.scala:486)
+	at org.scalaide.core.internal.project.ScalaProject.org$scalaide$core$internal$project$ScalaProject$$prepareCompilerSettings(ScalaProject.scala:435)
+	at org.scalaide.core.internal.project.ScalaProject$$anonfun$5.apply(ScalaProject.scala:159)
+	at org.scalaide.core.internal.project.ScalaProject$$anonfun$5.apply(ScalaProject.scala:159)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.liftedTree1$1(PresentationCompilerProxy.scala:152)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.create(PresentationCompilerProxy.scala:151)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.initialize(PresentationCompilerProxy.scala:116)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.obtainPc$1(PresentationCompilerProxy.scala:78)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.internal(PresentationCompilerProxy.scala:98)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.apply(PresentationCompilerProxy.scala:56)
+	at org.scalaide.core.compiler.InteractiveCompilationUnit$class.forceReconcile(InteractiveCompilationUnit.scala:150)
+	at org.scalaide.core.internal.jdt.model.ScalaSourceFile.forceReconcile(ScalaSourceFile.scala:66)
+	at org.scalaide.ui.internal.reconciliation.ScalaReconcilingStrategy.reconcile(ScalaReconcilingStrategy.scala:43)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:86)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:77)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:206)
+2018-02-25 12:08:49,544 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Error thrown while initializing the presentation compiler.
+Java Model Exception: Java Model Status [Streaming does not exist]
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:556)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getPerProjectInfoCheckExistence(JavaModelManager.java:2344)
+	at org.eclipse.jdt.internal.core.JavaProject.getPerProjectInfo(JavaProject.java:1909)
+	at org.eclipse.jdt.internal.core.JavaProject.getRawClasspath(JavaProject.java:1931)
+	at org.scalaide.core.internal.project.ClasspathManagement$class.jdkPaths(ClasspathManagement.scala:147)
+	at org.scalaide.core.internal.project.ScalaProject.jdkPaths(ScalaProject.scala:147)
+	at org.scalaide.core.internal.project.ClasspathManagement$class.scalaClasspath(ClasspathManagement.scala:134)
+	at org.scalaide.core.internal.project.ScalaProject.scalaClasspath(ScalaProject.scala:147)
+	at org.scalaide.core.internal.project.ScalaProject.setupCompilerClasspath(ScalaProject.scala:500)
+	at org.scalaide.core.internal.project.ScalaProject.initializeCompilerSettings(ScalaProject.scala:486)
+	at org.scalaide.core.internal.project.ScalaProject.org$scalaide$core$internal$project$ScalaProject$$prepareCompilerSettings(ScalaProject.scala:435)
+	at org.scalaide.core.internal.project.ScalaProject$$anonfun$5.apply(ScalaProject.scala:159)
+	at org.scalaide.core.internal.project.ScalaProject$$anonfun$5.apply(ScalaProject.scala:159)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.liftedTree1$1(PresentationCompilerProxy.scala:152)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.create(PresentationCompilerProxy.scala:151)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.initialize(PresentationCompilerProxy.scala:116)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.obtainPc$1(PresentationCompilerProxy.scala:78)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.internal(PresentationCompilerProxy.scala:98)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.apply(PresentationCompilerProxy.scala:56)
+	at org.scalaide.core.compiler.InteractiveCompilationUnit$class.currentProblems(InteractiveCompilationUnit.scala:183)
+	at org.scalaide.core.internal.jdt.model.ScalaSourceFile.currentProblems(ScalaSourceFile.scala:66)
+	at org.scalaide.core.compiler.InteractiveCompilationUnit$class.forceReconcile(InteractiveCompilationUnit.scala:151)
+	at org.scalaide.core.internal.jdt.model.ScalaSourceFile.forceReconcile(ScalaSourceFile.scala:66)
+	at org.scalaide.ui.internal.reconciliation.ScalaReconcilingStrategy.reconcile(ScalaReconcilingStrategy.scala:43)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:86)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:77)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:206)
+2018-02-25 12:08:49,545 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Error thrown while initializing the presentation compiler.
+Java Model Exception: Java Model Status [Streaming does not exist]
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:556)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getPerProjectInfoCheckExistence(JavaModelManager.java:2344)
+	at org.eclipse.jdt.internal.core.JavaProject.getPerProjectInfo(JavaProject.java:1909)
+	at org.eclipse.jdt.internal.core.JavaProject.getRawClasspath(JavaProject.java:1931)
+	at org.scalaide.core.internal.project.ClasspathManagement$class.jdkPaths(ClasspathManagement.scala:147)
+	at org.scalaide.core.internal.project.ScalaProject.jdkPaths(ScalaProject.scala:147)
+	at org.scalaide.core.internal.project.ClasspathManagement$class.scalaClasspath(ClasspathManagement.scala:134)
+	at org.scalaide.core.internal.project.ScalaProject.scalaClasspath(ScalaProject.scala:147)
+	at org.scalaide.core.internal.project.ScalaProject.setupCompilerClasspath(ScalaProject.scala:500)
+	at org.scalaide.core.internal.project.ScalaProject.initializeCompilerSettings(ScalaProject.scala:486)
+	at org.scalaide.core.internal.project.ScalaProject.org$scalaide$core$internal$project$ScalaProject$$prepareCompilerSettings(ScalaProject.scala:435)
+	at org.scalaide.core.internal.project.ScalaProject$$anonfun$5.apply(ScalaProject.scala:159)
+	at org.scalaide.core.internal.project.ScalaProject$$anonfun$5.apply(ScalaProject.scala:159)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.liftedTree1$1(PresentationCompilerProxy.scala:152)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.create(PresentationCompilerProxy.scala:151)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.initialize(PresentationCompilerProxy.scala:116)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.obtainPc$1(PresentationCompilerProxy.scala:78)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.internal(PresentationCompilerProxy.scala:98)
+	at org.scalaide.ui.internal.editor.decorators.BaseSemanticAction.apply(BaseSemanticAction.scala:139)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$$anon$3$$anonfun$reconciled$1$$anonfun$apply$1.apply$mcV$sp(ScalaSourceFileEditor.scala:103)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$$anon$3$$anonfun$reconciled$1$$anonfun$apply$1.apply(ScalaSourceFileEditor.scala:103)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$$anon$3$$anonfun$reconciled$1$$anonfun$apply$1.apply(ScalaSourceFileEditor.scala:103)
+	at org.scalaide.util.eclipse.EclipseUtils$$anon$3.run(EclipseUtils.scala:214)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.scalaide.util.eclipse.EclipseUtils$.withSafeRunner(EclipseUtils.scala:210)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$$anon$3$$anonfun$reconciled$1.apply(ScalaSourceFileEditor.scala:102)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$$anon$3$$anonfun$reconciled$1.apply(ScalaSourceFileEditor.scala:101)
+	at scala.collection.mutable.ArraySeq.foreach(ArraySeq.scala:74)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$$anon$3.reconciled(ScalaSourceFileEditor.scala:101)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$ReconcilingListeners$$anonfun$reconciled$3.apply(ScalaSourceFileEditor.scala:479)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$ReconcilingListeners$$anonfun$reconciled$3.apply(ScalaSourceFileEditor.scala:479)
+	at scala.collection.immutable.List.foreach(List.scala:381)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$ReconcilingListeners.reconciled(ScalaSourceFileEditor.scala:479)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor.reconciled(ScalaSourceFileEditor.scala:380)
+	at org.scalaide.ui.internal.reconciliation.ScalaReconcilingStrategy$$anonfun$reconcile$3.apply(ScalaReconcilingStrategy.scala:53)
+	at org.scalaide.ui.internal.reconciliation.ScalaReconcilingStrategy$$anonfun$reconcile$3.apply(ScalaReconcilingStrategy.scala:53)
+	at scala.Option.foreach(Option.scala:257)
+	at org.scalaide.ui.internal.reconciliation.ScalaReconcilingStrategy.reconcile(ScalaReconcilingStrategy.scala:53)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:86)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:77)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:206)
+2018-02-25 12:08:49,548 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Error thrown while initializing the presentation compiler.
+Java Model Exception: Java Model Status [Streaming does not exist]
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:556)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getPerProjectInfoCheckExistence(JavaModelManager.java:2344)
+	at org.eclipse.jdt.internal.core.JavaProject.getPerProjectInfo(JavaProject.java:1909)
+	at org.eclipse.jdt.internal.core.JavaProject.getRawClasspath(JavaProject.java:1931)
+	at org.scalaide.core.internal.project.ClasspathManagement$class.jdkPaths(ClasspathManagement.scala:147)
+	at org.scalaide.core.internal.project.ScalaProject.jdkPaths(ScalaProject.scala:147)
+	at org.scalaide.core.internal.project.ClasspathManagement$class.scalaClasspath(ClasspathManagement.scala:134)
+	at org.scalaide.core.internal.project.ScalaProject.scalaClasspath(ScalaProject.scala:147)
+	at org.scalaide.core.internal.project.ScalaProject.setupCompilerClasspath(ScalaProject.scala:500)
+	at org.scalaide.core.internal.project.ScalaProject.initializeCompilerSettings(ScalaProject.scala:486)
+	at org.scalaide.core.internal.project.ScalaProject.org$scalaide$core$internal$project$ScalaProject$$prepareCompilerSettings(ScalaProject.scala:435)
+	at org.scalaide.core.internal.project.ScalaProject$$anonfun$5.apply(ScalaProject.scala:159)
+	at org.scalaide.core.internal.project.ScalaProject$$anonfun$5.apply(ScalaProject.scala:159)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.liftedTree1$1(PresentationCompilerProxy.scala:152)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.create(PresentationCompilerProxy.scala:151)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.initialize(PresentationCompilerProxy.scala:116)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.obtainPc$1(PresentationCompilerProxy.scala:78)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.internal(PresentationCompilerProxy.scala:98)
+	at org.scalaide.ui.internal.editor.decorators.BaseSemanticAction.apply(BaseSemanticAction.scala:139)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$$anon$3$$anonfun$reconciled$1$$anonfun$apply$1.apply$mcV$sp(ScalaSourceFileEditor.scala:103)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$$anon$3$$anonfun$reconciled$1$$anonfun$apply$1.apply(ScalaSourceFileEditor.scala:103)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$$anon$3$$anonfun$reconciled$1$$anonfun$apply$1.apply(ScalaSourceFileEditor.scala:103)
+	at org.scalaide.util.eclipse.EclipseUtils$$anon$3.run(EclipseUtils.scala:214)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.scalaide.util.eclipse.EclipseUtils$.withSafeRunner(EclipseUtils.scala:210)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$$anon$3$$anonfun$reconciled$1.apply(ScalaSourceFileEditor.scala:102)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$$anon$3$$anonfun$reconciled$1.apply(ScalaSourceFileEditor.scala:101)
+	at scala.collection.mutable.ArraySeq.foreach(ArraySeq.scala:74)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$$anon$3.reconciled(ScalaSourceFileEditor.scala:101)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$ReconcilingListeners$$anonfun$reconciled$3.apply(ScalaSourceFileEditor.scala:479)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$ReconcilingListeners$$anonfun$reconciled$3.apply(ScalaSourceFileEditor.scala:479)
+	at scala.collection.immutable.List.foreach(List.scala:381)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$ReconcilingListeners.reconciled(ScalaSourceFileEditor.scala:479)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor.reconciled(ScalaSourceFileEditor.scala:380)
+	at org.scalaide.ui.internal.reconciliation.ScalaReconcilingStrategy$$anonfun$reconcile$3.apply(ScalaReconcilingStrategy.scala:53)
+	at org.scalaide.ui.internal.reconciliation.ScalaReconcilingStrategy$$anonfun$reconcile$3.apply(ScalaReconcilingStrategy.scala:53)
+	at scala.Option.foreach(Option.scala:257)
+	at org.scalaide.ui.internal.reconciliation.ScalaReconcilingStrategy.reconcile(ScalaReconcilingStrategy.scala:53)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:86)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:77)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:206)
+2018-02-25 12:08:49,549 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Error thrown while initializing the presentation compiler.
+Java Model Exception: Java Model Status [Streaming does not exist]
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:556)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getPerProjectInfoCheckExistence(JavaModelManager.java:2344)
+	at org.eclipse.jdt.internal.core.JavaProject.getPerProjectInfo(JavaProject.java:1909)
+	at org.eclipse.jdt.internal.core.JavaProject.getRawClasspath(JavaProject.java:1931)
+	at org.scalaide.core.internal.project.ClasspathManagement$class.jdkPaths(ClasspathManagement.scala:147)
+	at org.scalaide.core.internal.project.ScalaProject.jdkPaths(ScalaProject.scala:147)
+	at org.scalaide.core.internal.project.ClasspathManagement$class.scalaClasspath(ClasspathManagement.scala:134)
+	at org.scalaide.core.internal.project.ScalaProject.scalaClasspath(ScalaProject.scala:147)
+	at org.scalaide.core.internal.project.ScalaProject.setupCompilerClasspath(ScalaProject.scala:500)
+	at org.scalaide.core.internal.project.ScalaProject.initializeCompilerSettings(ScalaProject.scala:486)
+	at org.scalaide.core.internal.project.ScalaProject.org$scalaide$core$internal$project$ScalaProject$$prepareCompilerSettings(ScalaProject.scala:435)
+	at org.scalaide.core.internal.project.ScalaProject$$anonfun$5.apply(ScalaProject.scala:159)
+	at org.scalaide.core.internal.project.ScalaProject$$anonfun$5.apply(ScalaProject.scala:159)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.liftedTree1$1(PresentationCompilerProxy.scala:152)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.create(PresentationCompilerProxy.scala:151)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.initialize(PresentationCompilerProxy.scala:116)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.obtainPc$1(PresentationCompilerProxy.scala:78)
+	at org.scalaide.core.internal.compiler.PresentationCompilerProxy.internal(PresentationCompilerProxy.scala:98)
+	at org.scalaide.ui.internal.editor.decorators.BaseSemanticAction.apply(BaseSemanticAction.scala:139)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$$anon$3$$anonfun$reconciled$1$$anonfun$apply$1.apply$mcV$sp(ScalaSourceFileEditor.scala:103)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$$anon$3$$anonfun$reconciled$1$$anonfun$apply$1.apply(ScalaSourceFileEditor.scala:103)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$$anon$3$$anonfun$reconciled$1$$anonfun$apply$1.apply(ScalaSourceFileEditor.scala:103)
+	at org.scalaide.util.eclipse.EclipseUtils$$anon$3.run(EclipseUtils.scala:214)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.scalaide.util.eclipse.EclipseUtils$.withSafeRunner(EclipseUtils.scala:210)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$$anon$3$$anonfun$reconciled$1.apply(ScalaSourceFileEditor.scala:102)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$$anon$3$$anonfun$reconciled$1.apply(ScalaSourceFileEditor.scala:101)
+	at scala.collection.mutable.ArraySeq.foreach(ArraySeq.scala:74)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$$anon$3.reconciled(ScalaSourceFileEditor.scala:101)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$ReconcilingListeners$$anonfun$reconciled$3.apply(ScalaSourceFileEditor.scala:479)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$ReconcilingListeners$$anonfun$reconciled$3.apply(ScalaSourceFileEditor.scala:479)
+	at scala.collection.immutable.List.foreach(List.scala:381)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor$ReconcilingListeners.reconciled(ScalaSourceFileEditor.scala:479)
+	at org.scalaide.ui.internal.editor.ScalaSourceFileEditor.reconciled(ScalaSourceFileEditor.scala:380)
+	at org.scalaide.ui.internal.reconciliation.ScalaReconcilingStrategy$$anonfun$reconcile$3.apply(ScalaReconcilingStrategy.scala:53)
+	at org.scalaide.ui.internal.reconciliation.ScalaReconcilingStrategy$$anonfun$reconcile$3.apply(ScalaReconcilingStrategy.scala:53)
+	at scala.Option.foreach(Option.scala:257)
+	at org.scalaide.ui.internal.reconciliation.ScalaReconcilingStrategy.reconcile(ScalaReconcilingStrategy.scala:53)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:86)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:77)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:206)
+2018-02-25 12:08:51,537  WARN [main] - ScalaProject - Project DecEveClass_Prog1 has platform default sourceLevel.
+2018-02-25 12:08:51,537  WARN [main] - ScalaProject - Project DecEveClass_Prog1 runs on platform default installation.
+2018-02-25 12:09:12,411  WARN [ModalContext] - ScalaProject - Project Sample has platform default sourceLevel.
+2018-02-25 12:09:12,411  WARN [ModalContext] - ScalaProject - Project Sample runs on platform default installation.
+2018-02-25 12:09:12,851  WARN [Worker-0] - ScalaProject - Project Sample has platform default sourceLevel.
+2018-02-25 12:09:12,851  WARN [Worker-0] - ScalaProject - Project Sample runs on platform default installation.
+2018-02-25 12:10:14,469  WARN [main] - ScalaProject - Project Sample has platform default sourceLevel.
+2018-02-25 12:10:14,469  WARN [main] - ScalaProject - Project Sample runs on platform default installation.
+2018-02-25 12:10:16,449  WARN [main] - ScalaProject - Project Sample has platform default sourceLevel.
+2018-02-25 12:10:16,450  WARN [main] - ScalaProject - Project Sample runs on platform default installation.
+2018-02-25 12:10:16,662  WARN [Worker-1] - ScalaProject - Project Sample has platform default sourceLevel.
+2018-02-25 12:10:16,663  WARN [Worker-1] - ScalaProject - Project Sample runs on platform default installation.
+2018-02-25 12:11:45,421  WARN [Worker-7] - ScalaProject - Project Sample has platform default sourceLevel.
+2018-02-25 12:11:45,421  WARN [Worker-7] - ScalaProject - Project Sample runs on platform default installation.
+2018-02-25 12:12:22,920  WARN [Worker-6] - ScalaProject - Project Sample has platform default sourceLevel.
+2018-02-25 12:12:22,920  WARN [Worker-6] - ScalaProject - Project Sample runs on platform default installation.
+2018-02-25 12:12:33,516  WARN [Worker-4] - ScalaProject - Project Sample has platform default sourceLevel.
+2018-02-25 12:12:33,516  WARN [Worker-4] - ScalaProject - Project Sample runs on platform default installation.
+2018-02-25 12:13:10,500  WARN [Worker-9] - ScalaProject - Project Sample has platform default sourceLevel.
+2018-02-25 12:13:10,501  WARN [Worker-9] - ScalaProject - Project Sample runs on platform default installation.
+2018-02-25 12:13:29,162  WARN [Worker-7] - ScalaProject - Project Sample has platform default sourceLevel.
+2018-02-25 12:13:29,162  WARN [Worker-7] - ScalaProject - Project Sample runs on platform default installation.
+2018-02-25 12:13:34,906  WARN [Worker-6] - ScalaProject - Project Sample has platform default sourceLevel.
+2018-02-25 12:13:34,906  WARN [Worker-6] - ScalaProject - Project Sample runs on platform default installation.
+2018-02-25 12:13:47,941  WARN [Worker-9] - ScalaProject - Project Sample has platform default sourceLevel.
+2018-02-25 12:13:47,942  WARN [Worker-9] - ScalaProject - Project Sample runs on platform default installation.
+2018-02-25 12:14:30,756 ERROR [Worker-9] - System.err - SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2018-02-25 12:14:30,756 ERROR [Worker-9] - System.err - SLF4J: Defaulting to no-operation (NOP) logger implementation
+2018-02-25 12:14:30,756 ERROR [Worker-9] - System.err - SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2018-02-25 12:14:38,011  WARN [Worker-9] - ScalaProject - Project Sample has platform default sourceLevel.
+2018-02-25 12:14:38,011  WARN [Worker-9] - ScalaProject - Project Sample runs on platform default installation.
+2018-02-25 12:15:43,554  WARN [Worker-7] - ScalaProject - Project Sample has platform default sourceLevel.
+2018-02-25 12:15:43,554  WARN [Worker-7] - ScalaProject - Project Sample runs on platform default installation.
+2018-02-25 12:15:53,289  WARN [Worker-6] - ScalaProject - Project Sample has platform default sourceLevel.
+2018-02-25 12:15:53,289  WARN [Worker-6] - ScalaProject - Project Sample runs on platform default installation.
+2018-02-25 12:16:02,960  WARN [Worker-9] - ScalaProject - Project Sample has platform default sourceLevel.
+2018-02-25 12:16:02,960  WARN [Worker-9] - ScalaProject - Project Sample runs on platform default installation.
+2018-02-25 12:18:04,905  WARN [Worker-7] - ScalaProject - Project Sample has platform default sourceLevel.
+2018-02-25 12:18:04,906  WARN [Worker-7] - ScalaProject - Project Sample runs on platform default installation.
+2018-02-25 12:18:16,931  WARN [Worker-7] - ScalaProject - Project Sample has platform default sourceLevel.
+2018-02-25 12:18:16,931  WARN [Worker-7] - ScalaProject - Project Sample runs on platform default installation.
+2018-03-04 09:36:37,703  WARN [main] - ScalaProject - Project Sample has platform default sourceLevel.
+2018-03-04 09:36:37,736  WARN [main] - ScalaProject - Project Sample runs on platform default installation.
+2018-03-04 09:36:37,767  WARN [main] - ScalaProject - Project Sample has platform default sourceLevel.
+2018-03-04 09:36:37,768  WARN [main] - ScalaProject - Project Sample runs on platform default installation.
+2018-03-04 09:41:22,035  WARN [ModalContext] - ScalaProject - Project Nov2018_Spark_Core has platform default sourceLevel.
+2018-03-04 09:41:22,038  WARN [ModalContext] - ScalaProject - Project Nov2018_Spark_Core runs on platform default installation.
+2018-03-04 09:41:22,552  WARN [Worker-4] - ScalaProject - Project Nov2018_Spark_Core has platform default sourceLevel.
+2018-03-04 09:41:22,552  WARN [Worker-4] - ScalaProject - Project Nov2018_Spark_Core runs on platform default installation.
+2018-03-04 09:44:53,699  WARN [main] - ScalaProject - Project Nov2018_Spark_Core has platform default sourceLevel.
+2018-03-04 09:44:53,699  WARN [main] - ScalaProject - Project Nov2018_Spark_Core runs on platform default installation.
+2018-03-04 09:45:01,378  WARN [main] - ScalaProject - Project Nov2018_Spark_Core has platform default sourceLevel.
+2018-03-04 09:45:01,378  WARN [main] - ScalaProject - Project Nov2018_Spark_Core runs on platform default installation.
+2018-03-04 09:45:01,938  WARN [Worker-8] - ScalaProject - Project Nov2018_Spark_Core has platform default sourceLevel.
+2018-03-04 09:45:01,938  WARN [Worker-8] - ScalaProject - Project Nov2018_Spark_Core runs on platform default installation.
+2018-03-04 09:55:37,873  WARN [Worker-13] - ScalaProject - Project Nov2018_Spark_Core has platform default sourceLevel.
+2018-03-04 09:55:37,873  WARN [Worker-13] - ScalaProject - Project Nov2018_Spark_Core runs on platform default installation.
+2018-03-04 10:07:25,128  WARN [ModalContext] - ScalaProject - Project Nov2018_scala_oop has platform default sourceLevel.
+2018-03-04 10:07:25,130  WARN [ModalContext] - ScalaProject - Project Nov2018_scala_oop runs on platform default installation.
+2018-03-04 10:07:25,613  WARN [Worker-1] - ScalaProject - Project Nov2018_scala_oop has platform default sourceLevel.
+2018-03-04 10:07:25,622  WARN [Worker-1] - ScalaProject - Project Nov2018_scala_oop runs on platform default installation.
+2018-03-04 10:07:55,004  WARN [main] - ScalaProject - Project Nov2018_scala_oop has platform default sourceLevel.
+2018-03-04 10:07:55,004  WARN [main] - ScalaProject - Project Nov2018_scala_oop runs on platform default installation.
+2018-03-04 10:07:58,694  WARN [main] - ScalaProject - Project Nov2018_scala_oop has platform default sourceLevel.
+2018-03-04 10:07:58,694  WARN [main] - ScalaProject - Project Nov2018_scala_oop runs on platform default installation.
+2018-03-04 10:07:59,196  WARN [Worker-4] - ScalaProject - Project Nov2018_scala_oop has platform default sourceLevel.
+2018-03-04 10:07:59,197  WARN [Worker-4] - ScalaProject - Project Nov2018_scala_oop runs on platform default installation.
+2018-03-04 10:09:29,919  WARN [Worker-1] - ScalaProject - Project Nov2018_scala_oop has platform default sourceLevel.
+2018-03-04 10:09:29,920  WARN [Worker-1] - ScalaProject - Project Nov2018_scala_oop runs on platform default installation.
+2018-03-04 10:10:34,992 ERROR [Worker-4] - System.err - SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2018-03-04 10:10:34,993 ERROR [Worker-4] - System.err - SLF4J: Defaulting to no-operation (NOP) logger implementation
+2018-03-04 10:10:34,993 ERROR [Worker-4] - System.err - SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2018-03-04 10:10:45,643  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 100
+2018-03-04 10:11:02,184  WARN [Worker-4] - ScalaProject - Project Nov2018_scala_oop has platform default sourceLevel.
+2018-03-04 10:11:02,184  WARN [Worker-4] - ScalaProject - Project Nov2018_scala_oop runs on platform default installation.
+2018-03-04 10:11:20,198  WARN [Worker-3] - ScalaProject - Project Nov2018_scala_oop has platform default sourceLevel.
+2018-03-04 10:11:20,198  WARN [Worker-3] - ScalaProject - Project Nov2018_scala_oop runs on platform default installation.
+2018-03-04 10:11:34,397  WARN [Worker-5] - ScalaProject - Project Nov2018_scala_oop has platform default sourceLevel.
+2018-03-04 10:11:34,397  WARN [Worker-5] - ScalaProject - Project Nov2018_scala_oop runs on platform default installation.
+2018-03-04 10:11:44,784  WARN [Worker-1] - ScalaProject - Project Nov2018_scala_oop has platform default sourceLevel.
+2018-03-04 10:11:44,784  WARN [Worker-1] - ScalaProject - Project Nov2018_scala_oop runs on platform default installation.
+2018-03-04 10:11:54,576  WARN [Worker-2] - ScalaProject - Project Nov2018_scala_oop has platform default sourceLevel.
+2018-03-04 10:11:54,576  WARN [Worker-2] - ScalaProject - Project Nov2018_scala_oop runs on platform default installation.
+2018-03-04 10:12:17,068  WARN [Worker-2] - ScalaProject - Project Nov2018_scala_oop has platform default sourceLevel.
+2018-03-04 10:12:17,069  WARN [Worker-2] - ScalaProject - Project Nov2018_scala_oop runs on platform default installation.
+2018-03-04 10:16:10,984  WARN [Worker-1] - ScalaProject - Project Nov2018_scala_oop has platform default sourceLevel.
+2018-03-04 10:16:10,984  WARN [Worker-1] - ScalaProject - Project Nov2018_scala_oop runs on platform default installation.
+2018-03-04 10:19:16,700  WARN [Worker-5] - ScalaProject - Project Nov2018_scala_oop has platform default sourceLevel.
+2018-03-04 10:19:16,700  WARN [Worker-5] - ScalaProject - Project Nov2018_scala_oop runs on platform default installation.
+2018-03-04 10:19:38,229  WARN [Worker-2] - ScalaProject - Project Nov2018_scala_oop has platform default sourceLevel.
+2018-03-04 10:19:38,230  WARN [Worker-2] - ScalaProject - Project Nov2018_scala_oop runs on platform default installation.
+2018-03-04 10:22:12,629  WARN [Worker-10] - ScalaProject - Project Nov2018_scala_oop has platform default sourceLevel.
+2018-03-04 10:22:12,630  WARN [Worker-10] - ScalaProject - Project Nov2018_scala_oop runs on platform default installation.
+2018-03-04 10:22:54,310  WARN [Worker-11] - ScalaProject - Project Nov2018_scala_oop has platform default sourceLevel.
+2018-03-04 10:22:54,311  WARN [Worker-11] - ScalaProject - Project Nov2018_scala_oop runs on platform default installation.
+2018-03-04 10:22:58,628  WARN [Worker-11] - ScalaProject - Project Nov2018_scala_oop has platform default sourceLevel.
+2018-03-04 10:22:58,628  WARN [Worker-11] - ScalaProject - Project Nov2018_scala_oop runs on platform default installation.
+2018-03-04 10:26:09,892  WARN [Worker-13] - ScalaProject - Project Nov2018_scala_oop has platform default sourceLevel.
+2018-03-04 10:26:09,893  WARN [Worker-13] - ScalaProject - Project Nov2018_scala_oop runs on platform default installation.
+2018-03-04 10:26:25,114  WARN [Worker-14] - ScalaProject - Project Nov2018_scala_oop has platform default sourceLevel.
+2018-03-04 10:26:25,115  WARN [Worker-14] - ScalaProject - Project Nov2018_scala_oop runs on platform default installation.
+2018-03-04 10:26:34,745  WARN [Worker-14] - ScalaProject - Project Nov2018_scala_oop has platform default sourceLevel.
+2018-03-04 10:26:34,745  WARN [Worker-14] - ScalaProject - Project Nov2018_scala_oop runs on platform default installation.
+2018-03-04 10:27:12,099  WARN [Worker-11] - ScalaProject - Project Nov2018_scala_oop has platform default sourceLevel.
+2018-03-04 10:27:12,099  WARN [Worker-11] - ScalaProject - Project Nov2018_scala_oop runs on platform default installation.
+2018-03-04 10:27:44,554  WARN [Worker-14] - ScalaProject - Project Nov2018_scala_oop has platform default sourceLevel.
+2018-03-04 10:27:44,554  WARN [Worker-14] - ScalaProject - Project Nov2018_scala_oop runs on platform default installation.
+2018-03-04 10:27:49,525  WARN [Worker-13] - ScalaProject - Project Nov2018_scala_oop has platform default sourceLevel.
+2018-03-04 10:27:49,526  WARN [Worker-13] - ScalaProject - Project Nov2018_scala_oop runs on platform default installation.
+2018-03-04 10:27:54,812  WARN [Worker-11] - ScalaProject - Project Nov2018_scala_oop has platform default sourceLevel.
+2018-03-04 10:27:54,813  WARN [Worker-11] - ScalaProject - Project Nov2018_scala_oop runs on platform default installation.
+2018-03-04 10:27:58,356  WARN [Worker-11] - ScalaProject - Project Nov2018_scala_oop has platform default sourceLevel.
+2018-03-04 10:27:58,356  WARN [Worker-11] - ScalaProject - Project Nov2018_scala_oop runs on platform default installation.
+2018-03-04 10:28:40,699  WARN [Worker-17] - ScalaProject - Project Nov2018_scala_oop has platform default sourceLevel.
+2018-03-04 10:28:40,699  WARN [Worker-17] - ScalaProject - Project Nov2018_scala_oop runs on platform default installation.
+2018-03-04 10:28:52,192  WARN [Worker-15] - ScalaProject - Project Nov2018_scala_oop has platform default sourceLevel.
+2018-03-04 10:28:52,193  WARN [Worker-15] - ScalaProject - Project Nov2018_scala_oop runs on platform default installation.
+2018-03-04 10:28:57,440  WARN [Worker-13] - ScalaProject - Project Nov2018_scala_oop has platform default sourceLevel.
+2018-03-04 10:28:57,440  WARN [Worker-13] - ScalaProject - Project Nov2018_scala_oop runs on platform default installation.
+2018-03-04 10:28:59,708  WARN [Worker-11] - ScalaProject - Project Nov2018_scala_oop has platform default sourceLevel.
+2018-03-04 10:28:59,708  WARN [Worker-11] - ScalaProject - Project Nov2018_scala_oop runs on platform default installation.
+2018-03-04 10:29:19,933  WARN [Worker-14] - ScalaProject - Project Nov2018_scala_oop has platform default sourceLevel.
+2018-03-04 10:29:19,933  WARN [Worker-14] - ScalaProject - Project Nov2018_scala_oop runs on platform default installation.
+2018-03-04 10:29:52,178  WARN [Worker-13] - ScalaProject - Project Nov2018_scala_oop has platform default sourceLevel.
+2018-03-04 10:29:52,178  WARN [Worker-13] - ScalaProject - Project Nov2018_scala_oop runs on platform default installation.
+2018-03-04 10:29:58,337  WARN [Worker-17] - ScalaProject - Project Nov2018_scala_oop has platform default sourceLevel.
+2018-03-04 10:29:58,337  WARN [Worker-17] - ScalaProject - Project Nov2018_scala_oop runs on platform default installation.
+2018-03-04 10:30:29,389  WARN [Worker-11] - ScalaProject - Project Nov2018_scala_oop has platform default sourceLevel.
+2018-03-04 10:30:29,389  WARN [Worker-11] - ScalaProject - Project Nov2018_scala_oop runs on platform default installation.
+2018-03-04 10:30:44,436  WARN [Worker-14] - ScalaProject - Project Nov2018_scala_oop has platform default sourceLevel.
+2018-03-04 10:30:44,436  WARN [Worker-14] - ScalaProject - Project Nov2018_scala_oop runs on platform default installation.
+2018-03-04 10:31:00,239  WARN [Worker-16] - ScalaProject - Project Nov2018_scala_oop has platform default sourceLevel.
+2018-03-04 10:31:00,239  WARN [Worker-16] - ScalaProject - Project Nov2018_scala_oop runs on platform default installation.
+2018-03-04 10:31:33,139  WARN [Worker-13] - ScalaProject - Project Nov2018_scala_oop has platform default sourceLevel.
+2018-03-04 10:31:33,140  WARN [Worker-13] - ScalaProject - Project Nov2018_scala_oop runs on platform default installation.
+2018-03-04 10:31:39,492  WARN [Worker-15] - ScalaProject - Project Nov2018_scala_oop has platform default sourceLevel.
+2018-03-04 10:31:39,492  WARN [Worker-15] - ScalaProject - Project Nov2018_scala_oop runs on platform default installation.
+2018-03-04 10:31:43,810  WARN [Worker-16] - ScalaProject - Project Nov2018_scala_oop has platform default sourceLevel.
+2018-03-04 10:31:43,811  WARN [Worker-16] - ScalaProject - Project Nov2018_scala_oop runs on platform default installation.
+2018-03-04 10:31:50,189  WARN [Worker-18] - ScalaProject - Project Nov2018_scala_oop has platform default sourceLevel.
+2018-03-04 10:31:50,189  WARN [Worker-18] - ScalaProject - Project Nov2018_scala_oop runs on platform default installation.
+2018-03-04 10:32:20,661  WARN [Worker-14] - ScalaProject - Project Nov2018_scala_oop has platform default sourceLevel.
+2018-03-04 10:32:20,661  WARN [Worker-14] - ScalaProject - Project Nov2018_scala_oop runs on platform default installation.
+2018-03-04 10:32:32,880  WARN [Worker-14] - ScalaProject - Project Nov2018_scala_oop has platform default sourceLevel.
+2018-03-04 10:32:32,881  WARN [Worker-14] - ScalaProject - Project Nov2018_scala_oop runs on platform default installation.
+2018-03-04 10:32:42,321  WARN [Worker-17] - ScalaProject - Project Nov2018_scala_oop has platform default sourceLevel.
+2018-03-04 10:32:42,321  WARN [Worker-17] - ScalaProject - Project Nov2018_scala_oop runs on platform default installation.
+2018-03-04 10:32:47,925 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2018-03-04 10:33:34,016  WARN [Worker-11] - ScalaProject - Project Nov2018_scala_oop has platform default sourceLevel.
+2018-03-04 10:33:34,016  WARN [Worker-11] - ScalaProject - Project Nov2018_scala_oop runs on platform default installation.
+2018-03-04 10:33:42,488  WARN [Worker-11] - ScalaProject - Project Nov2018_scala_oop has platform default sourceLevel.
+2018-03-04 10:33:42,488  WARN [Worker-11] - ScalaProject - Project Nov2018_scala_oop runs on platform default installation.
+2018-03-04 10:33:46,214  WARN [Worker-14] - ScalaProject - Project Nov2018_scala_oop has platform default sourceLevel.
+2018-03-04 10:33:46,214  WARN [Worker-14] - ScalaProject - Project Nov2018_scala_oop runs on platform default installation.
+2018-03-04 10:34:49,832  WARN [Worker-13] - ScalaProject - Project Nov2018_scala_oop has platform default sourceLevel.
+2018-03-04 10:34:49,832  WARN [Worker-13] - ScalaProject - Project Nov2018_scala_oop runs on platform default installation.
+2018-03-04 10:35:12,862  WARN [Worker-5] - ScalaProject - Project Nov2018_scala_oop has platform default sourceLevel.
+2018-03-04 10:35:12,862  WARN [Worker-5] - ScalaProject - Project Nov2018_scala_oop runs on platform default installation.
+2018-03-04 10:35:28,102  WARN [Worker-11] - ScalaProject - Project Nov2018_scala_oop has platform default sourceLevel.
+2018-03-04 10:35:28,102  WARN [Worker-11] - ScalaProject - Project Nov2018_scala_oop runs on platform default installation.
+2018-03-04 10:35:48,874  WARN [Worker-16] - ScalaProject - Project Nov2018_scala_oop has platform default sourceLevel.
+2018-03-04 10:35:48,874  WARN [Worker-16] - ScalaProject - Project Nov2018_scala_oop runs on platform default installation.
+2018-03-04 10:35:54,244  WARN [Worker-14] - ScalaProject - Project Nov2018_scala_oop has platform default sourceLevel.
+2018-03-04 10:35:54,245  WARN [Worker-14] - ScalaProject - Project Nov2018_scala_oop runs on platform default installation.
+2018-03-04 10:36:44,836  WARN [Worker-17] - ScalaProject - Project Nov2018_scala_oop has platform default sourceLevel.
+2018-03-04 10:36:44,836  WARN [Worker-17] - ScalaProject - Project Nov2018_scala_oop runs on platform default installation.
+2018-03-04 10:40:44,414  WARN [Worker-19] - ScalaProject - Project Nov2018_scala_oop has platform default sourceLevel.
+2018-03-04 10:40:44,414  WARN [Worker-19] - ScalaProject - Project Nov2018_scala_oop runs on platform default installation.
+2018-03-04 10:40:56,784  WARN [Worker-21] - ScalaProject - Project Nov2018_scala_oop has platform default sourceLevel.
+2018-03-04 10:40:56,784  WARN [Worker-21] - ScalaProject - Project Nov2018_scala_oop runs on platform default installation.
+2018-03-04 10:41:25,807  WARN [Worker-22] - ScalaProject - Project Nov2018_scala_oop has platform default sourceLevel.
+2018-03-04 10:41:25,807  WARN [Worker-22] - ScalaProject - Project Nov2018_scala_oop runs on platform default installation.
+2018-03-04 10:41:42,058  WARN [Worker-20] - ScalaProject - Project Nov2018_scala_oop has platform default sourceLevel.
+2018-03-04 10:41:42,058  WARN [Worker-20] - ScalaProject - Project Nov2018_scala_oop runs on platform default installation.
+2018-03-04 10:42:04,131  WARN [Worker-22] - ScalaProject - Project Nov2018_scala_oop has platform default sourceLevel.
+2018-03-04 10:42:04,131  WARN [Worker-22] - ScalaProject - Project Nov2018_scala_oop runs on platform default installation.
+2018-03-04 10:42:08,562  WARN [Worker-20] - ScalaProject - Project Nov2018_scala_oop has platform default sourceLevel.
+2018-03-04 10:42:08,562  WARN [Worker-20] - ScalaProject - Project Nov2018_scala_oop runs on platform default installation.
+2018-03-04 10:47:00,628  WARN [Worker-25] - ScalaProject - Project Nov2018_scala_oop has platform default sourceLevel.
+2018-03-04 10:47:00,628  WARN [Worker-25] - ScalaProject - Project Nov2018_scala_oop runs on platform default installation.
+2018-03-04 10:47:23,835  WARN [Worker-26] - ScalaProject - Project Nov2018_scala_oop has platform default sourceLevel.
+2018-03-04 10:47:23,835  WARN [Worker-26] - ScalaProject - Project Nov2018_scala_oop runs on platform default installation.
+2018-03-04 10:47:29,727  WARN [Worker-25] - ScalaProject - Project Nov2018_scala_oop has platform default sourceLevel.
+2018-03-04 10:47:29,727  WARN [Worker-25] - ScalaProject - Project Nov2018_scala_oop runs on platform default installation.
+2018-03-04 10:47:53,646  WARN [Worker-24] - ScalaProject - Project Nov2018_scala_oop has platform default sourceLevel.
+2018-03-04 10:47:53,647  WARN [Worker-24] - ScalaProject - Project Nov2018_scala_oop runs on platform default installation.
+2018-03-04 10:47:57,625  WARN [Worker-25] - ScalaProject - Project Nov2018_scala_oop has platform default sourceLevel.
+2018-03-04 10:47:57,625  WARN [Worker-25] - ScalaProject - Project Nov2018_scala_oop runs on platform default installation.
+2018-03-04 10:47:59,721  WARN [Worker-21] - ScalaProject - Project Nov2018_scala_oop has platform default sourceLevel.
+2018-03-04 10:47:59,722  WARN [Worker-21] - ScalaProject - Project Nov2018_scala_oop runs on platform default installation.
+2018-03-04 10:48:06,650  WARN [Worker-26] - ScalaProject - Project Nov2018_scala_oop has platform default sourceLevel.
+2018-03-04 10:48:06,650  WARN [Worker-26] - ScalaProject - Project Nov2018_scala_oop runs on platform default installation.
+2018-03-04 10:48:13,021  WARN [Worker-27] - ScalaProject - Project Nov2018_scala_oop has platform default sourceLevel.
+2018-03-04 10:48:13,021  WARN [Worker-27] - ScalaProject - Project Nov2018_scala_oop runs on platform default installation.
+2018-03-04 10:48:44,652  WARN [Worker-26] - ScalaProject - Project Nov2018_scala_oop has platform default sourceLevel.
+2018-03-04 10:48:44,652  WARN [Worker-26] - ScalaProject - Project Nov2018_scala_oop runs on platform default installation.
+2018-03-04 10:49:05,531  WARN [Worker-28] - ScalaProject - Project Nov2018_scala_oop has platform default sourceLevel.
+2018-03-04 10:49:05,531  WARN [Worker-28] - ScalaProject - Project Nov2018_scala_oop runs on platform default installation.
+2018-03-04 10:49:14,432  WARN [Worker-25] - ScalaProject - Project Nov2018_scala_oop has platform default sourceLevel.
+2018-03-04 10:49:14,432  WARN [Worker-25] - ScalaProject - Project Nov2018_scala_oop runs on platform default installation.
+2018-03-04 10:49:32,370  WARN [Worker-28] - ScalaProject - Project Nov2018_scala_oop has platform default sourceLevel.
+2018-03-04 10:49:32,370  WARN [Worker-28] - ScalaProject - Project Nov2018_scala_oop runs on platform default installation.
+2018-03-04 10:50:01,759  WARN [Worker-25] - ScalaProject - Project Nov2018_scala_oop has platform default sourceLevel.
+2018-03-04 10:50:01,759  WARN [Worker-25] - ScalaProject - Project Nov2018_scala_oop runs on platform default installation.
+2018-03-04 10:50:05,971  WARN [Worker-28] - ScalaProject - Project Nov2018_scala_oop has platform default sourceLevel.
+2018-03-04 10:50:05,971  WARN [Worker-28] - ScalaProject - Project Nov2018_scala_oop runs on platform default installation.
+2018-03-04 10:50:35,838  WARN [Worker-26] - ScalaProject - Project Nov2018_scala_oop has platform default sourceLevel.
+2018-03-04 10:50:35,838  WARN [Worker-26] - ScalaProject - Project Nov2018_scala_oop runs on platform default installation.
+2018-03-04 10:50:38,273  WARN [Worker-24] - ScalaProject - Project Nov2018_scala_oop has platform default sourceLevel.
+2018-03-04 10:50:38,273  WARN [Worker-24] - ScalaProject - Project Nov2018_scala_oop runs on platform default installation.
+2018-03-04 10:51:19,861  WARN [Worker-28] - ScalaProject - Project Nov2018_scala_oop has platform default sourceLevel.
+2018-03-04 10:51:19,861  WARN [Worker-28] - ScalaProject - Project Nov2018_scala_oop runs on platform default installation.
+2018-03-04 10:51:58,735 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2018-03-04 10:51:58,735 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2018-03-04 10:52:01,656  WARN [Worker-24] - ScalaProject - Project Nov2018_scala_oop has platform default sourceLevel.
+2018-03-04 10:52:01,656  WARN [Worker-24] - ScalaProject - Project Nov2018_scala_oop runs on platform default installation.
+2018-03-04 10:52:30,011  WARN [Worker-29] - ScalaProject - Project Nov2018_scala_oop has platform default sourceLevel.
+2018-03-04 10:52:30,011  WARN [Worker-29] - ScalaProject - Project Nov2018_scala_oop runs on platform default installation.
+2018-03-04 10:52:35,374  WARN [Worker-28] - ScalaProject - Project Nov2018_scala_oop has platform default sourceLevel.
+2018-03-04 10:52:35,374  WARN [Worker-28] - ScalaProject - Project Nov2018_scala_oop runs on platform default installation.
+2018-03-04 10:53:05,533  WARN [Worker-27] - ScalaProject - Project Nov2018_scala_oop has platform default sourceLevel.
+2018-03-04 10:53:05,533  WARN [Worker-27] - ScalaProject - Project Nov2018_scala_oop runs on platform default installation.
+2018-03-04 10:53:40,070  WARN [Worker-21] - ScalaProject - Project Nov2018_scala_oop has platform default sourceLevel.
+2018-03-04 10:53:40,070  WARN [Worker-21] - ScalaProject - Project Nov2018_scala_oop runs on platform default installation.
+2018-03-04 10:53:54,925  WARN [Worker-21] - ScalaProject - Project Nov2018_scala_oop has platform default sourceLevel.
+2018-03-04 10:53:54,925  WARN [Worker-21] - ScalaProject - Project Nov2018_scala_oop runs on platform default installation.
+2018-03-04 10:53:59,299  WARN [Worker-29] - ScalaProject - Project Nov2018_scala_oop has platform default sourceLevel.
+2018-03-04 10:53:59,300  WARN [Worker-29] - ScalaProject - Project Nov2018_scala_oop runs on platform default installation.
+2018-03-04 10:54:07,575  WARN [Worker-29] - ScalaProject - Project Nov2018_scala_oop has platform default sourceLevel.
+2018-03-04 10:54:07,575  WARN [Worker-29] - ScalaProject - Project Nov2018_scala_oop runs on platform default installation.
+2018-03-04 10:58:27,375  WARN [Worker-24] - ScalaProject - Project Nov2018_scala_oop has platform default sourceLevel.
+2018-03-04 10:58:27,376  WARN [Worker-24] - ScalaProject - Project Nov2018_scala_oop runs on platform default installation.
+2018-03-04 10:58:40,130  WARN [Worker-33] - ScalaProject - Project Nov2018_scala_oop has platform default sourceLevel.
+2018-03-04 10:58:40,131  WARN [Worker-33] - ScalaProject - Project Nov2018_scala_oop runs on platform default installation.
+2018-03-04 10:58:40,377  WARN [Java indexing] - ScalaProject - Project Nov2018_scala_oop has platform default sourceLevel.
+2018-03-04 10:58:40,377  WARN [Java indexing] - ScalaProject - Project Nov2018_scala_oop runs on platform default installation.
+2018-03-04 10:58:40,787  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ImplicitHighlightingPresenter - Timeout while waiting for `askLoadedTyped` during semantic highlighting.
+2018-03-04 10:59:00,496  WARN [Worker-31] - ScalaProject - Project Nov2018_scala_oop has platform default sourceLevel.
+2018-03-04 10:59:00,496  WARN [Worker-31] - ScalaProject - Project Nov2018_scala_oop runs on platform default installation.
+2018-03-04 10:59:07,825  WARN [Worker-30] - ScalaProject - Project Nov2018_scala_oop has platform default sourceLevel.
+2018-03-04 10:59:07,825  WARN [Worker-30] - ScalaProject - Project Nov2018_scala_oop runs on platform default installation.
+2018-03-04 10:59:24,622  WARN [Worker-32] - ScalaProject - Project Nov2018_scala_oop has platform default sourceLevel.
+2018-03-04 10:59:24,623  WARN [Worker-32] - ScalaProject - Project Nov2018_scala_oop runs on platform default installation.
+2018-03-04 10:59:34,468  WARN [Worker-32] - ScalaProject - Project Nov2018_scala_oop has platform default sourceLevel.
+2018-03-04 10:59:34,468  WARN [Worker-32] - ScalaProject - Project Nov2018_scala_oop runs on platform default installation.
+2018-03-04 11:00:04,454  WARN [Worker-31] - ScalaProject - Project Nov2018_scala_oop has platform default sourceLevel.
+2018-03-04 11:00:04,455  WARN [Worker-31] - ScalaProject - Project Nov2018_scala_oop runs on platform default installation.
+2018-03-04 11:00:29,109  WARN [Worker-30] - ScalaProject - Project Nov2018_scala_oop has platform default sourceLevel.
+2018-03-04 11:00:29,109  WARN [Worker-30] - ScalaProject - Project Nov2018_scala_oop runs on platform default installation.
+2018-03-04 11:00:33,618  WARN [Worker-33] - ScalaProject - Project Nov2018_scala_oop has platform default sourceLevel.
+2018-03-04 11:00:33,618  WARN [Worker-33] - ScalaProject - Project Nov2018_scala_oop runs on platform default installation.
+2018-03-04 11:00:56,846  WARN [Worker-31] - ScalaProject - Project Nov2018_scala_oop has platform default sourceLevel.
+2018-03-04 11:00:56,847  WARN [Worker-31] - ScalaProject - Project Nov2018_scala_oop runs on platform default installation.
+2018-03-04 11:01:14,080  WARN [Worker-30] - ScalaProject - Project Nov2018_scala_oop has platform default sourceLevel.
+2018-03-04 11:01:14,080  WARN [Worker-30] - ScalaProject - Project Nov2018_scala_oop runs on platform default installation.
+2018-03-04 11:01:33,760  WARN [Worker-33] - ScalaProject - Project Nov2018_scala_oop has platform default sourceLevel.
+2018-03-04 11:01:33,760  WARN [Worker-33] - ScalaProject - Project Nov2018_scala_oop runs on platform default installation.
+2018-03-04 11:01:37,064  WARN [Worker-32] - ScalaProject - Project Nov2018_scala_oop has platform default sourceLevel.
+2018-03-04 11:01:37,064  WARN [Worker-32] - ScalaProject - Project Nov2018_scala_oop runs on platform default installation.
+2018-03-04 11:02:00,198  WARN [Worker-32] - ScalaProject - Project Nov2018_scala_oop has platform default sourceLevel.
+2018-03-04 11:02:00,198  WARN [Worker-32] - ScalaProject - Project Nov2018_scala_oop runs on platform default installation.
+2018-03-04 11:02:42,277  WARN [Worker-30] - ScalaProject - Project Nov2018_scala_oop has platform default sourceLevel.
+2018-03-04 11:02:42,278  WARN [Worker-30] - ScalaProject - Project Nov2018_scala_oop runs on platform default installation.
+2018-03-04 11:02:56,601  WARN [Worker-31] - ScalaProject - Project Nov2018_scala_oop has platform default sourceLevel.
+2018-03-04 11:02:56,601  WARN [Worker-31] - ScalaProject - Project Nov2018_scala_oop runs on platform default installation.
+2018-03-04 11:03:04,262  WARN [Worker-34] - ScalaProject - Project Nov2018_scala_oop has platform default sourceLevel.
+2018-03-04 11:03:04,262  WARN [Worker-34] - ScalaProject - Project Nov2018_scala_oop runs on platform default installation.
+2018-03-04 11:03:15,551  WARN [Worker-30] - ScalaProject - Project Nov2018_scala_oop has platform default sourceLevel.
+2018-03-04 11:03:15,552  WARN [Worker-30] - ScalaProject - Project Nov2018_scala_oop runs on platform default installation.
+2018-03-04 11:03:21,424  WARN [Worker-33] - ScalaProject - Project Nov2018_scala_oop has platform default sourceLevel.
+2018-03-04 11:03:21,425  WARN [Worker-33] - ScalaProject - Project Nov2018_scala_oop runs on platform default installation.
+2018-03-04 11:03:35,012  WARN [Worker-32] - ScalaProject - Project Nov2018_scala_oop has platform default sourceLevel.
+2018-03-04 11:03:35,012  WARN [Worker-32] - ScalaProject - Project Nov2018_scala_oop runs on platform default installation.
+2018-03-04 11:04:09,993  WARN [Worker-33] - ScalaProject - Project Nov2018_scala_oop has platform default sourceLevel.
+2018-03-04 11:04:09,993  WARN [Worker-33] - ScalaProject - Project Nov2018_scala_oop runs on platform default installation.
+2018-03-04 11:05:55,431  WARN [Worker-24] - ScalaProject - Project Nov2018_scala_oop has platform default sourceLevel.
+2018-03-04 11:05:55,431  WARN [Worker-24] - ScalaProject - Project Nov2018_scala_oop runs on platform default installation.
+2018-03-04 11:06:02,608  WARN [Worker-24] - ScalaProject - Project Nov2018_scala_oop has platform default sourceLevel.
+2018-03-04 11:06:02,609  WARN [Worker-24] - ScalaProject - Project Nov2018_scala_oop runs on platform default installation.
+2018-03-04 11:06:23,308  WARN [Worker-33] - ScalaProject - Project Nov2018_scala_oop has platform default sourceLevel.
+2018-03-04 11:06:23,308  WARN [Worker-33] - ScalaProject - Project Nov2018_scala_oop runs on platform default installation.
+2018-03-04 11:06:45,263  WARN [Worker-33] - ScalaProject - Project Nov2018_scala_oop has platform default sourceLevel.
+2018-03-04 11:06:45,264  WARN [Worker-33] - ScalaProject - Project Nov2018_scala_oop runs on platform default installation.
+2018-03-04 11:07:20,960  WARN [Worker-38] - ScalaProject - Project Nov2018_scala_oop has platform default sourceLevel.
+2018-03-04 11:07:20,960  WARN [Worker-38] - ScalaProject - Project Nov2018_scala_oop runs on platform default installation.
+2018-03-04 11:08:16,036  WARN [Worker-38] - ScalaProject - Project Nov2018_scala_oop has platform default sourceLevel.
+2018-03-04 11:08:16,036  WARN [Worker-38] - ScalaProject - Project Nov2018_scala_oop runs on platform default installation.
+2018-03-04 11:08:59,902  WARN [Worker-36] - ScalaProject - Project Nov2018_scala_oop has platform default sourceLevel.
+2018-03-04 11:08:59,902  WARN [Worker-36] - ScalaProject - Project Nov2018_scala_oop runs on platform default installation.
+2018-03-04 11:09:12,303  WARN [Worker-24] - ScalaProject - Project Nov2018_scala_oop has platform default sourceLevel.
+2018-03-04 11:09:12,303  WARN [Worker-24] - ScalaProject - Project Nov2018_scala_oop runs on platform default installation.
+2018-03-04 11:09:18,307  WARN [Worker-33] - ScalaProject - Project Nov2018_scala_oop has platform default sourceLevel.
+2018-03-04 11:09:18,307  WARN [Worker-33] - ScalaProject - Project Nov2018_scala_oop runs on platform default installation.
+2018-03-04 11:09:27,105  WARN [Worker-37] - ScalaProject - Project Nov2018_scala_oop has platform default sourceLevel.
+2018-03-04 11:09:27,105  WARN [Worker-37] - ScalaProject - Project Nov2018_scala_oop runs on platform default installation.
+2018-03-04 11:09:46,477  WARN [Worker-37] - ScalaProject - Project Nov2018_scala_oop has platform default sourceLevel.
+2018-03-04 11:09:46,477  WARN [Worker-37] - ScalaProject - Project Nov2018_scala_oop runs on platform default installation.
+2018-03-04 11:10:50,517  WARN [Worker-24] - ScalaProject - Project Nov2018_scala_oop has platform default sourceLevel.
+2018-03-04 11:10:50,517  WARN [Worker-24] - ScalaProject - Project Nov2018_scala_oop runs on platform default installation.
+2018-03-04 11:53:34,116  WARN [Worker-42] - ScalaProject - Project Nov2018_scala_oop has platform default sourceLevel.
+2018-03-04 11:53:34,116  WARN [Worker-42] - ScalaProject - Project Nov2018_scala_oop runs on platform default installation.
+2018-03-04 11:53:51,160  WARN [main] - ScalaProject - Project Nov2018_scala_oop has platform default sourceLevel.
+2018-03-04 11:53:51,160  WARN [main] - ScalaProject - Project Nov2018_scala_oop runs on platform default installation.
+2018-03-04 11:53:51,319  WARN [Worker-47] - ScalaProject - Project Nov2018_scala_oop has platform default sourceLevel.
+2018-03-04 11:53:51,319  WARN [Worker-47] - ScalaProject - Project Nov2018_scala_oop runs on platform default installation.
+2018-03-04 11:54:00,433  WARN [Worker-47] - ScalaProject - Project Nov2018_scala_oop has platform default sourceLevel.
+2018-03-04 11:54:00,433  WARN [Worker-47] - ScalaProject - Project Nov2018_scala_oop runs on platform default installation.
+2018-03-04 11:54:19,713  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 90
+2018-03-04 11:54:19,715  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 90
+2018-03-04 11:54:20,755  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 90
+2018-03-04 11:54:20,756  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 90
+2018-03-04 11:54:24,296  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 90
+2018-03-04 11:54:24,298  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 90
+2018-03-04 11:54:25,843  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 90
+2018-03-04 11:54:27,890  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 90
+2018-03-04 11:54:30,932  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 90
+2018-03-04 11:54:33,473  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 90
+2018-03-04 11:54:38,720  WARN [Worker-50] - ScalaProject - Project Nov2018_scala_oop has platform default sourceLevel.
+2018-03-04 11:54:38,720  WARN [Worker-50] - ScalaProject - Project Nov2018_scala_oop runs on platform default installation.
+2018-03-04 11:54:57,336  WARN [Worker-42] - ScalaProject - Project Nov2018_scala_oop has platform default sourceLevel.
+2018-03-04 11:54:57,336  WARN [Worker-42] - ScalaProject - Project Nov2018_scala_oop runs on platform default installation.
+2018-03-04 11:55:05,904  WARN [Worker-47] - ScalaProject - Project Nov2018_scala_oop has platform default sourceLevel.
+2018-03-04 11:55:05,904  WARN [Worker-47] - ScalaProject - Project Nov2018_scala_oop runs on platform default installation.
+2018-03-04 11:55:27,062  WARN [Worker-47] - ScalaProject - Project Nov2018_scala_oop has platform default sourceLevel.
+2018-03-04 11:55:27,063  WARN [Worker-47] - ScalaProject - Project Nov2018_scala_oop runs on platform default installation.
+2018-03-04 11:55:49,309  WARN [Worker-47] - ScalaProject - Project Nov2018_scala_oop has platform default sourceLevel.
+2018-03-04 11:55:49,309  WARN [Worker-47] - ScalaProject - Project Nov2018_scala_oop runs on platform default installation.
+2018-03-04 11:57:05,406  WARN [Worker-44] - ScalaProject - Project Nov2018_scala_oop has platform default sourceLevel.
+2018-03-04 11:57:05,406  WARN [Worker-44] - ScalaProject - Project Nov2018_scala_oop runs on platform default installation.
+2018-03-04 12:00:10,841  WARN [Worker-44] - ScalaProject - Project Nov2018_scala_oop has platform default sourceLevel.
+2018-03-04 12:00:10,842  WARN [Worker-44] - ScalaProject - Project Nov2018_scala_oop runs on platform default installation.
+2018-03-04 12:00:21,122  WARN [Worker-44] - ScalaProject - Project Nov2018_scala_oop has platform default sourceLevel.
+2018-03-04 12:00:21,122  WARN [Worker-44] - ScalaProject - Project Nov2018_scala_oop runs on platform default installation.
+2018-03-04 12:01:16,096  WARN [Worker-48] - ScalaProject - Project Nov2018_scala_oop has platform default sourceLevel.
+2018-03-04 12:01:16,096  WARN [Worker-48] - ScalaProject - Project Nov2018_scala_oop runs on platform default installation.
+2018-03-04 12:01:27,609  WARN [Worker-51] - ScalaProject - Project Nov2018_scala_oop has platform default sourceLevel.
+2018-03-04 12:01:27,609  WARN [Worker-51] - ScalaProject - Project Nov2018_scala_oop runs on platform default installation.
+2018-03-04 12:01:47,730  WARN [Worker-48] - ScalaProject - Project Nov2018_scala_oop has platform default sourceLevel.
+2018-03-04 12:01:47,730  WARN [Worker-48] - ScalaProject - Project Nov2018_scala_oop runs on platform default installation.
+2018-03-04 12:02:05,270  WARN [Worker-51] - ScalaProject - Project Nov2018_scala_oop has platform default sourceLevel.
+2018-03-04 12:02:05,270  WARN [Worker-51] - ScalaProject - Project Nov2018_scala_oop runs on platform default installation.
+2018-03-04 12:02:27,317  WARN [Worker-50] - ScalaProject - Project Nov2018_scala_oop has platform default sourceLevel.
+2018-03-04 12:02:27,317  WARN [Worker-50] - ScalaProject - Project Nov2018_scala_oop runs on platform default installation.
+2018-03-04 12:02:47,282  WARN [Worker-51] - ScalaProject - Project Nov2018_scala_oop has platform default sourceLevel.
+2018-03-04 12:02:47,282  WARN [Worker-51] - ScalaProject - Project Nov2018_scala_oop runs on platform default installation.
+2018-03-04 12:04:53,945  WARN [Worker-53] - ScalaProject - Project Nov2018_scala_oop has platform default sourceLevel.
+2018-03-04 12:04:53,945  WARN [Worker-53] - ScalaProject - Project Nov2018_scala_oop runs on platform default installation.
+2018-03-04 12:05:02,397  WARN [Worker-47] - ScalaProject - Project Nov2018_scala_oop has platform default sourceLevel.
+2018-03-04 12:05:02,397  WARN [Worker-47] - ScalaProject - Project Nov2018_scala_oop runs on platform default installation.
+2018-03-04 12:05:20,934  WARN [Worker-48] - ScalaProject - Project Nov2018_scala_oop has platform default sourceLevel.
+2018-03-04 12:05:20,935  WARN [Worker-48] - ScalaProject - Project Nov2018_scala_oop runs on platform default installation.
+2018-03-04 12:07:33,758  WARN [Worker-48] - ScalaProject - Project Nov2018_scala_oop has platform default sourceLevel.
+2018-03-04 12:07:33,758  WARN [Worker-48] - ScalaProject - Project Nov2018_scala_oop runs on platform default installation.
+2018-03-04 12:07:48,137  WARN [Worker-54] - ScalaProject - Project Nov2018_scala_oop has platform default sourceLevel.
+2018-03-04 12:07:48,137  WARN [Worker-54] - ScalaProject - Project Nov2018_scala_oop runs on platform default installation.
+2018-03-04 12:09:20,594  WARN [Worker-47] - ScalaProject - Project Nov2018_scala_oop has platform default sourceLevel.
+2018-03-04 12:09:20,594  WARN [Worker-47] - ScalaProject - Project Nov2018_scala_oop runs on platform default installation.

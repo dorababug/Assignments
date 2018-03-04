@@ -1,0 +1,9 @@
+import org.apache.hadoop.conf.Configuration;
+import org.apache.hadoop.mapred.jobcontrol.Job;
+
+public class MRDriver {
+	public static void main(String[] args) {
+		Configuration conf=new Configuration();
+		Job job
+	}
+}

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;Streaming/src/MovieLens.scala&apos; to &apos;Streaming_1x.scla&apos;" description="Rename resource &apos;MovieLens.scala&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/MovieLens.scala" name="Streaming_1x.scla" stamp="1518413926403" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;Streaming/src/Streaming_1x.scla&apos; to &apos;Streaming_1x.scala&apos;" description="Rename resource &apos;Streaming_1x.scla&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/Streaming_1x.scla" name="Streaming_1x.scala" stamp="1518413940113" updateReferences="true"/>
+</session>
