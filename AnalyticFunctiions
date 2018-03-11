@@ -3,11 +3,13 @@ stu1,80,dept1
 stu2,70,dept1
 stu3,80,dept1
 stu4,40,dept1
-stu5,80,dept2
+stu5,70,dept1
 stu6,75,dept2
 stu7,60,dept2
 stu8,45,dept2
 stu9,55,dept2
+stu10,75,dept2
+stu11,80,dept2
 
 create table student(name string,
 marks int,

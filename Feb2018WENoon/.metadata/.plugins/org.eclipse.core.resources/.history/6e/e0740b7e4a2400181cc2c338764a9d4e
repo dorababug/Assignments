@@ -1,0 +1,22 @@
+import java.io.IOException;
+
+import org.apache.hadoop.io.IntWritable;
+import org.apache.hadoop.io.Text;
+import org.apache.hadoop.mapreduce.Reducer;
+
+public class Q1Reducer extends Reducer<IntWritable, Text, Text, Text>{
+	int i=0;
+	int minTemp;
+	String minTempYears="";
+	String maxTempYears="";
+	int maxTemp;
+	@Override
+	protected void reduce(IntWritable arg0, Iterable<Text> arg1, Reducer<IntWritable, Text, Text, Text>.Context arg2)
+			throws IOException, InterruptedException {
+		if(i==0){
+			minTemp=
+		}
+		
+	}
+
+}

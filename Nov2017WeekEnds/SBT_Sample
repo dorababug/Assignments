@@ -1,0 +1,44 @@
+sbt clean
+sbt compile
+sbt test 
+sbt run
+sbt package
+sbt eclipse
+
+
+create project strcuture
+----------------------------------
+mkdir lib project target
+
+
+mkdir -p src/main/java
+mkdir -p src/main/resources
+mkdir -p src/main/scala
+
+mkdir -p src/test/java
+mkdir -p src/test/resources
+mkdir -p src/test/scala
+
+build.sbt
+-----------------------------------
+
+
+
+export SBT_HOME=/home/hadoop/YARNBOX/sbt
+export PATH=$PATH:$SBT_HOME/bin
+
+build.sbt
+------------------------------------
+
+name :="spark Learning"
+
+version :="1.0"
+
+scalaVersion := "2.11.8"
+
+val sparkVersion = "2.2.0"
+
+libraryDependencies ++= Seq(
+   "org.apache.spark" %% "spark-core" % sparkVersion,
+   "org.apache.spark" %% "spark-sql" % sparkVersion
+)

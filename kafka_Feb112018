@@ -1,0 +1,20 @@
+KAFKA - 11 FEB 2018
+---------------------
+Get the data where it is created to where it can be analyzed
+Because Enterprise is powered by data
+
+Spend less effort in moving the data around
+
+One such pattern is: Publish Subscribe -> Pub/Sub
+Sender (publisher) sends a piece of data(Message) not specifically directeing to a receiver, instead publisher just classifies messages(Topic).
+
+Receiver (subscriber) will fetch messages from Topic.
+
+pub/sub system will have a broker (central point) where messages are published and stored.
+
+-----------------------
+Direct connections vs PubSub System
+--------------------------
+
+What is KAFKA:::
+

@@ -1,10 +1,43 @@
 1,stu1,dept1,20,2017-01-01
-1,stu1,dept1,30,2017-01-02
+1,stu1,dept1,80,2017-01-02
 1,stu1,dept1,40,2017-01-03
 2,stu2,dept1,10,2017-01-03
 3,stu3,dept1,50,2017-01-03
 4,stu4,dept1,20,2017-01-03
 5,stu5,dept1,80,2017-01-03
+5,stu5,dept1,100,2017-01-04
+
+a.id	a.name	a.fee	a.paid_date	a.rno
+1	stu1	40	2017-01-03	1
+2	stu2	10	2017-01-03	1
+3	stu3	50	2017-01-03	1
+4	stu4	20	2017-01-03	1
+5	stu5	100	2017-01-04	1
+
+
+create table student1(id int,name string,
+dept string,
+fee int,
+paid_date date)
+row format delimited fields terminated by ',';
+
+select A.* 
+from (select id,name,fee,paid_date,
+      row_number() over ( partition by id order by marks desc ) as rno
+      from student1
+     ) A 
+where A.rno=1;
+
+1,stu1,dept1,40,2017-01-03
+2,stu2,dept1,10,2017-01-03
+3,stu3,dept1,50,2017-01-03
+4,stu4,dept1,20,2017-01-03
+5,stu5,dept1,100,2017-01-04
+
+
+
+
+
 1,stu1,dept2,90,2017-01-03
 2,stu2,dept2,90,2017-01-01
 2,stu2,dept2,80,2017-01-10

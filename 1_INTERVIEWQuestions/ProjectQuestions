@@ -1,0 +1,18 @@
+1) How to monitor Hive jobs?
+	i) a hive query is running long time -> how to find and kill it?
+	Ans) RM -> get appliction id -> yarn application -kill appid
+	    or click on kill applcation
+
+2) maximum container size 
+3) cluster - RAM,CPU cores, number of Nodes
+4) Project Resources -
+5) How many jobs running
+--------------------------------------
+Job scheduler -> completed normally
+completed abnormally
+waiting on dependencies time or job dependency
+skipped
+timedout
+held
+cancel
+Actie

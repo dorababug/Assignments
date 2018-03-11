@@ -1,0 +1,8 @@
+spark-submit \
+--master yarn \
+--deploy-mode cluster \
+--class SparkDemo \
+--name "demo spark" \
+/home/hadoop/Desktop/sparkDemo.jar \
+/movies.dat
+

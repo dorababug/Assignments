@@ -1,0 +1,30 @@
+import java.io.IOException;
+import java.util.StringTokenizer;
+
+import org.apache.hadoop.examples.SecondarySort.Reduce;
+import org.apache.hadoop.io.IntWritable;
+import org.apache.hadoop.io.LongWritable;
+import org.apache.hadoop.io.Text;
+import org.apache.hadoop.mapreduce.Mapper;
+
+public class Q1Mapper extends Mapper<LongWritable, Text, IntWritable,Text>{
+	
+	
+	@Override
+	protected void map(LongWritable key, Text value, Context context)
+			throws IOException, InterruptedException {
+		//1979,23,23,2,43,24,25,26,26,26,26,25,26,25
+		String[] vals=value.toString().split(",");
+		String year=vals[0];
+		//dont take first token(year) and last avg consumption
+		
+		for (int i = 1; i < vals.length-1; i++) {
+			
+			context.write(new IntWritable(Integer.parseInt(vals[i])),new Text(year));
+		}
+		
+
+	}
+	
+	
+}
