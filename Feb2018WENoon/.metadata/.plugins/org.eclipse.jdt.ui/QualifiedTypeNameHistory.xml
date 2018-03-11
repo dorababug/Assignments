@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="java.lang.Integer"/>
-<fullyQualifiedTypeName name="org.apache.hadoop.conf.Configuration"/>
 <fullyQualifiedTypeName name="org.apache.hadoop.mapred.jobcontrol.Job"/>
 <fullyQualifiedTypeName name="org.apache.hadoop.mapreduce.Job"/>
 <fullyQualifiedTypeName name="MRDriver"/>
@@ -12,12 +10,25 @@
 <fullyQualifiedTypeName name="java.util.StringTokenizer"/>
 <fullyQualifiedTypeName name="WCMapper"/>
 <fullyQualifiedTypeName name="com.sun.jersey.core.impl.provider.entity.XMLJAXBElementProvider.Text"/>
-<fullyQualifiedTypeName name="org.apache.hadoop.io.IntWritable"/>
 <fullyQualifiedTypeName name="WCReducer"/>
-<fullyQualifiedTypeName name="org.apache.hadoop.mapreduce.Reducer"/>
-<fullyQualifiedTypeName name="org.apache.hadoop.io.Text"/>
 <fullyQualifiedTypeName name="Reducer1"/>
 <fullyQualifiedTypeName name="org.apache.hadoop.io.LongWritable"/>
 <fullyQualifiedTypeName name="org.apache.hadoop.examples.SecondarySort.Reduce"/>
 <fullyQualifiedTypeName name="Q1Mapper"/>
+<fullyQualifiedTypeName name="org.apache.hadoop.mapreduce.Reducer"/>
+<fullyQualifiedTypeName name="GrepMapper"/>
+<fullyQualifiedTypeName name="org.apache.hadoop.io.NullWritable"/>
+<fullyQualifiedTypeName name="org.apache.commons.net.ftp.Configurable"/>
+<fullyQualifiedTypeName name="javax.security.auth.login.Configuration"/>
+<fullyQualifiedTypeName name="org.apache.hadoop.conf.Configuration"/>
+<fullyQualifiedTypeName name="org.apache.hadoop.conf.Configured"/>
+<fullyQualifiedTypeName name="org.apache.hadoop.util.Tool"/>
+<fullyQualifiedTypeName name="org.apache.hadoop.util.ToolRunner"/>
+<fullyQualifiedTypeName name="java.lang.Integer"/>
+<fullyQualifiedTypeName name="org.apache.hadoop.yarn.webapp.hamlet.Hamlet.P"/>
+<fullyQualifiedTypeName name="PartitonerDemo"/>
+<fullyQualifiedTypeName name="org.apache.hadoop.mapreduce.Partitioner"/>
+<fullyQualifiedTypeName name="org.apache.hadoop.io.Text"/>
+<fullyQualifiedTypeName name="org.apache.hadoop.io.IntWritable"/>
+<fullyQualifiedTypeName name="com.inv.AlphaPartitioner"/>
 </qualifiedTypeNameHistroy>

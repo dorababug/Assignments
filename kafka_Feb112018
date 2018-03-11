@@ -17,4 +17,69 @@ Direct connections vs PubSub System
 --------------------------
 
 What is KAFKA:::
+Pub/sub system to solve the complexity
+Distributed commit log -> like rdbms, data stored kafkain durable and
+ deterministic
+
+Data in kafka is distributed, Scalable , protected against failure and provides high throughput.
+
+
+Teminology:
+Message -> like table row or record, just an array of bytes, having no meaning to kafka
+
+Message -> key(optional) value(mandatory). Key if present used for partitioning
+
+Messages are writtne in batches to reduce n/w congestion
+
+Messages are categorized into Topics, topics are like databases.
+
+Topics are divided into partitions, one partition is like one commit log
+
+messages in partition are written append only fashion, and messages from partition are read in order how they are written
+
+messages are parallely writen into partitions.
+
+each partition can be hosted in diff server(broker) and replicated so that fault torence is privided.
+
+SInce partitions can be kept in multiple servers, Topic can be scaled horizontally.
+
+
+Stream means a single topic.
+Kakfa streams ,Smaza, Storm can be operated on Streams of messages.
+
+these can be processed online and offline.
+-----------------------------------
+KAFKA Clients -> 2 types producer and consumer
+producer creates messages, called publisher
+consumer reads messages, called subscriber
+
+producer write message to a topic to specific partition and every message will have offset
+
+producer can use custom partitioner or hash partitioner(if message have a key)
+
+Consumer can subscribe to one or more topics and reads IN ORDER how they were produced (written into partitions)
+
+How consumer keeps track of messages it have read?
+with the help of OFFSET of message.
+Offset is metadata.. (like partition and topic)
+Keeping track of offset can be done in Zookeeper or Kafka itself ... so with the help of tracking, consumer can stop and restart without losing data.
+
+Single kafka server is called broker
+one broker can handle thousands of partiions and millions of messages per sec.
+
+brokers operate as cluster
+one broker works as cluster controller and it is elected automatically from live members of the cluster.
+
+controller is responsible for admin activities
+-------------------------
+Key feature of kafka is RETENSION. durable storage of messages for some period of time
+
+Def is 7days or until topic reaches 1G -> once limit reached, messages are expired and deleted, old messages are deleted
+------------------
+Use case:: 22
+
+------------------
+
+
+
 
