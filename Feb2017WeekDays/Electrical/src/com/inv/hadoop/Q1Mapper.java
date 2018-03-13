@@ -1,0 +1,52 @@
+package com.inv.hadoop;
+
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.List;
+
+import org.apache.hadoop.io.IntWritable;
+import org.apache.hadoop.io.LongWritable;
+import org.apache.hadoop.io.Text;
+import org.apache.hadoop.mapreduce.Mapper;
+
+public class Q1Mapper extends Mapper<LongWritable, Text, Text, Text>{
+	
+	@Override
+	protected void setup(Mapper<LongWritable, Text, Text, Text>.Context context)
+			throws IOException, InterruptedException {
+		context.write(new Text("Year"), new Text("Min|Max"));
+	}
+	
+	@Override
+	protected void map(LongWritable key, Text value, Mapper<LongWritable, Text, Text, Text>.Context context)
+			throws IOException, InterruptedException {
+		
+		String[] data=value.toString().split(",");
+		String year=data[0];
+		
+		//ArrayList<Integer> ls=new ArrayList<Integer>();
+		//Collections.min
+		
+		
+		int min=9999;
+		int max=-9999;
+		
+	//System.out.println(Collections.min(data));
+		for (int i = 1; i < data.length-1; i++) {
+			if( min > Integer.parseInt(data[i])){
+				min=Integer.parseInt(data[i]);
+			}
+			if( max < Integer.parseInt(data[i])){
+				max=Integer.parseInt(data[i]);
+			}
+		}
+		System.out.println("++Min value"+min+":: Max val:"+max);
+		
+		context.write(new Text(year), new Text(min+"|"+max));
+		
+		
+	}
+
+}

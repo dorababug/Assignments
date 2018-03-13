@@ -1,0 +1,37 @@
+package com.inv.hadoop;
+
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.List;
+
+import org.apache.hadoop.io.IntWritable;
+import org.apache.hadoop.io.LongWritable;
+import org.apache.hadoop.io.Text;
+import org.apache.hadoop.mapreduce.Mapper;
+
+public class Q1Mapper extends Mapper<LongWritable, Text, Text, Text>{
+	
+	@Override
+	protected void map(LongWritable key, Text value, Mapper<LongWritable, Text, Text, Text>.Context context)
+			throws IOException, InterruptedException {
+		
+		String[] data=value.toString().split(",");
+		String year=data[0];
+		
+		//ArrayList<Integer> ls=new ArrayList<Integer>();
+		//Collections.min
+		
+		
+		int min=99999;
+		int max=-9999;
+		
+	//System.out.println(Collections.min(data));
+		
+		
+		
+		
+	}
+
+}

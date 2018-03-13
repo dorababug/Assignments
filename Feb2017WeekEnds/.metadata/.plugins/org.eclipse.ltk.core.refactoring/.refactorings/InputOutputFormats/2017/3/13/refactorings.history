@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete 2 elements from project &apos;InputOutputFormats&apos;&#x0A;- Original project: &apos;InputOutputFormats&apos;&#x0A;- Original elements:&#x0A;     WordCountMapper.java&#x0A;     WordCountReducer.java" description="Delete elements" element1="/src&lt;{WordCountMapper.java" element2="/src&lt;{WordCountReducer.java" elements="2" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1490501940855" subPackages="false" version="1.0"/>
+</session>

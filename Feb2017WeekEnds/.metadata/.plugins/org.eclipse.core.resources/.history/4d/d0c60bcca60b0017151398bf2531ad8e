@@ -1,0 +1,44 @@
+package com.inv.wc;
+
+import java.io.IOException;
+
+import org.apache.hadoop.io.IntWritable;
+import org.apache.hadoop.io.Text;
+import org.apache.hadoop.mapreduce.Reducer;
+
+public class Q4Reducer extends Reducer<IntWritable, IntWritable, Text, Text>{
+
+	IntWritable min=new IntWritable();
+	int i=0;
+	StringBuffer minYears=new StringBuffer();
+	
+	
+	IntWritable max=new IntWritable();
+	StringBuffer maxYears=new StringBuffer();
+	
+	
+	@Override
+	protected void reduce(IntWritable key, Iterable<IntWritable> values,
+			Reducer<IntWritable, IntWritable, Text, Text>.Context context) throws IOException, InterruptedException {
+		if(i==0){
+			min=key;
+			for(IntWritable val:values){
+				minYears.append(val).append(",");
+			}
+		}
+		
+		max=key;
+		for(IntWritable val:values){
+			maxYears.append(val).append(",");
+		}
+		
+		
+	}
+	@Override
+	protected void cleanup(Reducer<IntWritable, IntWritable, Text, Text>.Context context)
+			throws IOException, InterruptedException {
+		context.write(new Text("Min Temp"), new Text(min+"\t"+minYears));
+		context.write(new Text("Max Temp"), new Text(max+"\t"+maxYears));
+	}
+	
+}

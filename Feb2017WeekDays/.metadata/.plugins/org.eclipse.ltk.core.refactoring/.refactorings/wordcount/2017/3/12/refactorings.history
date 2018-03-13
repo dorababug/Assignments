@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;WordCountReducer.java&apos; to &apos;BiGram/src/(default package)&apos;&#x0A;- Original project: &apos;wordcount&apos;&#x0A;- Destination element: &apos;BiGram/src/(default package)&apos;&#x0A;- Original element: &apos;WordCountReducer.java&apos;" description="Copy compilation unit" destination="=BiGram/src&lt;" element1="/src&lt;{WordCountReducer.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1490152510133" units="1" version="1.0"/>
+</session>

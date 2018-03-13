@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;WordCountReducer.java&apos; to &apos;com.inv.wc.WordCountReducer.java&apos;&#x0A;- Original project: &apos;WC&apos;&#x0A;- Destination element: &apos;com.inv.wc.WordCountReducer.java&apos;&#x0A;- Original element: &apos;com.inv.wc.WordCountReducer.java&apos;" description="Copy compilation unit" destination="/src&lt;com.inv.wc{WordCountReducer.java" element1="/src&lt;com.inv.wc{WordCountReducer.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1489299351446" units="1" version="1.0"/>
+</session>

@@ -1,0 +1,5 @@
+package com.inv.hadoop;
+
+public class Q1Mapper {
+
+}

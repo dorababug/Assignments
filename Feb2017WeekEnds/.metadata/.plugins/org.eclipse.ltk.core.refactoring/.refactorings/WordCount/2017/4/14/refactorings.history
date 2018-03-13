@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;WordCountDriver.java&apos; to &apos;ReduceSideJoins/src/(default package)&apos;&#x0A;- Original project: &apos;WordCount&apos;&#x0A;- Destination element: &apos;ReduceSideJoins/src/(default package)&apos;&#x0A;- Original element: &apos;WordCountDriver.java&apos;" description="Copy compilation unit" destination="=ReduceSideJoins/src&lt;" element1="/src&lt;{WordCountDriver.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1491111559903" units="1" version="1.0"/>
+</session>

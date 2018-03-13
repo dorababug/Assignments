@@ -1,0 +1,6 @@
+INDEX VERSION 1.127+/home/hadoop/YARNBOX/WORKSPACES/Feb2017WeekDays/.metadata/.plugins/org.eclipse.jdt.core
+2209813466.index
+622825527.index
+575698630.index
+1644490866.index
+2470821935.index

@@ -1,0 +1,39 @@
+package com.inv.wc;
+
+import java.io.IOException;
+import java.util.StringTokenizer;
+
+import org.apache.hadoop.io.IntWritable;
+import org.apache.hadoop.io.LongWritable;
+import org.apache.hadoop.io.Text;
+import org.apache.hadoop.mapreduce.Mapper;
+
+public class Q4Mapper extends Mapper<LongWritable, Text, Text, Text>{
+	
+	
+	@Override
+	protected void map(LongWritable key, Text value, Mapper<LongWritable, Text, Text, Text>.Context context)
+			throws IOException, InterruptedException {
+		String[] val=value.toString().split(",");
+		String year=val[0];
+		
+			
+		
+		
+	}
+	
+	
+	
+	
+	
+}
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,21 @@
+import java.io.IOException;
+
+import org.apache.hadoop.io.LongWritable;
+import org.apache.hadoop.io.Text;
+import org.apache.hadoop.mapreduce.Mapper;
+
+public class EmpMapper extends Mapper<LongWritable, Text, Text, Text>{
+	
+	@Override
+	protected void map(LongWritable key, Text value, Mapper<LongWritable, Text, Text, Text>.Context context)
+			throws IOException, InterruptedException {
+		String[] EmpRec=value.toString().split(",");
+		String deptid=EmpRec[3]+"_emp";
+		
+		//deptid_emp, all data
+		context.write(new Text(deptid), value);
+		
+	
+	}
+
+}
