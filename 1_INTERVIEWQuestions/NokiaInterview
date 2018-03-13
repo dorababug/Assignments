@@ -1,0 +1,19 @@
+1st Round :
+
+-> how can we check disk usage.
+-> how can we change the permission of file from read to write
+-> how can we start the cluster in safe mode
+-> what is advantage of Mapr over HDFS
+-> how to check physical memory 
+
+2nd Round :
+
+-> what happen when we type command like cd, pwd 
+-> If some java program got stuck or hanged , then what we will do
+-> difference between external and managed
+-> about BG process
+-> if we run any process at bg then how its processing is going on ( we can check it by it's process ID)
+-> If we change the schema of external and managed table.
+-> Garbage collector in Java
+-> Where the output of mappers to be written ? Why not in HDFS ?
+-> Replication can more than 3 in HDFS
