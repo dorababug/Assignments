@@ -1,0 +1,136 @@
+Type inference: determine the data type from the assignment value.
+Type Safe: once you create a variable (var) you can only assign same data type.
+Lazy evaluation -> memory will be allocated to a lazy val only when you are first accessing the variable. 
+
+Scala is Expression oriented language
+every line is an expression.
+statment vs Expression 
+
+Functions:::
+------------------------
+expression block { }
+var res={
+ val x=100
+ val y=200
+println(x+100)
+println(y+100)
+ x+y
+}
+
+
+var res1={
+ val x=100
+ val y=200
+ println(x+y)
+}
+println(res1)
+println(res)
+-------------------
+
+block that accepts arguments->function
+
+functions are nothing expression blocks that accepts arguments , and we can give a name to the function.
+Define functions with "Transformation operator" (=> rocket )
+The below is anonymous function-> (in python lambda expression)
+(x:Int,y:Int)=>{
+ println("value of x is:"+x)
+ println("value of y is:"+y)
+ x*y
+}
+
+val fn=(x:Int,y:Int)=>{
+ println("value of x is:"+x)
+ println("value of y is:"+y)
+ x*y
+}
+
+fn: (Int,Int) => Int =<function2>
+fn is function variable
+fn(10,20)
+
+val fn1=(x:Int,y:Int, z:String)=>{
+ println("value of x is:"+x)
+ println("value of y is:"+y)
+ x*y
+}
+=================================
+Method vs Function::: 
+both are reusable code blocks.
+methods present inside class and you call by object.method
+function in scala can exsists anywhere.
+Method
+
+val fn=()=>{} function variable
+
+def fn_method(x:Int,y:Int)={
+println("value of x is:"+x)
+ println("value of y is:"+y)
+ x*y
+}
+---------------------------------------------------
+
+Higher order functions or methods.::
+
+val sum=(x:Int,y:Int)=>{
+println("inside sum function")
+println("value of x is:"+x)
+ println("value of y is:"+y)
+ x+y
+}
+
+sum: (Int, Int) => Int = <function2>
+
+val sub=(x:Int,y:Int)=>{
+println("inside sub function")
+println("value of x is:"+x)
+ println("value of y is:"+y)
+ x-y
+}
+
+sub: (Int, Int) => Int = <function2>
+
+
+val mul=(x:Int,y:Int)=>{
+println("inside mul function")
+println("value of x is:"+x)
+ println("value of y is:"+y)
+ x*y
+}
+
+mul: (Int, Int) => Int = <function2>
+
+--------------------------------
+higher order method-> a method which accepts another function as argument or returns another functon as return value.
+
+def operation(x:Int,y:Int,f:(Int,Int)=>Int)={
+println("inside operation method")
+f(x,y)
+}
+operation(10,20,sum)
+operation(10,20,sub)
+operation(10,20,mul)
+
+
+call by value and call by name -> default in scala is call by value
+you force scala to use call by name by using => rocket operator.
+scala> operation(10+30,20+40,mul)
+
+scala> operation(100,200,(x,y)=> {println("inside anonymous");x+y})
+inside operation method
+inside anonymous
+res50: Int = 300
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
