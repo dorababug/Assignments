@@ -1,0 +1,19 @@
+Scala COllections:
+Range 
+Array
+Tuple
+Map
+List -> Sequence -> liner seq
+
+Create List:::
+scala> val l= (1 to 10).toList
+scala> val l=List("hi","welcome","to","class")
+scala> val l=3::2::1::Nil
+
+
+list methods::
+size
+toArray 
+::
+l.++(l)
+

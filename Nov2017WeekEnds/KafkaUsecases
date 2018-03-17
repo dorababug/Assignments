@@ -1,0 +1,18 @@
+Kafka Streaming Usecases:
+
+rdbms data into HDFS/Hive
+-------------------
+commit log -> flume -> kafka -> flume -> hive/hdfs
+
+
+rdbms to Hbase/Nosql/Rdbms
+commit log -> flume -> kafka -> Kafka java consumer -> write Java Api of nosql db/rdbms
+
+machine data into Hive by cleaning the data::
+-----------------------------------
+kafka java producer -> kafka -> spark streaming -> Hive/Hdfs
+----------------------------------------------------------------
+Apache Nifi -> capture event data.
+
+
+

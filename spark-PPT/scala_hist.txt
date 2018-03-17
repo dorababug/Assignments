@@ -1,0 +1,294 @@
+println(res0)
+"hi"
+:help
+var x:Int=10
+var y=10
+z="hi"
+var z="hi"
+var ch='a'
+var ch1='ab'
+var x=10
+x=100
+println(x)
+x="hi"
+x=1000
+var x="hi"
+x="bye
+x="bye"
+val x=10
+x=100
+var a=10
+var b=20
+val c=a+b
+lazy val d=a+b
+a=100
+prinln(d)
+println(d)
+a=10
+println(d)
+var a=10
+var b=20
+lazy val d=a+b
+a=100
+prinln(d)
+println(d)
+a=10
+println(d)
+var a=10
+a=100
+a="100"
+var a="100"
+var abc=10
+val A=10
+A=100
+println(x)
+val y=println(x)
+"abc"
+println(x).getClass
+x.getClass
+"welcome".getClass
+"welcome".getClass.getSimpleName
+"welcome".getClass
+"welcome".getClass.getSimpleName
+{
+ val x=100
+ val y=200
+ x+y
+}
+val res={
+ val x=100
+ val y=200
+ x+y
+}
+println(res)
+var res1={
+ val x=100
+ val y=200
+ println(x+y)
+}
+res1.getClass
+var res={
+ val x=100
+ val y=200
+ x+y
+}
+res.getClass
+println(res1)
+println(res)
+val fn=(x:Int,y:Int)=>{
+ println("value of x is:"+x)
+ println("value of y is:"+y)
+ x*y
+}
+fn
+fn(2,3)
+val fn_res=fn(2,3)
+prinln(fn_res)
+println(fn_res)
+res21.getClass
+res21(2,3)
+val fn1=(x:Int,y:Int,z:String)=>{
+ println("value of x is:"+x)
+ println("value of y is:"+y)
+ x*y
+}
+fn1(2,3)
+val fn1=(x:Int,y:Int,z:String="abc")=>{
+ println("value of x is:"+x)
+ println("value of y is:"+y)
+ x*y
+val fn1=(x:Int,y:Int,val z="abc")=>{
+ println("value of x is:"+x)
+ println("value of y is:"+y)
+ x*y
+}
+ val fn1=(x:Int,y:Int, z:String="abc")=>{
+ println("value of x is:"+x)
+ println("value of y is:"+y)
+ x*y
+def fn_method(x:Int,y:Int):Int={
+println("value of x is:"+x)
+ println("value of y is:"+y)
+ x*y
+}
+def fn_method(x:Int,y:Int)={
+println("value of x is:"+x)
+ println("value of y is:"+y)
+ x*y
+}
+fn(20,20)
+fn_method(10,20)
+fn(10,20)
+val fn=(x:Int,y:Int)=>{
+ println("value of x is:"+x)
+ println("value of y is:"+y)
+ x*y
+}
+def fn_method(x:Int,y:Int)={
+println("value of x is:"+x)
+ println("value of y is:"+y)
+ x*y
+}
+val sum=(x:Int,y:Int)=>{
+println("inside sum function")
+println("value of x is:"+x)
+ println("value of y is:"+y)
+ x+y
+}
+sum(10,20)
+val sub=(x:Int,y:Int)=>{
+println("inside sub function")
+println("value of x is:"+x)
+ println("value of y is:"+y)
+ x-y
+}
+sub(10,20)
+sub
+val mul=(x:Int,y:Int)=>{
+println("inside mul function")
+println("value of x is:"+x)
+ println("value of y is:"+y)
+ x*y
+}
+mul(10,20)
+def operation(x:Int,y:Int,f:(Int,Int)=>Int)={
+println("inside operation method")
+f(x,y)
+}
+operation(10,20,sum)
+operation(10,20,sub)
+operation(10,20,mul)
+:history
+operation(10+30,20+40,mul)
+operation(10+30,20+40,(x,y)=> {println("inside anonymous");x*y*10)})
+operation(10+30,20+40,(x,y)=> {println("inside anonymous");x*y*10})
+operation(10+30,20+40,(x,y)=> {println("inside anonymous");x+y})
+operation(100,200,(x,y)=> {println("inside anonymous");x+y})
+operation
+def operation(x:Int,y:Int,f:(Int,Int)=>Int)={
+println("inside operation method")
+f(x,y)
+}
+1 .. 10
+1 to 10
+val r=1 to 10 by 2
+r1(0)
+r(0)
+1 to 10
+res55.getClass
+res55.getClass.getSimpleName
+r
+r(0)
+r(1)
+r(2)
+r(5)
+val r=0 to 9 by 2
+r.reverse
+r
+val t=(1,"stu1,2000.05)
+val t=(1,"stu1",2000.05)
+t._1
+t._2
+t._3
+t.zipped
+val t1=(1,"abc")
+t1.swap
+t1.invert
+val a=Array(1,10,20)
+val b=Array(1,true,20)
+b(0)
+val i:Int = b(0)
+b(0).toString.toInt
+b
+b(1)
+c=Array(true,true,false,false)
+val c=Array(true,true,false,false)
+c(0)=false
+c
+c=Array(true)
+val m=Map(1->"hi",2->"hello")
+m[1]
+m(1)
+m(2)
+val m=Map(1->"hi",2->"hello",10000->"bye")
+m(10000)
+m.+ Map(20->"sample")
+m.+.Map(20->"sample")
+m.+ (20->"sample")
+val n=m.+ (20->"sample")
+n
+n(20)
+n(10000)
+m.keys
+m.values
+m.toSeq
+m.toSeq.(0)
+val test=m.toSeq
+test(0)
+test(0)._1
+test(0)._3
+test(0)._2
+test
+test.toMap
+val test1=test.toMap
+test1.getClass
+test.getClass
+val l= (1 to 10).toList
+val l=List("hi","welcome","to","class")
+val l=1::Nil
+val l=2::1::Nil
+val l=3::2::1::Nil
+val stu=List((1,"stu1",100.5),(2,"stu2",1000.90))
+val stu=List((1,"stu1",100.5),(2,"stu2"))
+val stu=List((1,"stu1",100.5),Array(1,2,3))
+val stu=List(List(1,2),Map(1->10))
+val l=List("hi","welcome","to","class")
+l(0)
+l(1)
+l.size
+l.toArray
+"sample"::l
+l.++.l
+l.++ l
+l.++(l)
+l.++:(l)
+val test=List(1,2,3)
+val test1=List(5,6,7)
+test.++:(test1)
+test.++(test1)
+test.+:(test1)
+test.:+(test1)
+test:::test
+test:::test1
+test::test1
+test::100
+100::test
+l
+for( a:String <- l)prinln(a)
+for( a:String <- l)println(a)
+for( a <- l)println(a)
+l
+l.foreach(x:String=>println(x))
+l.foreach((x:String) =>println(x))
+val fn=(y:String)=>{println(y) }
+l.foreach(fn)
+l.foreach(x => println(x))
+l.foreach((x:String) =>println(x))
+l.foreach(println)
+:history
+val l1= 1 to 10 
+l1
+val l1= (1 to 10).toList
+l1
+l1.foreach(x=>println(x+10))
+val l2=l1.foreach(x=>println(x+10))
+l2
+l2.foreach(prinln)
+l1
+l1.map(x=>x+10)
+l1.map(x=>x+"10")
+l1
+l1.map(x=>if(x%2==0) x )
+l1.filter(x=> x%2==0 )
+l1.filterNot(x=> x%2==0 )
+:history
