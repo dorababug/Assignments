@@ -25,7 +25,6 @@
 <fullyQualifiedTypeName name="org.apache.hadoop.yarn.webapp.hamlet.Hamlet.P"/>
 <fullyQualifiedTypeName name="PartitonerDemo"/>
 <fullyQualifiedTypeName name="org.apache.hadoop.mapreduce.Partitioner"/>
-<fullyQualifiedTypeName name="org.apache.hadoop.io.IntWritable"/>
 <fullyQualifiedTypeName name="com.inv.AlphaPartitioner"/>
 <fullyQualifiedTypeName name="org.apache.hadoop.mapreduce.Mapper"/>
 <fullyQualifiedTypeName name="org.apache.hadoop.io.LongWritable"/>
@@ -42,4 +41,7 @@
 <fullyQualifiedTypeName name="java.io.BufferedReader"/>
 <fullyQualifiedTypeName name="java.io.FileReader"/>
 <fullyQualifiedTypeName name="java.util.HashMap"/>
+<fullyQualifiedTypeName name="org.apache.hadoop.mapreduce.lib.output.SequenceFileOutputFormat"/>
+<fullyQualifiedTypeName name="org.apache.hadoop.io.IntWritable"/>
+<fullyQualifiedTypeName name="org.apache.hadoop.mapreduce.lib.input.SequenceFileInputFormat"/>
 </qualifiedTypeNameHistroy>

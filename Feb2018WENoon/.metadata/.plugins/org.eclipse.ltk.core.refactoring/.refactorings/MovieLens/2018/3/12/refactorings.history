@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 3 elements to &apos;MovieLens/src/(default package)&apos;&#x0A;- Original project: &apos;MovieLens&apos;&#x0A;- Destination element: &apos;MovieLens/src/(default package)&apos;&#x0A;- Original elements:&#x0A;     Q1Driver.java&#x0A;     Q1Reducer.java&#x0A;     Q1Mapper.java" description="Copy compilation units" destination="/src&lt;" element1="/src&lt;{Q1Driver.java" element2="/src&lt;{Q1Reducer.java" element3="/src&lt;{Q1Mapper.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1521359063136" units="3" version="1.0"/>
+</session>

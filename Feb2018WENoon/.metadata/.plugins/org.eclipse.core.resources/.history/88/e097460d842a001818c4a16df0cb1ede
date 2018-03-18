@@ -1,0 +1,27 @@
+import java.io.IOException;
+
+import org.apache.hadoop.io.IntWritable;
+import org.apache.hadoop.io.LongWritable;
+import org.apache.hadoop.io.Text;
+import org.apache.hadoop.mapreduce.Mapper;
+
+public class Q2Mapper  extends Mapper<LongWritable, Text, IntWritable, Text>{
+	//Q1ouput is taken as Q2input
+	//Q1 output is mvid count -> line is (mvid count)
+	Text movieid=new Text();
+	IntWritable cnt=new IntWritable();
+	
+	@Override
+	protected void map(LongWritable key, Text value, Mapper<LongWritable, Text, IntWritable, Text>.Context context)
+			throws IOException, InterruptedException {
+
+		String count=value.toString().split("\t")[1];
+		String mvid=value.toString().split("\t")[0];
+
+		movieid.set(mvid);
+		context.write(new IntWritable(Integer.parseInt(count)*-1), movieid);
+		//to sort the resuts by count, send count as key
+		// the sorting is ascending order, we want desc , multiply count by -1
+	
+	}
+}
