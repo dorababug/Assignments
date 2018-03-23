@@ -1,0 +1,10 @@
+date 23Feb2018
+scala> val empRDD=sc.textFile("INPUT/emp").map(emprec=>(emprec.split(",")(3),emprec))
+
+scala> val deptRDD=sc.textFile("INPUT/dept").map(deptrec=>(deptrec.split(",")(0),deptrec.split(",")(1)))
+
+scala> val joinRDD=empRDD.leftOuterJoin(deptRDD,1)
+joinRDD: org.apache.spark.rdd.RDD[(String, (String, Option[String]))] = MapPartitionsRDD[92] at leftOuterJoin at <console>:28
+
+scala> joinRDD.map(x=> x._2._1 +","+  x._2._2.getOrElse("NotFound")).sortBy(x=>x.split(",")(0),false).saveAsTextFile("INPUT/JoinOut")
+

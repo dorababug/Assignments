@@ -1,0 +1,10 @@
+cache vs persist 
+checkpoint
+broadcast variable
+accumulator
+
+spark configuration
+to change driver and executor cores/memory
+
+what are PairRDDfunctions?
+groupbykey vs reducebykey
