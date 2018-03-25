@@ -1,0 +1,107 @@
+#create database hdpdlake
+# creating table dl_usstates
+# create wi, and stg tables with the same structure as dl_usstates
+
+
+#create database hdpdlake;
+
+sqoop import -Dmapreduce.job.name="create hive table" \
+--connect jdbc:mysql://localhost:3306/complaints_db \
+--username root \
+--password root \
+--table usstates \
+--hive-import \
+--hive-database hdpdlake \
+--hive-table dl_usstates \
+--create-hive-table \
+--null-string '\\N' \
+--null-non-string '\\N' \
+--target-dir /dl_usstates_incr
+
+
+
+
+
+
+
+
+
+
+CREATE TABLE  `dl_usstates`(
+  `state` string, 
+  `standardabbreviation` string, 
+  `postalcode` string, 
+  `capitalcity` string, 
+  `created_date` string, 
+  `modified_date` string, 
+  `id` bigint)
+COMMENT 'Imported by sqoop on 2018/03/25 11:36:57'
+
+stored as ORC
+LOCATION
+  'hdfs://localhost:9000/user/hive/warehouse/hdpdlake.db/dl_usstates'
+;
+
+
+create table wi_usstates like dl_usstates;
+create table stg_usstates like dl_usstates;
+
+create table hdpdlake.sqoop_ctrl_tbl(start_end string,start_end_date timestamp)
+partitioned by (table_name string);
+
+set hive.exec.dynamic.partition.mode=nonstrict;
+insert into hdpdlake.sqoop_ctrl_tbl partition(table_name)
+select "start_job",current_timestamp(),"usstates";
+
+export lastimportdate=`hive -S -e 'select max(start_end_date) from hdpdlake.sqoop_ctrl_tbl where table_name="usstates" and   start_end="start_job"'` 
+
+
+echo $lastimportdate;
+
+# get data into wi table
+sqoop import -Dmapreduce.job.name="create hive table" \
+--connect jdbc:mysql://localhost:3306/complaints_db \
+--username root \
+--password root \
+--table usstates \
+--hive-import \
+--hive-database hdpdlake \
+--hive-table wi_usstates \
+--null-string '\\N' \
+--null-non-string '\\N' \
+--target-dir /dl_usstates_incr
+--incremental "$lastimportdate"
+
+insert overwrite table dl_usstates 
+select * from (
+	select row_number() 
+	over (partitioned by id order by modified_date desc ) rno,*
+	from (
+		select *
+		from wi_usstates
+		union all
+		select 
+		* from dl_usstates
+		) A 
+	) B
+wehre rno=1;
+
+
+
+q1)Product wise number of complaints.
+>10K RED 
+<10 >5K amber
+<5K green
+
+
+q2)take one state -> statename,product, complaints 
+
+q3) distinct Sub_product present
+
+q4) each State, how many compalaints, count by Consumer_consent_provided ...
+
+q5) out of total queries -> how many Timely_response provided 
+
+
+
+

@@ -14,9 +14,11 @@ object Streaming_1x {
     
     val conf = new SparkConf().setMaster("local[*]")
     .setAppName("ReadNetwork")
+
+
+        val ssc = new StreamingContext(conf, Seconds(5))
     
-    
-    val ssc = new StreamingContext(conf, Seconds(5))
+
       
     //lines is DStream
     val lines = ssc.socketTextStream("localhost", 9999)
