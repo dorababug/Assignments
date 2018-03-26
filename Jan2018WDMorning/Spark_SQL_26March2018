@@ -1,0 +1,61 @@
+1,name,2000,001
+2,name2,4000,002
+3,name3,5000,005
+4,name4,7000,003
+5,name5,8000,004
+6,name6,8000,004
+7,name7,4000,002
+8,name8,5000,005
+
+deptdataset
+001,hadoop
+002,hive
+003,pig
+005,oozie
+006,mapreduce
+
+
+Working with Data Frames 
+
+1) Create RDDs
+2) convert into DF using RDD.toDF
+3) apply DF untyped operations.
+4) apply SQL on DFs
+
+function -> split line into files and create a tuple
+
+val fn=(line:String)=> {
+ val words= line.split(",")
+ (words(0),words(1),words(2),words(3))
+}
+
+val empRDD=sc.textFile("INPUT/emp").map(fn)
+
+val deptRDD=sc.textFile("INPUT/dept").map(
+    line => (line.split(",")(0),line.split(",")(1))
+)
+
+val empDF=empRDD.toDF("id","name","sal","deptid")
+empDF.printSchema
+val deptDF=deptRDD.toDF("id","name")
+
+ empDF.select("id","sal")
+.where("sal>5000")
+.selectExpr("id","sal","sal+1000").show
+
+SQL on DFs , you need register DF as table ::
+empDF.createOrReplaceTempView("t_emp")
+
+spark.sql("select id,sal,sal+1000 as incrsal from t_emp") the result is DF
+
+How to save results into concrete table::
+spark.sql("create table res_emp as select id,sal,sal+1000 as incrsal from t_emp")
+
+
+spark.sql("select id,sal,sal+1000 as incrsal from t_emp")
+spark.sql("select * from res_emp")
+
+
+
+
+
