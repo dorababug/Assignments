@@ -8,6 +8,7 @@
 4) Project Resources -
 5) How many jobs running
 --------------------------------------
+Dont mention CRON-> 
 Job scheduler -> completed normally
 completed abnormally
 waiting on dependencies time or job dependency

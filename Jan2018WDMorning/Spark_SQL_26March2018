@@ -56,6 +56,68 @@ spark.sql("select id,sal,sal+1000 as incrsal from t_emp")
 spark.sql("select * from res_emp")
 
 
+-------------------------------------------------
+
+Read data using Spark Session:
+API -> SaprkSession.read
+
+spark.read.format("csv")
+.option("sep",",")
+.option("header","true")
+.option("inferSchema","true")
+.option("mode","DROPMALFORMED")
+.load("/home/hadoop/INPUT/emp_header").show
+
+empDF.createOrReplaceTempView("t_empDF")
+spark.catalog.listTables.show
+spark.sql("create table t_empdf1 as select * from t_empdf")
+
+spark.catalog.listTables.show
++-----------+--------+-----------+---------+-----------+
+|       name|database|description|tableType|isTemporary|
++-----------+--------+-----------+---------+-----------+
+|        red| default|       null|  MANAGED|      false|
+|    res_emp| default|       null|  MANAGED|      false|
+|resulttable| default|       null|  MANAGED|      false|
+|   t_empdf1| default|       null|  MANAGED|      false|
+|       test| default|       null|  MANAGED|      false|
+|    t_empdf|    null|       null|TEMPORARY|       true|
++-----------+--------+-----------+---------+-----------+
+
+2533  val jsonDF=spark.read.format("json").option("mode","PERMISSIVE").load("/home/hadoop/INPUT/sample_json.json");
+2534  jsonDF.createOrReplaceTempView("jsontable")
+2535  jsonDF.printSchema
+2536  spark.sql("select name, thumbnail.height,type from jsontable").show
+
+----------------------------------------------
+{ "id": "0001", "type": "donut", "name": "Cake", "image":  {   "url":"images/0001.jpg",   "width":200,   "height":200  }, "thumbnail": {   "url": "images/thumbnails/0001.jpg",   "width": 32,   "height": 32  }}
+{ "id": "0001", "type": "donut", "name": "Cake", "image":  {   "url":"images/0001.jpg",   "width":200,   "height":200  }, "thumbnail": {   "url": "images/thumbnails/0001.jpg",   "width": 32,   "height": 32  }}
+--------------------------------------------
+Scala OOP::
+how to create class
+auxillary constructors
+define methods with default values
+
+What is trait?
+how to create singleton object
+what is companion object -> uses
+
+what is case class?
+How to read a file in scala?
+Scala lists programming.
+
+-------------------
+How to submit spark jobs in production.
+------------------
+sparkSession.read
+DF operations
+---------------------
+Apache Hive Essentials:
+Learning Spark
+-----------------------
+
+
+
 
 
 
