@@ -1,0 +1,19 @@
+import org.apache.log4j.Logger
+import org.apache.log4j.Level
+import org.apache.spark.SparkContext
+
+
+object MovieLens {
+  def main(args: Array[String]): Unit = {
+    Logger.getLogger("org").setLevel(Level.ERROR)
+
+    val conf=new SparkConf() //.set("spark.master", "Local[*]")
+    .set("spark.app.name", "Spark DEMO")
+    .setMaster("local[*]")
+    val sc=new SparkContext(conf)
+    
+
+    
+    
+  }
+}

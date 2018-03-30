@@ -1,0 +1,10 @@
+
+
+object SparkDemo {
+  def main(args: Array[String]): Unit = {
+    //spark conf'
+    //using conf -> spark context
+    
+    
+  }
+}

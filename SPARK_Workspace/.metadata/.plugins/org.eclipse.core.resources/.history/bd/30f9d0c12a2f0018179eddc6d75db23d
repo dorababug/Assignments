@@ -1,0 +1,7 @@
+
+
+object Spark1x_streaming {
+  def main(args: Array[String]): Unit = {
+    
+  }
+}

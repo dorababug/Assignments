@@ -1,0 +1,11 @@
+import org.apache.spark.SparkConf
+
+
+object Spark1x_streaming {
+  def main(args: Array[String]): Unit = {
+    val conf = new SparkConf().setMaster("local[*]")
+    .setAppName("ReadNetwork")
+    
+    val ssc = new StreamingContext(conf, Seconds(5))
+  }
+}

@@ -1,0 +1,15 @@
+import org.apache.spark.sql.SparkSession
+
+
+object ReadFile {
+  def main(args: Array[String]): Unit = {
+     var spark=SparkSession.
+ builder.
+ appName("Movies1").
+ master("local[*]").
+ getOrCreate()
+ 
+ spark.read.parquet("/home/hadoop/INPUT/strOut").show()
+ 
+  }
+}

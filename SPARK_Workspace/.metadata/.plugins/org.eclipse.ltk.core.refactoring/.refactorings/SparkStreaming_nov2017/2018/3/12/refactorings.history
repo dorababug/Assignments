@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;Spark1x_streaming.scala&apos; to &apos;Spark1x_streaming.scala&apos;&#x0A;- Original project: &apos;SparkStreaming_nov2017&apos;&#x0A;- Destination element: &apos;Spark1x_streaming.scala&apos;&#x0A;- Original element: &apos;Spark1x_streaming.scala&apos;" description="Copy file" element1="src/Spark1x_streaming.scala" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1521873248893" target="/SparkStreaming_nov2017/src/Spark1x_streaming.scala" units="0" version="1.0"/>
+</session>

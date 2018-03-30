@@ -1,0 +1,40 @@
+every year how many movies released? and sort based on count of movies releases.
+take moivies file
+
+create RDD
+extract year 
+year,1 
+
+
+
+val extractYear=(line:String)=>{ 
+ val sindex=line.lastIndexOf("(")+1
+ val eindex=line.lastIndexOf(")")
+ // return a tuple with year,1
+ (line.substring(sindex,eindex),1)
+}
+
+extractYear("1::Toy Story (1995)::Animation|Children's|Comedy")
+val years=sc.textFile("movies.dat").map(extractYear)
+val result=years.reduceByKey((x,y)=>x+y)
+result.sortBy(x=>x._2,false,1).saveAsTextFile("result")
+--------------------------
+spark-submit  \
+--master yarn \
+--deploy-mode client \
+--class MovieLens_SparkSQL \
+--name "MovieLens Demo" \
+--files hive-site.xml
+--jars /home/osboes/mysql*jar
+~/Desktop/MovieLensDemo.jar  /ml-1m/movies.dat  
+
+
+
+
+
+
+
+
+
+
+

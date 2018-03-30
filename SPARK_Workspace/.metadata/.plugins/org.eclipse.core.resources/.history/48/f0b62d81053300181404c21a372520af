@@ -1,0 +1,74 @@
+
+
+object ScalaDemo {
+  def main(args: Array[String]): Unit = {
+    
+    
+    println("defult fname is"+Student.def_fname)
+    println("defult lname is"+Student.def_lname)
+    Student.def_method
+    
+    
+    
+    val obj1=new Student("john", "smith")
+    println("Student first name is"+obj1.fname)
+    obj1.fname="adam"
+    println("Student first name is"+obj1)
+
+    obj1.fname_$eq("EVE")
+    println("Student first name is"+obj1)
+    //obj1.lname="smith1" //not possbile - scala doesnot create setters for this field
+    println("Student last name is"+obj1.lname)
+    obj1.getFee
+    println("+++++++++++++")
+    val obj2=new Student("sample firstname")
+    println(obj2)
+    val obj3=new Student()
+    println(obj3)
+    val obj4=new Student("demo firstname");
+    println(obj4)
+val obj5=new Student("demo firstname","4444444");
+    println(obj5)
+    println("++++++++++++++++++++++++++++++++++++++++++")
+    val s1=StudentPOJO("n1","class1","1000","dept1")
+    println(s1.n +" "+ s1.c )
+    val s2=StudentPOJO("n1","class1","1000","dept1")
+     val s3=s2("n2")
+
+    if(s1==s2) println("both equal") // case class comparision is element by element
+
+  }
+}
+// Providing def values for constructor fields
+class Student(var fname:String,val lname:String="3333333"){
+//   println("Inside Student Constructor+++Start ")
+  //setters mutators - getters accesors
+  private val fee:Int=1000;
+  def getFee()={ println("Fee of student is "+this.fee)};
+  override def toString= fname+"\t"+lname+"\t"
+  def printStudent{println(this)} // this method will call toString method
+  
+ // getFee
+ // printStudent
+  //println("Inside Student Constructor ")
+  
+  //Auxillary constructors
+  /*def this(fname:String){
+    this(fname,Student.def_lname)
+  }
+  */
+  def this(){
+    this(Student.def_fname,Student.def_lname)
+      }
+    
+}
+// companion object - simulate static members
+object Student{
+  val def_fname="11111111"
+  val def_lname="222222222222"
+  def def_method()={println("inside companion object")
+    }
+}
+
+//case class 
+case class StudentPOJO(n:String,c:String,f:String,d:String)

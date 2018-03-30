@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="scala.application">
+<listAttribute key="StepOutExcludePkgsOrClasses"/>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+<listEntry value="/MovieLens_SparkCore/src/MovieLens_SparkSQL.scala"/>
+</listAttribute>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+<listEntry value="1"/>
+</listAttribute>
+<booleanAttribute key="org.eclipse.jdt.launching.ATTR_USE_START_ON_FIRST_THREAD" value="true"/>
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="MovieLens_SparkSQL"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROGRAM_ARGUMENTS" value="/home/hadoop/Music/Classes/Assignments/Assignments/3_MovieLens/ml-1m/movies.dat  /home/hadoop/Music/Classes/Assignments/Assignments/3_MovieLens/ml-1m/Result"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="MovieLens_SparkCore"/>
+</launchConfiguration>

@@ -8891,3 +8891,716 @@ Java Model Exception: Java Model Status [Streaming does not exist]
 2018-03-04 12:07:48,137  WARN [Worker-54] - ScalaProject - Project Nov2018_scala_oop runs on platform default installation.
 2018-03-04 12:09:20,594  WARN [Worker-47] - ScalaProject - Project Nov2018_scala_oop has platform default sourceLevel.
 2018-03-04 12:09:20,594  WARN [Worker-47] - ScalaProject - Project Nov2018_scala_oop runs on platform default installation.
+2018-03-10 10:29:50,441  WARN [main] - ScalaProject - Project Nov2018_scala_oop has platform default sourceLevel.
+2018-03-10 10:29:50,463  WARN [main] - ScalaProject - Project Nov2018_scala_oop runs on platform default installation.
+2018-03-10 10:29:50,489  WARN [main] - ScalaProject - Project Nov2018_scala_oop has platform default sourceLevel.
+2018-03-10 10:29:50,489  WARN [main] - ScalaProject - Project Nov2018_scala_oop runs on platform default installation.
+2018-03-10 10:30:14,914  WARN [ModalContext] - ScalaProject - Project SparkDemo has platform default sourceLevel.
+2018-03-10 10:30:14,915  WARN [ModalContext] - ScalaProject - Project SparkDemo runs on platform default installation.
+2018-03-10 10:30:15,434  WARN [Worker-1] - ScalaProject - Project SparkDemo has platform default sourceLevel.
+2018-03-10 10:30:15,435  WARN [Worker-1] - ScalaProject - Project SparkDemo runs on platform default installation.
+2018-03-10 10:30:58,890  WARN [Worker-3] - ScalaProject - Project SparkDemo has platform default sourceLevel.
+2018-03-10 10:30:58,890  WARN [Worker-3] - ScalaProject - Project SparkDemo runs on platform default installation.
+2018-03-10 10:30:59,131  WARN [Worker-4] - ScalaProject - Project SparkDemo has platform default sourceLevel.
+2018-03-10 10:30:59,132  WARN [Worker-4] - ScalaProject - Project SparkDemo runs on platform default installation.
+2018-03-10 10:32:16,047  WARN [main] - ScalaProject - Project SparkDemo has platform default sourceLevel.
+2018-03-10 10:32:16,047  WARN [main] - ScalaProject - Project SparkDemo runs on platform default installation.
+2018-03-10 10:32:20,243  WARN [main] - ScalaProject - Project SparkDemo has platform default sourceLevel.
+2018-03-10 10:32:20,243  WARN [main] - ScalaProject - Project SparkDemo runs on platform default installation.
+2018-03-10 10:32:20,648  WARN [Worker-2] - ScalaProject - Project SparkDemo has platform default sourceLevel.
+2018-03-10 10:32:20,648  WARN [Worker-2] - ScalaProject - Project SparkDemo runs on platform default installation.
+2018-03-10 10:32:34,000  WARN [Worker-6] - ScalaProject - Project SparkDemo has platform default sourceLevel.
+2018-03-10 10:32:34,001  WARN [Worker-6] - ScalaProject - Project SparkDemo runs on platform default installation.
+2018-03-10 10:33:17,371  WARN [Worker-0] - ScalaProject - Project SparkDemo has platform default sourceLevel.
+2018-03-10 10:33:17,372  WARN [Worker-0] - ScalaProject - Project SparkDemo runs on platform default installation.
+2018-03-10 10:33:33,978  WARN [Worker-3] - ScalaProject - Project SparkDemo has platform default sourceLevel.
+2018-03-10 10:33:33,979  WARN [Worker-3] - ScalaProject - Project SparkDemo runs on platform default installation.
+2018-03-10 10:36:59,248  WARN [Worker-2] - ScalaProject - Project SparkDemo has platform default sourceLevel.
+2018-03-10 10:36:59,249  WARN [Worker-2] - ScalaProject - Project SparkDemo runs on platform default installation.
+2018-03-10 10:37:26,733  WARN [Worker-4] - ScalaProject - Project SparkDemo has platform default sourceLevel.
+2018-03-10 10:37:26,734  WARN [Worker-4] - ScalaProject - Project SparkDemo runs on platform default installation.
+2018-03-10 10:37:45,488  WARN [Worker-3] - ScalaProject - Project SparkDemo has platform default sourceLevel.
+2018-03-10 10:37:45,488  WARN [Worker-3] - ScalaProject - Project SparkDemo runs on platform default installation.
+2018-03-10 10:41:56,096  WARN [Worker-8] - ScalaProject - Project SparkDemo has platform default sourceLevel.
+2018-03-10 10:41:56,096  WARN [Worker-8] - ScalaProject - Project SparkDemo runs on platform default installation.
+2018-03-10 10:43:17,382  WARN [Worker-7] - ScalaProject - Project SparkDemo has platform default sourceLevel.
+2018-03-10 10:43:17,383  WARN [Worker-7] - ScalaProject - Project SparkDemo runs on platform default installation.
+2018-03-10 10:43:37,297  WARN [Worker-7] - ScalaProject - Project SparkDemo has platform default sourceLevel.
+2018-03-10 10:43:37,297  WARN [Worker-7] - ScalaProject - Project SparkDemo runs on platform default installation.
+2018-03-10 10:44:11,781 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Throwable during asyncExec
+java.util.NoSuchElementException: key not found: org/apache/spark/InternalAccumulator.scala
+	at scala.collection.MapLike$class.default(MapLike.scala:228)
+	at scala.collection.AbstractMap.default(Map.scala:59)
+	at scala.collection.MapLike$class.apply(MapLike.scala:141)
+	at scala.tools.nsc.interactive.Global$$anon$4.scala$collection$mutable$SynchronizedMap$$super$apply(Global.scala:176)
+	at scala.collection.mutable.SynchronizedMap$class.apply(SynchronizedMap.scala:48)
+	at scala.tools.nsc.interactive.Global$$anon$4.apply(Global.scala:176)
+	at scala.tools.nsc.interactive.Global$$anonfun$14.apply(Global.scala:852)
+	at scala.tools.nsc.interactive.Global$$anonfun$14.apply(Global.scala:852)
+	at scala.tools.nsc.interactive.Global$$anonfun$getDocComment$2$$anonfun$apply$16.apply(Global.scala:951)
+	at scala.tools.nsc.interactive.Global$$anonfun$getDocComment$2$$anonfun$apply$16.apply(Global.scala:946)
+	at scala.tools.nsc.interactive.Global.scala$tools$nsc$interactive$Global$$withTempUnits(Global.scala:855)
+	at scala.tools.nsc.interactive.Global$$anonfun$getDocComment$2.apply(Global.scala:946)
+	at scala.tools.nsc.interactive.Global$$anonfun$getDocComment$2.apply(Global.scala:946)
+	at scala.tools.nsc.interactive.Global$$anonfun$respond$1.apply(Global.scala:701)
+	at scala.tools.nsc.interactive.Global$$anonfun$respond$1.apply(Global.scala:701)
+	at scala.tools.nsc.interactive.Global.respondGradually(Global.scala:708)
+	at scala.tools.nsc.interactive.Global.respond(Global.scala:701)
+	at scala.tools.nsc.interactive.Global.getDocComment(Global.scala:945)
+	at scala.tools.nsc.interactive.CompilerControl$AskDocCommentItem.apply$mcV$sp(CompilerControl.scala:383)
+	at scala.tools.nsc.interactive.Global$$anonfun$pollForWork$1.apply$mcV$sp(Global.scala:506)
+	at scala.util.control.Breaks.breakable(Breaks.scala:38)
+	at scala.tools.nsc.interactive.Global.pollForWork(Global.scala:431)
+	at scala.tools.nsc.interactive.PresentationCompilerThread.run(PresentationCompilerThread.scala:22)
+2018-03-10 10:47:40,433  WARN [Worker-13] - ScalaProject - Project SparkDemo has platform default sourceLevel.
+2018-03-10 10:47:40,434  WARN [Worker-13] - ScalaProject - Project SparkDemo runs on platform default installation.
+2018-03-10 10:47:43,215  WARN [Worker-12] - ScalaProject - Project SparkDemo has platform default sourceLevel.
+2018-03-10 10:47:43,215  WARN [Worker-12] - ScalaProject - Project SparkDemo runs on platform default installation.
+2018-03-10 10:48:42,251 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2018-03-10 10:48:42,251 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2018-03-10 10:48:42,251 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2018-03-10 10:49:56,013  WARN [Worker-13] - ScalaProject - Project SparkDemo has platform default sourceLevel.
+2018-03-10 10:49:56,013  WARN [Worker-13] - ScalaProject - Project SparkDemo runs on platform default installation.
+2018-03-10 10:50:42,940  WARN [Worker-13] - ScalaProject - Project SparkDemo has platform default sourceLevel.
+2018-03-10 10:50:42,941  WARN [Worker-13] - ScalaProject - Project SparkDemo runs on platform default installation.
+2018-03-10 10:50:50,017  WARN [Worker-13] - ScalaProject - Project SparkDemo has platform default sourceLevel.
+2018-03-10 10:50:50,018  WARN [Worker-13] - ScalaProject - Project SparkDemo runs on platform default installation.
+2018-03-10 10:53:39,430  WARN [Worker-14] - ScalaProject - Project SparkDemo has platform default sourceLevel.
+2018-03-10 10:53:39,430  WARN [Worker-14] - ScalaProject - Project SparkDemo runs on platform default installation.
+2018-03-10 10:53:46,451  WARN [Worker-0] - ScalaProject - Project SparkDemo has platform default sourceLevel.
+2018-03-10 10:53:46,451  WARN [Worker-0] - ScalaProject - Project SparkDemo runs on platform default installation.
+2018-03-10 10:53:49,806  WARN [Worker-0] - ScalaProject - Project SparkDemo has platform default sourceLevel.
+2018-03-10 10:53:49,807  WARN [Worker-0] - ScalaProject - Project SparkDemo runs on platform default installation.
+2018-03-10 10:53:52,806  WARN [Worker-16] - ScalaProject - Project SparkDemo has platform default sourceLevel.
+2018-03-10 10:53:52,806  WARN [Worker-16] - ScalaProject - Project SparkDemo runs on platform default installation.
+2018-03-10 10:54:02,848  WARN [Worker-14] - ScalaProject - Project SparkDemo has platform default sourceLevel.
+2018-03-10 10:54:02,848  WARN [Worker-14] - ScalaProject - Project SparkDemo runs on platform default installation.
+2018-03-10 11:18:12,281  WARN [Worker-22] - ScalaProject - Project SparkDemo has platform default sourceLevel.
+2018-03-10 11:18:12,281  WARN [Worker-22] - ScalaProject - Project SparkDemo runs on platform default installation.
+2018-03-10 11:23:40,283  WARN [Worker-21] - ScalaProject - Project SparkDemo has platform default sourceLevel.
+2018-03-10 11:23:40,283  WARN [Worker-21] - ScalaProject - Project SparkDemo runs on platform default installation.
+2018-03-10 11:23:46,921 ERROR [Worker-21] - System.err - SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2018-03-10 11:23:46,921 ERROR [Worker-21] - System.err - SLF4J: Defaulting to no-operation (NOP) logger implementation
+2018-03-10 11:23:46,921 ERROR [Worker-21] - System.err - SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2018-03-10 11:24:56,958  WARN [Worker-27] - ScalaProject - Project SparkDemo has platform default sourceLevel.
+2018-03-10 11:24:56,958  WARN [Worker-27] - ScalaProject - Project SparkDemo runs on platform default installation.
+2018-03-10 11:25:46,563  WARN [Worker-26] - ScalaProject - Project SparkDemo has platform default sourceLevel.
+2018-03-10 11:25:46,563  WARN [Worker-26] - ScalaProject - Project SparkDemo runs on platform default installation.
+2018-03-10 11:31:57,599  WARN [Worker-29] - ScalaProject - Project SparkDemo has platform default sourceLevel.
+2018-03-10 11:31:57,600  WARN [Worker-29] - ScalaProject - Project SparkDemo runs on platform default installation.
+2018-03-10 11:32:28,099  WARN [Worker-29] - ScalaProject - Project SparkDemo has platform default sourceLevel.
+2018-03-10 11:32:28,099  WARN [Worker-29] - ScalaProject - Project SparkDemo runs on platform default installation.
+2018-03-10 11:33:05,372  WARN [Worker-31] - ScalaProject - Project SparkDemo has platform default sourceLevel.
+2018-03-10 11:33:05,372  WARN [Worker-31] - ScalaProject - Project SparkDemo runs on platform default installation.
+2018-03-10 11:35:19,145  WARN [Worker-32] - ScalaProject - Project SparkDemo has platform default sourceLevel.
+2018-03-10 11:35:19,146  WARN [Worker-32] - ScalaProject - Project SparkDemo runs on platform default installation.
+2018-03-10 11:36:09,286  WARN [Worker-33] - ScalaProject - Project SparkDemo has platform default sourceLevel.
+2018-03-10 11:36:09,286  WARN [Worker-33] - ScalaProject - Project SparkDemo runs on platform default installation.
+2018-03-10 11:36:23,198  WARN [Worker-20] - ScalaProject - Project SparkDemo has platform default sourceLevel.
+2018-03-10 11:36:23,198  WARN [Worker-20] - ScalaProject - Project SparkDemo runs on platform default installation.
+2018-03-10 11:37:18,232  WARN [Worker-33] - ScalaProject - Project SparkDemo has platform default sourceLevel.
+2018-03-10 11:37:18,233  WARN [Worker-33] - ScalaProject - Project SparkDemo runs on platform default installation.
+2018-03-10 12:07:31,753  WARN [ModalContext] - ScalaProject - Project SparkDemo_sbt has platform default sourceLevel.
+2018-03-10 12:07:31,754  WARN [ModalContext] - ScalaProject - Project SparkDemo_sbt runs on platform default installation.
+2018-03-10 12:08:35,664  WARN [Worker-43] - ScalaProject - Project Nov2018_scala_oop has platform default sourceLevel.
+2018-03-10 12:08:35,664  WARN [Worker-43] - ScalaProject - Project Nov2018_scala_oop runs on platform default installation.
+2018-03-10 12:08:35,684  WARN [Worker-43] - ScalaProject - Project Nov2018_scala_oop has platform default sourceLevel.
+2018-03-10 12:08:35,684  WARN [Worker-43] - ScalaProject - Project Nov2018_scala_oop runs on platform default installation.
+2018-03-10 12:08:35,844  WARN [Worker-38] - ScalaProject - Project Nov2018_scala_oop has platform default sourceLevel.
+2018-03-10 12:08:35,844  WARN [Worker-38] - ScalaProject - Project Nov2018_scala_oop runs on platform default installation.
+2018-03-10 12:08:37,171  WARN [Java indexing] - ScalaProject - Project Nov2018_scala_oop has platform default sourceLevel.
+2018-03-10 12:08:37,171  WARN [Java indexing] - ScalaProject - Project Nov2018_scala_oop runs on platform default installation.
+2018-03-10 12:26:03,803  WARN [Worker-52] - ScalaProject - Project SparkDemo has platform default sourceLevel.
+2018-03-10 12:26:03,803  WARN [Worker-52] - ScalaProject - Project SparkDemo runs on platform default installation.
+2018-03-10 12:27:35,271  WARN [Worker-51] - ScalaProject - Project SparkDemo has platform default sourceLevel.
+2018-03-10 12:27:35,271  WARN [Worker-51] - ScalaProject - Project SparkDemo runs on platform default installation.
+2018-03-10 12:33:12,284  WARN [Worker-55] - ScalaProject - Project SparkDemo has platform default sourceLevel.
+2018-03-10 12:33:12,285  WARN [Worker-55] - ScalaProject - Project SparkDemo runs on platform default installation.
+2018-03-24 11:43:27,250  WARN [main] - ScalaProject - Project SparkDemo has platform default sourceLevel.
+2018-03-24 11:43:27,278  WARN [main] - ScalaProject - Project SparkDemo runs on platform default installation.
+2018-03-24 11:43:27,303  WARN [main] - ScalaProject - Project SparkDemo has platform default sourceLevel.
+2018-03-24 11:43:27,303  WARN [main] - ScalaProject - Project SparkDemo runs on platform default installation.
+2018-03-24 11:43:34,414  WARN [main] - ScalaProject - Project Nov2018_scala_oop has platform default sourceLevel.
+2018-03-24 11:43:34,414  WARN [main] - ScalaProject - Project Nov2018_scala_oop runs on platform default installation.
+2018-03-24 11:43:43,636  WARN [main] - ScalaProject - Project Nov2018_scala_oop has platform default sourceLevel.
+2018-03-24 11:43:43,637  WARN [main] - ScalaProject - Project Nov2018_scala_oop runs on platform default installation.
+2018-03-24 11:44:12,326  WARN [ModalContext] - ScalaProject - Project SparkStreaming_nov2017 has platform default sourceLevel.
+2018-03-24 11:44:12,327  WARN [ModalContext] - ScalaProject - Project SparkStreaming_nov2017 runs on platform default installation.
+2018-03-24 11:44:12,854  WARN [Worker-1] - ScalaProject - Project SparkStreaming_nov2017 has platform default sourceLevel.
+2018-03-24 11:44:12,854  WARN [Worker-1] - ScalaProject - Project SparkStreaming_nov2017 runs on platform default installation.
+2018-03-24 11:44:30,169  WARN [Worker-3] - ScalaProject - Project SparkStreaming_nov2017 has platform default sourceLevel.
+2018-03-24 11:44:30,169  WARN [Worker-3] - ScalaProject - Project SparkStreaming_nov2017 runs on platform default installation.
+2018-03-24 11:44:30,350  WARN [Worker-6] - ScalaProject - Project SparkStreaming_nov2017 has platform default sourceLevel.
+2018-03-24 11:44:30,350  WARN [Worker-6] - ScalaProject - Project SparkStreaming_nov2017 runs on platform default installation.
+2018-03-24 11:44:39,143  WARN [main] - ScalaProject - Project SparkStreaming_nov2017 has platform default sourceLevel.
+2018-03-24 11:44:39,143  WARN [main] - ScalaProject - Project SparkStreaming_nov2017 runs on platform default installation.
+2018-03-24 11:44:52,296  WARN [main] - ScalaProject - Project SparkStreaming_nov2017 has platform default sourceLevel.
+2018-03-24 11:44:52,297  WARN [main] - ScalaProject - Project SparkStreaming_nov2017 runs on platform default installation.
+2018-03-24 11:44:52,697  WARN [Worker-4] - ScalaProject - Project SparkStreaming_nov2017 has platform default sourceLevel.
+2018-03-24 11:44:52,697  WARN [Worker-4] - ScalaProject - Project SparkStreaming_nov2017 runs on platform default installation.
+2018-03-24 11:45:19,472  WARN [Worker-5] - ScalaProject - Project SparkStreaming_nov2017 has platform default sourceLevel.
+2018-03-24 11:45:19,472  WARN [Worker-5] - ScalaProject - Project SparkStreaming_nov2017 runs on platform default installation.
+2018-03-24 11:45:32,315  WARN [Worker-3] - ScalaProject - Project SparkStreaming_nov2017 has platform default sourceLevel.
+2018-03-24 11:45:32,316  WARN [Worker-3] - ScalaProject - Project SparkStreaming_nov2017 runs on platform default installation.
+2018-03-24 11:45:37,063  WARN [Worker-6] - ScalaProject - Project SparkStreaming_nov2017 has platform default sourceLevel.
+2018-03-24 11:45:37,064  WARN [Worker-6] - ScalaProject - Project SparkStreaming_nov2017 runs on platform default installation.
+2018-03-24 11:49:03,642  WARN [Worker-0] - ScalaProject - Project SparkStreaming_nov2017 has platform default sourceLevel.
+2018-03-24 11:49:03,643  WARN [Worker-0] - ScalaProject - Project SparkStreaming_nov2017 runs on platform default installation.
+2018-03-24 11:49:16,026  WARN [Worker-9] - ScalaProject - Project SparkStreaming_nov2017 has platform default sourceLevel.
+2018-03-24 11:49:16,027  WARN [Worker-9] - ScalaProject - Project SparkStreaming_nov2017 runs on platform default installation.
+2018-03-24 11:49:31,449  WARN [Worker-9] - ScalaProject - Project SparkStreaming_nov2017 has platform default sourceLevel.
+2018-03-24 11:49:31,449  WARN [Worker-9] - ScalaProject - Project SparkStreaming_nov2017 runs on platform default installation.
+2018-03-24 11:51:20,447  WARN [Worker-11] - ScalaProject - Project SparkStreaming_nov2017 has platform default sourceLevel.
+2018-03-24 11:51:20,448  WARN [Worker-11] - ScalaProject - Project SparkStreaming_nov2017 runs on platform default installation.
+2018-03-24 11:52:02,255  WARN [Worker-11] - ScalaProject - Project SparkStreaming_nov2017 has platform default sourceLevel.
+2018-03-24 11:52:02,255  WARN [Worker-11] - ScalaProject - Project SparkStreaming_nov2017 runs on platform default installation.
+2018-03-24 11:52:08,986  WARN [Worker-11] - ScalaProject - Project SparkStreaming_nov2017 has platform default sourceLevel.
+2018-03-24 11:52:08,986  WARN [Worker-11] - ScalaProject - Project SparkStreaming_nov2017 runs on platform default installation.
+2018-03-24 11:52:20,457  WARN [Worker-11] - ScalaProject - Project SparkStreaming_nov2017 has platform default sourceLevel.
+2018-03-24 11:52:20,457  WARN [Worker-11] - ScalaProject - Project SparkStreaming_nov2017 runs on platform default installation.
+2018-03-24 11:52:34,339  WARN [Worker-10] - ScalaProject - Project SparkStreaming_nov2017 has platform default sourceLevel.
+2018-03-24 11:52:34,339  WARN [Worker-10] - ScalaProject - Project SparkStreaming_nov2017 runs on platform default installation.
+2018-03-24 11:56:05,040  WARN [Worker-12] - ScalaProject - Project SparkStreaming_nov2017 has platform default sourceLevel.
+2018-03-24 11:56:05,040  WARN [Worker-12] - ScalaProject - Project SparkStreaming_nov2017 runs on platform default installation.
+2018-03-24 11:56:23,951  WARN [Worker-8] - ScalaProject - Project SparkStreaming_nov2017 has platform default sourceLevel.
+2018-03-24 11:56:23,951  WARN [Worker-8] - ScalaProject - Project SparkStreaming_nov2017 runs on platform default installation.
+2018-03-24 11:56:32,370  WARN [main] - ScalaProject - Project SparkDemo has platform default sourceLevel.
+2018-03-24 11:56:32,370  WARN [main] - ScalaProject - Project SparkDemo runs on platform default installation.
+2018-03-24 11:56:56,828 ERROR [Worker-15] - System.err - SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2018-03-24 11:56:56,829 ERROR [Worker-15] - System.err - SLF4J: Defaulting to no-operation (NOP) logger implementation
+2018-03-24 11:56:56,829 ERROR [Worker-15] - System.err - SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2018-03-24 11:57:19,105  WARN [Worker-8] - ScalaProject - Project SparkStreaming_nov2017 has platform default sourceLevel.
+2018-03-24 11:57:19,106  WARN [Worker-8] - ScalaProject - Project SparkStreaming_nov2017 runs on platform default installation.
+2018-03-24 11:57:41,020  WARN [Worker-14] - ScalaProject - Project SparkStreaming_nov2017 has platform default sourceLevel.
+2018-03-24 11:57:41,021  WARN [Worker-14] - ScalaProject - Project SparkStreaming_nov2017 runs on platform default installation.
+2018-03-24 12:03:42,003  WARN [Worker-12] - ScalaProject - Project SparkStreaming_nov2017 has platform default sourceLevel.
+2018-03-24 12:03:42,003  WARN [Worker-12] - ScalaProject - Project SparkStreaming_nov2017 runs on platform default installation.
+2018-03-24 12:04:09,105  WARN [Worker-14] - ScalaProject - Project SparkStreaming_nov2017 has platform default sourceLevel.
+2018-03-24 12:04:09,105  WARN [Worker-14] - ScalaProject - Project SparkStreaming_nov2017 runs on platform default installation.
+2018-03-24 12:04:09,378  WARN [Java indexing] - ScalaProject - Project SparkStreaming_nov2017 has platform default sourceLevel.
+2018-03-24 12:04:09,379  WARN [Java indexing] - ScalaProject - Project SparkStreaming_nov2017 runs on platform default installation.
+2018-03-24 12:04:19,074  WARN [Worker-17] - ScalaProject - Project SparkStreaming_nov2017 has platform default sourceLevel.
+2018-03-24 12:04:19,075  WARN [Worker-17] - ScalaProject - Project SparkStreaming_nov2017 runs on platform default installation.
+2018-03-24 12:04:22,827  WARN [Worker-14] - ScalaProject - Project SparkStreaming_nov2017 has platform default sourceLevel.
+2018-03-24 12:04:22,827  WARN [Worker-14] - ScalaProject - Project SparkStreaming_nov2017 runs on platform default installation.
+2018-03-24 12:04:50,298  WARN [Worker-14] - ScalaProject - Project SparkStreaming_nov2017 has platform default sourceLevel.
+2018-03-24 12:04:50,298  WARN [Worker-14] - ScalaProject - Project SparkStreaming_nov2017 runs on platform default installation.
+2018-03-24 12:04:58,588  WARN [Worker-12] - ScalaProject - Project SparkStreaming_nov2017 has platform default sourceLevel.
+2018-03-24 12:04:58,589  WARN [Worker-12] - ScalaProject - Project SparkStreaming_nov2017 runs on platform default installation.
+2018-03-24 12:05:05,145  WARN [Worker-12] - ScalaProject - Project SparkStreaming_nov2017 has platform default sourceLevel.
+2018-03-24 12:05:05,145  WARN [Worker-12] - ScalaProject - Project SparkStreaming_nov2017 runs on platform default installation.
+2018-03-24 12:05:32,622  WARN [Worker-8] - ScalaProject - Project SparkStreaming_nov2017 has platform default sourceLevel.
+2018-03-24 12:05:32,622  WARN [Worker-8] - ScalaProject - Project SparkStreaming_nov2017 runs on platform default installation.
+2018-03-24 12:05:52,870  WARN [Worker-17] - ScalaProject - Project SparkStreaming_nov2017 has platform default sourceLevel.
+2018-03-24 12:05:52,870  WARN [Worker-17] - ScalaProject - Project SparkStreaming_nov2017 runs on platform default installation.
+2018-03-24 12:06:38,751  WARN [Worker-14] - ScalaProject - Project SparkStreaming_nov2017 has platform default sourceLevel.
+2018-03-24 12:06:38,751  WARN [Worker-14] - ScalaProject - Project SparkStreaming_nov2017 runs on platform default installation.
+2018-03-24 12:07:16,175  WARN [Worker-16] - ScalaProject - Project SparkStreaming_nov2017 has platform default sourceLevel.
+2018-03-24 12:07:16,175  WARN [Worker-16] - ScalaProject - Project SparkStreaming_nov2017 runs on platform default installation.
+2018-03-24 12:08:39,571  WARN [Worker-12] - ScalaProject - Project SparkStreaming_nov2017 has platform default sourceLevel.
+2018-03-24 12:08:39,571  WARN [Worker-12] - ScalaProject - Project SparkStreaming_nov2017 runs on platform default installation.
+2018-03-24 12:09:48,327  WARN [Worker-12] - ScalaProject - Project SparkStreaming_nov2017 has platform default sourceLevel.
+2018-03-24 12:09:48,327  WARN [Worker-12] - ScalaProject - Project SparkStreaming_nov2017 runs on platform default installation.
+2018-03-24 12:10:49,844  WARN [Worker-16] - ScalaProject - Project SparkStreaming_nov2017 has platform default sourceLevel.
+2018-03-24 12:10:49,845  WARN [Worker-16] - ScalaProject - Project SparkStreaming_nov2017 runs on platform default installation.
+2018-03-24 12:10:56,304  WARN [Worker-16] - ScalaProject - Project SparkStreaming_nov2017 has platform default sourceLevel.
+2018-03-24 12:10:56,304  WARN [Worker-16] - ScalaProject - Project SparkStreaming_nov2017 runs on platform default installation.
+2018-03-24 12:12:44,390  WARN [Worker-15] - ScalaProject - Project SparkStreaming_nov2017 has platform default sourceLevel.
+2018-03-24 12:12:44,391  WARN [Worker-15] - ScalaProject - Project SparkStreaming_nov2017 runs on platform default installation.
+2018-03-24 12:12:48,257  WARN [Worker-16] - ScalaProject - Project SparkStreaming_nov2017 has platform default sourceLevel.
+2018-03-24 12:12:48,257  WARN [Worker-16] - ScalaProject - Project SparkStreaming_nov2017 runs on platform default installation.
+2018-03-24 12:12:55,258  WARN [Worker-15] - ScalaProject - Project SparkStreaming_nov2017 has platform default sourceLevel.
+2018-03-24 12:12:55,259  WARN [Worker-15] - ScalaProject - Project SparkStreaming_nov2017 runs on platform default installation.
+2018-03-24 12:13:12,650  WARN [Worker-19] - ScalaProject - Project SparkStreaming_nov2017 has platform default sourceLevel.
+2018-03-24 12:13:12,651  WARN [Worker-19] - ScalaProject - Project SparkStreaming_nov2017 runs on platform default installation.
+2018-03-24 12:16:38,424  WARN [Worker-21] - ScalaProject - Project SparkStreaming_nov2017 has platform default sourceLevel.
+2018-03-24 12:16:38,424  WARN [Worker-21] - ScalaProject - Project SparkStreaming_nov2017 runs on platform default installation.
+2018-03-24 12:16:58,688  WARN [Worker-23] - ScalaProject - Project SparkStreaming_nov2017 has platform default sourceLevel.
+2018-03-24 12:16:58,688  WARN [Worker-23] - ScalaProject - Project SparkStreaming_nov2017 runs on platform default installation.
+2018-03-24 12:17:13,330  WARN [Worker-16] - ScalaProject - Project SparkStreaming_nov2017 has platform default sourceLevel.
+2018-03-24 12:17:13,330  WARN [Worker-16] - ScalaProject - Project SparkStreaming_nov2017 runs on platform default installation.
+2018-03-24 12:17:15,853  WARN [Worker-20] - ScalaProject - Project SparkStreaming_nov2017 has platform default sourceLevel.
+2018-03-24 12:17:15,853  WARN [Worker-20] - ScalaProject - Project SparkStreaming_nov2017 runs on platform default installation.
+2018-03-24 12:19:25,288  WARN [Worker-21] - ScalaProject - Project SparkStreaming_nov2017 has platform default sourceLevel.
+2018-03-24 12:19:25,288  WARN [Worker-21] - ScalaProject - Project SparkStreaming_nov2017 runs on platform default installation.
+2018-03-24 12:19:29,601  WARN [Worker-23] - ScalaProject - Project SparkStreaming_nov2017 has platform default sourceLevel.
+2018-03-24 12:19:29,601  WARN [Worker-23] - ScalaProject - Project SparkStreaming_nov2017 runs on platform default installation.
+2018-03-24 12:19:31,518  WARN [Worker-24] - ScalaProject - Project SparkStreaming_nov2017 has platform default sourceLevel.
+2018-03-24 12:19:31,518  WARN [Worker-24] - ScalaProject - Project SparkStreaming_nov2017 runs on platform default installation.
+2018-03-24 12:19:56,378  WARN [Worker-16] - ScalaProject - Project SparkStreaming_nov2017 has platform default sourceLevel.
+2018-03-24 12:19:56,378  WARN [Worker-16] - ScalaProject - Project SparkStreaming_nov2017 runs on platform default installation.
+2018-03-24 12:20:03,054  WARN [Worker-16] - ScalaProject - Project SparkStreaming_nov2017 has platform default sourceLevel.
+2018-03-24 12:20:03,054  WARN [Worker-16] - ScalaProject - Project SparkStreaming_nov2017 runs on platform default installation.
+2018-03-24 12:20:32,085  WARN [Worker-23] - ScalaProject - Project SparkStreaming_nov2017 has platform default sourceLevel.
+2018-03-24 12:20:32,085  WARN [Worker-23] - ScalaProject - Project SparkStreaming_nov2017 runs on platform default installation.
+2018-03-24 12:20:39,859  WARN [Worker-16] - ScalaProject - Project SparkStreaming_nov2017 has platform default sourceLevel.
+2018-03-24 12:20:39,859  WARN [Worker-16] - ScalaProject - Project SparkStreaming_nov2017 runs on platform default installation.
+2018-03-24 12:21:16,437  WARN [Worker-21] - ScalaProject - Project SparkStreaming_nov2017 has platform default sourceLevel.
+2018-03-24 12:21:16,438  WARN [Worker-21] - ScalaProject - Project SparkStreaming_nov2017 runs on platform default installation.
+2018-03-24 12:21:31,215  WARN [Worker-24] - ScalaProject - Project SparkStreaming_nov2017 has platform default sourceLevel.
+2018-03-24 12:21:31,215  WARN [Worker-24] - ScalaProject - Project SparkStreaming_nov2017 runs on platform default installation.
+2018-03-24 12:22:05,229  WARN [Worker-23] - ScalaProject - Project SparkStreaming_nov2017 has platform default sourceLevel.
+2018-03-24 12:22:05,229  WARN [Worker-23] - ScalaProject - Project SparkStreaming_nov2017 runs on platform default installation.
+2018-03-24 12:23:10,874  WARN [Worker-23] - ScalaProject - Project SparkStreaming_nov2017 has platform default sourceLevel.
+2018-03-24 12:23:10,874  WARN [Worker-23] - ScalaProject - Project SparkStreaming_nov2017 runs on platform default installation.
+2018-03-24 12:23:16,238  WARN [Worker-16] - ScalaProject - Project SparkStreaming_nov2017 has platform default sourceLevel.
+2018-03-24 12:23:16,238  WARN [Worker-16] - ScalaProject - Project SparkStreaming_nov2017 runs on platform default installation.
+2018-03-24 12:24:07,161  WARN [Worker-21] - ScalaProject - Project SparkStreaming_nov2017 has platform default sourceLevel.
+2018-03-24 12:24:07,161  WARN [Worker-21] - ScalaProject - Project SparkStreaming_nov2017 runs on platform default installation.
+2018-03-24 12:24:39,296  WARN [Worker-24] - ScalaProject - Project SparkStreaming_nov2017 has platform default sourceLevel.
+2018-03-24 12:24:39,296  WARN [Worker-24] - ScalaProject - Project SparkStreaming_nov2017 runs on platform default installation.
+2018-03-24 12:25:17,000  WARN [main] - ScalaProject - Project SparkStreaming_nov2017 has platform default sourceLevel.
+2018-03-24 12:25:17,000  WARN [main] - ScalaProject - Project SparkStreaming_nov2017 runs on platform default installation.
+2018-03-24 12:25:17,301  WARN [Worker-24] - ScalaProject - Project SparkStreaming_nov2017 has platform default sourceLevel.
+2018-03-24 12:25:17,301  WARN [Worker-24] - ScalaProject - Project SparkStreaming_nov2017 runs on platform default installation.
+2018-03-24 12:25:36,070  WARN [Worker-24] - ScalaProject - Project SparkStreaming_nov2017 has platform default sourceLevel.
+2018-03-24 12:25:36,070  WARN [Worker-24] - ScalaProject - Project SparkStreaming_nov2017 runs on platform default installation.
+2018-03-24 12:25:53,897  WARN [Worker-20] - ScalaProject - Project SparkStreaming_nov2017 has platform default sourceLevel.
+2018-03-24 12:25:53,897  WARN [Worker-20] - ScalaProject - Project SparkStreaming_nov2017 runs on platform default installation.
+2018-03-24 12:26:04,672  WARN [Worker-16] - ScalaProject - Project SparkStreaming_nov2017 has platform default sourceLevel.
+2018-03-24 12:26:04,672  WARN [Worker-16] - ScalaProject - Project SparkStreaming_nov2017 runs on platform default installation.
+2018-03-24 12:26:41,125  WARN [Worker-23] - ScalaProject - Project SparkStreaming_nov2017 has platform default sourceLevel.
+2018-03-24 12:26:41,125  WARN [Worker-23] - ScalaProject - Project SparkStreaming_nov2017 runs on platform default installation.
+2018-03-24 12:27:02,699  WARN [Worker-23] - ScalaProject - Project SparkStreaming_nov2017 has platform default sourceLevel.
+2018-03-24 12:27:02,699  WARN [Worker-23] - ScalaProject - Project SparkStreaming_nov2017 runs on platform default installation.
+2018-03-27 09:43:20,797  WARN [main] - ScalaProject - Project SparkStreaming_nov2017 has platform default sourceLevel.
+2018-03-27 09:43:20,827  WARN [main] - ScalaProject - Project SparkStreaming_nov2017 runs on platform default installation.
+2018-03-27 09:43:20,835  WARN [main] - ScalaProject - Project SparkStreaming_nov2017 has platform default sourceLevel.
+2018-03-27 09:43:20,835  WARN [main] - ScalaProject - Project SparkStreaming_nov2017 runs on platform default installation.
+2018-03-27 09:43:22,842  WARN [main] - ScalaProject - Project SparkStreaming_nov2017 has platform default sourceLevel.
+2018-03-27 09:43:22,843  WARN [main] - ScalaProject - Project SparkStreaming_nov2017 runs on platform default installation.
+2018-03-27 09:43:25,084  WARN [Worker-0] - ScalaProject - Project SparkStreaming_nov2017 has platform default sourceLevel.
+2018-03-27 09:43:25,087  WARN [Worker-0] - ScalaProject - Project SparkStreaming_nov2017 runs on platform default installation.
+2018-03-27 09:43:26,724  WARN [main] - ScalaProject - Project SparkStreaming_nov2017 has platform default sourceLevel.
+2018-03-27 09:43:26,724  WARN [main] - ScalaProject - Project SparkStreaming_nov2017 runs on platform default installation.
+2018-03-27 09:47:19,559  WARN [ModalContext] - ScalaProject - Project HelloWorld has platform default sourceLevel.
+2018-03-27 09:47:19,559  WARN [ModalContext] - ScalaProject - Project HelloWorld runs on platform default installation.
+2018-03-27 09:47:19,884  WARN [Worker-7] - ScalaProject - Project HelloWorld has platform default sourceLevel.
+2018-03-27 09:47:19,885  WARN [Worker-7] - ScalaProject - Project HelloWorld runs on platform default installation.
+2018-03-27 09:48:52,841  WARN [main] - ScalaProject - Project HelloWorld has platform default sourceLevel.
+2018-03-27 09:48:52,841  WARN [main] - ScalaProject - Project HelloWorld runs on platform default installation.
+2018-03-27 09:49:02,199  WARN [main] - ScalaProject - Project HelloWorld has platform default sourceLevel.
+2018-03-27 09:49:02,199  WARN [main] - ScalaProject - Project HelloWorld runs on platform default installation.
+2018-03-27 09:49:02,448  WARN [Worker-10] - ScalaProject - Project HelloWorld has platform default sourceLevel.
+2018-03-27 09:49:02,448  WARN [Worker-10] - ScalaProject - Project HelloWorld runs on platform default installation.
+2018-03-27 09:49:25,861  WARN [Worker-12] - ScalaProject - Project HelloWorld has platform default sourceLevel.
+2018-03-27 09:49:25,861  WARN [Worker-12] - ScalaProject - Project HelloWorld runs on platform default installation.
+2018-03-27 09:51:42,684  WARN [Worker-13] - ScalaProject - Project HelloWorld has platform default sourceLevel.
+2018-03-27 09:51:42,685  WARN [Worker-13] - ScalaProject - Project HelloWorld runs on platform default installation.
+2018-03-27 09:53:48,020  WARN [Worker-15] - ScalaProject - Project HelloWorld has platform default sourceLevel.
+2018-03-27 09:53:48,020  WARN [Worker-15] - ScalaProject - Project HelloWorld runs on platform default installation.
+2018-03-27 09:54:03,630  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 99
+2018-03-27 09:56:42,166  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 101
+2018-03-27 09:56:58,751  WARN [Worker-17] - ScalaProject - Project HelloWorld has platform default sourceLevel.
+2018-03-27 09:56:58,752  WARN [Worker-17] - ScalaProject - Project HelloWorld runs on platform default installation.
+2018-03-27 09:57:14,849  WARN [Worker-13] - ScalaProject - Project HelloWorld has platform default sourceLevel.
+2018-03-27 09:57:14,849  WARN [Worker-13] - ScalaProject - Project HelloWorld runs on platform default installation.
+2018-03-27 09:57:19,983  WARN [Worker-17] - ScalaProject - Project HelloWorld has platform default sourceLevel.
+2018-03-27 09:57:19,984  WARN [Worker-17] - ScalaProject - Project HelloWorld runs on platform default installation.
+2018-03-27 09:57:58,408 ERROR [Worker-19] - System.err - SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2018-03-27 09:57:58,409 ERROR [Worker-19] - System.err - SLF4J: Defaulting to no-operation (NOP) logger implementation
+2018-03-27 09:57:58,409 ERROR [Worker-19] - System.err - SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2018-03-27 09:58:26,337  WARN [Worker-16] - ScalaProject - Project HelloWorld has platform default sourceLevel.
+2018-03-27 09:58:26,338  WARN [Worker-16] - ScalaProject - Project HelloWorld runs on platform default installation.
+2018-03-29 08:21:22,714  WARN [main] - ScalaProject - Project HelloWorld has platform default sourceLevel.
+2018-03-29 08:21:22,742  WARN [main] - ScalaProject - Project HelloWorld runs on platform default installation.
+2018-03-29 08:21:22,767  WARN [main] - ScalaProject - Project HelloWorld has platform default sourceLevel.
+2018-03-29 08:21:22,768  WARN [main] - ScalaProject - Project HelloWorld runs on platform default installation.
+2018-03-29 08:21:23,735  WARN [main] - ScalaProject - Project HelloWorld has platform default sourceLevel.
+2018-03-29 08:21:23,736  WARN [main] - ScalaProject - Project HelloWorld runs on platform default installation.
+2018-03-29 08:21:24,320  WARN [Worker-4] - ScalaProject - Project HelloWorld has platform default sourceLevel.
+2018-03-29 08:21:24,329  WARN [Worker-4] - ScalaProject - Project HelloWorld runs on platform default installation.
+2018-03-29 08:21:28,100  WARN [main] - ScalaProject - Project HelloWorld has platform default sourceLevel.
+2018-03-29 08:21:28,100  WARN [main] - ScalaProject - Project HelloWorld runs on platform default installation.
+2018-03-29 08:21:57,923  WARN [Worker-0] - ScalaProject - Project HelloWorld has platform default sourceLevel.
+2018-03-29 08:21:57,923  WARN [Worker-0] - ScalaProject - Project HelloWorld runs on platform default installation.
+2018-03-29 08:22:34,013 ERROR [Worker-1] - System.err - SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2018-03-29 08:22:34,013 ERROR [Worker-1] - System.err - SLF4J: Defaulting to no-operation (NOP) logger implementation
+2018-03-29 08:22:34,013 ERROR [Worker-1] - System.err - SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2018-03-29 08:23:35,521  WARN [Worker-0] - ScalaProject - Project HelloWorld has platform default sourceLevel.
+2018-03-29 08:23:35,521  WARN [Worker-0] - ScalaProject - Project HelloWorld runs on platform default installation.
+2018-03-29 08:23:36,828 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2018-03-29 08:23:41,636  WARN [Worker-1] - ScalaProject - Project HelloWorld has platform default sourceLevel.
+2018-03-29 08:23:41,636  WARN [Worker-1] - ScalaProject - Project HelloWorld runs on platform default installation.
+2018-03-29 08:23:43,006 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2018-03-29 08:23:44,011  WARN [Worker-1] - ScalaProject - Project HelloWorld has platform default sourceLevel.
+2018-03-29 08:23:44,011  WARN [Worker-1] - ScalaProject - Project HelloWorld runs on platform default installation.
+2018-03-29 08:23:55,725  WARN [Worker-4] - ScalaProject - Project HelloWorld has platform default sourceLevel.
+2018-03-29 08:23:55,725  WARN [Worker-4] - ScalaProject - Project HelloWorld runs on platform default installation.
+2018-03-29 08:25:15,331  WARN [main] - ScalaProject - Project HelloWorld has platform default sourceLevel.
+2018-03-29 08:25:15,332  WARN [main] - ScalaProject - Project HelloWorld runs on platform default installation.
+2018-03-29 08:25:15,830  WARN [Worker-1] - ScalaProject - Project HelloWorld has platform default sourceLevel.
+2018-03-29 08:25:15,830  WARN [Worker-1] - ScalaProject - Project HelloWorld runs on platform default installation.
+2018-03-29 08:25:25,495  WARN [Worker-3] - ScalaProject - Project HelloWorld has platform default sourceLevel.
+2018-03-29 08:25:25,496  WARN [Worker-3] - ScalaProject - Project HelloWorld runs on platform default installation.
+2018-03-29 08:27:56,403  WARN [Worker-4] - ScalaProject - Project HelloWorld has platform default sourceLevel.
+2018-03-29 08:27:56,403  WARN [Worker-4] - ScalaProject - Project HelloWorld runs on platform default installation.
+2018-03-29 08:28:39,407  WARN [Worker-0] - ScalaProject - Project HelloWorld has platform default sourceLevel.
+2018-03-29 08:28:39,407  WARN [Worker-0] - ScalaProject - Project HelloWorld runs on platform default installation.
+2018-03-29 08:29:40,474  WARN [Worker-5] - ScalaProject - Project HelloWorld has platform default sourceLevel.
+2018-03-29 08:29:40,474  WARN [Worker-5] - ScalaProject - Project HelloWorld runs on platform default installation.
+2018-03-29 08:30:03,454  WARN [Worker-5] - ScalaProject - Project HelloWorld has platform default sourceLevel.
+2018-03-29 08:30:03,454  WARN [Worker-5] - ScalaProject - Project HelloWorld runs on platform default installation.
+2018-03-29 08:31:27,032  WARN [Worker-4] - ScalaProject - Project HelloWorld has platform default sourceLevel.
+2018-03-29 08:31:27,033  WARN [Worker-4] - ScalaProject - Project HelloWorld runs on platform default installation.
+2018-03-29 08:31:40,264  WARN [Worker-3] - ScalaProject - Project HelloWorld has platform default sourceLevel.
+2018-03-29 08:31:40,264  WARN [Worker-3] - ScalaProject - Project HelloWorld runs on platform default installation.
+2018-03-29 08:31:43,795  WARN [Worker-1] - ScalaProject - Project HelloWorld has platform default sourceLevel.
+2018-03-29 08:31:43,795  WARN [Worker-1] - ScalaProject - Project HelloWorld runs on platform default installation.
+2018-03-29 08:32:02,398  WARN [Worker-6] - ScalaProject - Project HelloWorld has platform default sourceLevel.
+2018-03-29 08:32:02,398  WARN [Worker-6] - ScalaProject - Project HelloWorld runs on platform default installation.
+2018-03-29 08:32:05,150  WARN [Worker-1] - ScalaProject - Project HelloWorld has platform default sourceLevel.
+2018-03-29 08:32:05,150  WARN [Worker-1] - ScalaProject - Project HelloWorld runs on platform default installation.
+2018-03-29 08:32:28,361  WARN [Worker-4] - ScalaProject - Project HelloWorld has platform default sourceLevel.
+2018-03-29 08:32:28,361  WARN [Worker-4] - ScalaProject - Project HelloWorld runs on platform default installation.
+2018-03-29 08:32:31,753  WARN [Worker-1] - ScalaProject - Project HelloWorld has platform default sourceLevel.
+2018-03-29 08:32:31,754  WARN [Worker-1] - ScalaProject - Project HelloWorld runs on platform default installation.
+2018-03-29 08:33:29,635  WARN [Worker-2] - ScalaProject - Project HelloWorld has platform default sourceLevel.
+2018-03-29 08:33:29,635  WARN [Worker-2] - ScalaProject - Project HelloWorld runs on platform default installation.
+2018-03-29 08:33:59,898 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2018-03-29 08:33:59,898 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2018-03-29 08:33:59,898 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2018-03-29 08:34:03,181  WARN [Worker-3] - ScalaProject - Project HelloWorld has platform default sourceLevel.
+2018-03-29 08:34:03,181  WARN [Worker-3] - ScalaProject - Project HelloWorld runs on platform default installation.
+2018-03-29 08:34:11,849  WARN [Worker-7] - ScalaProject - Project HelloWorld has platform default sourceLevel.
+2018-03-29 08:34:11,849  WARN [Worker-7] - ScalaProject - Project HelloWorld runs on platform default installation.
+2018-03-29 08:35:27,815  WARN [Worker-4] - ScalaProject - Project HelloWorld has platform default sourceLevel.
+2018-03-29 08:35:27,816  WARN [Worker-4] - ScalaProject - Project HelloWorld runs on platform default installation.
+2018-03-29 08:36:12,349  WARN [Worker-1] - ScalaProject - Project HelloWorld has platform default sourceLevel.
+2018-03-29 08:36:12,350  WARN [Worker-1] - ScalaProject - Project HelloWorld runs on platform default installation.
+2018-03-29 08:36:24,848 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2018-03-29 08:36:24,850 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2018-03-29 08:36:28,583  WARN [Worker-7] - ScalaProject - Project HelloWorld has platform default sourceLevel.
+2018-03-29 08:36:28,583  WARN [Worker-7] - ScalaProject - Project HelloWorld runs on platform default installation.
+2018-03-29 08:37:06,401  WARN [Worker-6] - ScalaProject - Project HelloWorld has platform default sourceLevel.
+2018-03-29 08:37:06,401  WARN [Worker-6] - ScalaProject - Project HelloWorld runs on platform default installation.
+2018-03-29 08:37:20,480  WARN [Worker-1] - ScalaProject - Project HelloWorld has platform default sourceLevel.
+2018-03-29 08:37:20,480  WARN [Worker-1] - ScalaProject - Project HelloWorld runs on platform default installation.
+2018-03-29 08:39:50,258  WARN [Worker-6] - ScalaProject - Project HelloWorld has platform default sourceLevel.
+2018-03-29 08:39:50,258  WARN [Worker-6] - ScalaProject - Project HelloWorld runs on platform default installation.
+2018-03-29 08:40:49,976  WARN [Worker-7] - ScalaProject - Project HelloWorld has platform default sourceLevel.
+2018-03-29 08:40:49,976  WARN [Worker-7] - ScalaProject - Project HelloWorld runs on platform default installation.
+2018-03-29 08:41:43,243  WARN [Worker-6] - ScalaProject - Project HelloWorld has platform default sourceLevel.
+2018-03-29 08:41:43,243  WARN [Worker-6] - ScalaProject - Project HelloWorld runs on platform default installation.
+2018-03-29 08:41:52,653  WARN [Worker-1] - ScalaProject - Project HelloWorld has platform default sourceLevel.
+2018-03-29 08:41:52,653  WARN [Worker-1] - ScalaProject - Project HelloWorld runs on platform default installation.
+2018-03-29 08:42:15,634  WARN [Worker-1] - ScalaProject - Project HelloWorld has platform default sourceLevel.
+2018-03-29 08:42:15,634  WARN [Worker-1] - ScalaProject - Project HelloWorld runs on platform default installation.
+2018-03-29 08:42:45,238  WARN [Worker-7] - ScalaProject - Project HelloWorld has platform default sourceLevel.
+2018-03-29 08:42:45,239  WARN [Worker-7] - ScalaProject - Project HelloWorld runs on platform default installation.
+2018-03-29 08:43:28,632  WARN [Worker-9] - ScalaProject - Project HelloWorld has platform default sourceLevel.
+2018-03-29 08:43:28,633  WARN [Worker-9] - ScalaProject - Project HelloWorld runs on platform default installation.
+2018-03-29 08:43:45,062  WARN [Worker-1] - ScalaProject - Project HelloWorld has platform default sourceLevel.
+2018-03-29 08:43:45,063  WARN [Worker-1] - ScalaProject - Project HelloWorld runs on platform default installation.
+2018-03-29 08:45:20,516  WARN [Worker-4] - ScalaProject - Project HelloWorld has platform default sourceLevel.
+2018-03-29 08:45:20,517  WARN [Worker-4] - ScalaProject - Project HelloWorld runs on platform default installation.
+2018-03-29 08:45:29,788  WARN [Worker-1] - ScalaProject - Project HelloWorld has platform default sourceLevel.
+2018-03-29 08:45:29,788  WARN [Worker-1] - ScalaProject - Project HelloWorld runs on platform default installation.
+2018-03-29 08:46:07,759  WARN [Worker-1] - ScalaProject - Project HelloWorld has platform default sourceLevel.
+2018-03-29 08:46:07,760  WARN [Worker-1] - ScalaProject - Project HelloWorld runs on platform default installation.
+2018-03-29 08:46:59,127  WARN [Worker-7] - ScalaProject - Project HelloWorld has platform default sourceLevel.
+2018-03-29 08:46:59,127  WARN [Worker-7] - ScalaProject - Project HelloWorld runs on platform default installation.
+2018-03-29 08:47:28,685  WARN [Worker-4] - ScalaProject - Project HelloWorld has platform default sourceLevel.
+2018-03-29 08:47:28,685  WARN [Worker-4] - ScalaProject - Project HelloWorld runs on platform default installation.
+2018-03-29 08:47:42,930  WARN [Worker-7] - ScalaProject - Project HelloWorld has platform default sourceLevel.
+2018-03-29 08:47:42,931  WARN [Worker-7] - ScalaProject - Project HelloWorld runs on platform default installation.
+2018-03-29 08:49:09,634  WARN [Worker-7] - ScalaProject - Project HelloWorld has platform default sourceLevel.
+2018-03-29 08:49:09,634  WARN [Worker-7] - ScalaProject - Project HelloWorld runs on platform default installation.
+2018-03-29 08:49:13,994  WARN [Worker-6] - ScalaProject - Project HelloWorld has platform default sourceLevel.
+2018-03-29 08:49:13,995  WARN [Worker-6] - ScalaProject - Project HelloWorld runs on platform default installation.
+2018-03-29 08:49:32,106  WARN [Worker-8] - ScalaProject - Project HelloWorld has platform default sourceLevel.
+2018-03-29 08:49:32,106  WARN [Worker-8] - ScalaProject - Project HelloWorld runs on platform default installation.
+2018-03-29 08:49:38,841  WARN [Worker-9] - ScalaProject - Project HelloWorld has platform default sourceLevel.
+2018-03-29 08:49:38,841  WARN [Worker-9] - ScalaProject - Project HelloWorld runs on platform default installation.
+2018-03-29 08:49:53,805  WARN [Worker-4] - ScalaProject - Project HelloWorld has platform default sourceLevel.
+2018-03-29 08:49:53,805  WARN [Worker-4] - ScalaProject - Project HelloWorld runs on platform default installation.
+2018-03-29 08:53:07,993  WARN [Worker-11] - ScalaProject - Project HelloWorld has platform default sourceLevel.
+2018-03-29 08:53:07,993  WARN [Worker-11] - ScalaProject - Project HelloWorld runs on platform default installation.
+2018-03-29 08:53:17,404  WARN [Worker-7] - ScalaProject - Project HelloWorld has platform default sourceLevel.
+2018-03-29 08:53:17,405  WARN [Worker-7] - ScalaProject - Project HelloWorld runs on platform default installation.
+2018-03-29 08:54:13,068  WARN [Worker-12] - ScalaProject - Project HelloWorld has platform default sourceLevel.
+2018-03-29 08:54:13,068  WARN [Worker-12] - ScalaProject - Project HelloWorld runs on platform default installation.
+2018-03-29 08:54:26,569  WARN [Worker-10] - ScalaProject - Project HelloWorld has platform default sourceLevel.
+2018-03-29 08:54:26,569  WARN [Worker-10] - ScalaProject - Project HelloWorld runs on platform default installation.
+2018-03-29 08:55:01,282  WARN [Worker-7] - ScalaProject - Project HelloWorld has platform default sourceLevel.
+2018-03-29 08:55:01,282  WARN [Worker-7] - ScalaProject - Project HelloWorld runs on platform default installation.
+2018-03-29 08:55:42,594  WARN [Worker-13] - ScalaProject - Project HelloWorld has platform default sourceLevel.
+2018-03-29 08:55:42,594  WARN [Worker-13] - ScalaProject - Project HelloWorld runs on platform default installation.
+2018-03-29 08:55:56,890  WARN [Worker-12] - ScalaProject - Project HelloWorld has platform default sourceLevel.
+2018-03-29 08:55:56,890  WARN [Worker-12] - ScalaProject - Project HelloWorld runs on platform default installation.
+2018-03-29 08:56:46,322  WARN [Worker-11] - ScalaProject - Project HelloWorld has platform default sourceLevel.
+2018-03-29 08:56:46,322  WARN [Worker-11] - ScalaProject - Project HelloWorld runs on platform default installation.
+2018-03-29 08:57:11,615  WARN [Worker-12] - ScalaProject - Project HelloWorld has platform default sourceLevel.
+2018-03-29 08:57:11,615  WARN [Worker-12] - ScalaProject - Project HelloWorld runs on platform default installation.
+2018-03-29 08:58:42,919  WARN [Worker-13] - ScalaProject - Project HelloWorld has platform default sourceLevel.
+2018-03-29 08:58:42,919  WARN [Worker-13] - ScalaProject - Project HelloWorld runs on platform default installation.
+2018-03-29 08:59:08,698  WARN [Worker-7] - ScalaProject - Project HelloWorld has platform default sourceLevel.
+2018-03-29 08:59:08,698  WARN [Worker-7] - ScalaProject - Project HelloWorld runs on platform default installation.
+2018-03-29 08:59:13,497  WARN [Worker-11] - ScalaProject - Project HelloWorld has platform default sourceLevel.
+2018-03-29 08:59:13,497  WARN [Worker-11] - ScalaProject - Project HelloWorld runs on platform default installation.
+2018-03-29 09:00:06,972  WARN [Worker-14] - ScalaProject - Project HelloWorld has platform default sourceLevel.
+2018-03-29 09:00:06,973  WARN [Worker-14] - ScalaProject - Project HelloWorld runs on platform default installation.
+2018-03-29 09:00:44,859  WARN [Worker-10] - ScalaProject - Project HelloWorld has platform default sourceLevel.
+2018-03-29 09:00:44,859  WARN [Worker-10] - ScalaProject - Project HelloWorld runs on platform default installation.
+2018-03-29 09:01:18,585  WARN [Worker-7] - ScalaProject - Project HelloWorld has platform default sourceLevel.
+2018-03-29 09:01:18,585  WARN [Worker-7] - ScalaProject - Project HelloWorld runs on platform default installation.
+2018-03-29 09:01:37,995  WARN [Worker-13] - ScalaProject - Project HelloWorld has platform default sourceLevel.
+2018-03-29 09:01:37,995  WARN [Worker-13] - ScalaProject - Project HelloWorld runs on platform default installation.
+2018-03-29 09:01:58,593  WARN [Worker-7] - ScalaProject - Project HelloWorld has platform default sourceLevel.
+2018-03-29 09:01:58,593  WARN [Worker-7] - ScalaProject - Project HelloWorld runs on platform default installation.
+2018-03-29 09:03:15,294  WARN [Worker-11] - ScalaProject - Project HelloWorld has platform default sourceLevel.
+2018-03-29 09:03:15,294  WARN [Worker-11] - ScalaProject - Project HelloWorld runs on platform default installation.
+2018-03-29 09:03:20,109  WARN [Worker-12] - ScalaProject - Project HelloWorld has platform default sourceLevel.
+2018-03-29 09:03:20,109  WARN [Worker-12] - ScalaProject - Project HelloWorld runs on platform default installation.
+2018-03-29 09:05:42,184  WARN [Worker-7] - ScalaProject - Project HelloWorld has platform default sourceLevel.
+2018-03-29 09:05:42,184  WARN [Worker-7] - ScalaProject - Project HelloWorld runs on platform default installation.
+2018-03-29 09:06:23,592  WARN [Worker-15] - ScalaProject - Project HelloWorld has platform default sourceLevel.
+2018-03-29 09:06:23,593  WARN [Worker-15] - ScalaProject - Project HelloWorld runs on platform default installation.
+2018-03-29 09:07:09,769  WARN [Worker-15] - ScalaProject - Project HelloWorld has platform default sourceLevel.
+2018-03-29 09:07:09,769  WARN [Worker-15] - ScalaProject - Project HelloWorld runs on platform default installation.
+2018-03-29 09:10:41,563  WARN [Worker-12] - ScalaProject - Project HelloWorld has platform default sourceLevel.
+2018-03-29 09:10:41,563  WARN [Worker-12] - ScalaProject - Project HelloWorld runs on platform default installation.
+2018-03-29 09:11:04,030  WARN [Worker-16] - ScalaProject - Project HelloWorld has platform default sourceLevel.
+2018-03-29 09:11:04,030  WARN [Worker-16] - ScalaProject - Project HelloWorld runs on platform default installation.
+2018-03-29 09:11:22,308  WARN [Worker-16] - ScalaProject - Project HelloWorld has platform default sourceLevel.
+2018-03-29 09:11:22,308  WARN [Worker-16] - ScalaProject - Project HelloWorld runs on platform default installation.
+2018-03-29 09:11:39,973  WARN [Worker-17] - ScalaProject - Project HelloWorld has platform default sourceLevel.
+2018-03-29 09:11:39,973  WARN [Worker-17] - ScalaProject - Project HelloWorld runs on platform default installation.
+2018-03-29 09:13:16,766  WARN [Worker-17] - ScalaProject - Project HelloWorld has platform default sourceLevel.
+2018-03-29 09:13:16,767  WARN [Worker-17] - ScalaProject - Project HelloWorld runs on platform default installation.
+2018-03-29 09:14:27,769  WARN [Worker-18] - ScalaProject - Project HelloWorld has platform default sourceLevel.
+2018-03-29 09:14:27,769  WARN [Worker-18] - ScalaProject - Project HelloWorld runs on platform default installation.
+2018-03-29 09:17:17,591 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Unexptected error - most likely due to an illegal position
+java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.lang.String.substring(String.java:1967)
+	at scala.tools.refactoring.common.EnrichedTrees$TreeMethodsForPositions.nameString(EnrichedTrees.scala:355)
+	at scala.tools.refactoring.common.EnrichedTrees$TreeMethodsForPositions.namePosition(EnrichedTrees.scala:255)
+	at org.scalaide.core.internal.decorators.semantichighlighting.classifier.SafeSymbol$$anonfun$8.apply(SafeSymbol.scala:138)
+	at org.scalaide.core.internal.decorators.semantichighlighting.classifier.SafeSymbol$$anonfun$8.apply(SafeSymbol.scala:138)
+	at scala.tools.nsc.util.InterruptReq.execute(InterruptReq.scala:26)
+	at scala.tools.nsc.interactive.Global$$anonfun$pollForWork$1.apply$mcV$sp(Global.scala:457)
+	at scala.util.control.Breaks.breakable(Breaks.scala:38)
+	at scala.tools.nsc.interactive.Global.pollForWork(Global.scala:431)
+	at scala.tools.nsc.interactive.PresentationCompilerThread.run(PresentationCompilerThread.scala:22)
+2018-03-29 09:17:23,680  WARN [Worker-20] - ScalaProject - Project HelloWorld has platform default sourceLevel.
+2018-03-29 09:17:23,680  WARN [Worker-20] - ScalaProject - Project HelloWorld runs on platform default installation.
+2018-03-29 09:18:02,356  WARN [Worker-21] - ScalaProject - Project HelloWorld has platform default sourceLevel.
+2018-03-29 09:18:02,356  WARN [Worker-21] - ScalaProject - Project HelloWorld runs on platform default installation.
+2018-03-29 09:18:30,493  WARN [Worker-20] - ScalaProject - Project HelloWorld has platform default sourceLevel.
+2018-03-29 09:18:30,493  WARN [Worker-20] - ScalaProject - Project HelloWorld runs on platform default installation.
+2018-03-29 09:19:39,328  WARN [Worker-20] - ScalaProject - Project HelloWorld has platform default sourceLevel.
+2018-03-29 09:19:39,328  WARN [Worker-20] - ScalaProject - Project HelloWorld runs on platform default installation.
+2018-03-29 09:20:05,608  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 1722
+2018-03-29 09:20:05,608  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 1722
+2018-03-29 09:20:06,729  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 1722
+2018-03-29 09:20:06,729  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 1722
+2018-03-29 09:20:32,835  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 1722
+2018-03-29 09:20:32,840  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 1722
+2018-03-29 09:20:34,439  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 1722
+2018-03-29 09:20:34,440  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 1722
+2018-03-29 09:20:35,530  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 1722
+2018-03-29 09:20:35,530  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 1722
+2018-03-29 09:20:37,614  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 1722
+2018-03-29 09:20:37,615  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 1722
+2018-03-29 09:20:39,734  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 1722
+2018-03-29 09:20:39,734  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 1722
+2018-03-29 09:20:41,317  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 1722
+2018-03-29 09:20:41,317  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 1722
+2018-03-29 09:20:43,397  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 1722
+2018-03-29 09:20:45,972  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 1722
+2018-03-29 09:20:50,547  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 1722
+2018-03-29 09:20:52,194  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 1722
+2018-03-29 09:20:54,779  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 1722
+2018-03-29 09:20:57,890  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - TraverserImpl$ - Skipping annotation, position length = 0, position offset = 1722
+2018-03-29 09:21:04,076  WARN [Worker-20] - ScalaProject - Project HelloWorld has platform default sourceLevel.
+2018-03-29 09:21:04,076  WARN [Worker-20] - ScalaProject - Project HelloWorld runs on platform default installation.
+2018-03-29 09:21:45,870  WARN [Worker-11] - ScalaProject - Project HelloWorld has platform default sourceLevel.
+2018-03-29 09:21:45,870  WARN [Worker-11] - ScalaProject - Project HelloWorld runs on platform default installation.
+2018-03-29 09:23:51,436  WARN [Worker-21] - ScalaProject - Project HelloWorld has platform default sourceLevel.
+2018-03-29 09:23:51,436  WARN [Worker-21] - ScalaProject - Project HelloWorld runs on platform default installation.
+2018-03-29 09:24:45,477  WARN [Worker-20] - ScalaProject - Project HelloWorld has platform default sourceLevel.
+2018-03-29 09:24:45,478  WARN [Worker-20] - ScalaProject - Project HelloWorld runs on platform default installation.
+2018-03-29 09:24:50,296  WARN [Worker-25] - ScalaProject - Project HelloWorld has platform default sourceLevel.
+2018-03-29 09:24:50,296  WARN [Worker-25] - ScalaProject - Project HelloWorld runs on platform default installation.
+2018-03-29 09:25:17,002  WARN [Worker-20] - ScalaProject - Project HelloWorld has platform default sourceLevel.
+2018-03-29 09:25:17,002  WARN [Worker-20] - ScalaProject - Project HelloWorld runs on platform default installation.
+2018-03-29 09:25:46,182  WARN [Worker-20] - ScalaProject - Project HelloWorld has platform default sourceLevel.
+2018-03-29 09:25:46,182  WARN [Worker-20] - ScalaProject - Project HelloWorld runs on platform default installation.
+2018-03-29 09:26:05,506  WARN [Worker-24] - ScalaProject - Project HelloWorld has platform default sourceLevel.
+2018-03-29 09:26:05,506  WARN [Worker-24] - ScalaProject - Project HelloWorld runs on platform default installation.
+2018-03-29 09:26:28,328  WARN [Worker-21] - ScalaProject - Project HelloWorld has platform default sourceLevel.
+2018-03-29 09:26:28,328  WARN [Worker-21] - ScalaProject - Project HelloWorld runs on platform default installation.
+2018-03-29 09:27:07,905  WARN [Worker-23] - ScalaProject - Project HelloWorld has platform default sourceLevel.
+2018-03-29 09:27:07,905  WARN [Worker-23] - ScalaProject - Project HelloWorld runs on platform default installation.
+2018-03-29 09:27:13,101  WARN [Worker-21] - ScalaProject - Project HelloWorld has platform default sourceLevel.
+2018-03-29 09:27:13,101  WARN [Worker-21] - ScalaProject - Project HelloWorld runs on platform default installation.
+2018-03-29 09:27:16,762  WARN [Worker-20] - ScalaProject - Project HelloWorld has platform default sourceLevel.
+2018-03-29 09:27:16,762  WARN [Worker-20] - ScalaProject - Project HelloWorld runs on platform default installation.
+2018-03-29 09:27:34,675  WARN [Worker-23] - ScalaProject - Project HelloWorld has platform default sourceLevel.
+2018-03-29 09:27:34,675  WARN [Worker-23] - ScalaProject - Project HelloWorld runs on platform default installation.
+2018-03-29 09:28:57,141  WARN [Worker-25] - ScalaProject - Project HelloWorld has platform default sourceLevel.
+2018-03-29 09:28:57,141  WARN [Worker-25] - ScalaProject - Project HelloWorld runs on platform default installation.
+2018-03-29 09:29:54,634  WARN [Worker-23] - ScalaProject - Project HelloWorld has platform default sourceLevel.
+2018-03-29 09:29:54,634  WARN [Worker-23] - ScalaProject - Project HelloWorld runs on platform default installation.
+2018-03-29 09:30:16,210  WARN [Worker-28] - ScalaProject - Project HelloWorld has platform default sourceLevel.
+2018-03-29 09:30:16,210  WARN [Worker-28] - ScalaProject - Project HelloWorld runs on platform default installation.
+2018-03-29 09:30:41,452  WARN [Worker-27] - ScalaProject - Project HelloWorld has platform default sourceLevel.
+2018-03-29 09:30:41,452  WARN [Worker-27] - ScalaProject - Project HelloWorld runs on platform default installation.
+2018-03-29 09:31:08,896  WARN [Worker-26] - ScalaProject - Project HelloWorld has platform default sourceLevel.
+2018-03-29 09:31:08,896  WARN [Worker-26] - ScalaProject - Project HelloWorld runs on platform default installation.
+2018-03-29 09:31:30,302  WARN [Worker-25] - ScalaProject - Project HelloWorld has platform default sourceLevel.
+2018-03-29 09:31:30,302  WARN [Worker-25] - ScalaProject - Project HelloWorld runs on platform default installation.
+2018-03-29 09:41:11,041  WARN [main] - ImplicitHighlightingPresenter - Timeout while waiting for `askLoadedTyped` during semantic highlighting.
+2018-03-29 09:49:45,747  WARN [ModalContext] - ScalaProject - Project SparkCoreDemo has platform default sourceLevel.
+2018-03-29 09:49:45,748  WARN [ModalContext] - ScalaProject - Project SparkCoreDemo runs on platform default installation.
+2018-03-29 09:49:46,007  WARN [Worker-36] - ScalaProject - Project SparkCoreDemo has platform default sourceLevel.
+2018-03-29 09:49:46,007  WARN [Worker-36] - ScalaProject - Project SparkCoreDemo runs on platform default installation.
+2018-03-29 09:50:25,668  WARN [Worker-36] - ScalaProject - Project SparkCoreDemo has platform default sourceLevel.
+2018-03-29 09:50:25,668  WARN [Worker-36] - ScalaProject - Project SparkCoreDemo runs on platform default installation.
+2018-03-29 09:50:25,865  WARN [Worker-33] - ScalaProject - Project SparkCoreDemo has platform default sourceLevel.
+2018-03-29 09:50:25,865  WARN [Worker-33] - ScalaProject - Project SparkCoreDemo runs on platform default installation.
+2018-03-29 09:52:09,505  WARN [main] - ScalaProject - Project SparkCoreDemo has platform default sourceLevel.
+2018-03-29 09:52:09,505  WARN [main] - ScalaProject - Project SparkCoreDemo runs on platform default installation.
+2018-03-29 09:52:12,356  WARN [main] - ScalaProject - Project SparkCoreDemo has platform default sourceLevel.
+2018-03-29 09:52:12,356  WARN [main] - ScalaProject - Project SparkCoreDemo runs on platform default installation.
+2018-03-29 09:52:12,708  WARN [Worker-37] - ScalaProject - Project SparkCoreDemo has platform default sourceLevel.
+2018-03-29 09:52:12,709  WARN [Worker-37] - ScalaProject - Project SparkCoreDemo runs on platform default installation.
+2018-03-29 09:52:22,928  WARN [Worker-36] - ScalaProject - Project SparkCoreDemo has platform default sourceLevel.
+2018-03-29 09:52:22,929  WARN [Worker-36] - ScalaProject - Project SparkCoreDemo runs on platform default installation.
+2018-03-29 09:52:47,689  WARN [Worker-37] - ScalaProject - Project SparkCoreDemo has platform default sourceLevel.
+2018-03-29 09:52:47,689  WARN [Worker-37] - ScalaProject - Project SparkCoreDemo runs on platform default installation.
+2018-03-29 09:52:55,240  WARN [Worker-36] - ScalaProject - Project SparkCoreDemo has platform default sourceLevel.
+2018-03-29 09:52:55,240  WARN [Worker-36] - ScalaProject - Project SparkCoreDemo runs on platform default installation.
+2018-03-29 09:53:08,774  WARN [Worker-38] - ScalaProject - Project SparkCoreDemo has platform default sourceLevel.
+2018-03-29 09:53:08,775  WARN [Worker-38] - ScalaProject - Project SparkCoreDemo runs on platform default installation.
+2018-03-29 09:55:28,348  WARN [Worker-36] - ScalaProject - Project SparkCoreDemo has platform default sourceLevel.
+2018-03-29 09:55:28,349  WARN [Worker-36] - ScalaProject - Project SparkCoreDemo runs on platform default installation.
+2018-03-29 09:55:37,881  WARN [Worker-37] - ScalaProject - Project SparkCoreDemo has platform default sourceLevel.
+2018-03-29 09:55:37,881  WARN [Worker-37] - ScalaProject - Project SparkCoreDemo runs on platform default installation.
+2018-03-29 09:56:00,104  WARN [Worker-37] - ScalaProject - Project SparkCoreDemo has platform default sourceLevel.
+2018-03-29 09:56:00,105  WARN [Worker-37] - ScalaProject - Project SparkCoreDemo runs on platform default installation.
+2018-03-29 09:56:13,019  WARN [Worker-41] - ScalaProject - Project SparkCoreDemo has platform default sourceLevel.
+2018-03-29 09:56:13,019  WARN [Worker-41] - ScalaProject - Project SparkCoreDemo runs on platform default installation.
+2018-03-29 09:56:17,343  WARN [Worker-40] - ScalaProject - Project SparkCoreDemo has platform default sourceLevel.
+2018-03-29 09:56:17,343  WARN [Worker-40] - ScalaProject - Project SparkCoreDemo runs on platform default installation.
+2018-03-29 09:57:18,832  WARN [Worker-41] - ScalaProject - Project SparkCoreDemo has platform default sourceLevel.
+2018-03-29 09:57:18,832  WARN [Worker-41] - ScalaProject - Project SparkCoreDemo runs on platform default installation.
+2018-03-29 09:57:21,015  WARN [Worker-38] - ScalaProject - Project SparkCoreDemo has platform default sourceLevel.
+2018-03-29 09:57:21,015  WARN [Worker-38] - ScalaProject - Project SparkCoreDemo runs on platform default installation.
+2018-03-29 09:57:26,356  WARN [Worker-38] - ScalaProject - Project SparkCoreDemo has platform default sourceLevel.
+2018-03-29 09:57:26,356  WARN [Worker-38] - ScalaProject - Project SparkCoreDemo runs on platform default installation.
+2018-03-29 09:59:35,997  WARN [Worker-38] - ScalaProject - Project SparkCoreDemo has platform default sourceLevel.
+2018-03-29 09:59:35,997  WARN [Worker-38] - ScalaProject - Project SparkCoreDemo runs on platform default installation.
+2018-03-29 09:59:45,303  WARN [Worker-40] - ScalaProject - Project SparkCoreDemo has platform default sourceLevel.
+2018-03-29 09:59:45,303  WARN [Worker-40] - ScalaProject - Project SparkCoreDemo runs on platform default installation.
+2018-03-29 10:00:04,892  WARN [Worker-37] - ScalaProject - Project SparkCoreDemo has platform default sourceLevel.
+2018-03-29 10:00:04,892  WARN [Worker-37] - ScalaProject - Project SparkCoreDemo runs on platform default installation.
+2018-03-29 10:00:49,876  WARN [Worker-38] - ScalaProject - Project SparkCoreDemo has platform default sourceLevel.
+2018-03-29 10:00:49,876  WARN [Worker-38] - ScalaProject - Project SparkCoreDemo runs on platform default installation.
+2018-03-29 10:02:39,019  WARN [Worker-37] - ScalaProject - Project SparkDemo has platform default sourceLevel.
+2018-03-29 10:02:39,019  WARN [Worker-37] - ScalaProject - Project SparkDemo runs on platform default installation.
+2018-03-29 10:02:42,028  WARN [main] - ScalaProject - Project SparkDemo has platform default sourceLevel.
+2018-03-29 10:02:42,029  WARN [main] - ScalaProject - Project SparkDemo runs on platform default installation.
+2018-03-29 10:03:26,294  WARN [Worker-40] - ScalaProject - Project SparkCoreDemo has platform default sourceLevel.
+2018-03-29 10:03:26,295  WARN [Worker-40] - ScalaProject - Project SparkCoreDemo runs on platform default installation.
+2018-03-29 10:04:24,514  WARN [Worker-42] - ScalaProject - Project SparkCoreDemo has platform default sourceLevel.
+2018-03-29 10:04:24,514  WARN [Worker-42] - ScalaProject - Project SparkCoreDemo runs on platform default installation.
+2018-03-30 08:47:36,749  WARN [main] - ScalaProject - Project SparkCoreDemo has platform default sourceLevel.
+2018-03-30 08:47:36,800  WARN [main] - ScalaProject - Project SparkCoreDemo runs on platform default installation.
+2018-03-30 08:47:36,969  WARN [main] - ScalaProject - Project SparkCoreDemo has platform default sourceLevel.
+2018-03-30 08:47:36,970  WARN [main] - ScalaProject - Project SparkCoreDemo runs on platform default installation.
+2018-03-30 08:48:32,675  WARN [ModalContext] - ScalaProject - Project MovieLens_SparkCore has platform default sourceLevel.
+2018-03-30 08:48:32,683  WARN [ModalContext] - ScalaProject - Project MovieLens_SparkCore runs on platform default installation.
+2018-03-30 08:48:33,177  WARN [Worker-0] - ScalaProject - Project MovieLens_SparkCore has platform default sourceLevel.
+2018-03-30 08:48:33,177  WARN [Worker-0] - ScalaProject - Project MovieLens_SparkCore runs on platform default installation.
+2018-03-30 08:49:01,694  WARN [Worker-3] - ScalaProject - Project MovieLens_SparkCore has platform default sourceLevel.
+2018-03-30 08:49:01,694  WARN [Worker-3] - ScalaProject - Project MovieLens_SparkCore runs on platform default installation.
+2018-03-30 08:49:01,951  WARN [Worker-2] - ScalaProject - Project MovieLens_SparkCore has platform default sourceLevel.
+2018-03-30 08:49:01,952  WARN [Worker-2] - ScalaProject - Project MovieLens_SparkCore runs on platform default installation.
+2018-03-30 08:49:08,485  WARN [main] - ScalaProject - Project MovieLens_SparkCore has platform default sourceLevel.
+2018-03-30 08:49:08,485  WARN [main] - ScalaProject - Project MovieLens_SparkCore runs on platform default installation.
+2018-03-30 08:49:11,908  WARN [main] - ScalaProject - Project MovieLens_SparkCore has platform default sourceLevel.
+2018-03-30 08:49:11,908  WARN [main] - ScalaProject - Project MovieLens_SparkCore runs on platform default installation.
+2018-03-30 08:49:12,369  WARN [Worker-3] - ScalaProject - Project MovieLens_SparkCore has platform default sourceLevel.
+2018-03-30 08:49:12,369  WARN [Worker-3] - ScalaProject - Project MovieLens_SparkCore runs on platform default installation.
+2018-03-30 08:49:24,016  WARN [Worker-2] - ScalaProject - Project MovieLens_SparkCore has platform default sourceLevel.
+2018-03-30 08:49:24,016  WARN [Worker-2] - ScalaProject - Project MovieLens_SparkCore runs on platform default installation.
+2018-03-30 08:50:27,285  WARN [Worker-3] - ScalaProject - Project SparkCoreDemo has platform default sourceLevel.
+2018-03-30 08:50:27,285  WARN [Worker-3] - ScalaProject - Project SparkCoreDemo runs on platform default installation.
+2018-03-30 08:50:27,592  WARN [Worker-3] - ScalaProject - Project SparkCoreDemo has platform default sourceLevel.
+2018-03-30 08:50:27,592  WARN [Worker-3] - ScalaProject - Project SparkCoreDemo runs on platform default installation.
+2018-03-30 08:50:27,768  WARN [Worker-0] - ScalaProject - Project SparkCoreDemo has platform default sourceLevel.
+2018-03-30 08:50:27,769  WARN [Worker-0] - ScalaProject - Project SparkCoreDemo runs on platform default installation.
+2018-03-30 08:50:30,497  WARN [main] - ScalaProject - Project SparkCoreDemo has platform default sourceLevel.
+2018-03-30 08:50:30,498  WARN [main] - ScalaProject - Project SparkCoreDemo runs on platform default installation.
+2018-03-30 08:51:34,867  WARN [Worker-2] - ScalaProject - Project MovieLens_SparkCore has platform default sourceLevel.
+2018-03-30 08:51:34,867  WARN [Worker-2] - ScalaProject - Project MovieLens_SparkCore runs on platform default installation.
+2018-03-30 08:52:16,951  WARN [Worker-4] - ScalaProject - Project MovieLens_SparkCore has platform default sourceLevel.
+2018-03-30 08:52:16,951  WARN [Worker-4] - ScalaProject - Project MovieLens_SparkCore runs on platform default installation.
+2018-03-30 08:52:39,804  WARN [Worker-2] - ScalaProject - Project MovieLens_SparkCore has platform default sourceLevel.
+2018-03-30 08:52:39,804  WARN [Worker-2] - ScalaProject - Project MovieLens_SparkCore runs on platform default installation.
+2018-03-30 08:52:43,661  WARN [Worker-0] - ScalaProject - Project MovieLens_SparkCore has platform default sourceLevel.
+2018-03-30 08:52:43,661  WARN [Worker-0] - ScalaProject - Project MovieLens_SparkCore runs on platform default installation.
+2018-03-30 08:53:02,533  WARN [Worker-1] - ScalaProject - Project MovieLens_SparkCore has platform default sourceLevel.
+2018-03-30 08:53:02,533  WARN [Worker-1] - ScalaProject - Project MovieLens_SparkCore runs on platform default installation.
+2018-03-30 08:53:14,622  WARN [Worker-5] - ScalaProject - Project MovieLens_SparkCore has platform default sourceLevel.
+2018-03-30 08:53:14,622  WARN [Worker-5] - ScalaProject - Project MovieLens_SparkCore runs on platform default installation.
+2018-03-30 08:53:22,152  WARN [Worker-0] - ScalaProject - Project MovieLens_SparkCore has platform default sourceLevel.
+2018-03-30 08:53:22,152  WARN [Worker-0] - ScalaProject - Project MovieLens_SparkCore runs on platform default installation.
+2018-03-30 08:53:45,401  WARN [Worker-3] - ScalaProject - Project MovieLens_SparkCore has platform default sourceLevel.
+2018-03-30 08:53:45,401  WARN [Worker-3] - ScalaProject - Project MovieLens_SparkCore runs on platform default installation.
+2018-03-30 08:53:51,605  WARN [Worker-1] - ScalaProject - Project MovieLens_SparkCore has platform default sourceLevel.
+2018-03-30 08:53:51,605  WARN [Worker-1] - ScalaProject - Project MovieLens_SparkCore runs on platform default installation.
+2018-03-30 08:55:21,961 ERROR [Worker-0] - System.err - SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2018-03-30 08:55:21,961 ERROR [Worker-0] - System.err - SLF4J: Defaulting to no-operation (NOP) logger implementation
+2018-03-30 08:55:21,961 ERROR [Worker-0] - System.err - SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2018-03-30 08:56:21,863  WARN [Worker-4] - ScalaProject - Project MovieLens_SparkCore has platform default sourceLevel.
+2018-03-30 08:56:21,863  WARN [Worker-4] - ScalaProject - Project MovieLens_SparkCore runs on platform default installation.
+2018-03-30 09:41:09,719  WARN [Worker-13] - ScalaProject - Project MovieLens_SparkCore has platform default sourceLevel.
+2018-03-30 09:41:09,719  WARN [Worker-13] - ScalaProject - Project MovieLens_SparkCore runs on platform default installation.
+2018-03-30 09:41:22,557  WARN [Worker-11] - ScalaProject - Project MovieLens_SparkCore has platform default sourceLevel.
+2018-03-30 09:41:22,557  WARN [Worker-11] - ScalaProject - Project MovieLens_SparkCore runs on platform default installation.
+2018-03-30 09:42:09,120  WARN [main] - ScalaProject - Project MovieLens_SparkCore has platform default sourceLevel.
+2018-03-30 09:42:09,121  WARN [main] - ScalaProject - Project MovieLens_SparkCore runs on platform default installation.
+2018-03-30 09:42:09,443  WARN [Worker-13] - ScalaProject - Project MovieLens_SparkCore has platform default sourceLevel.
+2018-03-30 09:42:09,443  WARN [Worker-13] - ScalaProject - Project MovieLens_SparkCore runs on platform default installation.
+2018-03-30 09:42:37,913  WARN [Worker-13] - ScalaProject - Project MovieLens_SparkCore has platform default sourceLevel.
+2018-03-30 09:42:37,913  WARN [Worker-13] - ScalaProject - Project MovieLens_SparkCore runs on platform default installation.
+2018-03-30 09:42:40,749  WARN [Worker-15] - ScalaProject - Project MovieLens_SparkCore has platform default sourceLevel.
+2018-03-30 09:42:40,749  WARN [Worker-15] - ScalaProject - Project MovieLens_SparkCore runs on platform default installation.
+2018-03-30 09:43:47,896  WARN [Worker-12] - ScalaProject - Project MovieLens_SparkCore has platform default sourceLevel.
+2018-03-30 09:43:47,896  WARN [Worker-12] - ScalaProject - Project MovieLens_SparkCore runs on platform default installation.
+2018-03-30 09:44:53,698  WARN [Worker-13] - ScalaProject - Project MovieLens_SparkCore has platform default sourceLevel.
+2018-03-30 09:44:53,698  WARN [Worker-13] - ScalaProject - Project MovieLens_SparkCore runs on platform default installation.
+2018-03-30 09:48:46,144  WARN [Worker-15] - ScalaProject - Project MovieLens_SparkCore has platform default sourceLevel.
+2018-03-30 09:48:46,144  WARN [Worker-15] - ScalaProject - Project MovieLens_SparkCore runs on platform default installation.
+2018-03-30 09:53:25,407  WARN [Worker-12] - ScalaProject - Project MovieLens_SparkCore has platform default sourceLevel.
+2018-03-30 09:53:25,407  WARN [Worker-12] - ScalaProject - Project MovieLens_SparkCore runs on platform default installation.
+2018-03-30 09:54:44,080  WARN [Worker-20] - ScalaProject - Project MovieLens_SparkCore has platform default sourceLevel.
+2018-03-30 09:54:44,080  WARN [Worker-20] - ScalaProject - Project MovieLens_SparkCore runs on platform default installation.
+2018-03-30 09:55:05,250  WARN [Worker-12] - ScalaProject - Project MovieLens_SparkCore has platform default sourceLevel.
+2018-03-30 09:55:05,250  WARN [Worker-12] - ScalaProject - Project MovieLens_SparkCore runs on platform default installation.
+2018-03-30 09:55:10,662  WARN [Worker-18] - ScalaProject - Project MovieLens_SparkCore has platform default sourceLevel.
+2018-03-30 09:55:10,663  WARN [Worker-18] - ScalaProject - Project MovieLens_SparkCore runs on platform default installation.
+2018-03-30 09:56:22,833  WARN [Worker-18] - ScalaProject - Project MovieLens_SparkCore has platform default sourceLevel.
+2018-03-30 09:56:22,833  WARN [Worker-18] - ScalaProject - Project MovieLens_SparkCore runs on platform default installation.
+2018-03-30 09:57:16,431  WARN [Worker-17] - ScalaProject - Project MovieLens_SparkCore has platform default sourceLevel.
+2018-03-30 09:57:16,431  WARN [Worker-17] - ScalaProject - Project MovieLens_SparkCore runs on platform default installation.
+2018-03-30 09:57:23,123  WARN [Worker-12] - ScalaProject - Project MovieLens_SparkCore has platform default sourceLevel.
+2018-03-30 09:57:23,123  WARN [Worker-12] - ScalaProject - Project MovieLens_SparkCore runs on platform default installation.
+2018-03-30 09:59:08,007  WARN [Worker-20] - ScalaProject - Project MovieLens_SparkCore has platform default sourceLevel.
+2018-03-30 09:59:08,007  WARN [Worker-20] - ScalaProject - Project MovieLens_SparkCore runs on platform default installation.
+2018-03-30 09:59:54,094  WARN [Worker-17] - ScalaProject - Project MovieLens_SparkCore has platform default sourceLevel.
+2018-03-30 09:59:54,094  WARN [Worker-17] - ScalaProject - Project MovieLens_SparkCore runs on platform default installation.
+2018-03-30 10:05:19,269  WARN [Worker-23] - ScalaProject - Project MovieLens_SparkCore has platform default sourceLevel.
+2018-03-30 10:05:19,269  WARN [Worker-23] - ScalaProject - Project MovieLens_SparkCore runs on platform default installation.
+2018-03-30 10:06:35,177  WARN [Worker-24] - ScalaProject - Project MovieLens_SparkCore has platform default sourceLevel.
+2018-03-30 10:06:35,177  WARN [Worker-24] - ScalaProject - Project MovieLens_SparkCore runs on platform default installation.
+2018-03-30 10:06:46,449  WARN [Worker-23] - ScalaProject - Project MovieLens_SparkCore has platform default sourceLevel.
+2018-03-30 10:06:46,449  WARN [Worker-23] - ScalaProject - Project MovieLens_SparkCore runs on platform default installation.
+2018-03-30 10:06:50,859  WARN [Worker-21] - ScalaProject - Project MovieLens_SparkCore has platform default sourceLevel.
+2018-03-30 10:06:50,859  WARN [Worker-21] - ScalaProject - Project MovieLens_SparkCore runs on platform default installation.
+2018-03-30 10:06:57,347  WARN [Worker-26] - ScalaProject - Project MovieLens_SparkCore has platform default sourceLevel.
+2018-03-30 10:06:57,347  WARN [Worker-26] - ScalaProject - Project MovieLens_SparkCore runs on platform default installation.
+2018-03-30 10:12:33,974  WARN [Worker-24] - ScalaProject - Project MovieLens_SparkCore has platform default sourceLevel.
+2018-03-30 10:12:33,974  WARN [Worker-24] - ScalaProject - Project MovieLens_SparkCore runs on platform default installation.

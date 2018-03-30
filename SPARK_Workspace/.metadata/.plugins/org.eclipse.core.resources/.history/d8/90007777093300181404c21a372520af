@@ -1,0 +1,13 @@
+import org.apache.spark.SparkConf
+
+
+object SparkDemo {
+  def main(args: Array[String]): Unit = {
+    //spark conf'
+    //using conf -> spark context
+    val conf=new SparkConf() //.set("spark.master", "Local[*]")
+    .set("spark.app.name", "Spark DEMO")
+    .setMaster("Local[*]")
+    
+  }
+}
