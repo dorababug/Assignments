@@ -1,0 +1,89 @@
+Datalale_db -> all source from rdbms
+
+stagedb
+workdb
+viewdb -> MT_tables 
+
+----------
+from workdb copy data into view db -> fastest way::
+Partitioned table.
+
+
+create table t1 as select * from complaints_partitioned;
+create table t2 like complaints_partitioned;
+insert overwrite t2 select * from;
+
+create table t3 like complaints_partitioned;
+hdfs dfs -put /user/hive/warehouse/project.db/complaints_partitioned /user/hive/warehouse/project.db/t3
+msck repair table t3;
+
+
+
+
+-------------
+
+sqoop import --connect jdbc:mysql://localhost:3306/complaints_db \
+--username root \
+--password root \
+--table complaints \
+--hive-import \
+ --hive-database project \
+--create-hive-table \
+
+
+create database project;
+
+
+
+CREATE external TABLE `complaints_partitioned`(
+  `date_received` string, 
+  `product` string, 
+  `sub_product` string, 
+  `issue` string, 
+  `sub_issue` string, 
+  `consumer_complaint_narrative` string, 
+  `company_public_response` string, 
+  `company` string, 
+  `state` string, 
+  `zip_code` string, 
+  `tags` string, 
+  `consumer_consent_provided` string, 
+  `submitted_via` string, 
+  `date_sent_to_company` string, 
+  `company_response_to_consumer` string, 
+  `timely_response` string, 
+  `consumer_disputed` string, 
+  `complaint_id` bigint, 
+  `created_date` string, 
+  `modified_date` string, 
+  `id` bigint)
+partitioned by (createdmonth bigint)
+stored as parquet;
+
+
+
+insert overwrite table complaints_partitioned
+partition (createdmonth) 
+select * ,
+ concat(year(from_unixtime(unix_timestamp(date_received,"MM/dd/yyyy"))),month(from_unixtime(unix_timestamp(date_received,"MM/dd/yyyy"))))
+from complaints;
+
+
+------------------
+Every StateCode,Name,numberofcomplaints,How many timely response provide
+
+
+select State,
+
+count(1) as no_of_complaints,
+Timely_response
+
+from complaints_partitioned
+group by State,Timely_response
+
+
+
+
+
+
+

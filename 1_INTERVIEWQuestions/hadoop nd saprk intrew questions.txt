@@ -2,11 +2,12 @@ Konzentix:
 
 
 1) what are different executive modes in spark?
-2) hive client and hive server
+	client vs cluster 
+2) hive client and hive server   beeline connection url
 3) write a simple UDF in hive
 4) what are different ways to create a tables in hive ?
 5) spark -Submit Command
-6) What is Maven
+6) What is Maven,Sbt 
 7) group and Co-group
 8) difference between yarn cluster and  
 9) Differences between UDF and UDAF
@@ -18,9 +19,14 @@ Konzentix:
 2) What is the difference between spark 1 and spark 2?
 3) What is the difference between dataframe and dataset?
 4) What is the major and minor compaction in HBase?
-5) What is partition is Map Reduce?
+5) What is partitioner is Map Reduce?
 6) What is the difference between Yarn and Map Reduce?
 7) What is the difference between partitioning and bucketing in hive?
+ dynamic vs static partition
+
+diff row formats and column formats?
+why parquet is better (than orc)?
+
 8) Which scala version u r using?
 9) Which spark version u r using?
 8) What is window and sliding interval in spark streaming?
@@ -44,7 +50,9 @@ Konzentix:
 11) Which Spark version u are using. 						
 12) Which distribustion u are using with version. 				
 13) What is the difference between RDD and Dataframe? 				
-14) RDD operations. 								
+14) RDD operations.
+actons and transformations -> job/stage/task
+wide dependency vs narrow dependency 								
 15) Write some preprocessing steps in Spark. 					
 16) How to convert RDD into Dataframe. 						
 17) Write some Dataframe operations. 						
@@ -75,7 +83,7 @@ Sqoop import
 Hive views
 Hive external n managed
 HBase n Hive differences
-Orderby,sortby n clustered by
+Orderby,sortby n clustered by vs distribute by
 Speculative execution
 Alter column command in hive
 
@@ -145,7 +153,7 @@ reduceByKey and GroupByKey difference and which is better
 spark streaming ------countByValue and window in scala 
 what is difference between concurrency and parallelism
 What is options in scala
-What is Nino in scala
+What is Nil in scala
 What is Some in scala
 And other question are same as previous.
 

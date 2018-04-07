@@ -16,4 +16,8 @@ range(7 to 31)?
 Example:
  scala> Isortfreq(List(List('a,'b,'c), List('d,'e),List('f,'g,'h), List('d,'e), List('i,'j,'k,'I),List('m,'n), List('o)))
 
-res1: List[List[Symbol]] = List(List('i,'j,'k,'l), List('o), List('a,'b,'c), List('f,'g,'h), List('d,'e), List('d,'e), List('m,'n))
+res1: List[List[Symbol]] = List(List('i,'j,'k,'l), List('o), List('a,'b,'c), List('f,'g,'h), List('d,'e), List('d,'e), List('m,'n
+
+Difference b/n vector and List?
+Diff vector and Array?
+ Scala Collection hierarcy and Data type Hierarchy??

@@ -1,0 +1,45 @@
+Date 7Apr2018
+Feb WE 2018
+-----------------------
+i/p text -> process data file format is ORC/PARQUET
+
+
+
+create database movielens location '/movielens_db';
+create table movielens.movies (
+mvid int,
+mvname string,
+genres Array<String> )
+row format delimited
+fields terminated by "@"
+collection items terminated by '|';
+
+use movielens;
+load data local inpath '/home/hadoop/Music/Classes/MovieLens-Work/ml-1m/movies.dat' into table movies;
+
+
+
+create table input_data(col1 String);
+load data local inpath '/home/hadoop/Music/Classes/MovieLens-Work/ml-1m/movies.dat' into table input_data;
+
+insert overwrite directory '/movielens_db/movies' select regex_replace(col1,'::','@') from input_data;
+
+movies table , extra column movie year also.
+
+hive (movielens)> add jar Desktop/add_salute.jar;
+
+create temporary function extract_year as 'com.inv.ExtractYear';
+
+
+select mvid,mvname,extract_year(mvname) mvyear,genres from movies limit 10;
+
+drop table if exists movies_p;
+create table movies_p(mvid int,mvname string,genres Array<string>) partitioned by (mvyear int) -- stored as PARQUET;
+set hive.exec.dynamic.partition.mode=nonstrict;
+
+
+
+insert overwrite table movies_p partition (mvyear )
+ select mvid,mvname,genres,extract_year(mvname) mvyear from movies;
+
+

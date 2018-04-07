@@ -7,6 +7,9 @@
 3) cluster - RAM,CPU cores, number of Nodes
 4) Project Resources -
 5) How many jobs running
+How much data you in daily??
+total data size?
+Retention policy?
 --------------------------------------
 Dont mention CRON-> 
 Job scheduler -> completed normally
@@ -17,3 +20,35 @@ timedout
 held
 cancel
 Actie
+-----------------------
+How are u handling incremental refresh:: 
+mutable vs non mutable 
+
+Job optimization? 
+partitioning and bucketing -> what columns you are using for partitioning and bucketing
+
+2) joins -> keep large table at end
+3) always tryto achieve SMB/SMBM joins
+4) storage -> ORC/parquet
+5) mapreduce map output compress
+6) parallelization enable
+
+what are all the data sources for your project::
+Stream
+Database
+files 
+
+what is datalake ?
+
+Offline/batch soultion  vs Streaming application
+
+What Nosql database you are using-> Hbase -> compaction/Java Hbase clinet API, How to integrate hive & Hbase?
+what is column family, region server.
+Hbase vs Hive?? 
+
+what your team size? what are your roles and responsibilites?
+
+What types data you get?
+csv,json(text input) -> serde -> orc and parquet -> text
+
+
