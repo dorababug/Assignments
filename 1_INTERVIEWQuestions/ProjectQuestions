@@ -2,16 +2,40 @@
 	i) a hive query is running long time -> how to find and kill it?
 	Ans) RM -> get appliction id -> yarn application -kill appid
 	    or click on kill applcation
+	ii) monitor using job scheduler
 
-2) maximum container size 
+monitor the jobs using RM webUI or CLI
+yarn application -status appid
+yarn application -list | grep app_name
+set mapreduce.job.name, in spark --conf PROP=VALUE or --name 
+yarn aaplication -kill appid
+yarn logs -applicationId appid
+
+ps -ef | grep shellscirptname get the process id and kill -9 unix process id
+
+
+
+2) maximum container size -> 16gb container with 8 cpu cores
 3) cluster - RAM,CPU cores, number of Nodes
+	Are we giving the entire cluster to every project?
+	go to scheduler -> queue with capacity are defined.
+	min and max -> 700Gb and 400 cores, 4TB 700 cores max
 4) Project Resources -
 5) How many jobs running
 How much data you in daily??
 total data size?
 Retention policy?
+
+Day to day activies:: biz team gathering req, agile model, sprint 
+daily scrum meeting, dev,testing.
+
+project architecture ->
+
+what kind of performance tuning ? hive and spark
+spark -> change dirver cores, exec cores, memory , number of exec, 
+
 --------------------------------------
-Dont mention CRON-> 
+Dont mention CRON-> oozie -> workflow,coordinator,bundle , action and control nodes
 Job scheduler -> completed normally
 completed abnormally
 waiting on dependencies time or job dependency
@@ -21,6 +45,15 @@ held
 cancel
 Actie
 -----------------------
+
+how developer submit queires:
+edge node and use hive or beeline
+HUE
+once dev is finished , we keep source code in edge node and create job scheduler entries with the source code file
+
+shell script -> hive -f  or spark-submit
+
+--------------------
 How are u handling incremental refresh:: 
 mutable vs non mutable 
 
@@ -45,6 +78,10 @@ Offline/batch soultion  vs Streaming application
 What Nosql database you are using-> Hbase -> compaction/Java Hbase clinet API, How to integrate hive & Hbase?
 what is column family, region server.
 Hbase vs Hive?? 
+fixed schema hive, vairable hbase
+olap hive , oltp for hbase
+hive processing layer, hbase storage layer
+hbase used to replace rdbms, hive/hdfs to complement rdbms.
 
 what your team size? what are your roles and responsibilites?
 

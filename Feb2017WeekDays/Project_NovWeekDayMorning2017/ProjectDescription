@@ -1,0 +1,71 @@
+Project Description:
+------------------------
+
+Bigdata EDW implementation
+
+Data sources:
+	RDBMS ( OLTP data -> transactional data)
+	log file(user activty)
+	dump of data from BRM billing and revinue management,CRM customer relationship management (customer raise complaints)
+	Streaming sources (KAFKA to Hive table)
+
+HDFC -> web page, searched for cards,loans -> captured in log files
+
+if it is RDBMS data -> we schedule sqoop jobs and keep the data in data lake.
+Project is data lake based edw.
+
+How many source table, and what are they:
+Explain fact and dimension tables.
+Sales -> sales data is fact. customer, product , user, geography , time dimensions
+deal , promotion offer -> extra details.
+
+--------------------------
+Bring the data from RDBMS (oracle, TD, mysql) into Data lake layer.
+Data lake is set of hive databases, tables and hdfs folder. Data lake is the source for all bigdata processing.
+user dont have access directly to soure RDBMS systems.
+
+all organization common information kept in data lake.
+Project specific data, dev team will import separately.
+example -> SFDC -> CRM -> Informatica extract data(csv files) and kept in server, from server through scp bring the data into edge node, load data into Hive table. Read the data using csv serde.
+
+What kind of data load into data lake?
+incremental or full refresh?
+for small data sets, (dimension tables ) we perform full refresh.
+For fact(business records) table -> incremental refresh (40mins, daily, weekly, monthly)
+SLA -> service level agreement
+
+How are you handling incremental refresh? (in sqoop)
+sqoop append/lastmodified for mutable data and non mutable data.
+
+delta load -> incremental load get into  stg_table 
+and all data in main table with partitioning (year and week)
+
+perform union all in stg table and main table and apply row_number based on date, and get latest record.
+
+to optimize , we see what all partitions affected in stage table, for those partitions alone we bring data from main table and keep in work interim table wi_
+
+we now perform union all on ur stg table and wi_table, and overwrite into main table. only the partitions affected will be overwritten into main table.
+
+----------------------------------------
+Once te data in data lake, we perform transformation or data exchange 
+
+join the tables, apply business logic and prepare final tables.
+
+--------------------------------
+we copy all the tables into reporting database for busines team consumption.
+
+fastest way of creating copy of partitioned table.
+create table like
+tuncate the target table
+copy all the data using cp command
+msck repair table.
+---------------------------- 
+
+
+
+
+
+
+
+
+
