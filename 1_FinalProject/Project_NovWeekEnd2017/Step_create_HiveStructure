@@ -1,0 +1,179 @@
+#create database hdpdlake
+#creating table dl_usstates
+#create wi, and stg tables with the same structure as dl_usstates
+
+
+#create database hdpdlake;
+
+sqoop import -Dmapreduce.job.name="create hive table" \
+--connect jdbc:mysql://localhost:3306/complaints_db \
+--username root \
+--password root \
+--table usstates \
+--hive-import \
+--hive-database hdpdlake \
+--hive-table usstates_incr \
+--create-hive-table \
+--null-string '\\N' \
+--null-non-string '\\N' \
+--target-dir /usstates_incr
+
+
+---------------------
+Create a control table, insert start time and status and end time , tablename.
+
+
+the data base is etl, table mysql_ctrl_sqoop
+CREATE TABLE `mysql_ctrl_sqoop` (
+  `id` bigint(20) NOT NULL AUTO_INCREMENT,
+  `job_start_date` datetime DEFAULT NULL,
+  `job_end_date` datetime DEFAULT NULL,
+  `table_name` varchar(256) DEFAULT NULL,
+   status char(1)  not null,
+  `created_by` varchar(256) DEFAULT NULL,
+  `created_date` datetime DEFAULT CURRENT_TIMESTAMP,
+  PRIMARY KEY (`id`))
+
+
+
+#export start_time=`date +"%Y-%m-%d %H:%M:%S"`
+#insert into mysql_ctrl_sqoop (job_start_date,table_name,status,created_by) values (now(),"usstates","R","user1");
+
+insert into mysql_ctrl_sqoop (job_start_date,table_name,status,created_by)
+values ('1900-01-01',"usstates","R","user1");
+
+
+
+
+
+ export start_time=`mysql --user=root --password=root -s -e 'select max(job_start_date) from etl.mysql_ctrl_sqoop where status="R"'`
+
+#export end_time=`mysql --user=root --password=root -s -e 'select now()'`
+
+
+hdfs dfs -rm -r /usstates_incr
+
+#Incrementatl refresh is into usstates_incr
+nohup sqoop import -Dmapreduce.job.name="create hive table" \
+--connect jdbc:mysql://localhost:3306/complaints_db \
+--username root \
+--password root \
+--table usstates \
+--null-string '\\N' \
+--null-non-string '\\N' \
+--target-dir /usstates_incr \
+--incremental lastmodified \
+--last-value "$start_time" \
+--check-column modified_date 2>&1 > ~/sqoop_logs/sqoop_log.log 
+
+
+
+export end_time=`tail ~/sqoop_logs/sqoop_log.log | grep "last-value"| cut -d" " -f8,9`
+
+ echo 'update etl.mysql_ctrl_sqoop set job_end_date="'${end_time}'",status="C" where status="C" and table_name="usstates"' |  mysql --user=root --password=root
+
+-------------------------------------
+Steps::
+create a incremental table usstates_incr with location /usstates_incr 
+this table gets only incremental records
+the import type is mutable data.
+
+sqoop import type is incremental lastmodified.
+
+Mysql control table startdate and end date as 1900-01-01,'C' , table name 'ussstes'
+
+get end time of prev job , pass this end time as --last-value for sqoop
+insert into control table another rec with start time form unix or now().
+with state 'R' .
+
+perform sqoop 
+
+get the end date from sqoop logs and update the prev inserted row
+where state 'R' 
+
+------------------------------
+create mysql table with unix_start_time,sqoop_end_time,unix_end_time
+and how many records retrieved, user comments as (incr refresh/full refresh)
+------------------------------------
+
+
+
+
+CREATE TABLE  `dl_usstates`(
+  `state` string, 
+  `standardabbreviation` string, 
+  `postalcode` string, 
+  `capitalcity` string, 
+  `created_date` string, 
+  `modified_date` string, 
+  `id` bigint)
+COMMENT 'Imported by sqoop on 2018/03/25 11:36:57'
+
+stored as ORC
+LOCATION
+  'hdfs://localhost:9000/user/hive/warehouse/hdpdlake.db/dl_usstates'
+;
+
+
+create table wi_usstates like dl_usstates;
+create table stg_usstates like dl_usstates;
+
+create table hdpdlake.sqoop_ctrl_tbl(start_end string,start_end_date timestamp)
+partitioned by (table_name string);
+
+set hive.exec.dynamic.partition.mode=nonstrict;
+insert into hdpdlake.sqoop_ctrl_tbl partition(table_name)
+select "start_job",current_timestamp(),"usstates";
+
+export lastimportdate=`hive -S -e 'select max(start_end_date) from hdpdlake.sqoop_ctrl_tbl where table_name="usstates" and   start_end="start_job"'` 
+
+
+echo $lastimportdate;
+
+# get data into wi table
+sqoop import -Dmapreduce.job.name="create hive table" \
+--connect jdbc:mysql://localhost:3306/complaints_db \
+--username root \
+--password root \
+--table usstates \
+--hive-import \
+--hive-database hdpdlake \
+--hive-table wi_usstates \
+--null-string '\\N' \
+--null-non-string '\\N' \
+--target-dir /dl_usstates_incr
+--incremental "$lastimportdate"
+
+insert overwrite table dl_usstates 
+select * from (
+	select row_number() 
+	over (partitioned by id order by modified_date desc ) rno,*
+	from (
+		select *
+		from wi_usstates
+		union all
+		select 
+		* from dl_usstates
+		) A 
+	) B
+wehre rno=1;
+
+
+
+q1)Product wise number of complaints.
+>10K RED 
+<10 >5K amber
+<5K green
+
+
+q2)take one state -> statename,product, complaints 
+
+q3) distinct Sub_product present
+
+q4) each State, how many compalaints, count by Consumer_consent_provided ...
+
+q5) out of total queries -> how many Timely_response provided 
+
+
+
+

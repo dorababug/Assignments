@@ -1,0 +1,19 @@
+first one shall scrit -> for imporing any table
+sqoop_import_table.sh  database_name table_name full/incr
+
+--------------
+if they just run with incorrect args..
+sqoop_import_table.sh --help
+sqoop_import_table.sh
+
+you have print.. the usage is ..... 
+
+sqoop_import_table.sh  database_name table_name full/incr
+-----------------------------------------------------------
+the script takes system time and insert into mysql control table
+get last import time (last before from control table )
+If the sqoop import is successfull update the table as success or falure..(s/f)
+
+
+
+

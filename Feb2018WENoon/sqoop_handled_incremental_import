@@ -1,0 +1,28 @@
+
+
+usstates_incr contains sqoop import data (mutable)
+
+w_ussates contains data from main table for partitoons afffected
+
+wi -> removeduplicates from incr and w_
+
+overwrite main table with wi table.
+
+for main table refresh into replic table
+
+truncate incr,w,wi_
+
+create table wi_usstates as  
+select * from (
+select * , row_number() over (partition by A.id order by A.modified_date desc ) as rno from
+(select * from w_ussates 
+union all 
+select * from usstates_incr) A) B
+where B.rno=1
+
+
+insert into w_ussates  select * from usstates where yearmonth in (
+select concat(year(modified_date),month(modified_date)) from usstates_incr)
+
+insert overwrite table usstates partition(yearmonth) select * from wi_usstates;
+

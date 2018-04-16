@@ -1,0 +1,32 @@
+Datalake
+
+Bring the data from RDBMS into Datalake:::
+The data refresh should be incremental
+Data is mutable -> i.e the fields will get modified in place.
+
+
+mysql database name: complaints_db
+tables -> complaints, usstates
+
+Datalake database name: hdpdlake
+table names -> hdp_mysqltable_name
+
+Mysql Control table to store the refresh times of Sqoop, Hive
+
+send the log files into log folder/ softwarename_timestampyyyymmdd_hh_mm_ss.log
+---------------------------------------------------
+Components used::
+mysql, Hive, Unix script, Sqoop
+---------------------------------------------------
+
+Sqoop -> import -> incremental -> mutable 
+database : complaints_db usstates
+
+hdpdlake_ddl_statements.hql -> create the data lake hive tables
+File format -> ORC/Parquet 
+
+
+
+
+
+
