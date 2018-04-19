@@ -1,0 +1,13 @@
+package wordcount;
+
+import org.apache.hadoop.io.IntWritable;
+import org.apache.hadoop.io.LongWritable;
+import org.apache.hadoop.io.Text;
+import org.apache.hadoop.mapreduce.Mapper;
+
+
+// from text input format -> byte offset long -> longwritable, value is line -> String
+// string -> hadoop equivalent Text
+public class WordCountMapper extends Mapper<LongWritable, Text, Text, IntWritable> {
+
+}

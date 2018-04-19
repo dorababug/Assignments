@@ -6,7 +6,7 @@
 
 monitor the jobs using RM webUI or CLI
 yarn application -status appid
-yarn application -list | grep app_name
+yarn application -list -appType ALL | grep app_name
 set mapreduce.job.name, in spark --conf PROP=VALUE or --name 
 yarn aaplication -kill appid
 yarn logs -applicationId appid

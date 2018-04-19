@@ -1,0 +1,15 @@
+package com.inv;
+
+import org.apache.hadoop.conf.Configuration;
+import org.apache.hadoop.mapreduce.Job;
+
+public class WordCountDriver {
+	public static void main(String[] args) {
+		//configuration
+		Configuration conf=new Configuration();
+		//MR job represented by JOB object
+		Job job=Job.getInstance(conf, "wordCoount");
+	}
+	
+	
+}

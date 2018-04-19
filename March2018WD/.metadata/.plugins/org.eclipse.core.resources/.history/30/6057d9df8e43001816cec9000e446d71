@@ -1,0 +1,11 @@
+package com.inv;
+
+import org.apache.hadoop.conf.Configuration;
+import org.apache.hadoop.mapreduce.Job;
+
+public class WordCountDriver {
+	//configuration
+	Configuration conf=new Configuration();
+	//MR job represented by JOB object
+	
+}
