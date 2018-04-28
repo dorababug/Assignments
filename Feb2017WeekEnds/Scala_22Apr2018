@@ -1,0 +1,82 @@
+Type inference -> identify data type from assignment value.
+
+Scala -> every line of code is an expression -> expression oriented language
+expression vs statement
+statement does not return a value 
+Expression returns a value
+
+Type Safe:: once you created a variable of a datatype, we cannot modify the data type
+
+lazy evaluation: resources allocated or value will be calculated only when you are first accessing
+------------------------
+
+Functional programming:::
+
+Object -> variables and methods to modify the variable
+
+functions are nothing code block {  }
+functions can exist any where in the source code
+scala is pure OOP -> functions are also objects.
+-------------------
+
+val f={
+val x=100;val y=1000
+x+y
+}
+
+parameterize the function 
+val f1=(x:Int,y:Int)=>{
+println(x)
+println(y)
+x+y
+}:Int
+
+val f1=(x:Int,y:Int)=>{
+println(x)
+println(y)
+x+y
+}
+f1: (Int, Int) => Int
+
+
+def f2(x:Int,y:Int)={
+println(x)
+println(y)
+x+y
+}
+f2: (x: Int, y: Int)Int
+
+
+def f2(x:Int,y:Int):Int={
+println(x)
+println(y)
+x+y
+}
+
+------------------------
+val sum=(x:Int,y:Int)=>{
+println("inside sum")
+x+y
+}
+
+val sub=(x:Int,y:Int)=>{
+println("inside sub")
+x-y
+}
+val mul=(x:Int,y:Int)=>{
+println("inside mul")
+x*y
+}
+
+def operation(a:Int,b:Int,f:(Int,Int)=>Int)={
+println("value is "+a)
+println("inside operation")
+f(a,b)
+}
+
+ operation(5,10,sub)
+
+-----------------------------
+Collection types::::
+
+

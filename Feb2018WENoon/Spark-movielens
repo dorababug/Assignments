@@ -1,0 +1,32 @@
+top 10 most viewed movies with movie names:::
+rating movie,count
+movies movieid,name
+
+
+val top10ratings=sc.parallelize(
+sc.textFile("ratings.dat").
+map(line=> (line.split("::")(1),1)).
+reduceByKey((x,y)=>x+y).
+sortBy(x=>x._2,false).
+take(10)
+)
+
+val moviesRDD=sc.textFile("movies.dat").
+map(x=> (x.split("::")(0),x.split("::")(1)))
+
+top10ratings.join(moviesRDD).foreach(println)
+(2571,(2590,Matrix, The (1999)))
+(2858,(3430,American Beauty (1999)))
+(1196,(2990,Star Wars: Episode V - The Empire Strikes Back (1980)))
+(593,(2578,Silence of the Lambs, The (1991)))
+(1270,(2583,Back to the Future (1985)))
+(589,(2649,Terminator 2: Judgment Day (1991)))
+(480,(2672,Jurassic Park (1993)))
+(260,(2991,Star Wars: Episode IV - A New Hope (1977)))
+(1210,(2883,Star Wars: Episode VI - Return of the Jedi (1983)))
+(2028,(2653,Saving Private Ryan (1998)))
+
+
+top10ratings.join(moviesRDD).sortBy(x=>x._2._1,false).map(x=> x._1+"|"+x._2._1+"|"+x._2._2).foreach(println)
+
+
