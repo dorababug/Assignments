@@ -1,0 +1,2527 @@
+ls2=List(" hi welcome to class","hi welcome to hdfs")
+val ls2=List(" hi welcome to class","hi welcome to hdfs")
+ls2.map(x=>x.split(" "))
+ls2.flatMap(x=>x.split(" "))
+val ls2=List("hi welcome to class","hi welcome to hdfs")
+ls2.map(x=>x.split(" "))
+ls2.flatMap(x=>x.split(" "))
+ls2.map(x=>x.split(" ")).flatten
+ls
+ls.forall(x=>x%2==0)
+val ls2=List(2,2,2,2,4,6,7,8)
+val ls2=List(2,2,2,2,4,6,8)
+ls2.forall(x=>x%2==0)
+var ls2=List(2,2,2,2,4,6,7,8)
+ls2.getClass
+import scala.collection.mutable._
+var ls3=LinkedList(1,2,3,4)
+ ls3
+ls3(1)
+ls3(1)=1000
+ls
+ls3
+ls3.foreach(println)
+val ls2=List(2,2,2,2,4,6,8)
+ls2.getClass
+var ls2=List(2,2,2,2,4,6,8)
+val ls2=List(2,2,2,2,4,6,8)
+ls2.getClass
+ls2(1)
+ls2(1)=10000
+ls3.getClass
+ls3(1)=99999
+ls3.foreach(println)
+import scala.collection.mutable._
+:history
+val ls=(1 to 10).toList
+ls2=List(" hi welcome to class","hi welcome to hdfs")
+val ls2=List(" hi welcome to class","hi welcome to hdfs")
+val ls2=List("hi welcome to class","hi welcome to hdfs")
+ls2.map(line => line.split(" "))
+ls2.map(line => line.split(" ")).flatten
+ls2.flatMap(line => line.split(" "))
+ls2.zipWithIndex
+ls.zipWithIndex
+ls.reverse
+ls
+ls.reduce((x,y)=>x+y)
+ls.reduce((x,y)=>{ println("value of xx+y)
+val fn=(x,y)=>{
+println("value of x:"+x)
+println("value of y:"+y)
+println("value of x+y:"+(x+y))
+x+y
+}
+val fn=(x:Int,y:Int)=>{
+println("value of x:"+x)
+println("value of y:"+y)
+println("value of x+y:"+(x+y))
+x+y
+}
+ls.reduce(fn)
+ls.reduce((x,y)=>x+y)
+val ls1=List(1000,900,100,300,200,500)
+ls1.max
+ls1.reduce((x,y)=> if(x>y) x else y)
+ls1.reduce((x,y)=> if(x<y) x else y)
+val fn=(x:Int,y:Int)=>{
+println("value of x:"+x)
+println("value of y:"+y)
+println("value of x+y:"+(x+y))
+if(x<y) x else y
+}
+ls1.reduce(fn)
+val fn=(x:Int,y:Int)=>{
+println("value of x:"+x)
+println("value of y:"+y)
+if(x<y) x else y
+}
+ls1.reduce(fn)
+ls1
+ls1.min
+ls1.max
+ls1.reduce((x,y)=> if(x<y) x+"" else y+"")
+ls1.reduceLeft((x,y)=> x+y)
+val fn=(x:Int,y:Int)=>{
+println("value of x:"+x)
+println("value of y:"+y)
+println("value of x+y:"+(x+y))
+x+y
+}
+ls1.reduceLeft(fn)
+ls1.reduceRight(fn)
+ls1
+ls1.toString
+ls1.mkString
+ls1.mkString("|")
+sc
+spark
+sc
+sc.
+sc.textFile("sample.txt")
+val input=sc.textFile("sample.txt")
+input.first
+input.count
+input.foreach(println)
+val input=sc.textFile("sample.txt")
+input.getNumPartitions
+input.map(line=>line.split(" "))
+input.map(line=>line.split(" ")).collect
+input.map(line=>line.split(" ")).foreach(println)
+input.map(line=>line.split(" ")).foreach(line=> line.foreach(println))
+input.map(line=>line.split(" ")).first
+input.map(line=>line.split(" ")).foreach(println)
+input.map(line=>line.split(" ")).collect
+input.flatMap(line=>line.split(" ")).collect
+input.flatMap(line=>line.split(" "))
+input.Map(line=>line.split(" "))
+input.map(line=>line.split(" "))
+val words=input.flatMap(line=>line.split(" "))
+words.groupBy
+words.groupBy(word=>word).collect
+words.groupBy(word=>word).first
+words.groupBy(word=>word).map(x=>(x._1,x._2.size)).collect
+words.groupBy(word=>word).map(x=>(x._1,x._2.size)).saveAsTextFile("OutFiles/SparkWC1")
+words.groupBy(word=>word).map(x=>(x._1,x._2.size)).saveAsTextFile("OutFiles/SparkWC2")
+sc.textFile("sample.txt").flatMap(line=>line.split(" ")).groupBy(word=>word).map(x=>(x._1,x._2.size)).saveAsTextFile("OutFiles/SparkWC2")
+sc.textFile("sample.txt").flatMap(line=>line.split(" ")).collect
+sc.textFile("sample.txt").flatMap(line=>line.split(" ")).map(word=>(word,1)).collect
+sc.textFile("sample.txt").flatMap(line=>line.split(" ")).map(word=>(word,1)).reduceByKey((x,y)=>x+y).collect
+sc.textFile("sample.txt").flatMap(line=>line.split(" ")).map(word=>(word,1)).reduceByKey((x,y)=>x+y).saveAsTextFile("OutFiles/sparkwc")
+sc.textFile("sample.txt").
+flatMap(line=>line.split(" ")).
+map(word=>(word,1)).
+reduceByKey((x,y)=>x+y).
+saveAsTextFile("OutFiles/sparkwc1")
+sc.textFile("sample.txt").
+flatMap(line=>line.split(" ")).
+map(word=>(word,1)).
+reduceByKey((x,y)=>x+y).
+saveAsTextFile("OutFiles/sparkwc_reducebykey")
+sc.textFile("sample.txt").
+flatMap(line=>line.split(" ")).
+map(word=>(word,1)).
+groupByKey().collect
+sc.textFile("sample.txt").
+flatMap(line=>line.split(" ")).
+map(word=>(word,1)).
+groupByKey().map(elem=>(elem._1,elem._2.size)).saveAsTextFile("OutFiles/sparkwc_groupbykey")
+sc.textFile("sample.txt").
+flatMap(line=>line.split(" ")).
+map(word=>(word,1)).
+reduceByKey((x,y)=>x+y).
+repartition().collect
+sc.textFile("sample.txt").
+flatMap(line=>line.split(" ")).
+map(word=>(word,1)).
+reduceByKey((x,y)=>x+y).
+repartition(1).collect
+sc.textFile("sample.txt").
+flatMap(line=>line.split(" ")).
+map(word=>(word,1)).
+reduceByKey((x,y)=>x+y,1).collect
+sc.textFile("sample.txt").
+flatMap(line=>line.split(" ")).
+map(word=>(word,1)).
+reduceByKey((x,y)=>x+y,1).saveAsTextFile("OutFiles/sparkwc_partout")
+reduceByKey((x,y)=>x+y,1).saveAsTextFile("OutFiles/sparkwc_partout");
+sc.textFile("sample.txt").
+flatMap(line=>line.split(" ")).
+map(word=>(word,1)).
+reduceByKey((x,y)=>x+y,1).collect
+sc.textFile("sample.txt").
+flatMap(line=>line.split(" ")).
+map(word=>(word,1)).
+reduceByKey((x,y)=>x+y,1).sortBy(t=>t._1).collect
+sc.textFile("sample.txt").
+flatMap(line=>line.split(" ")).
+map(word=>(word,1)).
+reduceByKey((x,y)=>x+y).sortBy(t=>t._1).collect
+sc.textFile("sample.txt").
+flatMap(line=>line.split(" ")).
+map(word=>(word,1)).
+reduceByKey((x,y)=>x+y,1).sortBy(t=>t._1).saveAsTextFile("OutFiles/sparkwc_partout")
+sc.textFile("sample.txt").
+flatMap(line=>line.split(" ")).
+map(word=>(word,1)).
+reduceByKey((x,y)=>x+y).sortBy(t=>t._1).saveAsTextFile("OutFiles/sparkwc_partout")
+sc.getConf
+sc.textFile("wiki.txt")
+sc.textFile("wiki.txt").count
+sc.textFile("wiki.txt").first
+sc.textFile("wiki.txt").take(10)
+sc.textFile("wiki.txt").filter(line=>line.toLowerCase.contains("wikipedia"))
+sc.textFile("wiki.txt").filter(line=>line.toLowerCase.contains("wikipedia")).count
+sc.textFile("wiki.txt").filter(line=>line.toLowerCase.contains("wikipedia")).foreach(println)
+sc.textFile("wiki.txt").filter(line=>line.toLowerCase.contains("wikipedia")).collect
+:history
+sc.textFile("wiki.txt").
+filter(line=>line.toLowerCase.contains("wikipedia")).
+collect
+sc.textFile("wiki.txt",100).filter(line=>line.toLowerCase.contains("wikipedia")).getNumPartitions
+sc.textFile("wiki.txt",100).filter(line=>line.toLowerCase.contains("wikipedia")).saveAsTextFile("OutFiles/filterOut")
+sc.textFile("wiki.txt",100).filter(line=>line.toLowerCase.contains("wikipedia")).coalesce
+sc.textFile("wiki.txt",100).filter(line=>line.toLowerCase.contains("wikipedia")).coalesce(5).getNumPartitions
+sc.textFile("wiki.txt",100).filter(line=>line.toLowerCase.contains("wikipedia")).coalesce(5).saveAsTextFile("OutFiles/coalesce_op")
+sc.textFile("wiki.txt",100).filter(line=>line.toLowerCase.contains("wikipedia")).repartition(5).saveAsTextFile("OutFiles/repa_op")
+sc.textFile("wiki.txt",100).flatMap(x=>x.split(" ")).collect
+sc.textFile("wiki.txt",100).flatMap(x=>x.split(" ")).
+map(word=>(word,1)).collect
+sc.textFile("wiki.txt",100).flatMap(x=>x.split(" ")).
+map(word=>(word,1)).reduceByKey((x,y)=>x+y).saveAsTextFile("OutFiles/wc_out")
+sc.textFile("wiki.txt",100).flatMap(x=>x.split(" ")).
+map(word=>(word,1)).reduceByKey((x,y)=>x+y,1).saveAsTextFile("OutFiles/wc_out1")
+sc.textFile("wiki.txt",100).flatMap(x=>x.split(" ")).
+map(word=>(word,1)).reduceByKey((x,y)=>x+y).repartition(1).saveAsTextFile("OutFiles/wc_out2")
+:help
+:sh pwd
+val res= :sh pwd
+res21.toString
+res21.lines
+res21.lines.foreach(println)
+:sh ls -l
+res25.lines.foreach(println)
+sc.textFile("movies.dat").first
+sc.textFile("ratings.dat").first
+sc.textFile("ratings.dat").map(line=>line.split("::")).first
+sc.textFile("ratings.dat").map(line=>line.split("::")(1)).first
+sc.textFile("ratings.dat").map(line=>line.split("::")(1)).take(5)
+sc.textFile("ratings.dat").map(line=>line.split("::")(1)).getNumPartitions
+sc.textFile("ratings.dat",10).map(line=>line.split("::")(1)).getNumPartitions
+sc.textFile("ratings.dat").map(line=>line.split("::")(1)).getNumPartitions
+sc.textFile("ratings.dat").map(line=>line.split("::")(1)).foreach(println)
+sc.textFile("ratings.dat").map(line=>line.split("::")(1)).foreach(println
+val ratingsRDD=sc.textFile("ratings.dat")
+val movies=ratingsRDD.map(line=>line.split("::")(1))
+val movies_pair=movies.map(mv=>(mv,1))
+movies_pair.take(10)
+movies_pair.reduceByKey((x,y)=>x+y).first
+movies_pair.reduceByKey((x,y)=>x+y).take(10)
+val movies_count=movies_pair.reduceByKey((x,y)=>x+y)
+movies_count.saveAsTextFile("mv_cnt")
+movies_count.sortByKey().take(10)
+val movies=ratingsRDD.map(line=>line.split("::")(1).toInt)
+val movies_pair=movies.map(mv=>(mv,1))
+val movies_count=movies_pair.reduceByKey((x,y)=>x+y)
+movies_count.sortByKey().take(10)
+movies_count.sortBy(x=>x._2).take(10)
+movies_count.sortBy(x=>x._2,false).take(10)
+movies_count.sortBy(x=>x._2,false,1).take(10)
+movies_count.sortBy(x=>x._2,false,1).saveAsTextFile("mv_count_desc")
+movies_count.sortBy(x=>x._2,false,1).take(10)
+movies_count.sortBy(x=>x._2,false,1).take(10).toList
+val movies_pair=movies.map(mv=>(mv,1))
+val movies_count=movies_pair.reduceByKey((x,y)=>x+y)
+val movies_sorted=movies_count.sortBy(x=>x._2,false,1)
+val mv_top10List=movies_sorted.take(10).toList
+val mv_top10RDD=sc.parallelize(mv_top10List)
+mv_top10RDD.collect
+val mv_names=sc.textFile("movies.dat").map(line=>(line.split("::")(0),line.split("::")(1))
+)
+mv_top10RDD
+val mv_names=sc.textFile("movies.dat").map(line=>(line.split("::")(0),line.split("::")(1)))
+mv_names.first
+val join_out=mv_names.join(mv_top10RDD)
+val mv_names=sc.textFile("movies.dat").map(line=>(line.split("::")(0).toInt,line.split("::")(1)))
+val join_out=mv_names.join(mv_top10RDD)
+join_out.first
+join_out.saveAsTextFile("join_out")
+join_out.map(x=> x._1+","+x._2._1+","+x._2._2)
+join_out.map(x=> x._1+","+x._2._1+","+x._2._2).collect
+join_out.map(x=> x._1+","+x._2._1+","+x._2._2).saveAsTextFile("join_out_csv")
+join_out.map(x=> x._1+","+x._2._1+","+x._2._2).repartition(1).saveAsTextFile("join_out_csv1")
+join_out.sort(x=>x._2._2).map(x=> x._1+","+x._2._1+","+x._2._2).repartition(1).saveAsTextFile("join_out_csv1")
+join_out.sortBy(x=>x._2._2).map(x=> x._1+","+x._2._1+","+x._2._2).repartition(1).saveAsTextFile("join_out_csv1")
+join_out.sortBy(x=>x._2._2,false).map(x=> x._1+","+x._2._1+","+x._2._2).repartition(1).saveAsTextFile("join_out_csv1")
+:sh pwd 
+res34.lines
+join_out.foreach(println)
+val join_out=mv_names.leftOuterjoin(mv_top10RDD)
+val join_out=mv_names.leftOuterJoin(mv_top10RDD)
+join_out.foreach(println)
+val join_out=mv_names.rightOuterJoin(mv_top10RDD)
+join_out.foreach(println)
+Some(Back to the Future (1985)
+;
+Some(Back to the Future (1985))
+Some("Back to the Future (1985)")
+res40.getOrElse("i am def")
+case class University(name: String, numStudents: Long, yearFounded: Long)
+val schools = spark.read.json("/home/hadoop/INPUT/Json_SampleFIles/schools.json").as[University]
+schools.map(s => s"${s.name} is ${2015 – s.yearFounded} years old")
+schools.map(s => s"${s.name} is ${2015 - s.yearFounded} years old")
+val schools = spark.read.json("/home/hadoop/INPUT/Json_SampleFIles/schools.json").as[University]
+case class University(name: String, numStudents: Long, yearFounded: Long)
+val schools = spark.read.json("/home/hadoop/INPUT/Json_SampleFIles/schools.json").as[University]
+import org.apache.spark.implicits._
+val empRDD=sc.textFile("/home/hadoop/Desktop/Link to SET2/MapReduceCode/Joins-MapReduce/input/emp").map(line=>(line.split(",")(3),line))
+val deptRDD=sc.textFile("/home/hadoop/Desktop/Link to SET2/MapReduceCode/Joins-MapReduce/input/dept").map(line=>(line.split(",")(0),line.split(",")(1)))
+empRDD.foreach(println)
+deptRDD.foreach(println)
+empRDD.foreach(x=>println(x._1))
+empRDD.foreach(x=>println(x._2))
+empRDD.getClass
+deptRDD.foreach(x=>println(x._2))
+deptRDD.foreach(x=>println(x._1))
+empRDD.leftOuterJoin(deptRDD)
+val joinRDD=empRDD.leftOuterJoin(deptRDD)
+joinRDD.foreach(println)
+val joinRDD=deptRDD.leftOuterJoin(empRDD)
+joinRDD.foreach(println)
+val joinRDD=empRDD.leftOuterJoin(deptRDD)
+joinRDD.foreach(println)
+joinRDD.foreach(x=>println x._2._1)
+joinRDD.foreach(x=>println(x._2._1))
+joinRDD.foreach(x=>println(x._2._2))
+joinRDD.foreach(x=>println(x._2._2.getOrElse("NULL")))
+joinRDD.foreach(x=>println(x._2._2).toString)
+joinRDD.foreach(x=>println(x._2._2).getOrElse("---"))
+joinRDD.foreach(x=>println(x._2._2.getOrElse("---")))
+joinRDD.foreach(x=>println(x._2._1+","+x._2._2.getOrElse("-")))
+val empRDD=sc.textFile("/home/hadoop/Desktop/Link to SET2/MapReduceCode/Joins-MapReduce/input/emp").map(line=>(line.split(",")(3),line))
+val deptRDD=sc.textFile("/home/hadoop/Desktop/Link to SET2/MapReduceCode/Joins-MapReduce/input/dept").map(line=>(line.split(",")(0),line.split(",")(1)))
+val joinRDD=empRDD.leftOuterJoin(deptRDD)
+joinRDD.map(x=>x._2._1+","+x._2._2.getOrElse("-")).saveAsTextFile("OutFiles/joinOutput")
+val joinRDD=empRDD.leftOuterJoin(deptRDD,1)
+joinRDD.map(x=>x._2._1+","+x._2._2.getOrElse("-")).saveAsTextFile("OutFiles/joinOutput1")
+val empRDD=sc.textFile("/home/hadoop/Desktop/Link to SET2/MapReduceCode/Joins-MapReduce/input/emp").map(line=>(line.split(",")(3),line))
+val deptRDD=sc.textFile("/home/hadoop/Desktop/Link to SET2/MapReduceCode/Joins-MapReduce/input/dept").map(line=>(line.split(",")(0),line.split(",")(1)))
+val joinRDD=empRDD.leftOuterJoin(deptRDD,1)
+joinRDD.map(x=>x._2._1+","+x._2._2.getOrElse("-")).saveAsTextFile("OutFiles/joinOutput2")
+sc.broadcast(deptRDD)
+sc.broadcast(deptRDD.collect)
+val deptRDD1=sc.broadcast(deptRDD.collect)
+val deptRDD1=sc.parallelize(sc.broadcast(deptRDD.collect))
+val str="1::Toy Story (1995)::Animation|Children's|Comedy"
+str.substrig(str.indexOf("("),4)
+str.substring(str.indexOf("("),4)
+str.substring(str.indexOf("("),str.indexOf(")"))
+str.substring(str.indexOf("(")+1,str.indexOf(")"))
+str.substring(str.lastIndexOf("(")+1,str.lastIndexOf(")"))
+val years=sc.textFile("/home/hadoop/Music/Classes/MovieLens-Work-SPARK/ml-1m_nov2017Weekdays/movies.dat").map(
+val extractYear=(line:String)=>{
+line.substring(str.lastIndexndexOf("(")+1,str.indexOf(")"))
+}
+val extractYear=(line:String)=>{
+line.substring(line.lastIndexndexOf("(")+1,line.indexOf(")"))
+}
+val extractYear=(line:String)=>{
+line.substring(line.lastIndexOf("(")+1,line.lastIndexOf(")"))
+}
+str
+extractYear(str)
+val yearRDD=sc.textFile("val extractYear=(line:String)=>{
+line.substring(line.lastIndexOf("(")+1,line.lastIndexOf(")"))
+val yearRDD=sc.textFile("file:///home/hadoop/Music/Classes/MovieLens-Work-SPARK/ml-1m_nov2017Weekdays/movies.dat").map(extractYear)
+yearRDD.take(10).foreach(println)
+val extractYear=(line:String)=>{
+val year=line.substring(line.lastIndexOf("(")+1,line.lastIndexOf(")"))
+(year,1)
+}
+val yearRDD=sc.textFile("file:///home/hadoop/Music/Classes/MovieLens-Work-SPARK/ml-1m_nov2017Weekdays/movies.dat").map(extractYear)
+yearRDD.take(10).foreach(println)
+yearRDD.getClass
+val yearRDD=sc.textFile("file:///home/hadoop/Music/Classes/MovieLens-Work-SPARK/ml-1m_nov2017Weekdays/movies.dat").map(extractYear)
+val extractYear=(line:String)=>{
+val year=line.substring(line.lastIndexOf("(")+1,line.lastIndexOf(")"))
+(year.toInt,1)
+}
+val yearRDD=sc.textFile("file:///home/hadoop/Music/Classes/MovieLens-Work-SPARK/ml-1m_nov2017Weekdays/movies.dat").map(extractYear)
+yearRDD.reduceByKey((x,y)=>x+y)
+yearRDD.reduceByKey((x,y)=>x+y).foreach(println)
+yearRDD.reduceByKey((x,y)=>x+y).sortBy(x=>x._2,false).take(10)
+yearRDD.reduceByKey((x,y)=>x+y).sortBy(x=>x._2,false).filter(x=>x._2>200).collect
+yearRDD
+yearRDD.take(10)
+val yearDF=yearRDD.toDF(year:Int,cnt:Int)
+val yearDF=yearRDD.toDF(year:String,cnt:String)
+val yearDF=yearRDD.toDF(years:String,cnt:String)
+yearRDD.toDF(years:String,cnt:String)
+yearRDD.toDF(yr,cnt)
+yearRDD.toDF(yr: String,cnt: String)
+yearRDD.toDF()
+yearRDD.toDF(yr:Int,cnt:Int)
+yearRDD.toDF(yr:String,cnt:Int)
+yearRDD.toDF(yr:String,cnt:String)
+ import sparkSession.implicits._
+ import spark.implicits._
+yearRDD.toDF(yr:String,cnt:String)
+yearRDD
+yearRDD.toDF()
+yearRDD.toDF(yr:String,cnt:String)
+yearRDD.toDF()
+yearRDD.toDF("year":Int,"cnt":Int)
+yearRDD.toDF("yr":String,"cnt":String)
+yearRDD.toDF("yr","cnt")
+val yearDF=yearRDD.toDF("yr","cnt")
+yearDF.select("yr")
+yearDF.select("yr").show
+yearDF.groupBy("yr").count.show
+yearDF.groupBy("yr").count.orderBy("count").show
+yearDF.groupBy("yr").count.orderBy("count",false).show 
+yearDF.groupBy("yr").count.orderBy("count").show 
+import org.apache.spark.sql.functions._
+yearDF.groupBy("yr").count.orderBy(desc("count")).show 
+yearDF.schema
+yearDF.schema.show
+yearDF.schema
+yearDF.createOrReplaceTempView("t_year")
+spark.sql("select * from t_year")
+spark.sql("select * from t_year").schema
+spark.sql("select * from t_year").show
+spark.sql("select yr,count(cnt) mv_count from t_year group by yr order by mv_count desc limti 10  ").show
+spark.sql("select yr,count(cnt) mv_count from t_year group by yr order by mv_count desc limit 10  ").show
+spark.sql("select yr,count(cnt) mv_count from t_year group by yr having count(cnt) > 200 order by mv_count desc   ").show
+spark.sql("create table res as select yr,count(cnt) mv_count from t_year group by yr order by mv_count desc limit 10  ")
+spark.sql("select * from res").show
+spark.sql("select yr,count(cnt) mv_count from t_year group by yr having count(cnt) > 200 order by mv_count desc   ").show
+spark.sql("select yr,count(cnt) mv_count from t_year group by yr having count(cnt) > 200 order by mv_count desc   ").write.saveAsTable("res1")
+spark.sql("select * from res").write.orc("OutFiles/orcOut")
+spark.read.orc("OutFiles/orcOut").show
+val empDF1=sc.textFile("/home/hadoop/Desktop/Link to SET2/MapReduceCode/Joins-MapReduce/input/emp").map(line=>{ val arr=line.split(","); (arr(0),arr(1),arr(2),arr(3))})
+empDF1.first
+val empDF1=sc.textFile("/home/hadoop/Desktop/Link to SET2/MapReduceCode/Joins-MapReduce/input/emp").map(line=>{ val arr=line.split(","); (arr(0),arr(1),arr(2),arr(3))}).toDF("id","name","sal","deptid")
+empDF1.show
+val empDF1=sc.textFile("/home/hadoop/Desktop/Link to SET2/MapReduceCode/Joins-MapReduce/input/emp").map(line=>{ val arr=line.split(" "); (arr(0),arr(1),arr(2),arr(3))}).toDF("id","name","sal","deptid")
+empDF1.first
+val empDF1=sc.textFile("/home/hadoop/Desktop/Link to SET2/MapReduceCode/Joins-MapReduce/input/emp").map(line=>{ val arr=line.split(","); (arr(0),arr(1),arr(2),arr(3))}).toDF("id","name","sal","deptid")
+spark.read.csv("/home/hadoop/Desktop/Link to SET2/MapReduceCode/Joins-MapReduce/input/emp_header").show
+spark.read.csv("/home/hadoop/Desktop/Link to SET2/MapReduceCode/Joins-MapReduce/input/emp_header")
+spark.read.csv("/home/hadoop/Desktop/Link to SET2/MapReduceCode/Joins-MapReduce/input/emp_header").option("header", "true")
+spark.read.option("header", "true").csv("/home/hadoop/Desktop/Link to SET2/MapReduceCode/Joins-MapReduce/input/emp_header")
+spark.read.option("header", "true").csv("/home/hadoop/Desktop/Link to SET2/MapReduceCode/Joins-MapReduce/input/emp_header").show
+spark.read.csv("/home/hadoop/Desktop/Link to SET2/MapReduceCode/Joins-MapReduce/input/emp_header").show
+spark.read.csv("/home/hadoop/Desktop/Link to SET2/MapReduceCode/Joins-MapReduce/input/emp").show
+spark.read.csv("/home/hadoop/Desktop/Link to SET2/MapReduceCode/Joins-MapReduce/input/emp").schema("id","name","sal","deptid")
+spark.read.textFile("/home/hadoop/Desktop/Link to SET2/MapReduceCode/Joins-MapReduce/input/emp")
+spark.read.textFile("/home/hadoop/Desktop/Link to SET2/MapReduceCode/Joins-MapReduce/input/emp").show
+spark.read.table("res").show
+spark.read.table("res").schema
+spark.read.table("res").text
+val empDF2=spark.read.csv("/home/hadoop/Desktop/Link to SET2/MapReduceCode/Joins-MapReduce/input/emp_header")
+empDF1.shoow
+empDF1.show
+empDF2.show
+val empDF2=spark.read.option("header","true").csv("/home/hadoop/Desktop/Link to SET2/MapReduceCode/Joins-MapReduce/input/emp_header")
+empDF2.show
+val empDF2=spark.read.option("header","true").option("mode","DROPMALFORMED").csv("/home/hadoop/Desktop/Link to SET2/MapReduceCode/Joins-MapReduce/input/emp_header")
+empDF2.show
+spark.read.option("header","true").csv("/home/hadoop/Desktop/Link to SET2/MapReduceCode/Joins-MapReduce/input/emp_header").show
+spark.read.option("header","true").option("mode","DROPMALFORMED").csv("/home/hadoop/Desktop/Link to SET2/MapReduceCode/Joins-MapReduce/input/emp_header").show
+spark.read.option("header","true").csv("/home/hadoop/Desktop/Link to SET2/MapReduceCode/Joins-MapReduce/input/emp_header").show
+spark.read.option("header","true").csv("/home/hadoop/Desktop/Link to SET2/MapReduceCode/Joins-MapReduce/input/emp_header").filter(row=>row.anyNull).show
+spark.read.option("header","true").csv("/home/hadoop/Desktop/Link to SET2/MapReduceCode/Joins-MapReduce/input/emp_header").filter(row=>!row.anyNull).show
+spark.read.option("header","true").csv("/home/hadoop/Desktop/Link to SET2/MapReduceCode/Joins-MapReduce/input/emp_header").filter(row=val>row.anyNull).show
+val b=true
+!b
+spark.read.option("header","true").csv("/home/hadoop/Desktop/Link to SET2/MapReduceCode/Joins-MapReduce/input/emp_header").filter(row=>!row.anyNull).show
+spark.read.option("header","true").csv("/home/hadoop/Desktop/Link to SET2/MapReduceCode/Joins-MapReduce/input/emp_header").filter(row=>! row.anyNull).show
+spark.read.option("header","true").csv("/home/hadoop/Desktop/Link to SET2/MapReduceCode/Joins-MapReduce/input/emp_header").filter(row=>row.anyNull).show
+spark.read.option("header","true").csv("/home/hadoop/Desktop/Link to SET2/MapReduceCode/Joins-MapReduce/input/emp_header").filter(row=>~row.anyNull).show
+spark.read.option("header","true").csv("/home/hadoop/Desktop/Link to SET2/MapReduceCode/Joins-MapReduce/input/emp_header").filter(row=>!row.anyNull).show
+spark.read.option("header","true").csv("/home/hadoop/Desktop/Link to SET2/MapReduceCode/Joins-MapReduce/input/emp_header").filter(row=>!(row.anyNull)).show
+spark.read.option("header","true").csv("/home/hadoop/Desktop/Link to SET2/MapReduceCode/Joins-MapReduce/input/emp_header").filter(row=> !(row.anyNull)).show
+spark.read.option("header","true").csv("/home/hadoop/Desktop/Link to SET2/MapReduceCode/Joins-MapReduce/input/emp_header").filter(row=> !row.anyNull).show
+spark.read.option("header","true").csv("/home/hadoop/Desktop/Link to SET2/MapReduceCode/Joins-MapReduce/input/emp_header").filter(row=> !row.anyNull)
+spark.read.option("header","true").csv("/home/hadoop/Desktop/Link to SET2/MapReduceCode/Joins-MapReduce/input/emp_header")
+spark.read.option("header","true").csv("/home/hadoop/Desktop/Link to SET2/MapReduceCode/Joins-MapReduce/input/emp_header").show
+val empDF2=spark.read.option("header","true").csv("/home/hadoop/Desktop/Link to SET2/MapReduceCode/Joins-MapReduce/input/emp_header")
+empDF2.write.insertInto("empTable")
+empDF2.write.saveAsTable("empTable")
+empDF2.createTempView("emp_temp")
+spark.sql("select * from emp_temp").show
+empDF2.write.insertInto("emp_temp")
+spark.sql("create table emp as select * from emp_temp").show
+spark.sql("create table emp as select * from emp_temp")
+empDF2.write.insertInto("emp")
+spark.sql("select * from emp").show
+empDF2.write.insertInto("emp")
+spark.sql("select * from emp").count
+empDF2.write.insertInto("emp")
+spark.sql("select * from emp").count
+empDF2.show
+spark.sql("insert into emp select * from emp_temp")
+spark.sql("select * from emp").count
+spark.sql("insert overwrite table emp select * from emp_temp")
+spark.sql("select * from emp").count
+val empDF3=empDF2
+empDF3.shpw
+empDF3.show
+empDF2.write.mode("append").orc("OutFiles/orc_out")
+empDF2.write.orc("OutFiles/orc_out")
+spark.read.orc("OutFiles/orc_out").show
+spark.read.orc("OutFiles/orc_out").count
+empDF2.write.mode("append").orc("OutFiles/orc_out")
+spark.read.orc("OutFiles/orc_out").count
+spark.read.orc("OutFiles/orc_out").coun
+empDF2.write.mode("append").orc("OutFiles/orc_out")
+empDF2.write.mode("overwrite").orc("OutFiles/orc_out")
+empDF2.write.partitionBy("empid").save("OutFiles/abc")
+empDF2.write.bucketBy(3,"empid").format("csv").save("OutFiles/def")
+empDF2.write.bucketBy(3,"empid").format("csv").saveAsTable("emp_buketed")
+empDF2.write.partitionBy("empid").format("text").save("OutFiles/abc_text")
+empDF2.write.partitionBy("empid").format("csv").save("OutFiles/abc_text")
+empDF2.write.format("json").save("OutFiles/json")
+spark.read.textFile("sample.txt")
+spark.read.textFile("file:///home/hadoop/sample.txt")
+res1.schema'
+res1.schema
+spark.read.textFile("file:///home/hadoop/sample.txt").show 
+sc.textFile("/xyz.txt").foreach(println)
+spark.sql("select * from hivepractice.employee_hr").show
+spark.sql("create table hivepractice.emp_hr_copy as select * from hivepractice.employee_hr")
+spark.sql("create table hivepractice.emp_hr_copy1 as select * from hivepractice.employee_hr")
+spark.read.textFile("file:///home/hadoop/Music/Classes/MovieLens-Work-SPARK/ml-1m/moives.dat").createOrReplaceTempView("movies_raw")
+ :sh "echo $HADOOP_CONF_DIR"
+:sh echo $HADOOP_CONF_DIR
+res5.lines
+:sh echo `$HADOOP_CONF_DIR`
+res7.lines
+spark.read.textFile("file:///home/hadoop/Music/Classes/MovieLens-Work-SPARK/ml-1m/moives.dat").createOrReplaceTempView("movies_raw")
+spark.read.textFile("file:///home/hadoop/Music/Classes/MovieLens-Work-SPARK/ml-1m/movies.dat").createOrReplaceTempView("movies_raw")
+spark.read.textFile("file:///home/hadoop/Music/Classes/MovieLens-Work-SPARK/ml-1m/moives.dat").createOrReplaceTempView("movies_ip")
+spark.read.textFile("file:///home/hadoop/Music/Classes/MovieLens-Work-SPARK/ml-1m/movies.dat").createOrReplaceTempView("movies_ip")
+spark.read.textFile("file:///home/hadoop/Music/Classes/MovieLens-Work-SPARK/ml-1m/ratings.dat").createOrReplaceTempView("ratings_ip")
+spark.sql("select * from movies_ip limit 1").show
+spark.sql("select split(value,"::") from movies_ip limit 1").show
+spark.sql("select * from movies_ip limit 1").schema
+spark.sql("select split(value,"::") from movies_ip limit 1").show
+spark.sql("select split(value,\"::\") from movies_ip limit 1").show
+spark.sql("select split(value,\"::\")[0] as mvname from movies_ip limit 1").show
+spark.sql("select split(value,\"::\")[0] as mvid,split(value,\"::\")[1] as mvname from movies_ip limit 1").show
+spark.sql("""select 
+split(value,\"::\")[0] as mvid,
+split(value,\"::\")[1] as mvname,
+regex_extract(split(value,\"::\")[1],\"+d{4}\",2) as year 
+from movies_ip limit 1""").show
+spark.sql("""select 
+split(value,'::')[0] as mvid,
+split(value,'::')[1] as mvname,
+regex_extract(split(value,'::')[1],'+d{4}',2) as year 
+from movies_ip limit 1""").show
+spark.sql("""select 
+split(value,'::')[0] as mvid,
+split(value,'::')[1] as mvname,
+regexp_extract(split(value,'::')[1],'+d{4}',2) as year 
+from movies_ip limit 1""").show
+L
+spark.sql("""select 
+split(value,'::')[0] as mvid,
+split(value,'::')[1] as mvname,
+regexp_extract(split(value,'::')[1],'\\d+',0) as year 
+from movies_ip limit 1""").show
+spark.sql("""select 
+split(value,'::')[0] as mvid,
+split(value,'::')[1] as mvname,
+regexp_extract(split(value,'::')[1],'\\d+',0) as year 
+from movies_ip where year=2000""").createOrReplaceTempView("movies")
+spark.sql("""select 
+split(value,'::')[0] as mvid,
+split(value,'::')[1] as mvname,
+regexp_extract(split(value,'::')[1],'\\d+',0) as year 
+from movies_ip """)
+spark.sql("""select 
+split(value,'::')[0] as mvid,
+split(value,'::')[1] as mvname,
+regexp_extract(split(value,'::')[1],'\\d+',0) as year 
+from movies_ip """).createOrReplaceTempView("movies");
+spark.sql("select * from moives").show
+spark.sql("select * from movies").show
+spark.sql("select * from movies").foreach(println)
+spark.sql("select distinct year  from movies").collect.foreach(println)
+spark.sql(" ")
+select substring(split('1::Toy Story (1995)::Animation|Children's|Comedy','::')[1],length(split('1::Toy Story (1995)::Animation|Children's|Comedy','::')[1])-5 , 4)
+spark.sql("""select 
+split(value,'::')[0] as mvid,
+split(value,'::')[1] as mvname,
+substring(split(value,'::')[1],length(split(value,'::')[1])-4 , 4) as year 
+from movies_ip """).createOrReplaceTempView("movies");
+spark.sql("select distinct year  from movies").collect.foreach(println)
+spark.read.textFile("file:///home/hadoop/Music/Classes/MovieLens-Work-SPARK/ml-1m/movies.dat").createOrReplaceTempView("movies_ip")
+spark.sql("""select 
+split(value,'::')[0] as mvid,
+split(value,'::')[1] as mvname,
+substring(split(value,'::')[1],length(split(value,'::')[1])-4 , 4) as year 
+from movies_ip """).createOrReplaceTempView("movies");
+spark.sql("select distinct year  from movies").collect.foreach(println)
+spark.sql("select * from movies").show
+spark.read.textFile("file:///home/hadoop/Music/Classes/MovieLens-Work-SPARK/ml-1m/movies.dat").createOrReplaceTempView("movies_ip")
+spark.read.textFile("file:///home/hadoop/Music/Classes/MovieLens-Work-SPARK/ml-1m/ratings.dat").createOrReplaceTempView("ratings_ip")
+spark.sql("""select 
+split(value,'::')[0] as mvid,
+split(value,'::')[1] as mvname,
+substring(split(value,'::')[1],length(split(value,'::')[1])-4 , 4) as year 
+from movies_ip """).createOrReplaceTempView("movies");
+spark.sql("select * from movies").show
+spark.sql("""select 
+split(value,'::')[0] as usrid,
+split(value,'::')[1] as mvid,
+split(value,'::')[2] as rating
+from ratings_ip """).createOrReplaceTempView("ratings");
+spark.read.textFile("file:///home/hadoop/Music/Classes/MovieLens-Work-SPARK/ml-1m/movies.dat").createOrReplaceTempView("movies_ip")
+spark.read.textFile("file:///home/hadoop/Music/Classes/MovieLens-Work-SPARK/ml-1m/ratings.dat").createOrReplaceTempView("ratings_ip")
+spark.sql("""select 
+split(value,'::')[0] as mvid,
+split(value,'::')[1] as mvname,
+substring(split(value,'::')[1],length(split(value,'::')[1])-4 , 4) as year 
+from movies_ip """).createOrReplaceTempView("movies");
+spark.sql("select * from movies").show
+spark.sql("""select 
+split(value,'::')[0] as usrid,
+split(value,'::')[1] as mvid,
+split(value,'::')[2] as rating
+from ratings_ip """).createOrReplaceTempView("ratings");
+spark.sql("select * from ratings").show
+spark.sql("select mvid,avg(rating) from ratings group by mvid").createOrReplaceTempView("avg_rating")
+spark.sql("select * from avg_rating").show
+spark.sql("select mvid,round(avg(rating),2) as avgrating from ratings group by mvid").createOrReplaceTempView("avg_ratings")
+spark.sql("select * from avg_ratings").show
+spark.sql("""select m.id,m.mvname,r.avgrating
+from movies m 
+join avg_ratings r on m.mvid=r.mvid 
+where m.year=2000""").show
+spark.sql("""select m.mvid,m.mvname,r.avgrating
+from movies m 
+join avg_ratings r on m.mvid=r.mvid 
+where m.year=2000""").show
+spark.sql("""select m.mvid,m.mvname,r.avgrating
+from movies m 
+join avg_ratings r on m.mvid=r.mvid 
+where m.year=2000 order by avgrating desc """).show
+spark.read.textFile("file:///home/hadoop/Music/Classes/MovieLens-Work-SPARK/ml-1m/movies.dat").createOrReplaceTempView("movies_ip")
+spark.read.textFile("file:///home/hadoop/Music/Classes/MovieLens-Work-SPARK/ml-1m/ratings.dat").createOrReplaceTempView("ratings_ip")
+spark.sql("""select 
+split(value,'::')[0] as mvid,
+split(value,'::')[1] as mvname,
+substring(split(value,'::')[1],length(split(value,'::')[1])-4 , 4) as year 
+from movies_ip """).createOrReplaceTempView("movies");
+spark.sql("""select 
+split(value,'::')[0] as usrid,
+split(value,'::')[1] as mvid,
+split(value,'::')[2] as rating
+from ratings_ip """).createOrReplaceTempView("ratings");
+spark.sql("select mvid,round(avg(rating),2) as avgrating from ratings group by mvid").createOrReplaceTempView("avg_ratings")
+spark.sql("""select m.mvid,m.mvname,r.avgrating
+from movies m 
+join avg_ratings r on m.mvid=r.mvid 
+where m.year=2000 order by avgrating desc """)
+res5.write.saveAsTable("hivepractice.mvTop200")
+res5.write.format("orc").saveAsTable("hivepractice.mvTop200_orc")
+res5.write.saveAsTable("hivepractice.mvTop200")
+res5.write.mode("append").saveAsTable("hivepractice.mvTop200")
+res5.repartition(1).write.mode("overwrite").saveAsTable("hivepractice.mvTop200")
+spark.read.textFile("file:///home/hadoop/Music/Classes/MovieLens-Work-SPARK/ml-1m/movies.dat").saveAsTable("hdpdatalake.movies_ip")
+spark.read.textFile("file:///home/hadoop/Music/Classes/MovieLens-Work-SPARK/ml-1m/ratings.dat").saveAsTable("hdpdatalake.ratings_ip");
+spark.read.textFile("file:///home/hadoop/Music/Classes/MovieLens-Work-SPARK/ml-1m/movies.dat").createOrReplaceTempView("movies_ip").saveAsTable("hdpdatalake.movies_ip")
+spark.read.textFile("file:///home/hadoop/Music/Classes/MovieLens-Work-SPARK/ml-1m/ratings.dat").createOrReplaceTempView("ratings_ip").saveAsTable("hdpdatalake.ratings_ip");
+spark.read.textFile("file:///home/hadoop/Music/Classes/MovieLens-Work-SPARK/ml-1m/movies.dat").createOrReplaceTempView("movies_ip");
+spark.sql("select * from movies_ip").mode("overwrite").saveAsTable("hdpdatalake.movies_ip");
+spark.read.textFile("file:///home/hadoop/Music/Classes/MovieLens-Work-SPARK/ml-1m/ratings.dat").createOrReplaceTempView("ratings_ip");
+spark.sql("select * from ratings_ip").mode("overwrite").saveAsTable("hdpdatalake.ratings_ip");
+spark.read.textFile("file:///home/hadoop/Music/Classes/MovieLens-Work-SPARK/ml-1m/movies.dat").write.mode("overwrite").saveAsTable("hdpdatalake.movies_ip");
+spark.read.textFile("file:///home/hadoop/Music/Classes/MovieLens-Work-SPARK/ml-1m/ratings.dat").write.mode("overwrite").saveAsTable("hdpdatalake.ratings_ip");
+case class Person(id:Int,name:String,gender:String)
+val p1=Person(1,"p1","Mr")
+p1.id
+p1.name
+p1.gender
+p1.name="p2"
+val p2=p1.copy(id=2)
+p2.id
+p2.name
+p2.gender
+p1==p2
+val p3=p1
+p1==p3
+"abcd".size
+"abcd".lenght
+"abcd".length
+"abcd efgh".length
+"abcd efgh".size
+"abcd efgh".foreach(println)
+for a<- "abcd efgh" println(a)
+for (a<- "abcd efgh") println(a)
+10
+"abc"
+abc
+var i=10
+var j:Int =100
+var z =100
+i
+println(i)
+println(i).getClass
+println(i)
+i=100
+i="inventateq"
+var i="inventateq"
+i=100
+val x=100
+x=1000
+val x=1000;
+x=1000
+var y=10
+y=1000
+var i=100
+var j=100
+lazy val k=i+j 
+i=200
+println(k)
+i=300
+val sum1=(n:Int, total:Long)=>{
+=0) println(total)
+-1,total+n)
+}
+val sum1=(n:Int, total:Long)=>{
+if(n=0) println(total)
+else sum1(n-1,total+n)
+}
+val sum1=(n:Int, total:Long)=>{
+if(n=0) println(total)
+sum1(n-1,total+n)
+}
+def sum1(n:Int, total:Long)={
+if(n=0) println(total)
+sum1(n-1,total+n)
+}
+def sum1(n:Int, total:Long):Long={
+if(n=0) println(total)
+sum1(n-1,total+n)
+}
+def sum1(var n:Int, var total:Long):Long={
+if(n=0) println(total)
+sum1(n-1,total+n)
+def sum1(n:Int, total:Long):Long={
+if(n==0) println(total)
+sum1(n-1,total+n)
+}
+sum1(10,0)
+def sum1(n:Int, total:Long):Long={
+if(n==0) println(total)
+else sum1(n-1,total+n)
+}
+def sum1(n:Int, total:Long):Long={
+if(n==0) total
+else sum1(n-1,total+n)
+}
+sum1(10,0)
+sum1(100,0)
+sum1(5,0)
+def sum1(n:Int, total:Long=0):Long={
+if(n==0) total
+else sum1(n-1,total+n)
+}
+sum1(10)
+val l = List(1,1,2,3,5,8)
+l(l.size-1)
+l
+val l = List(1,1,2,3,5,8)
+l(l.size-2)
+val l=List(List(1,2,3,4,5,6),List(1,2,3),List(1,2,3,4,5))
+l.sortBy(x=>x.size)
+1 to 100 by 10
+1 to 100
+(1 to 100).filter(x=> x%2==0)
+l.sortBy(x=>x.size*-1)
+val l=List(List(1,2,3,4,5,6),List(1,2,3),List(1,2,3,4,5))
+l.sortBy(x=>x.size*-1)
+l.sortBy(x=>(x.size)* -1)
+l.sortBy(x=>(x.size))
+10
+var x:Int=10
+var y=100
+x=100
+println(x)
+x="aaaa"
+val z=100
+z=1000
+val z="abcd"
+z="def"
+var z="abcd"
+z="def"
+z=100
+var x=100
+var y=100
+lazy val z=x+y
+x=1000
+println(z)
+val x=100000.000005
+val x=100000.000005f
+val class=Array("stu1","stu2")
+val class= Array("stu1","stu2")
+val class1= Array("stu1","stu2")
+val class2= Array("stu1",10)
+val class2= Array(10,15.0)
+val class2= Array(true,15.0)
+class1
+val x=10
+println(x)
+val y=println(x)
+class1.getClass
+println(x).getClass
+val class1= Array("stu1","stu2")
+class1(0)
+class1(1)
+class1(2)
+for(a <- class1) println(a)
+for(x <- class1) println(x)
+for(x:String <- class1) println(x)
+val a=Array(1,2,3,4,5,6)
+for(elem <- a) println(elem)
+a(5)
+a(0)
+val t=(10,"stu10",100.50)
+val t=(10,"stu10",100.50,"class1")
+t._1
+t._2
+t._3
+val t=(10,"stu10")
+t.
+swap
+t.zipped
+val l=List(1,2,3,4,5)
+1 to 10 
+1 to 10 by 2
+val l=List(1,2,3,4,5)
+val l= (1 to 10).toList
+val l= 1::2::nil
+val l= 1::2::Nil
+val l= (1 to 10).toList
+for(a <- l) println(a)
+l.++(l)
+l.++ l
+l.++ (l)
+l.++:(l)
+l.+:(l)
+l.head
+l.tail
+list(0)
+l(0)
+l(1)
+l(2)
+l.foreach(println)
+{
+ val x=10
+ val y=100
+ x+y
+}
+{
+ val x=10
+ val y=100
+ println( x+y)
+}
+val abc={
+ val x=10
+ val y=100
+ println( x+y)
+}
+val x={
+ val x=10
+ val y=100
+}
+val sum=(x:Int,y:Int)=>{
+ println(x)
+ println(y)
+ x+y
+}
+val x={
+ val x=10
+ val y=100
+ x+y
+}
+val sum=(x:Int,y:Int)=>{
+ println(x)
+ println(y)
+ x+y
+}
+sum(100,200)
+def sum1(x:Int,y:Int)={
+ println(x)
+ println(y)
+ x+y
+}
+sum1(100,200)
+(x:Int)=> { println(x)}
+val fn=(x:Int)=> { println(x)}
+l
+l.foreach(fn)
+def operation(a:Int,b:Int,fn(Int,Int)=>Int)={
+println("inside operation method")
+fn(a,b)
+def operation(a:Int,b:Int,fn(Int,Int)=>Int)={
+def operation(a:Int,b:Int,fn:(Int,Int)=>Int)={
+println("inside operation method")
+fn(a,b)
+}
+val sum=(x:Int,y:Int)=>{
+ println(x)
+ println(y)
+ x+y
+}
+val mul=(x:Int,y:Int)=>{
+ println(x)
+ println(y)
+ x*y
+}
+operation(10,20,sum)
+operation(10,20,mul)
+l
+val class=List("a","b","c","d)
+val class=List("a","b","c","d")
+val class1=List("a","b","c","d")
+class1.foreach(x=> println(x+10))
+l
+l.foreach(x=> println(x+10))
+l.map(x=>x+10)
+val l1=l.map(x=>x+10)
+val l1=l.map(x=>x+"-10")
+l
+l.map(abc => abc*20.0)
+.
+l
+l.map(x=>x%2!=0)
+l.map(x=>if(x%2!=0)x)
+l.filter(x=>x%2!=0)
+l.filterNot(x=>x%2!=0)
+(l1,l2)=l.partition(x=>x%2!=1)
+val (l1,l2)=l.partition(x=>x%2!=1)
+l1
+l2
+val student=List((1,stu1,"M"),(2,"stu2","F"),(3,"stu3","M"),(4,"stu4","M"))
+val student=List((1,"stu1","M"),(2,"stu2","F"),(3,"stu3","M"),(4,"stu4","M"))
+val (ML,FL)=student.partition(x=>x._3=="M")
+student.partition(x=>x._3=="M")
+val (m1,f1)=student.partition(x=>x._3=="M")
+m1
+fl
+f1
+val student=List((1,"stu1","M"),(2,"stu2","F"),(3,"stu3","M"),(4,"stu4","M"))
+val (m1,f1)=student.partition(x=>x._3=="M")
+Array(1,"abc",10.00)
+Array(1,10.00)
+Array(10.0f,10.00)
+Array(1,'c')
+Array(10.0f,10.00,true)
+val sum=(x:Int,y:Int)=>{ x+y }
+def sum(x:Int,y:Int)={
+x+y 
+}
+def operation(a:Int,b:Int,fn:(Int,Int) => Int)={
+ println(a)
+ println("inside operation")
+ fn(a,b)
+}
+val sum=(x:Int,y:Int)=>{ println("inside sum"); x+y }
+operation(100+100,200,sum)
+def sum(x:Int,y:Int)={
+println("inside sum")
+x+y 
+}
+def sum(x:Int,y:Int)={
+println("inside sum method")
+x+y 
+}
+def operation(a:Int,b:Int,sum)={
+ println(a)
+ println("inside operation")
+ fn(a,b)
+def operation(a:Int,b:Int,fn(x: Int, y: Int)Int)={
+ println(a)
+ println("inside operation")
+ fn(a,b)
+def operation(a:Int,b:Int,fn(a,b))={
+ println(a)
+ println("inside operation")
+ fn(a,b)
+}
+def operation(a:Int,b:Int,fn:(Int,Int)Int)={
+ println(a)
+ println("inside operation")
+ fn(a,b)
+}
+def operation(a:Int,b:Int,fn:(a:Int,b:Int))={
+ println(a)
+ println("inside operation")
+ fn(a,b)
+val l= (1 to 10).toList
+l
+val test=(x:Int)=> { println(x)
+ println(x+10)
+ println(x)
+}
+l.foreach(test)
+l.foreach(test).getClass
+l.foreach(x:Int => { println(x)})
+l.foreach((x:Int) => { println(x)})
+l.foreach(x=>println(x))
+l.foreach(println)
+:history
+l.map(x=>x+10)
+l.map(x=>x+"10")
+l.map(x=>x*10.0)
+l
+l.filter(elem=>elem%2!=0)
+l.filterNot(elem=>elem%2!=0)
+val (l1,l2) = l.partition(elem=>elem%2==0)
+l1
+l2
+l.getClass
+val ls=List("hi welcome to class","hi welocme to MR")
+ls.map(str=>str.split(" "))
+ls
+ls.flatMap(str=>str.split(" "))
+ls.flatMap(str=>str.split(" ")).length
+ls.map(str=>str.split(" ")).length
+ls.map(str=>str.split(" ")).flatten
+ls.flatten.map(str=>str.split(" "))
+ls.flatten
+l.zipWithIndex
+ls.zipWithIndex
+ls.zip
+ls.zip(x)
+l.
+l
+l::l
+l+l
+l.+l
+l.+ l
+l .+ l
+l .+ (l)
+l :: l
+l :+ l
+l +: l
+l ::: l
+l ++ l
+val ll=l ++ l
+ll
+ll.groupBy
+ll.groupBy(x=>x)
+val ls=List((1,"a"),(1,"b"),(2,"c"),(3,"d"))
+ls.groupBy(x=>x._1)
+ls.groupBy(x=>x._2)
+val ls=List((1,"a"),(1,"b"),(2,"c"),(3,"d"),(4,"a"))
+ls.groupBy(x=>x._2)
+ls.groupBy(x=>x._2).keys
+ls.groupBy(x=>x._2)
+ls.groupBy(x=>x._2).keySet
+l
+l.reduce((x,y)=>x+y)
+val fn=(x:Int,y:Int)=>{ 
+print("x value is "+x)
+print("y value is "+y)
+println(x+y)
+x+y
+}
+l.reduce((a,b)=>fn(a,b))
+val fn=(x:Int,y:Int)=>{ 
+println("x value is "+x)
+println("y value is "+y)
+println(x+y)
+x+y
+}
+l
+l.reduce((a,b)=>fn(a,b))
+l.reduceLeft((a,b)=>fn(a,b))
+l.reduceRight((a,b)=>fn(a,b))
+val l1=List(100,101,400,20,700,450)
+l1.reduce((x,y)=>if(x>y) x)
+l1.reduce((x,y)=>if(x>y){ x))
+l1.reduce((x,y)=>if(x>y)x)
+l1.reduce((x,y)=>{if(x>y)x})
+l1.reduce((x,y)=>{if(x>y) x else y})
+l1
+l1.reduce((x,y)=>{if(x<y) x else y})
+l1.reduce((x,y)=>min(x,y))
+l1.reduce((x,y)=>x<y)
+l
+l.foldLeft((x,y)=>x+y)
+l.foldLeft(100)((x,y)=>x+y)
+l.reduceLeft((x,y)=>x+y)
+val abc=1000
+l.foldLeft(abc)((x,y)=>x+y)
+l
+l1.
+l1
+l1.sortBy
+l1.sortBy(x=>x)
+ls
+ls.sortBy(x=>x_1)
+ls.sortBy(x=>x._1)
+ls.sortBy(x=>x._b)
+ls.sortBy(x=>x._2)
+ls
+ls=List((1,a), (1,b), (2,c), (3,d), (4,a),(2,"a"))
+val ls=List((1,a), (1,b), (2,c), (3,d), (4,a),(2,"a"))
+val ls=List((1,"a"), (1,"b"), (2,"c"), (3,"d"), (4,"a"),(2,"a"))
+ls.sortyBy(x=>x._2)
+ls.sortBy(x=>x._2)
+ls.sortBy(x=>x._2,false)
+ls.sortBy(false,x=>x._2)
+ls.sortBy(x=>x._2)(false)
+ls.sortBy(falsoe)(x=>x._2)
+ls.sortBy(false)(x=>x._2)
+ls.sortBy(x=>x._2)(false)
+import scala.math.Ordering
+val order=scala.math.Ordering["false"]
+val order=scala.math.Ordering[false]
+ls.sortBy(x=>x._2)(scala.math.Ordering["false"])
+ls.sortBy(x=>x._2)(Ordering[String].reverse)
+ls.sortBy(x=>x._2)
+l.
+l
+l.sortWith((x,y)=> x>y)
+ls
+ls.sortBy(x=>x._2)
+ls
+ls.sortWith( (x,y) => x._2<y._2)
+ls.sortBy(x=>x._2)(Ordering[String].reverse)
+ls.sortWith( (x,y) => x._2>y._2)
+l.toString
+println(res119)
+res119.getClass
+l.mkString
+l.mkString("+")
+l.mkString(2,"|",5)
+l.mkString("2","|","5")
+l.mkString(2,"|",5)
+l.mkString("START","|","END")
+l.mkString("START  ","|","  END")
+:pwd
+:sh pwd
+res129.getClass
+import scala.io.Source
+import scala.io.Source._
+Source.fromFile("f1")
+Source.fromFile("f1").mkString
+Source.fromFile("f1")
+Source.fromFile("f1").foreach(prinln)
+Source.fromFile("f1").foreach(println)
+Source.fromFile("f1").toList.foreach(println)
+Source.fromFile("f1")
+Source.fromFile("f1").foreach(println)
+Source.fromFile("f1").mkString
+Source.fromFile("f1").mkString.split("\n")
+Source.fromFile("f1").mkString.split("\n").toList
+:sh pwd
+val res=:sh pwd
+;
+val res=:sh pwd
+;
+import scala.io.Source
+import scala.io.Source._
+Source.fromFile("f1")
+Source.fromFile("f1").mkString.split("\n").toList
+Source.fromFile("f1").mkString.split("\n").toList.foreach(println)
+sc
+spark
+sc.appName
+sc.sequenceFile
+sc.startTime
+sc.textFile
+sc.textFile("f1")
+val inputRDD=sc.textFile("f1")
+inputRDD.foreach(println)
+inputRDD.count
+inputRDD.first
+inputRDD.collect
+inputRDD.collect.foreach(println)
+inputRDD.collect.(0)
+inputRDD.collect(0)
+val res=inputRDD.collect
+res(0)
+res(1)
+res.getClass
+inputRDD.getNumPartitions
+val inputRDD=sc.textFile("f1",4)
+inputRDD.getNumPartitions
+val inputRDD=sc.textFile("f1")
+inputRDD.map(line=>line.split(" "))
+inputRDD.map(line=>line.split(" ")).collect
+inputRDD.flatMap(line=>line.split(" ")).collect
+inputRDD.map(line=>line.split(" ")).collect
+inputRDD.flatMap(line=>line.split(" ")).collect
+inputRDD.flatMap(line=>line.split(" ")).map(word=>(word,1)).collect
+inputRDD.flatMap(line=>line.split(" ")).map(word=>(word,1))
+inputRDD.flatMap(line=>line.split(" ")).map(word=>(word,1)).reduceByKey((x,y)=>x+y)
+inputRDD.flatMap(line=>line.split(" ")).map(word=>(word,1)).reduceByKey((x,y)=>x+y).collect
+val inputRDD=sc.textFile("f1")
+inputRDD.flatMap(line=>line.split(" ")).map(word=>(word,1)).reduceByKey((x,y)=>x+y).collect
+inputRDD.flatMap(line=>line.split(" ")).map(word=>(word,1)).reduceByKey((x,y)=>x+y).saveAsTextFile("OutFiles/wcSparkOut")
+val inputRDD=sc.textFile("f1")
+inputRDD.flatMap(line=>line.split(" ")).map(word=>(word,1)).reduceByKey((x,y)=>x+y).saveAsTextFile("OutFiles/wcSparkOut1")
+inputRDD.flatMap(line=>line.split(" ")).map(word=>(word,1)).reduceByKey((x,y)=>x+y).collect
+:history
+sc.textFile("/home/hadoop/INPUT/wiki_big.txt")
+sc.textFile("/home/hadoop/INPUT/wiki_big.txt").flatMap(line=>line.split(" ")).map(word=>(word,1))
+sc.textFile("/home/hadoop/INPUT/wiki_big.txt").flatMap(line=>line.split(" ")).map(word=>(word,1)).reduceByKey((x,y)=>x+y).saveAsTextFile("OutFiles/wikiBigOut")
+sc.textFile("OutFiles/wikiBigOut").count
+sc.textFile("/home/hadoop/INPUT/wiki_big.txt").flatMap(line=>line.split(" ")).map(word=>(word,1)).groupByKey().first
+sc.textFile("/home/hadoop/INPUT/wiki_big.txt").flatMap(line=>line.split(" ")).map(word=>(word,1)).groupByKey().map(x=>(x._1,x._2.size)).first
+sc.textFile("/home/hadoop/INPUT/wiki_big.txt").flatMap(line=>line.split(" ")).map(word=>(word,1)).groupByKey().map(x=>(x._1,x._2.size)).saveAsTextFile("OutFiles/wikiBig_groupBy")
+sc.textFile("OutFiles/wikiBig_groupBy").count
+sc.textFile("OutFiles/wikiBigOut").count
+sc.textFile("/home/hadoop/INPUT/wiki_big.txt").flatMap(line=>line.split(" ")).map(word=>(word,1)).groupByKey().map(x=>(x._1,x._2.size)).saveAsTextFile("OutFiles/wikiBig_groupBy1")
+sc.textFile("/home/hadoop/INPUT/wiki_big.txt")
+sc.textFile("/home/hadoop/INPUT/wiki_big.txt").flatMap(line=>line.split(" "))
+sc.textFile("/home/hadoop/INPUT/wiki_big.txt").count
+sc.textFile("/home/hadoop/INPUT/wiki_big.txt").flatMap(line=>line.split(" ")).count
+sc.textFile("/home/hadoop/INPUT/wiki_big.txt").flatMap(line=>line.split(" ")).map(x=>(x,1))
+sc.textFile("/home/hadoop/INPUT/wiki_big.txt").flatMap(line=>line.split(" ")).map(x=>(x,1)).count
+sc.textFile("/home/hadoop/INPUT/wiki_big.txt").flatMap(line=>line.split(" ")).map(x=>(x,1)).groupByKey()
+sc.textFile("/home/hadoop/INPUT/wiki_big.txt").flatMap(line=>line.split(" ")).map(x=>(x,1)).groupByKey().count
+val mapRDD1=sc.textFile("/home/hadoop/INPUT/wiki_big.txt").flatMap(line=>line.split(" ")).map(x=>(x,1)).cache()
+mapRDD1.groupBy().count
+mapRDD1.groupByKey().count
+sc.textFile("/home/hadoop/INPUT/wiki_big.txt").flatMap(line=>line.split(" ")).map(word=>(word,1)).groupByKey().map(x=>(x._1,x._2.size)).groupByKey().count
+sc.textFile("/home/hadoop/INPUT/wiki_big.txt").flatMap(line=>line.split(" ")).map(word=>(word,1)).groupByKey().map(x=>(x._1,x._2.size)).groupByKey().repartition(1).count
+"Hadoop".startsWith("[Hh]")
+"Hadoop".toLowerCase.startsWith("h")
+sc.textFile("/home/hadoop/INPUT/wiki_big.txt").flatMap(line=>line.split(" ")).map(word=>(word,1)).groupByKey().map(x=>(x._1,x._2.size)).filter(x=>x._1.toLowerCase.startsWith("h")).saveAsTextFile("OutFiles/words_h")
+sc.textFile("/home/hadoop/INPUT/wiki_big.txt").flatMap(line=>line.split(" ")).map(word=>(word,1)).reduceByKey((x,y)=>x+y).filter(x=>x._1.toLowerCase.startsWith("h")).saveAsTextFile("OutFiles/words_h1")
+ sc.textFile("/home/hadoop/INPUT/wiki_big.txt").flatMap(line=>line.split(" ")).filter(x=>x.toLowerCase.startsWith("h")).map(word=>(word,1)).reduceByKey((x,y)=>x+y).saveAsTextFile("OutFiles/words_h1")
+ sc.textFile("/home/hadoop/INPUT/wiki_big.txt").flatMap(line=>line.split(" ")).filter(x=>x.toLowerCase.startsWith("h")).map(word=>(word,1)).reduceByKey((x,y)=>x+y).sortByKey()
+ sc.textFile("/home/hadoop/INPUT/wiki_big.txt").flatMap(line=>line.split(" ")).filter(x=>x.toLowerCase.startsWith("h")).map(word=>(word,1)).reduceByKey((x,y)=>x+y).sortByKey().saveAsTextFile("OutFiles/words_h2")
+ sc.textFile("/home/hadoop/INPUT/wiki_big.txt").flatMap(line=>line.split(" ")).filter(x=>x.toLowerCase.startsWith("h")).map(word=>(word,1)).reduceByKey((x,y)=>x+y).sortByKey(false,1).saveAsTextFile("OutFiles/words_h1")
+sc.getCheckpointDir
+sc.getCheckpointDir.foreach(println)
+sc.setCheckPointDir("OutFiles/abc")
+sc.setCheckpointDir("OutFiles/abc")
+sc.getCheckpointDir
+ sc.textFile("/home/hadoop/INPUT/wiki_big.txt").flatMap(line=>line.split(" ")).filter(x=>x.toLowerCase.startsWith("h")).map(word=>(word,1)).cache()
+ sc.textFile("/home/hadoop/INPUT/wiki_big.txt").flatMap(line=>line.split(" ")).filter(x=>x.toLowerCase.startsWith("h")).map(word=>(word,1)).persist("DISK_ONLY")
+ sc.textFile("/home/hadoop/INPUT/wiki_big.txt").flatMap(line=>line.split(" ")).filter(x=>x.toLowerCase.startsWith("h")).map(word=>(word,1)).persist(org.apache.spark.storage.StorageLevel.DISK_ONLY)
+ sc.textFile("/home/hadoop/INPUT/wiki_big.txt").flatMap(line=>line.split(" ")).filter(x=>x.toLowerCase.startsWith("h")).map(word=>(word,1)).checkpoint()
+val rdd1= sc.textFile("/home/hadoop/INPUT/wiki_big.txt").flatMap(line=>line.split(" ")).filter(x=>x.toLowerCase.startsWith("h")).map(word=>(word,1))
+rdd1.checkpoint()
+rdd1.first
+val rdd2= sc.textFile("/home/hadoop/INPUT/wiki_big.txt").flatMap(line=>line.split(" ")).filter(x=>x.toLowerCase.startsWith("h")).map(word=>(word,1))
+rdd2.first
+val rdd2= sc.textFile("/home/hadoop/INPUT/wiki_big.txt").flatMap(line=>line.split(" ")).filter(x=>x.toLowerCase.startsWith("h"))
+rdd2.first
+rdd2.checkpoint()
+rdd2.first
+val rdd3= sc.textFile("/home/hadoop/INPUT/wiki_big.txt").flatMap(line=>line.split(" ")).filter(x=>x.toLowerCase.startsWith("h"))
+rdd3.count
+rdd3.checkpoint()
+rdd3.count
+rdd3.checkpoint()
+val empRDD=sc.textFile("/home/hadoop/INPUT/input/emp")
+empRDD.collect
+empRDD.foreach(prinlnt)
+empRDD.foreach(println)
+empRDD.getNumPartitions
+val empPairRDD=empRDD.map(empRec=>(empRec.split(",")(3),empRec))
+empPairRDD.foreach(println)
+empPairRDD.collect
+empPairRDD
+empPairRDD.foreach(println)
+empPairRDD.getClass
+empPairRDD.keys
+empPairRDD.keys.foreach(println)
+:history
+val deptRDD=sc.textFile("/home/hadoop/INPUT/input/dept")
+val deptPairRDD=deptRDD.map(deptRec=>(deptRec.split(",")(0),deptRec.split(",")(1)))
+:history
+val joinRDD=empPairRDD.join(deptPairRDD)
+joinRDD.first
+joinRDD.foreach(println)
+joinRDD.map(x=>x._2).saveAsTextFile("OutFiles/JoinOut")
+:history
+val joinRDD=empPairRDD.leftOuterJoin(deptPairRDD)
+joinRDD.foreach(println)
+joinRDD.map(x=>x._2).saveAsTextFile("OutFiles/JoinOut1")
+joinRDD.map(x=>(x._2._1,x._2._2.getOrElse("+++"))).foreach(println)
+val joinRDD=empPairRDD.leftOuterJoin(deptPairRDD)
+joinRDD.foreach(println)
+joinRDD.map(x=>(x._2._1,x._2._2.getOrElse("+++"))).foreach(println)
+sc.textFile("/sample.txt").foreach(println)
+sc.textFile("sample.txt").foreach(println)
+sc.textFile("abc.txt")
+sc.textFile("abc.txt").foreach(println)
+sc.textFile("abcaaaa.txt")
+sc.textFile("abcaaaa.txt").foreach(println)
+sc.textFile("file:///home/hadoop/test")
+sc.textFile("file:///home/hadoop/test").foreach(println)
+sc.textFile("test").foreach(println)
+spark.read.csv("file:///home/hadoop/INPUT/input/emp")
+val empDF=spark.read.csv("file:///home/hadoop/INPUT/input/emp")
+empDF.schema
+val empDF=spark.read.csv("file:///home/hadoop/INPUT/input/emp")
+empDF.foreach(println)
+empDF.foreach(x=>println(x.toString))
+empDF.schema
+empDF.describe
+empDF.describe()
+empDF.describe().foreach(println)
+empDF.describe().show()
+empDF.show()
+empDF.take()
+empDF.take(3)
+empDF.take(3).foreach(pritln)
+empDF.take(3).foreach(println)
+val empDF=spark.read.csv("file:///home/hadoop/INPUT/input/emp").as("id","name","sal","deptid")
+val empDF=spark.read.csv("file:///home/hadoop/INPUT/input/emp").as("id":String,"name":String,"sal":String,"deptid":String)
+val empDF=spark.read.csv("file:///home/hadoop/INPUT/input/emp").as("id","name","sal","deptid")
+val empDF=spark.read.csv("file:///home/hadoop/INPUT/input/emp").
+;
+spark.read
+spark.read.option("sep","\t").csv("file:///home/hadoop/INPUT/input/emp_header")
+spark.read.option("sep",",").csv("file:///home/hadoop/INPUT/input/emp_header")
+spark.read.option("sep",",").csv("file:///home/hadoop/INPUT/input/emp_header").show()
+spark.read.option("sep",",").option("header","true").csv("file:///home/hadoop/INPUT/input/emp_header").show()
+spark.read.option("sep",",").option("header","true").csv("file:///home/hadoop/INPUT/input/emp_header").schema
+spark.read.option("sep",",")
+.option("header","true")
+.option("inferSchema","true")
+.csv("file:///home/hadoop/INPUT/input/emp_header").schema
+:paste
+spark.read.option("sep",",")
+.option("header","true")
+.option("inferSchema","true")
+.csv("file:///home/hadoop/INPUT/input/emp_header").schema
+:paste
+spark.read.option("sep",",")
+.option("header","true")
+.option("inferSchema","true")
+.csv("file:///home/hadoop/INPUT/input/emp_header").show()
+:paste
+spark.read.option("sep",",")
+.option("header","true")
+.option("inferSchema","true")
+.csv("file:///home/hadoop/INPUT/input/emp_header")
+res12.show
+spark.read.option("sep",",")
+.option("header","true")
+.csv("file:///home/hadoop/INPUT/input/emp_header").show()
+spark.read.option("sep",",").option("header","true").csv("file:///home/hadoop/INPUT/input/emp_header").show()
+spark.read.option("sep",",").option("header","true").option("mode","DROPMALFORMED").csv("file:///home/hadoop/INPUT/input/emp_header").show()
+spark.read.option("sep",",").option("header","true").option("mode","FAILFAST").csv("file:///home/hadoop/INPUT/input/emp_header").show()
+val empRDD=spark.read.format("csv").option("header","true").option("inferSchema","true").load("file:///home/hadoop/INPUT/input/emp_header")
+empRDD.show
+val empRDD=spark.read.format("csv").option("header","true").option("inferSchema","true").load("file:///home/hadoop/INPUT/input/emp_header_correctdata")
+empRDD.show()
+empRDD.schema
+val deptRDD=spark.read.format("csv").option("inferSchema","true").load("file:///home/hadoop/INPUT/input/dept")
+import org.apache.spark.sql.types.StructType
+val schema1 = 
+StructType(StructField("deptid",IntegerType,true), StructField("deptname",StringType,true))
+import org.apache.spark.sql.types._
+val schema1 = StructType(StructField("deptid",IntegerType,true), StructField("deptname",StringType,true))
+val schema1 = StructType(Array(StructField("deptid",IntegerType,true), StructField("deptname",StringType,true)))
+:hisotry
+:history
+val deptRDD=spark.read.format("csv").option("inferSchema","true").load("file:///home/hadoop/INPUT/input/dept")
+val deptRDD=spark.read.format("csv").option("inferSchema","true").load("file:///home/hadoop/INPUT/input/dept").schema
+val deptRDD=spark.read.format("csv").option("inferSchema","true").schema(schema1).load("file:///home/hadoop/INPUT/input/dept")
+val deptRDD=spark.read.format("csv").option("inferSchema","true").load("file:///home/hadoop/INPUT/input/dept")
+val deptRDD=spark.read.format("csv").option("inferSchema","true").schema(schema1).load("file:///home/hadoop/INPUT/input/dept")
+deptRDD.select("deptid")
+deptRDD.select("deptid").show
+deptRDD.selectExpr(upper("deptid")).
+;
+deptRDD.selectExpr(upper("deptid"))
+deptRDD.selectExpr(upper(Col("deptid")))
+deptRDD.selectExpr(upper(column("deptid")))
+deptRDD.selectExpr(column("deptid")+10)
+deptRDD.selectExpr(column("deptid")+10).show
+deptRDD.selectExpr(column("deptid")+ "10").show
+deptRDD.select("deptid").show
+deptRDD.select("deptid").where("deptid < 3").show
+deptRDD.select("deptid","deptname").where("deptid < 3").show
+val empDF=spark.read.option("sep",",")
+.option("header","true")
+.option("inferSchema","true")
+.option("mode","DROPMALFORMED")
+.csv("file:///home/hadoop/INPUT/input/emp_header_correctdata")
+empDF.show
+empDF.show()
+:paste
+val empDF=spark.read.option("sep",",")
+.option("header","true")
+.option("inferSchema","true")
+.option("mode","DROPMALFORMED")
+.csv("file:///home/hadoop/INPUT/input/emp_header_correctdata")
+empDF.show
+empDF.createOrReplaceTempView("t_emp")
+spark.sql("select empid from t_emp")
+spark.sql("select empid from t_emp").show
+val deptDF=spark.read.format("csv").option("inferSchema","true").schema(schema1).load("file:///home/hadoop/INPUT/input/dept")
+empDF.createOrReplaceTempView("t_emp")
+deptDF.createOrReplaceTempView("t_dept")
+ 
+spark.sql(""" select e.empid,e.name,e.empdeptid as deptid,d.deptname
+from t_emp e left join t_dept d on e.empdeptid=d.deptid
+""").show
+spark.sql(""" select e.empid,e.empname,e.empdeptid as deptid,d.deptname
+from t_emp e left join t_dept d on e.empdeptid=d.deptid
+""").show
+spark.sql(""" select e.empid,e.empname,e.empdeptid as deptid,
+nvl(d.deptname,'-') as deptname
+from t_emp e left join t_dept d on e.empdeptid=d.deptid
+""").show
+val resDF=spark.sql(""" select e.empid,e.empname,e.empdeptid as deptid,
+nvl(d.deptname,'-') as deptname
+from t_emp e left join t_dept d on e.empdeptid=d.deptid
+""")
+resDF.schema
+resDF.columns
+resDF.printSchema
+resDF.write.save("OutFiles/resOut")
+resDF.write.mode("overwrite").save("OutFiles/resOut")
+resDF.write.mode("append").save("OutFiles/resOut")
+resDF.write.mode("overwrite").format("csv").save("OutFiles/resOut")
+resDF.write.mode("overwrite").format("json").save("OutFiles/resOut")
+resDF.write.mode("overwrite").format("parquet").save("OutFiles/resOut")
+spark.read.parquet("OutFiles/resOut").show
+spark.read.parquet("OutFiles/resOut").printSchema
+resDF.write.saveAsTable("resultTable")
+spark.sql("select * from resulTable").show
+spark.read.table("resulttable").show
+import org.apache.spark.sql.
+;
+spark.sql("show databases").show
+10
+println(res0)
+"hi"
+:help
+var x:Int=10
+var y=10
+z="hi"
+var z="hi"
+var ch='a'
+var ch1='ab'
+var x=10
+x=100
+println(x)
+x="hi"
+x=1000
+var x="hi"
+x="bye
+x="bye"
+val x=10
+x=100
+var a=10
+var b=20
+val c=a+b
+lazy val d=a+b
+a=100
+prinln(d)
+println(d)
+a=10
+println(d)
+var a=10
+var b=20
+lazy val d=a+b
+a=100
+prinln(d)
+println(d)
+a=10
+println(d)
+var a=10
+a=100
+a="100"
+var a="100"
+var abc=10
+val A=10
+A=100
+println(x)
+val y=println(x)
+"abc"
+println(x).getClass
+x.getClass
+"welcome".getClass
+"welcome".getClass.getSimpleName
+"welcome".getClass
+"welcome".getClass.getSimpleName
+{
+ val x=100
+ val y=200
+ x+y
+}
+val res={
+ val x=100
+ val y=200
+ x+y
+}
+println(res)
+var res1={
+ val x=100
+ val y=200
+ println(x+y)
+}
+res1.getClass
+var res={
+ val x=100
+ val y=200
+ x+y
+}
+res.getClass
+println(res1)
+println(res)
+val fn=(x:Int,y:Int)=>{
+ println("value of x is:"+x)
+ println("value of y is:"+y)
+ x*y
+}
+fn
+fn(2,3)
+val fn_res=fn(2,3)
+prinln(fn_res)
+println(fn_res)
+res21.getClass
+res21(2,3)
+val fn1=(x:Int,y:Int,z:String)=>{
+ println("value of x is:"+x)
+ println("value of y is:"+y)
+ x*y
+}
+fn1(2,3)
+val fn1=(x:Int,y:Int,z:String="abc")=>{
+ println("value of x is:"+x)
+ println("value of y is:"+y)
+ x*y
+val fn1=(x:Int,y:Int,val z="abc")=>{
+ println("value of x is:"+x)
+ println("value of y is:"+y)
+ x*y
+}
+ val fn1=(x:Int,y:Int, z:String="abc")=>{
+ println("value of x is:"+x)
+ println("value of y is:"+y)
+ x*y
+def fn_method(x:Int,y:Int):Int={
+println("value of x is:"+x)
+ println("value of y is:"+y)
+ x*y
+}
+def fn_method(x:Int,y:Int)={
+println("value of x is:"+x)
+ println("value of y is:"+y)
+ x*y
+}
+fn(20,20)
+fn_method(10,20)
+fn(10,20)
+val fn=(x:Int,y:Int)=>{
+ println("value of x is:"+x)
+ println("value of y is:"+y)
+ x*y
+}
+def fn_method(x:Int,y:Int)={
+println("value of x is:"+x)
+ println("value of y is:"+y)
+ x*y
+}
+val sum=(x:Int,y:Int)=>{
+println("inside sum function")
+println("value of x is:"+x)
+ println("value of y is:"+y)
+ x+y
+}
+sum(10,20)
+val sub=(x:Int,y:Int)=>{
+println("inside sub function")
+println("value of x is:"+x)
+ println("value of y is:"+y)
+ x-y
+}
+sub(10,20)
+sub
+val mul=(x:Int,y:Int)=>{
+println("inside mul function")
+println("value of x is:"+x)
+ println("value of y is:"+y)
+ x*y
+}
+mul(10,20)
+def operation(x:Int,y:Int,f:(Int,Int)=>Int)={
+println("inside operation method")
+f(x,y)
+}
+operation(10,20,sum)
+operation(10,20,sub)
+operation(10,20,mul)
+:history
+operation(10+30,20+40,mul)
+operation(10+30,20+40,(x,y)=> {println("inside anonymous");x*y*10)})
+operation(10+30,20+40,(x,y)=> {println("inside anonymous");x*y*10})
+operation(10+30,20+40,(x,y)=> {println("inside anonymous");x+y})
+operation(100,200,(x,y)=> {println("inside anonymous");x+y})
+operation
+def operation(x:Int,y:Int,f:(Int,Int)=>Int)={
+println("inside operation method")
+f(x,y)
+}
+1 .. 10
+1 to 10
+val r=1 to 10 by 2
+r1(0)
+r(0)
+1 to 10
+res55.getClass
+res55.getClass.getSimpleName
+r
+r(0)
+r(1)
+r(2)
+r(5)
+val r=0 to 9 by 2
+r.reverse
+r
+val t=(1,"stu1,2000.05)
+val t=(1,"stu1",2000.05)
+t._1
+t._2
+t._3
+t.zipped
+val t1=(1,"abc")
+t1.swap
+t1.invert
+val a=Array(1,10,20)
+val b=Array(1,true,20)
+b(0)
+val i:Int = b(0)
+b(0).toString.toInt
+b
+b(1)
+c=Array(true,true,false,false)
+val c=Array(true,true,false,false)
+c(0)=false
+c
+c=Array(true)
+val m=Map(1->"hi",2->"hello")
+m[1]
+m(1)
+m(2)
+val m=Map(1->"hi",2->"hello",10000->"bye")
+m(10000)
+m.+ Map(20->"sample")
+m.+.Map(20->"sample")
+m.+ (20->"sample")
+val n=m.+ (20->"sample")
+n
+n(20)
+n(10000)
+m.keys
+m.values
+m.toSeq
+m.toSeq.(0)
+val test=m.toSeq
+test(0)
+test(0)._1
+test(0)._3
+test(0)._2
+test
+test.toMap
+val test1=test.toMap
+test1.getClass
+test.getClass
+val l= (1 to 10).toList
+val l=List("hi","welcome","to","class")
+val l=1::Nil
+val l=2::1::Nil
+val l=3::2::1::Nil
+val stu=List((1,"stu1",100.5),(2,"stu2",1000.90))
+val stu=List((1,"stu1",100.5),(2,"stu2"))
+val stu=List((1,"stu1",100.5),Array(1,2,3))
+val stu=List(List(1,2),Map(1->10))
+val l=List("hi","welcome","to","class")
+l(0)
+l(1)
+l.size
+l.toArray
+"sample"::l
+l.++.l
+l.++ l
+l.++(l)
+l.++:(l)
+val test=List(1,2,3)
+val test1=List(5,6,7)
+test.++:(test1)
+test.++(test1)
+test.+:(test1)
+test.:+(test1)
+test:::test
+test:::test1
+test::test1
+test::100
+100::test
+l
+for( a:String <- l)prinln(a)
+for( a:String <- l)println(a)
+for( a <- l)println(a)
+l
+l.foreach(x:String=>println(x))
+l.foreach((x:String) =>println(x))
+val fn=(y:String)=>{println(y) }
+l.foreach(fn)
+l.foreach(x => println(x))
+l.foreach((x:String) =>println(x))
+l.foreach(println)
+:history
+val l1= 1 to 10 
+l1
+val l1= (1 to 10).toList
+l1
+l1.foreach(x=>println(x+10))
+val l2=l1.foreach(x=>println(x+10))
+l2
+l2.foreach(prinln)
+l1
+l1.map(x=>x+10)
+l1.map(x=>x+"10")
+l1
+l1.map(x=>if(x%2==0) x )
+l1.filter(x=> x%2==0 )
+l1.filterNot(x=> x%2==0 )
+:history
+val stu_list= List((1,"stu1","M",1000),(2,"stu2","F",1000),(3,"stu3","M",2000),(4,"stu4","M",1500),(5,"stu5","F",8000))
+stu_list
+stu_list.foeach(println)
+stu_list.foreach(println)
+stu_list.foreach(x=>println(x._2))
+stu_list.foreach(x:(Int,String,String,Int)=>println(x._2))
+val t=(5,stu5,F,8000)
+val t=(5,stu5,"F",8000)
+val t=(5,"stu5","F",8000)
+stu_list.foreach((x:(Int,String,String,Int))=>println(x._2))
+stu_list.foreach(x=>println((x._2,x._3)))
+stu_list.map(x=>println((x._2,x._3)))
+stu_list.map(x=>(x._2,x._3))
+stu_list.filter(x=>x._3=="M")
+stu_list.filter(x=>x._3=="F")
+stu_list.partition(x=>x._3=="M")
+(ml,fl)=stu_list.partition(x=>x._3=="M")
+val (ml,fl)=stu_list.partition(x=>x._3=="M")
+ml
+fl
+stu_list.map(x=> (x._3,x._4,x._1))
+val (ml,fl)=stu_list.map(x=> (x._3,x._4,x._1)).partition(y=>y._1=="M")
+ml
+fl
+stu_list
+:history
+stu_list
+val (ml,fl)=stu_list.map(x=> (x._3,x._4,x._1)).partition(y=>y._1=="M")
+val l= (1 to 10).toList
+l.reduceRight((x,y)=>x+y)
+val res_sum=l.reduceRight((x,y)=>x+y)
+val fn=(x:Int,y:Int)=>{
+println("x value is::"+x)
+println("y value is::"+x)
+println("x+ value is::"+ (x+y) )
+x+y
+}
+fn(10,20)
+val fn=(x:Int,y:Int)=>{
+println("x value is::"+x)
+println("y value is::"+x)
+println("x+y value is::"+ (x+y) )
+x+y
+}
+fn(10,20)
+l.reduceLeft(fn)
+val fn=(x:Int,y:Int)=>{
+println("x value is::"+x)
+println("y value is::"+y)
+println("x+y value is::"+ (x+y) )
+x+y
+}
+l.reduceLeft(fn)
+l.reduceRight(fn)
+val l1= List( (1,1000),(2,500),(3,300),(4,5000),(5,150))
+val minfee=l1.reduceLeft((x,y)=> if(x._2>y._2) y else x )
+val minfee=l1.reduceLeft((x,y)=> if(x._2<y._2) y else x )
+val minfee=l1.reduceLeft((x,y)=> if(x._2>y._2) y else x )
+val maxfee=l1.reduceLeft((x,y)=> if(x._2<y._2) y else x )
+val l1= List( (1,1000),(2,500),(3,300),(4,5000),(5,150))
+val fn1=(x,y)=> if(x._2>y._2) y else x 
+val fn1=(x:Int,y:Int)=> if(x._2>y._2) y else x 
+val fn1=(x:Int,y:Int)=> {if(x._2>y._2) y else x }
+val fn1=(x:(Int,Int),y:(Int,Int))=> {if(x._2>y._2) y else x }
+val minfee=l1.reduceLeft(fn1)
+l
+l.foldLeft(0)((x,y)=> x+y)
+l.reduceLeft(0)((x,y)=> x+y)
+l.reduceLeft((x,y)=> x+y)
+l.foldLeft(100)((x,y)=> x+y)
+l.foldLeft(100)(fn)
+sc
+val inputRDD=sc.textFile("INPUT/sample.txt")
+inputRDD.first
+inputRDD.count
+inputRDD.collect
+inputRDD.foreach(println)
+inputRDD.filter(line=> line.contains("hdfs"))
+res4.foreach(println)
+inputRDD.collect
+inputRDD.map(x=>x.split(" "))
+inputRDD.map(x=>x.split(" ")).collect
+inputRDD.flatMap(x=>x.split(" ")).collect
+inputRDD.map(x=>x.split(" ")).collect
+inputRDD.flatMap(x=>x.split(" ")).saveAsTextFile("INPUT/op")
+inputRDD.getNumPartitions
+inputRDD.flatMap(x=>x.split(" ")).foreach(println)
+inputRDD.flatMap(x=>x.split(" ")).map(word=>(word,1)).foreach(println)
+inputRDD.flatMap(x=>x.split(" ")).map(word=>(word,1))
+inputRDD.flatMap(x=>x.split(" ")).map(word=>(word,1)).reduceByKey((x,y)=>x+y)
+inputRDD.flatMap(x=>x.split(" ")).map(word=>(word,1)).reduceByKey((x,y)=>x+y).collect
+inputRDD.flatMap(x=>x.split(" ")).map(word=>(word,1)).reduceByKey((x,y)=>x+y).foreach(println)
+inputRDD.flatMap(x=>x.split(" ")).map(word=>(word,1)).reduceByKey((x,y)=>x+y).saveAsTextFile("INPUT/wcout")
+inputRDD.flatMap(x=>x.split(" ")).map(word=>(word,1)).reduceByKey((x,y)=>x+y).repartition(1).saveAsTextFile("INPUT/wcout")
+inputRDD.flatMap(x=>x.split(" ")).map(word=>(word,1)).reduceByKey((x,y)=>x+y,1).saveAsTextFile("INPUT/wcout1")
+sc.textFile("INPUT/wiki_big.txt").flatMap(x=>x.split(" ")).map(word=>(word,1)).reduceByKey((x,y)=>x+y).saveAsTextFile("INPUT/wcout1")
+inputRDD.flatMap(x=>x.split(" ")).map(word=>(word,1)).groupByKey().foreach(println)
+inputRDD.flatMap(x=>x.split(" ")).map(word=>(word,1)).groupByKey().map(x=>(x._1,x._2.lenght)).foreach(println)
+inputRDD.flatMap(x=>x.split(" ")).map(word=>(word,1)).groupByKey().map(x=>(x._1,x._2.length)).foreach(println)
+inputRDD.flatMap(x=>x.split(" ")).map(word=>(word,1)).groupByKey().map(x=>(x._1,x._2.size)).foreach(println)
+sc.textFile("INPUT/wiki_big.txt").flatMap(x=>x.split(" ")).map(word=>(word,1))..groupByKey().map(x=>(x._1,x._2.size)).saveAsTextFile("INPUT/wcout2")
+sc.textFile("INPUT/wiki_big.txt").flatMap(x=>x.split(" ")).map(word=>(word,1)).groupByKey().map(x=>(x._1,x._2.size)).saveAsTextFile("INPUT/wcout2")
+sc
+val inputRDD=sc.textFile("INPUT/sample.txt")
+val inputRDD=sc.textFile("INPUT/sample.txt1")
+inputRDD.first
+val inputRDD=sc.textFile("INPUT/sample.txt")
+inputRDD.first
+inputRDD.flatMap(line => line.split(" ")).collect
+inputRDD.flatMap(line => line.split(" "))
+inputRDD.flatMap(line => line.split(" ")).
+map(word=>(word,1)).collect
+inputRDD.flatMap(line => line.split(" ")).map(word=>(word,1))
+inputRDD.flatMap(line => line.split(" ")).map(word=>(word,1)).reduceByKey((x,y)=>x+y)
+inputRDD.flatMap(line => line.split(" ")).map(word=>(word,1)).reduceByKey((x,y)=>x+y).collect
+inputRDD.flatMap(line => line.split(" ")).map(word=>(word,1)).groupByKey()
+inputRDD.flatMap(line => line.split(" ")).map(word=>(word,1)).groupByKey().foreach(println)
+inputRDD.flatMap(line => line.split(" ")).map(word=>(word,1)).reduceByKey((x,y)=>x+y).saveAsSequenceFile("INPUT/wc_seq")
+val inputRDD=sc.textFile("INPUT/sample.txt")
+inputRDD.flatMap(line => line.split(" ")).map(word=>(word,1)).reduceByKey((x,y)=>x+y).saveAsSequenceFile("INPUT/wc_seq");
+sc.textFile("INPUT/emp").collect
+"1,name,2000,001".split(",")(3)
+"1,name,2000,001"
+sc.textFile("INPUT/emp").map(emprec=>(emprec.split(",")(3),emprec).first
+sc.textFile("INPUT/emp").map(emprec=>(emprec.split(",")(3),emprec)).first
+sc.textFile("INPUT/emp").map(emprec=>(emprec.split(",")(3),emprec)).first._1
+sc.textFile("INPUT/emp").map(emprec=>(emprec.split(",")(3),emprec)).first._2
+sc.textFile("INPUT/emp").map(emprec=>(emprec.split(",")(3),emprec))
+val empRDD=sc.textFile("INPUT/emp").map(emprec=>(emprec.split(",")(3),emprec))
+empRDD.foreach(println)
+val deptRDD=sc.textFile("INPUT/dept").map(deptrec=>(deptrec.split(",")(0),deptrec.split(",")(1)))
+deptRDD.foreach(println)
+empRDD.foreach(println)
+empRDD.leftOuterJoin(deptRDD)
+val joinRDD=empRDD.leftOuterJoin(deptRDD)
+joinRDD.foreach(println)
+joinRDD.foreach(x=>prinltn( x._2._1))
+joinRDD.foreach(x=>println( x._2._1))
+val joinRDD=empRDD.leftOuterJoin(deptRDD)
+joinRDD.foreach(println)
+joinRDD.foreach(x=>prinltn( x._2._1))
+joinRDD.foreach(x=>println( x._2._1))
+joinRDD.foreach(println)
+joinRDD.foreach(x=>println( x._2.getOrElse("NotFound")))
+joinRDD.foreach(x=>println( x._2._2.getOrElse("NotFound")))
+joinRDD.foreach(x=>println(x._2._1 +  x._2._2.getOrElse("NotFound")))
+joinRDD.foreach(x=>println(x._2._1 +","+  x._2._2.getOrElse("NotFound")))
+joinRDD.map(x=> x._2._1 +","+  x._2._2.getOrElse("NotFound")))
+joinRDD.map(x=> x._2._1 +","+  x._2._2.getOrElse("NotFound"))
+joinRDD.map(x=> x._2._1 +","+  x._2._2.getOrElse("NotFound")).saveAsTextFile("INPUT/joinOut")
+val joinRDD=empRDD.leftOuterJoin(deptRDD,1)
+joinRDD.map(x=> x._2._1 +","+  x._2._2.getOrElse("NotFound")).saveAsTextFile("INPUT/joinOut")
+joinRDD.map(x=> x._2._1 +","+  x._2._2.getOrElse("NotFound")).foreach(println)
+joinRDD.map(x=> x._2._1 +","+  x._2._2.getOrElse("NotFound")).sortBy(x=>x).foreach(println)
+joinRDD.map(x=> x._2._1 +","+  x._2._2.getOrElse("NotFound")).sortBy(x=>x.split(",")(0)).foreach(println)
+joinRDD.map(x=> x._2._1 +","+  x._2._2.getOrElse("NotFound")).sortBy(x=>x.split(",")(0),false).foreach(println)
+val empRDD=sc.textFile("INPUT/emp").map(emprec=>(emprec.split(",")(3),emprec))
+val deptRDD=sc.textFile("INPUT/dept").map(deptrec=>(deptrec.split(",")(0),deptrec.split(",")(1)))
+val joinRDD=empRDD.leftOuterJoin(deptRDD,1)
+joinRDD.map(x=> x._2._1 +","+  x._2._2.getOrElse("NotFound")).sortBy(x=>x.split(",")(0),false).saveAsTextFile("INPUT/JoinOut")
+val empRDD=sc.textFile("INPUT/emp").map(fn)
+val fn=(line:String)=> {
+ val words= line.split(",")
+ (words(0),words(1),words(2),words(3))
+}
+val empRDD=sc.textFile("INPUT/emp").map(fn)
+val deptRDD=sc.textFile("INPUT/dept").map(line => (line.split(0),(line.split(1)))
+;
+val deptRDD=sc.textFile("INPUT/dept").map(line => (line.split(0),line.split(1)))
+val deptRDD=sc.textFile("INPUT/dept").map(
+line => (line.split(",")(0),line.split(",")(1)))
+empRDD.foreach(println)
+deptRDD.foreach(println)
+empRDD.toDF().printSchema
+val empDF=empRDD.toDF("id","name","sal","deptid")
+empDF.printSchema
+:paste
+val fn=(line:String)=> {
+ val words= line.split(",")
+ (words(0),words(1),words(2),words(3))
+}
+val empRDD=sc.textFile("INPUT/emp").map(fn)
+val deptRDD=sc.textFile("INPUT/dept").map(
+e => (line.split(",")(0),line.split(",")(1))
+)
+:paste
+val fn=(line:String)=> {
+ val words= line.split(",")
+ (words(0),words(1),words(2),words(3))
+}
+val empRDD=sc.textFile("INPUT/emp").map(fn)
+val deptRDD=sc.textFile("INPUT/dept").map(
+    line => (line.split(",")(0),line.split(",")(1))
+)
+val empDF=empRDD.toDF("id","name","sal","deptid")
+val deptDF=deptRDD.toDF("id","name")
+deptDF.printSchema
+empRDD.describe
+deptDF.describe
+deptDF.describe("name")
+deptDF.describe("name").show
+deptDF.schema
+val test=new StructField
+deptDF.select("id").show
+empDF.show
+empDF.select("id","sal").show
+empDF.select("id","sal").where("sal">5000)
+empDF.select("id","sal").where("sal">"5000")
+"1000".toInt
+empDF.select("id","sal").where("sal>5000")
+empDF.select("id","sal").where("sal>5000").show
+empDF.select("id","sal").where("sal>5000").selectExpr("sal+1000").show
+empDF.select("id","sal").where("sal>5000").selectExpr("id","sal+1000").show
+empDF.select("id","sal").where("sal>5000").selectExpr("id","sal","sal+1000").show
+"abc|def".split("|")(0)
+"abc|def".split("\|")(0)
+"abc|def".split('|')(0)
+"abc|def".split(",")(0)
+"abc,def".split(",")(0)
+"abc,def".split(',')(0)
+empDF.select("id","sal")
+.where("sal>5000")
+.selectExpr("id","sal","sal+1000").show
+:paste
+empDF.select("id","sal")
+.where("sal>5000")
+.selectExpr("id","sal","sal+1000").show
+empDF.createOrReplaceTempView("t_emp")
+spark.sql("select * from t_emp")
+spark.sql("select * from t_emp").show
+spark.sql("select id,sal,sal+1000 as incrsal from t_emp").show
+spark.sql("create table res_emp as select id,sal,sal+1000 as incrsal from t_emp")
+spark.sql("select * from res_emp").show
+spark.sql("select id,sal,sal+1000 as incrsal from t_emp").show
+ spark.sql("select * from res_emp").show
+spark
+spark.read.format("csv").option("sep",",").option("header","true").option("inferSchema","true").option("mode","PERMISSIVE").load("/home/hadoop/INPUT/emp_header").show
+spark.read.format("csv").option("sep",",").option("header","true").option("mode","PERMISSIVE").load("/home/hadoop/INPUT/emp_header").show
+spark.read.format("csv").option("sep",",").option("header","true").option("mode","PERMISSIVE").load("/home/hadoop/INPUT/emp_header").printSchema
+spark.read.format("csv").option("sep",",").option("header","true").option("inferSchema","true").option("mode","DROPMALFORMED").load("/home/hadoop/INPUT/emp_header").show
+spark.read.format("csv").option("sep",",").option("header","true").option("inferSchema","true").option("mode","DROPMALFORMED").load("/home/hadoop/INPUT/emp_header").printSchema
+spark.read.format("csv").option("sep",",").option("header","true").option("inferSchema","true").option("mode","FAILFAST").load("/home/hadoop/INPUT/emp_header").show
+spark.read.format("csv").option("sep",",").option("header","true").option("inferSchema","true").option("mode","DROPMALFORMED").load("/home/hadoop/INPUT/emp_header").show
+spark.read.format("csv").option("sep",",").option("header","true").option("mode","PERMISSIVE").load("/home/hadoop/INPUT/emp_header").show
+val empDF=spark.read.format("csv").option("sep",",").option("header","true").option("inferSchema","true").option("mode","DROPMALFORMED").load("/home/hadoop/INPUT/emp_header")
+empDF.take(5)
+empDF.take(5).foreach(println)
+empDF.take(5).schema
+spark.catalog.listTables
+spark.catalog.listTables.show
+empDF.createOrReplaceTempView("t_empDF")
+spark.catalog.listTables.show
+spark.sql("create table t_empdf1 as select * from t_empdf")
+spark.catalog.listTables.show
+ spark.catalog.listColumns("default","t_empdf1")
+ spark.catalog.listColumns("default","t_empdf1").show
+spark.sql("desc formatted t_empdf1").show
+spark.sql("desc formatted t_empdf1").foreach(println)
+spark.sql("desc formatted t_empdf1")
+spark.sql("desc formatted t_empdf1").take(200).foreach(println)
+spark.read.format("json").option("mode","PERMISSIVE").load("/home/hadoop/INPUT/sample_json.json").show
+spark.read.format("json").option("mode","PERMISSIVE").load("/home/hadoop/INPUT/sample_json.json").printSchema
+val jsonDF=spark.read.format("json").option("mode","PERMISSIVE").load("/home/hadoop/INPUT/sample_json.json");
+jsonDF.printSchema
+jsonDF.createOrReplaceTempView("jsontable")
+spark.sql("select name, thumbnail.height,type from jsontable")
+spark.sql("select name, thumbnail.height,type from jsontable").show
+val jsonDF=spark.read.format("json").option("mode","PERMISSIVE").load("/home/hadoop/INPUT/sample_json.json");
+jsonDF.createOrReplaceTempView("jsontable")
+jsonDF.printSchema
+spark.sql("select name, thumbnail.height,type from jsontable").show
+:history
+val mvRDD=sc.textFile("/movies.dat")
+mvRDD.foreach(println)
+val empRDD=sc.textFile("/home/hadoop/INPUT/emp")
+empRDD.foreach(println)
+val empRDD=sc.textFile("file:///home/hadoop/INPUT/emp")
+empRDD.foreach(println)
+val str="1::Toy Story (1995)::Animation|Children's|Comedy"
+str.lastIndexOfSlice
+str.lastIndexOf("(")
+str.lastIndexOf(")")
+str.substring(13,18)
+str.substring(13+1,18)
+str.substring(str.lastIndexOf("(")+1,str.lastIndexOf(")"))
+val years=sc.textFile("movies.dat")
+val extractYear=(line:String)=>{ 
+dex=line.lastIndexOf("(")+1
+dex=line.lastIndexOf(")")
+ a tuple with year,1
+e.substring(sindex,eindex),1)
+:paste
+val extractYear=(line:String)=>{ 
+dex=line.lastIndexOf("(")+1
+dex=line.lastIndexOf(")")
+ a tuple with year,1
+e.substring(sindex,eindex),1)
+}
+val extractYear=(line:String)=>{ 
+ val sindex=line.lastIndexOf("(")+1
+ val eindex=line.lastIndexOf(")")
+ // return a tuple with year,1
+ (line.substring(sindex,eindex),1)
+}
+str
+extractYear(str)
+val years=sc.textFile("movies.dat").map(extractYear)
+years.take(10).foreach(println)
+years.foreach(println)
+year.countDistinct
+years.distinct
+years.distinct.foreach(println)
+years.distinct.count
+years.distinct.collect
+years.reduceByKey((x,y)=>x+y)
+years.reduceByKey((x,y)=>x+y).foreach(println)
+:history
+val result=years.reduceByKey((x,y)=>x+y)
+result.sortBy(x=>x._2).take(10)
+result.sortBy(x=>x._2,false).take(10)
+result.sortByKey.take(10)
+result.sortByKey(true).take(10)
+result.sortByKey(false).take(10)
+result.sortBy(x=>x._2,false,1).saveAsTextFile("result")
+extractYear("1::Toy Story (1995)::Animation|Children's|Comedy")
+spark.read.text("hdfs://locahost:9000/ml-1m/movies.dat")
+spark.read.text("hdfs://localhost:9000/ml-1m/movies.dat")
+spark.read.text("hdfs://localhost:9000/ml-1m/movies.dat").rdd
+spark.read.text("hdfs://localhost:9000/ml-1m/movies.dat").map(row=>(row.getString(0).split("::")(0),row.getString(0).split("::")(1))
+)
+spark.read.text("hdfs://localhost:9000/ml-1m/movies.dat")
+val mvDF=spark.read.text("/ml-1m/movies.dat")
+val mvDF1=mvDF.map(row => 
+g(0).split("::")(0),row.getString(0).split("::")(1)))
+ame")
+g(0).split("::")(0),row.getString(0).split("::")(1)))
+.toDF("mvid","mvname")
+tSchema()
+val mvDF1=mvDF.map(row => (row.getString(0).split("::")(0),
+    row.getString(0).split("::")(1))).toDF("mvid","mvname")
+mvDF1.printSchema()
+mvDF1.show()
+mvDF1.write.saveAsTable("movies_table")
+spark.sql("select * from movies_table").show()
+spark.sql("show tables").show()
+spark.read.parquet("/home/hadoop/INPUT/strOut").show
+10
+"welcome"
+c
+'c'
+true
+var A:Int =10
+var B=100
+A
+println(A)
+var x=println(A)
+x.getClass
+x.getClass.getTypeName
+x.getClass
+var x=println(A)
+println(A)
+A.getClass
+A=1000
+Println(B)
+println(B)
+B="hi"
+B=1000000
+var B="hi"
+B="bye"
+val C=100
+C=1000
+var A=100
+val B=10
+lazy val C=A+B
+A=1000
+println(C)
+A=10
+println(C)
+A+B
+var C=A+B
+A=100
+println(C)
+{
+val x=100
+val y=1000
+println(x+y)
+x+y
+}
+{
+val x=100
+val y=1000
+x+y
+println(x+y)
+}
+val f={
+val x=100;val y=1000
+x+y
+}
+f
+val f1=(x:Int,y:Int)=>{
+println(x)
+println(y)
+x+y
+}
+f1(10,10)
+val fn_res=f1(10,10)
+val fn_res=f1(10,"10")
+val f1=(x:Int,y:Int)=>{
+println(x)
+println(y)
+x+y
+}:Int
+def f2(x:Int,y:Int)={
+println(x)
+println(y)
+x+y
+}
+def f2(x:Int,y:Int):Int={
+println(x)
+println(y)
+x+y
+}
+f1
+f2
+f2(100,1000)
+val a=f2(100,1000)
+f1
+def f2(x:Int,y:Int)={
+println(x)
+println(y)
+x+y
+}
+val f1=(x:Int,y:Int)=>{
+println(x)
+println(y)
+x+y
+}
+val sum=(x:Int,y:Int)=>{
+println("inside sum")
+x+y
+}
+val sub=(x:Int,y:Int)=>{
+println("inside sub")
+x-y
+}
+val mul=(x:Int,y:Int)=>{
+println("inside mul")
+x*y
+}
+sum(10,10)
+sub(10,10)
+mul(10,10)
+val div=(x:Int,y:Int)=>{
+println("inside div")
+x/y
+}
+div(30,4)
+div(30,4)val div=(x:Float,y:Int)=>{
+println("inside div")
+x/y
+}
+val div=(x:Float,y:Int)=>{
+println("inside div")
+x/y
+}
+div(30,4)
+def operation(a:Int,b:Int,f:(Int,Int)=>Int)={
+println("inside operation")
+f(a,b)
+}
+operation(5,10,sum)
+operation(5,10,sub)
+operation(5,10,mul)
+operation(100,1000 , (a:Int,b:Int) => x%y )
+operation(100,1000 , (a:Int,b:Int) => a%b )
+operation(10,10 , (a:Int,b:Int) => a%b )
+operation(12,10 , (a:Int,b:Int) => a%b )
+operation(12,10 , (a:Int,b:Int) => { println("modulo");a%b )
+operation(12,10 , (a:Int,b:Int) => { println("modulo");a%b })
+operation(12+100,10 , (a:Int,b:Int) => { println("sum");a+b })
+operation(12+100,10 , sum)
+def operation(a:Int,b:Int,f:(Int,Int)=>Int)={
+println("value is "+a)
+println("inside operation")
+f(a,b)
+}
+operation(12+100,10 , sum)
+(a:Int,b:Int) => { println("sum");a+b }
+:history
+val r=1 to 10
+val r=1 to 10 by 2
+r(0)
+r(2)
+(1 to 10).toSeq
+(1 to 10).toList
+(1 to 10).to
+val a=Array(1,10,20)
+a(0)
+val b=Array(1,true)
+val b=Array(1,true,(1 to 10))
+b(2)
+b(1)
+b(0)
+b(0)=100
+val l=(1 to 10).toList
+val l=List(1,2,3,4)
+val l=1::2::3::Nil
+l.getClass
+import scala.collection.mutable.LinkedList
+import scala.collection.mutable.LinkedList as abc
+import scala.collection.mutable._
+val l=LinkedList(100,200,300)
+l.append(1000)
+l.::100
+l
+l(0)=9999
+l
+val l1=List(100,200)
+l1(0)=400
+val l= (1 to 10).toList
+l(0)
+for( a <- l) println(a)
+l.foreach(x:Int => { println(x)})
+x:Int => { println(x)}
+(x:Int) => { println(x)}
+l.foreach((x:Int) => { println(x)})
+l.foreach( println)
+:history
+val f1=(x:Int) => { println(x)}
+l.foreach(f1)
+:history
+val t=(1,"stu1",2000.0)
+t._1
+t._2
+t._3
+val t=(1,"stu1",2000.0,"dept1")
+val t=(1,"stu1")
+for(a<-t.productIterator) prinln(a)
+for(a<-t.productIterator) println(a)
+t.productIterator.foreach(println)
+val l1=List("stu1","stu2")
+l.foreachl
+l
+l1
+val l=List(1,"stu1")
+val stu=List((1,"stu1","M",200.0),(2,"stu2","M",700.0),(3,"stu3","F",200.0),(4,"stu4","M",400.0),(5,"stu5","F",500.0))
+l
+l1
+val l= 1 to 10
+l.foreach(println)
+l.foreach(println).getClass
+l
+l.foreach(x=>x+10)
+l.foreach(prinln(x=>x+10))
+l.foreach(x=>println(x+10))
+l.foreach(x=>x+10)
+val l1=foreach(x=>println(x+10))
+val l1=l.foreach(x=>println(x+10))
+l1
+l.map(x=>x+10)
+val l1=l.map(x=>x+10)
+l1.getClass
+val l=1 to 10
+val l1=l.map(x=>x+1)
+l1.getClass
+val l=(1 to 10).toList
+val l1=l.map(x=>x+1)
+l1.getClass
+val l1=l.map(x=>x+"1")
+val stu=List((1,"stu1","M",200.0),(2,"stu2","M",700.0),(3,"stu3","F",200.0),(4,"stu4","M",400.0),(5,"stu5","F",500.0))
+val stu_id=stu.map(x=>x._1)
+val stu_id=stu.map(x=>x._3)
+val stu_id=stu.map(x=>(x._1,x._3))
+l
+l.map(x=> if (x%2==0) x)
+l.filter(x=> x%2==0)
+l.filterNot(x=> x%2==0)
+l.filter(x=> x%2!=0)
+(even,odd)=l.partition(x=> x%2==0)
+(even,odd)= l.partition(x=> x%2==0)
+(even,odd) = l.partition(x=> x%2==0)
+val (even,odd) = l.partition(x=> x%2==0)
+even
+odd
+val (MS,FS = stu.partition(x=> x._3=="M")
+val (MS,FS = stu.partition(x=> x._3=="M"))
+val (MS,FS) = stu.partition(x=> x._3=="M")
+stu
+stu.partition(x=> x._3=="M")
+val (MS,FS) = stu.partition(x=> x._3=="M")
+val ( MS1 , FS1 ) = stu.partition(x=> x._3=="M")
+stu.partition(x=> x._3=="M")._1
+stu.partition(x=> x._3=="M")._2
+val (even,odd) = l.partition(x=> x%2==0)
+val ( MS1 , FS1 ) = stu.partition(x=> x._3=="M")
+stu.partition(x=> x._3=="M")._1
+stu.partition(x=> x._3=="M")._2
+:help
+sc
+val inputRDD=sc.textFile("sample.txt")
+inputRDD.count
+inputRDD.getNumPartitions
+inputRDD.repartition(4)
+res2.getNumPartitions
+res2.count
+inputRDD.first
+inputRDD.count
+inputRDD.foreach(println)
+inputRDD.collect
+inputRDD.collect.(0)
+inputRDD.collect(0)
+inputRDD.collect().(0)
+inputRDD.collect
+val arr=inputRDD.collect
+arr(0)
+inputRDD
+inputRDD.map(line=>line.split(" "))
+inputRDD.flatMap(line=>line.split(" "))
+inputRDD.flatMap(line=>line.split(" ")).foreach(println)
+inputRDD.flatMap(line=>line.split(" ")).map(word => (word,1))
+inputRDD.flatMap(line=>line.split(" ")).map(word => (word,1)).foreach(println)
+inputRDD.flatMap(line=>line.split(" ")).groupBy()
+inputRDD.flatMap(line=>line.split(" ")).groupBy(x=>x)
+inputRDD.flatMap(line=>line.split(" ")).groupBy(x=>x).first
+inputRDD.flatMap(line=>line.split(" ")).groupBy(x=>x).collect
+inputRDD.flatMap(line=>line.split(" ")).groupBy(x=>x).map(x=>(x._1,x._2.size)).foreach(println)
+inputRDD.flatMap(line=>line.split(" ")).groupBy(x=>x).collect
+inputRDD.flatMap(line=>line.split(" ")).groupBy(x=>x)
+inputRDD.flatMap(line=>line.split(" ")).map(word => (word,1)).collect
+inputRDD.flatMap(line=>line.split(" ")).map(word => (word,1))
+inputRDD.flatMap(line=>line.split(" ")).map(word => (word,1)).reduceByKey((x,y)=>x+y)
+inputRDD.flatMap(line=>line.split(" ")).map(word => (word,1)).reduceByKey((x,y)=>x+y).collect
+inputRDD.flatMap(line=>line.split(" ")).map(word => (word,1)).reduceByKey((x,y)=>x+y).saveAsTextFile("wc_out")
+inputRDD.flatMap(line=>line.split(" ")).map(word => (word,1)).reduceByKey((x,y)=>x+y).repartition(1).saveAsTextFile("wc_out1")
+inputRDD.flatMap(line=>line.split(" ")).map(word => (word,1)).reduceByKey((x,y)=>x+y,1).saveAsTextFile("wc_out2")
+sc.textFile("sample.txt")
+.flatMap(line=>line.split(" "))
+.groupBy(x=>x)
+.map(x=>(x._1,x._2.size))
+.foreach(println)
+:paste
+sc.textFile("sample.txt")
+.flatMap(line=>line.split(" "))
+.groupBy(x=>x)
+.map(x=>(x._1,x._2.size))
+.foreach(println)
+:paste
+sc.textFile("sample.txt")
+.flatMap(line=>line.split(" "))
+.map(word => (word,1))
+.reduceByKey((x,y)=>x+y,1)
+.foreach(println)
+sc.textFile("ratings.dat").map(line=> (line.split(" ")(1),1)).first
+sc.textFile("ratings.dat").map(line=> (line.split("::")(1),1)).first
+sc.textFile("ratings.dat").map(line=> (line.split("::")(1),1)).reduceByKey((x,y)=>x+y).first
+sc.textFile("ratings.dat").map(line=> (line.split("::")(1),1)).reduceByKey((x,y)=>x+y).show
+sc.textFile("ratings.dat").map(line=> (line.split("::")(1),1)).reduceByKey((x,y)=>x+y).take(10)
+sc.textFile("ratings.dat").map(line=> (line.split("::")(1),1)).reduceByKey((x,y)=>x+y).sortBy(x=>x._2).take(10)
+sc.textFile("ratings.dat").map(line=> (line.split("::")(1),1)).reduceByKey((x,y)=>x+y).sortBy(x=>x._2,false).take(10)
+val top10ratings=sc.textFile("ratings.dat").map(line=> (line.split("::")(1),1)).reduceByKey((x,y)=>x+y).sortBy(x=>x._2,false).take(10)
+val top10ratings=sc.parallelize(sc.textFile("ratings.dat").map(line=> (line.split("::")(1),1)).reduceByKey((x,y)=>x+y).sortBy(x=>x._2,false).take(10))
+val moviesRDD=sc.textFile("movies.dat").map(x=> (x.split(::)(0),x.split(::)(1)))
+val moviesRDD=sc.textFile("movies.dat").map(x=> (x.split("::")(0),x.split("::")(1)))
+moviesRDD.take(10).foreach(println)
+top10ratings.foreach(println)
+top10ratings.join(moviesRDD).foreach(println)
+top10ratings.join(moviesRDD).map(x=> x._1+"|"+x._2._1+"|"+x._2._2).foreach(println)
+top10ratings.join(moviesRDD).sortBy(x=>x._2._1,false).map(x=> x._1+"|"+x._2._1+"|"+x._2._2).foreach(println)
+val mvname=Toy Story (1995)
+val mvname="Toy Story (1995)"
+mvname.lastIndexOf("(")
+mvname.lastIndexOf(")")
+mvname.substring(10,15)
+mvname.substring(10+1,15)
+mvname.substring(mvname.lastIndexOf("(")+1,mvname.lastIndexOf(")"))
+val extractYear=(mvname:String)=>{
+ val yr=mvname.substring(mvname.lastIndexOf("(")+1,mvname.lastIndexOf(")"))
+yr
+}
+extractYear(mvname)
+extractYear("Leaving Las Vegas (1995)")
+val extractYear=(mvname:String)=>{
+ val yr=mvname.substring(mvname.lastIndexOf("(")+1,mvname.lastIndexOf(")"))
+(mvname,yr)
+}
+val extractYear("12::Dracula: Dead and Loving It (1995)::Comedy|Horror")
+ extractYear("12::Dracula: Dead and Loving It (1995)::Comedy|Horror")
+sc.textFile("movies.dat").map(extractYear).
+map(line => {
+val mv_line=line._1.split("::")
+(mv_line(0),mv_line(1),mv_line(2),line._2)
+}).first
+sc.textFile("/movies.dat").map(extractYear).
+map(line => {
+val mv_line=line._1.split("::")
+(mv_line(0),mv_line(1),mv_line(2),line._2)
+}).first
+ extractYear("12::Dracula: Dead and Loving It (1995)::Comedy|Horror")
+sc.textFile("/movies.dat").map(extractYear).first
+sc.textFile("/movies.dat").map(extractYear).map(line => {
+val mv_line=line._1.split("::")
+(mv_line(0),mv_line(1),mv_line(2),line._2)
+}).foreach(println)
+sc.textFile("/movies.dat").map(extractYear)._1
+sc.textFile("/movies.dat").map(extractYear).first._1
+sc.textFile("/movies.dat").map(extractYear).first._2
+sc.textFile("/movies.dat").map(extractYear).first.
+sc.textFile("/movies.dat").map(extractYear).first
+val abc=("adfasdfas","2000")
+abc._1
+abc._2
+val abc=("adfasdfas","2000",100,1000)
+abc._4
+abc._3
+abc._2
+val mv_line="1::Toy Story (1995)::Animation|Children's|Comedy".split("::")
+mv_line(0)
+mv_line(1)
+mv_line(2)
+mv_line(4)
+val split_lines=line => {
+val mv_line=line._1.split("::")
+(mv_line(0),mv_line(1),mv_line(2),line._2)
+}
+val split_lines=(line:String) => {
+val mv_line=line._1.split("::")
+(mv_line(0),mv_line(1),mv_line(2),line._2)
+}
+val split_lines=(line:(String,String)) => {
+val mv_line=line._1.split("::")
+(mv_line(0),mv_line(1),mv_line(2),line._2)
+}
+sc.textFile("/movies.dat").map(extractYear).
+map(split_lines).first
+map(split_lines).take(5)
+sc.textFile("/movies.dat").map(extractYear).
+map(split_lines).take(5)
+val mvRDD=sc.textFile("/movies.dat").map(extractYear).
+map(line => {
+val mv_line=line._1.split("::")
+(mv_line(0),mv_line(1),mv_line(2),line._2)
+})
+mvRDD.toDF("id","name","genres","year")
+val mvDF=mvRDD.toDF("id","name","genres","year")
+mvDF.printSchema
+mvRDD.toDebugString
+mvDF.columns
+mvDF.sample(true,0.1)
+mvDF.sample(true,0.1).count
+mvDF.count
+mvDF.rollup
+mvDF.describe
+mvDF.describe("year")
+mvDF.describe("year").show
+mvDF.select("year")
+mvDF.select("year").show
+mvDF.select("year").count
+mvDF.select("year").dropDuplicates
+mvDF.select("year").dropDuplicates.count
+mvDF.select("year").dropDuplicates.count.foreach(println)
+mvDF.select("year").dropDuplicates.count.show
+mvDF.select("year").dropDuplicates.foreach(println)
+mvDF.select("year").dropDuplicates
+mvDF.select("year").dropDuplicates.foreach(x=>println(x.getString))
+mvDF.select("year").dropDuplicates.foreach(x=>println(x.toString))
+mvDF.select("year").dropDuplicates.sort("year").foreach(x=>println(x.toString))
+mvDF.createOrReplaceTempView("movies")
+spark
+spark.catalog.listTables
+spark.catalog.listTables.show
+spark.catalog.listColumns("movies")
+spark.catalog.listColumns("movies").show
+mvDF.printSchema
+spark.catalog.listTables.show
+spark.sql("select * from movies").show
+spark.sql("select count(distinct year) from movies").show
+spark.sql("create table movies_spark as select * from movies")
+mvDF.write.saveAsTable("movies_spark1")
+mvDF.write.format("csv").option("sep","#").option("header","true").save("/csv_movies")
+mvDF.write.format("csv").option("sep","#").option("header","true").mode("append").save("/csv_movies")
+mvDF.write.format("csv").option("sep","#").option("header","true").mode("overwrite").save("/csv_movies")
+mvDF.write.format("csv").option("sep","#").option("header","true").mode("error").save("/csv_movies")
+mvDF.write.format("csv").option("sep","#").option("header","true").save("/csv_movies").mode("overwrite")
+mvDF.write.format("csv").option("sep","#").option("header","true")
+sc
+spark
+spark.read.csv.load("/csv_movies")
+spark.read.csv().load("/csv_movies")
+spark.read.format("csv").load("/csv_movies")
+spark.read.format("csv").load("/csv_movies").printSchema
+spark.read.format("csv").option("sep","#").load("/csv_movies").printSchema
+spark.read.format("csv").option("sep","#").load("/csv_movies").first
+spark.read.format("csv").option("sep","#").option("header","true").load("/csv_movies").first
+spark.read.format("csv").option("sep","#").option("header","true").load("/csv_movies").printSchema
+spark.read.format("csv").option("sep","#").option("header","true").option("inferSchema","true").load("/csv_movies").printSchema
+spark.read.format("csv").option("sep","#").option("header","true").option("inferSchema","true").load("/csv_movies")
+spark.read.format("csv").option("sep","#").option("header","true").option("inferSchema","true").load("/home/hadoop/INPUT/emp_header")
+spark.read.format("csv").option("sep","#").option("header","true").option("inferSchema","true").load("file:///home/hadoop/INPUT/emp_header")
+spark.read.format("csv").option("sep","#").option("header","true").option("inferSchema","true").load("file:///home/hadoop/INPUT/emp_header").show
+spark.read.format("csv").option("sep",",").option("header","true").option("inferSchema","true").load("file:///home/hadoop/INPUT/emp_header").
+spark.read.format("csv").option("sep",",").option("header","true").option("inferSchema","true").load("file:///home/hadoop/INPUT/emp_header").show
+spark.read.format("csv").option("sep",",").option("header","true").option("inferSchema","true").mode("DROPMALFORMED").load("file:///home/hadoop/INPUT/emp_header").show
+spark.read.format("csv").option("sep",",").option("header","true").option("inferSchema","true").option("mode","DROPMALFORMED").load("file:///home/hadoop/INPUT/emp_header").show
+spark.read.format("csv").option("sep",",").option("header","true").option("inferSchema","false").option("mode","PERMISSIVE").load("file:///home/hadoop/INPUT/emp_header").show
+spark.read.format("csv").option("sep",",").option("header","true").option("inferSchema","false").option("mode","FAILFAST").load("file:///home/hadoop/INPUT/emp_header").show
+spark.read.format("csv").option("sep",",").option("header","true").load("file:///home/hadoop/INPUT/emp_header").show
+spark.read.format("csv").option("sep",",").option("header","true").load("file:///home/hadoop/INPUT/emp_header").printSchema
+spark.read.format("csv").option("sep",",").option("header","true").option("inferSchema","false").option("mode","FAILFAST").load("file:///home/hadoop/INPUT/emp_header");
+spark.read
+spark.table("movies_spark1").show
+spark.table("movies_spark").show

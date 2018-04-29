@@ -1,0 +1,42 @@
+mvid,mvname,year,geners 
+
+val extractYear=(line:String)=>{
+ val yr=line.substring(line.lastIndexOf("(")+1,line.lastIndexOf(")"))
+(line,yr)
+}
+
+line, year
+
+below line(0),1,2, year
+mvid,mvname,mvgeners,year
+
+1::Toy Story (1995)::Animation|Children's|Comedy -> extractYEar
+
+line (1::Toy Story (1995)::Animation|Children's|Comedy, 1995 )
+
+
+val split_lines=(line:(String,String)) => {
+val mv_line=line._1.split("::")
+(mv_line(0),mv_line(1),mv_line(2),line._2)
+}
+
+sc.textFile("/movies.dat").map(extractYear).
+map(line => {
+val mv_line=line._1.split("::")
+(mv_line(0),mv_line(1),mv_line(2),line._2)
+})
+
+
+sc.textFile("/movies.dat").map(extractYear).
+map(split_lines).first
+==============================================
+1) RDD to DF
+val mvDF=mvRDD.toDF("id","name","genres","year")
+mvDF.select("year").dropDuplicates.sort("year").foreach(x=>println(x.toString))
+
+
+
+
+
+
+
