@@ -121,7 +121,68 @@ sysctl -w vm.swappiness=0
 on each machine 
 ===========================
 
+Now cloudera enterprise ->  cloudera manager(middle one) -> download  now -> download cloudera manager -> signin -> 
+
+automated installation
+
+wget http://...... /cloudera-manager-installer.bin
+
+chmod u+x cloudera-manager-installer.bin
+
+sudo ./cloudera-manager-installer.bin
+
+
+=====================
+go to node 1:::::
+wget
+chmod
+and run the file
+
+click next next accet license, yes, it installs manager.
+once installation success..
+
+
+=======================
+I need to go to could home page and in the vm instances
+click on network
+click on default -> firewall rules -> click on  default-allow-internal
+edit -> it will allw ip ranges
+so select allow frm any source -> ok..
+check for all others as well.
+
 ===================================
+
+Now you can take machine ip(external ip ) of node 1 from windows as well
+
+in windows ip:7180 is the port for cloudera
+
+for cloudera manager -> admin and pwd is admin -> 
+click on accept 60 days license  -> select all services you need
+
+specify hosts for your CDH cluster installations
+
+write node1 enter node2 and 3,4 in each for one line
+
+you can choose the default options..
+ next -> install oracle java SE -> next , dont select single node user, 
+
+login to all hosts as root
+all hosts have same password.. or u can use private key what u have created initially
+
+enter the root user password hasti.
+.. 
+u can select all services.
+
+include cloudera navigator.
+=============================================
+
+custimize role assignment..
+
+next => use em
+
+
+
+
 
 
 
