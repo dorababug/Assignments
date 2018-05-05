@@ -1,0 +1,38 @@
+create project -> right top -> give name cloudera
+select that project.
+try compute engines -> 4 instances
+names node1,node2,node3,node4
+(all instances communicate by ssh)
+
+you can go with instance groups or vm instances
+here u can make all at once or one by one.
+
+in the name node1, use any data center, 
+you cannot select more than 8 cpu cores from a single data center
+4cpus and 26gb
+boot disk is ubuntu 14.04 (because cloudera is available only on this)
+ssd persistent disk of 100 gb
+
+
+fire wall
+
+allow http traffic
+httos trafic and allow api access to all google cloud services in the same project.
+
+create
+=====================================
+similary create node2,node3,node4 from "different data centers".
+
+=================================
+Now   each macnine has to work with each other in passwordless ssh.
+
+i need to makesure each node is communicating with each other.
+
+
+API Manager -> do it on ubuntu not in windows.
+better to do it from linux.
+
+make API key from API manager..
+
+Credentials -> create credentials -> service account key ->new service account -> give any name -> trainer name is hasti so gave it..
+
