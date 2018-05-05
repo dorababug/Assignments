@@ -35,4 +35,20 @@ better to do it from linux.
 make API key from API manager..
 
 Credentials -> create credentials -> service account key ->new service account -> give any name -> trainer name is hasti so gave it..
+select key type as P12 -> create -> this creates private key. 
+Make sure you save this key. 
+dont forget to save the private key password -> here t got printed as "notasecret".
+
+very imp -> by default it is notasecret .
+
+Now we made credentials available and apis are ready.
+====================================================
+home -> compute engines -> nodes are ready.
+node1 master and all other slaves.
+click on connect & open 4 windows.
+
+password less authentication:::
+
+
+
 
