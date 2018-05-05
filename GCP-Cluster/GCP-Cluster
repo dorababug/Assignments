@@ -49,6 +49,89 @@ click on connect & open 4 windows.
 
 password less authentication:::
 
+first switch to root user -> sudo -i
+root@node1: 
+change password
+passwd  -> hasti any password.
+
+we created password now. 
+similarly login every node and password must be same in all.
+
+
+
+sudo -i
+passwd
+========================================
+now ssh password free 
+
+nano /etc/ssh/sshd_config
+need to update 4 things
+
+permitrootlogin change from without password to yes
+PermitRootLogin yes
+
+remove the comment for #AuthorizedKeysFile     %h/.ssh/authorized_keys
+change the %h to /root/ as the .ssh folder is used from root user.
+
+ChallengeResponseAuthentication no change it to yes.
+
+#PasswordAuthentication yes    this should be yes and uncommented.
+
+the above are the 4 changes.
+
+now we changed configuration of this. so we need to restart services
+service ssh restart
+you should get ssh stop/waiting
+ssh start/running.. if it is not coming, restart VM instance.
+
+time 19:35
+after that generate keygen
+ssh-keygen
+
+restart service again
+
+do the same thing for all other nodes.
+=======================================================
+Now open all the four windows again.. from google home page, 
+This is to just restart ssh only
+=====================================
+
+THis is the basic setup..
+
+ssh-copy-id root@node2
+this will ask for node 2, we have set hasti.. so give that
+now check ssh root@node2 .. should not ask for password for the second time
+
+ssh-copy-id root@node3
+ssh-copy-id root@node4
+============================
+same thing do it in node2,3,4
+if we are in 2
+ssh-copy-id root@node1
+ssh-copy-id root@node3
+ssh-copy-id root@node4
+==================================
+
+Now you can setup any distribution::
+with the help of scripting we can do all.
+
+we need to set a variable for any hadoop system
+
+sysctl -w vm.swappiness=0
+on each machine 
+===========================
+
+===================================
+
+
+
+
+
+
+
+
+
+
 
 
 
