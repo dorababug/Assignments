@@ -65,11 +65,16 @@ println(b)
 a+b
 }:Int
 
+(Int, Int) => Int = <function2>
+
+
 def sum_method(a:Int,b:Int):Int={
 println(a)
 println(b)
 a+b
 }
+   def sum_method(a: Int,b: Int): Int
+
 
 
 
