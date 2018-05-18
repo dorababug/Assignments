@@ -1,0 +1,78 @@
+function 
+1) first class members the can exist anywhere
+function a code block {   }
+
+{
+val a:Int=10
+
+val b=100
+println(a+b)
+}
+return value of a function  -> result of last line in the code block.
+
+scala is expression oriented language
+statement : doesnot return any value
+expression : always retuns a value
+----------------------------------
+val  fn1={
+val a:Int=10
+val b=100
+println(a+b)
+a+b
+}
+above is assigning a codeblock result to a variable fn1 which is int
+======================================
+How will you define a function that accepts arguements
+
+( a:Int, b:Int)=>{
+println(a)
+println(b)
+a+b
+}
+the above is annonymous function , function without a name
+lambda expression  =>
+functions are also objects in scala. can i assign an object to a variable? yes
+
+val sum=( a:Int, b:Int)=>{
+println(a)
+println(b)
+a+b
+}:Int
+
+function signature::: res49: (Int, Int) => Int = <function2>
+
+sum is called a function variable.
+
+define functions in scala using transformation operator => (rocket) 
+
+
+1::Toy Story (1995)::Animation|Children's|Comedy
+write a function that accepts string and extract year from it.
+
+val extractYear=(line:String)=>{
+val index_st=line.lastIndexOf("(")
+val index_end=line.lastIndexOf(")")
+line.substring(index_st+1,index_end).toInt
+}
+
+The above is a function variable. with signature
+res48: String => Int = <function1>
+
+
+val sum=( a:Int, b:Int)=>{
+println(a)
+println(b)
+a+b
+}:Int
+
+def sum_method(a:Int,b:Int):Int={
+println(a)
+println(b)
+a+b
+}
+
+
+
+
+
+
