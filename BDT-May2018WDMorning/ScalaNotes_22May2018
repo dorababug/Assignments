@@ -1,0 +1,124 @@
+Function variable :::
+write a function that accepts 2 arguments and return sum.
+functions can befined using => transformation operator or rocket symbol
+
+val sum=(a:Int,b:Int) => {
+println("Inside SUM function")
+a+b
+}
+function signature:: sum: (Int, Int) => Int = <function2>
+
+Method vs function::
+both are reusable code blocks enclosed in {  }
+both accepts arugements ( )
+
+function variable is defined with rocket/transformation =>
+method?? with =
+
+fn variable with start with val
+methods start with "def"
+
+functions are objects(variables) so that we can pass functions(objects) to another function or method.
+method is a code that has to be called using object.method
+
+def sum_method(a:Int,b:Int)={
+println("Inside SUM method")
+a+b
+}
+metod signature: sum_method: (a: Int, b: Int)Int
+
+
+
+
+function to calculate difference of two integers:
+val sub=(a:Int,b:Int)=> {
+println("Inside SUB function")
+a-b
+}
+
+
+val mod=(a:Int,b:Int)=> {
+println("Inside MOD function")
+a%b
+}
+
+-------------------------------
+All above functions have same signature::
+(Int,Int)=>Int
+
+Higer order function:::
+
+val operation=(x:Int,y:Int,fn:(Int,Int)=>Int) => {
+println("Inside Operation")
+println("value of x is::" + x)
+println("value of y is::" + y)
+fn(x,y)
+}
+
+call by value and call by name:::::
+
+operation(10+20+30, 50, sum)
+
+by default in scala , arguemnts are passed by -> call by value 
+you can force scala to use call by name using => rocket symbol.
+
+10+20+30 => 60  before entering into operation , the values will be calcuated...
+60,50 -> called, now the operation start
+now where ever u have used "fn", the entire code (call by name) will be replaced(substituted)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
