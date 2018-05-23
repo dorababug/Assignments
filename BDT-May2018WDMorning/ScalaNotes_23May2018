@@ -1,0 +1,37 @@
+Scala Collections::
+scala.collections.immutable 
+
+
+
+Tuple ->
+Array
+Set
+Range
+List
+String
+Map
+
+
+-------------------------------------------
+Tuple -> table row 
+
+val t=(1,"stu1",100.0)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

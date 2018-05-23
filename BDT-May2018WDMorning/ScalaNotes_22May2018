@@ -15,6 +15,9 @@ both accepts arugements ( )
 function variable is defined with rocket/transformation =>
 method?? with =
 
+function doenot belong to any object, 
+method is specific to an object
+
 fn variable with start with val
 methods start with "def"
 
