@@ -21,6 +21,104 @@ t. type tab
 t._1
 
 t.toString
+---------------------------------------
+Array:::: 
+
+val t="hi welcome to class".split(" ")
+val a=Array(1,2,3,4)
+val b=Array(1,2,3,true)
+val c=Array(1,2,3,("a",1))
+val d=Array(1,2,3,Array("a",1))
+
+short hand for loop::
+for(x<-t) println(x)
+
+<- generator operator
+=> transformation 
+:   a:Int data type
+. object.method / variable 
+->map key value separator
+:: list prepend operator
+==================================
+
+
+Tuple -> behave like collections
+
+seq/set/map:: main collections
+
+Array/vector:: rapid access with index
+Range:: just give seq integers
+List:: when u need to access/traverse through the entire collection
+Map:: value with reference to key
+Set:: it does not store duplicate values
+-----------------------------
+
+Map:::
+val m=Map(1->"hi",2->"welcome")
+ val m=Map("1"->"hi","2"->"welcome","20"->"1111","name"->"bigdatatech")
+
+for(a<-m.keys)println(m(a))
+
+Iterable vs Iterator:::
+Iterator will exaust once we reach end.
+val i=m.values gives iterable
+i.foreach(println) i.foreach(println)
+val i1=new Iterator(1,2,3,4,5)
+i1.foreach(println) i1.foreach(println)
+
+----------------------------------------
+Range:::::
+1 to 10 by 2
+
+range.toList
+-------------------------
+Lists:::
+
+val l=List(10,20,30,40)
+val l1=(10 to 40 by 10).toList
+Take empty list and append elements.
+empty list is denoted by nil
+10::20::30::Nil
+
+Using toList method:::
+Source.fromFile("server.log").mkString.split("\n").toList
+
+
+List methods to concentrate
+map,reduce,foldleft,foldright,reduceleft,reduceright
+filter
+count
+foreach
+zipwithindex
+scan right , scan left
+partition
+sortBy,sort
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
