@@ -77,6 +77,55 @@ foreach
 ---------------------------
 
 
+val l=(1 to 10).toList
+
+val fn=(x:Int,y:Int)=>{ 
+println("x value is::"+x)
+println("y value is::"+y)
+println("x+y value is ::"+ (x+y))
+x+y
+}
+
+l.reduceLeft(fn)
+l.reduceRight(fn)
+l.reduce(fn)
+
+l.reduceLeft((x,y)=>x+y)
+l.reduceRight((x,y)=>x+y)
+l.reduce((x,y)=>x+y)
+
+find min and max using reduceLeft/reduceRight/reduce
+val l1=List(100,30,45,10,3000,99)
+l1: List[Int] = List(100, 30, 45, 10, 3000, 99)
+
+find max number
+l.reduceLeft((x,y)=>{if(x<y) y else x})
+for min number
+l.reduceLeft((x,y)=>{if(x>y) y else x})
+
+
+val fn=(x:Int,y:Int)=>{ 
+println("x value is::"+x)
+println("y value is::"+y)
+if(x<y) y else x
+}
+
+------------------------------
+
+l1.find(x=>x>30)
+
+Option data type:: it can contain some values or None
+
+how to get data from Option?? 
+Option.getOrElse(default value) -> if u have some value return it, if u dont have any value return default value.
+
+-------------------------------
+
+
+
+
+
+
 
 
 

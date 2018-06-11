@@ -1,0 +1,20 @@
+Row formats::
+ALl columns for a given row are stored together
+We read all columns for a row and discard the columns that are not required
+Inefficent for analytic queries as we need to scan total data for every query
+Memory requirement is less and Disk IO requirement is more
+
+Examples: Text(CVS,JSON) SequenceFIles , Avro files ( Serialization format)
+
+MR, spark Core can process only row formats
+----------------------------
+Column formats::
+All rows for a given column are stored together
+Only required columns for a query are fetched from disk
+
+Efficent for analytic queries as we scan very less data
+Memory requirement is more because you need to fetch all rows for a column in to memory. IO req is less.
+
+Ex:: RC,ORC, PARQUET
+High level framewors -> Hive, SPark SQL can work with both row and column format..
+

@@ -1,0 +1,50 @@
+line => words  array
+ flatten
+---------------
+flatMap
+words
+group and find the count for every result
+---------------------------
+
+val inputRDD=sc.textFile("INPUT/sample.txt")
+
+inputRDD.flatMap(line => line.split(" "))
+.groupBy(x=>x)
+.map(t=>(t._1,t._2.size))
+.collect
+-------------------
+Pair RDD -> RDD with every element having a tuple with only two elements
+
+val inputRDD=sc.textFile("INPUT/sample.txt")
+
+val pairRDD=inputRDD.flatMap(line => line.split(" ")).map(word=>(word,1))
+pairRDD.groupByKey().map(t=>(t._1,t._2.size)).collect
+pairRDD.reduceByKey((x,y)=>x+y).collect
+
+the diff b/n group and reduce is - perform local aggregation that reduces amount data through n/w . 
+
+
+
+------------
+val inputRDD=sc.textFile("INPUT/sample.txt")
+
+inputRDD.flatMap(line => line.split(" "))
+.groupBy(x=>x)
+.map(t=>(t._1,t._2.size))
+.saveAsTextFile("OUTFILES/wc1")
+485.3 KB
+
+val inputRDD=sc.textFile("INPUT/sample.txt")
+val pairRDD=inputRDD.flatMap(line => line.split(" ")).map(word=>(word,1))
+pairRDD.reduceByKey((x,y)=>x+y).saveAsTextFile("OUTFILES/wc2")
+
+381.0 B
+
+
+
+
+
+
+
+
+

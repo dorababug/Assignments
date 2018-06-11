@@ -1,0 +1,67 @@
+4June2018 - RDD
+spark-shell
+
+spark context -> sc  -> entry point in spark 1.x 
+master -> standalone local[*] take all cpu cores and create driver
+
+automatically creates a driver, no executors.
+
+spark version
+scala version
+--------------------------------
+How to get PWD in spark shell
+:sh pwd
+ res6.lines
+res7: List[String] = List(/home/hadoop)
+ res6.lines.foreach(println)
+--------------------------------
+Spark Configuration -> set of properties -> key and value
+
+
+val conf=new SparkConf().set("spark.app.name","sample Appliction").set(key,value)
+.setMaster("string")
+
+val sc=new SparkCOntext(conf) => create a spark context with given configuration
+
+
+--------------------------------
+ sc.hadoopConfiguration
+sc.addFile("server.log")
+sc.listFiles()
+sc.parallelize((1 to 10).toList)
+
+Check point directory??
+setCheckpointDir
+
+
+2520  sc.getConf()
+2521  sc.getConf
+2522  sc.getConf.getAll
+2523  sc.getConf.getAll.foreach(println)
+2524  sc.hadoopConfiguration
+2525  sc.listFiles()
+2526  sc.parallelize((1 to 10).toList)
+2527  sc.range(1 , 10,1)
+2528  val inputRDD=sc.textFile("/home/hadoop/INPUT/sample.txt")
+2529  inputRDD.count
+2530  inputRDD.first
+2531  inputRDD.collect
+2532  inputRDD.collect.foreach(println)
+2533  inputRDD.foreach(println)
+2534  :history
+
+
+https://spark.apache.org/docs/latest/api/scala/index.html#org.apache.spark.SparkContext
+
+
+https://spark.apache.org/docs/latest/api/scala/index.html#org.apache.spark.rdd.RDD
+
+https://spark.apache.org/docs/latest/api/scala/index.html#org.apache.spark.rdd.PairRDDFunctions
+
+https://spark.apache.org/docs/latest/configuration.html
+
+
+
+
+
+

@@ -1,0 +1,41 @@
+word count -> 
+file -> line by line -> words -> words,1 -> group all words and calculate sum..
+RDD with data
+rdd.flatmap (line -> words)
+.map(word->(word,1)  pair RDD
+reduceByKey((x,y)=>x+y)
+save the output
+
+get top 10 -> sort in desc and limit
+-----------------------------------
+
+1)val ratings=sc.textFile("ratings.dat")
+
+ratings.map(line=>(line.split("::")(1),1)).take(20).foreach(println)
+
+2)val movie_pair=ratings.map(line=>(line.split("::")(1),1))
+movie_pair.reduceByKey((x,y)=>x+y).map(x=>x.swap).sortByKey()
+movie_pair.reduceByKey((x,y)=>x+y).sortByKey()
+
+3)val result=movie_pair.reduceByKey((x,y)=>x+y).sortBy(x=>x._2,false,1).take(10)
+4)sc.parallelize(result,1).saveAsTextFile("Out1")
+
+5)val top10=sc.parallelize(result,1)
+2535  val top10=sc.parallelize(result,1)
+2536  top10.foreach(println)
+2537  sc.textFile("movies.dat").map(line=>(line.split("::")(0),line.split("::")(1))).first
+2538  val movies=sc.textFile("movies.dat").map(line=>(line.split("::")(0),line.split("::")(1)))
+2539  top10.join(movies).foreach(println)
+2540  top10.join(movies)
+2541  top10.join(movies).sortBy(x=>x._2._1,false).foreach(println)
+2542  top10.join(movies).sortBy(x=>x._2._1,false).getNumPartitions
+2543  top10.join(movies).sortBy(x=>x._2._1,false,1).getNumPartitions
+2544  top10.join(movies).sortBy(x=>x._2._1,false,1).foreach(println)
+2545  top10.join(movies).sortBy(x=>x._2._1,false,1).saveAsTextFile("Q1Out")
+2546  top10.join(movies).sortBy(x=>x._2._1,false,1).map(x=>x._1+"@"+x._2._1+"@"+x._2._2).saveAsTextFile("Q1Out_delim")
+2547  top10.join(movies).sortBy(x=>x._2._1,false,1).map(x=>x._1+"|"+x._2._1+"|"+x._2._2).saveAsTextFile("Q1Out_delim")
+2548  :history
+
+
+
+

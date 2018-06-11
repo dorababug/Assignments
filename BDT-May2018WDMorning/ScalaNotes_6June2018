@@ -1,0 +1,17 @@
+val v1=sc.textFile("INPUT/sample.txt")
+val v2=v1.map(line => (line,line.split(" ").size))
+v2.saveAsTextFile("OUTFILES/out4")
+
+sc.textFile("INPUT/sample.txt").map(line => (line,line.split(" ").size)).saveAsTextFile("OUTFILES/out4")
+
+-------------------------------------------------
+map -> transformation (narrow transformation)
+getNumPartitions -> action
+repartition -> transformation (wide transformation)
+
+textFile("INPUT/sample.txt",1)  -> load with 1 partition 
+foreach(println) -> action
+count  -> action 
+collect -> action
+-------------------------------------------------
+
