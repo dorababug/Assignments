@@ -36,6 +36,11 @@ movie_pair.reduceByKey((x,y)=>x+y).sortByKey()
 2547  top10.join(movies).sortBy(x=>x._2._1,false,1).map(x=>x._1+"|"+x._2._1+"|"+x._2._2).saveAsTextFile("Q1Out_delim")
 2548  :history
 
-
-
-
+=======================================
+1)val ratings=sc.textFile("ratings.dat")
+2)val movie_pair=ratings.map(line=>(line.split("::")(1),1))
+3)val result=movie_pair.reduceByKey((x,y)=>x+y).sortBy(x=>x._2,false,1).take(10)
+4)sc.parallelize(result,1).saveAsTextFile("Out1")
+5)val top10=sc.parallelize(result,1)
+6)val movies=sc.textFile("movies.dat").map(line=>(line.split("::")(0),line.split("::")(1)))
+7)top10.join(movies).sortBy(x=>x._2._1,false,1).map(x=>x._1+"|"+x._2._1+"|"+x._2._2).saveAsTextFile("Q1Out_delim")
