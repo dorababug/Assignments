@@ -1,0 +1,127 @@
+spark 1.x ::
+entry point-> 
+
+spark context -> RDD
+sql context ->>DF & data sets
+hql context ->DF & Data set
+
+streaming context -> Dstreams
+
+========
+optimization
+apply RDD operations, convert DF into RDD , catalyst optimizer will not work on unstructed data
+======
+Serialization => Kryo for faster processing
+======
+HQL -> spark uses Hive engine
+===================================================
+
+Spark 2.x 
+unified entry point,
+we are going to consider data as strcutred data
+entry point for low level ops, sql,streaming -> SParkSession -> DataFrames
+& Data sets
+
+always catalyst optimizer will work because you can apply RDD operations on DF itself.
+
+We have Encoder -> you can apply most operations on serialized data
+whole stage code gen -> will produce efficient code
+
+HQL -> spark doesnot use hive engine to process data.
+-------------------------------------------------------------
+
+1) STEP
+Convert RDD into DF and work with sql, DF untyped operations(domain specific operations)
+
+DF-> register as tables then you can apply SQL
+
+RDD operations -> DF operations(they are like RDD methods) -> sql support 
+
+===============================
+1,name,2000,001
+2,name2,4000,002
+3,name3,5000,005
+4,name4,7000,003
+5,name5,8000,004
+6,name6,8000,004
+7,name7,4000,002
+8,name8,5000,005
+
+
+dept data set
+001,hadoop
+002,hive
+003,pig
+005,oozie
+006,mapreduce
+
+2) STEP
+directy read data using spark session load into Data Frames.
+text,csv,json,orc,parque,Hive tables using SparkSession.read API
+Write into above formats using write API, DataFrame.write() api
+
+DF-> register as tables then you can apply SQL
+
+Catalog API for managing schema-> to see tables,columns data types.
+-----------------------------------
+
+How many was we can create Data Frames???
+RDD.toDF -> Data Frames
+Read from Structured sources -> using sparksession -> DF
+DF.select,DF.filter (DSL) -> DF
+in any language if apply sql -> result is Data Fame
+-------------------------------
+Data Frame vs Data Set
+DF = DS[row obejects]
+DF are not type safe, the data types check will perform at run time
+DS are type safe, tyepe check happens in compile time..
+
+DF are available in all language APIs java,scala, python , R
+DS are available in only java ,scala.
+-------------------------------------
+
+
+val empRDD=spark.sparkContext.textFile("emp")
+val emp=empRDD.map(line=>(line.split(",")(0),line.split(",")(1),line.split(",")(2),line.split(",")(3)))
+
+ val empDF=emp.toDF("id","name","sal","dept")
+empDF.printSchema
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
