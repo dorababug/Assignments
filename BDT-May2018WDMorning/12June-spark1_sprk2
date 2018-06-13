@@ -122,3 +122,60 @@ read the saved table and display
 
 2515  :history
 
+-------------------------------------------------
+
+Report with EMID,name,sal,deptid,deptname
+----------------------------------------
+load emp data into RDD-> convert int DF->save as concrete table
+load dept data into RDD-> convert int DF->save as concrete table
+
+do the operations using Data frame DSL
+use sql and save the results as concrete tables.
+
+---------------------
+INtegraton with hdfs, integration with Hive tables.
+----------------------
+Project architecture and vocabulary
+-------------------
+How to submit spark jobs in production
+--------------------
+
+Spark Streaming and Kafka
+--------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
