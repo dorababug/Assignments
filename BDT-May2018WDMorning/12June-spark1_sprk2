@@ -85,43 +85,40 @@ val empRDD=spark.sparkContext.textFile("emp")
 val emp=empRDD.map(line=>(line.split(",")(0),line.split(",")(1),line.split(",")(2),line.split(",")(3)))
 
  val empDF=emp.toDF("id","name","sal","dept")
+
+Data Frame DSL:::: 13June2018
 empDF.printSchema
+empDF.schema -> struct type
+empDF.show
+empDF.map takes a row object. from row object you can use get methods with index.
+ empDF.map(x=>x.getString(2).toInt+50).show
+------------------------------------------
 
+Use case:::::
+read data from emp text file, 
+select id,sal,name.
+increment sal by 100, and display the employees having salary more than 3000 -> Using SQL
 
+Save the data into persistent table and 
+use catalog API to see all the tables present.
+read the saved table and display
 
+======================================================
+2507  val empRDD=spark.sparkContext.textFile("emp")
 
+2508  empRDD.foreach(println)
 
+2509  val emp=empRDD.map(line=>(line.split(",")(0),line.split(",")(1),line.split(",")(2),line.split(",")(3)))
 
+2510  val empDF=emp.toDF("id","name","sal","dept")
 
+2511  empDF.createOrReplaceTempView("emp_table")
 
+2512  spark.sql("select id,sal+100 as sal1 from emp_table where sal>2000").write.saveAsTable("emp_res")
 
+2513  spark.catalog.listTables
 
+2514  spark.catalog.listTables.show
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+2515  :history
 
