@@ -142,7 +142,10 @@ How to submit spark jobs in production
 
 Spark Streaming and Kafka
 --------------------------------------------
+Home work:: solve all questions of Movielens using RDDs, DF DSL, Spark SQL
 
+(save all data sets as concrete tables) 
+----------------------------------------------
 
 
 
