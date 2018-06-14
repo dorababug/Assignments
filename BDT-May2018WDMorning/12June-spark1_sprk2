@@ -148,7 +148,18 @@ Home work:: solve all questions of Movielens using RDDs, DF DSL, Spark SQL
 ----------------------------------------------
 
 
+emp_header
 
+empid,empname,empsal,empdeptid
+1,"na,me",2000,001
+2,"nam,e2",4000,002
+3,name3,5000,005
+4,name4,7000,003
+5,name5,8000,004
+6,name6,8000,004
+7,name7,4000,002
+8,name8,5000,005
+9,name9,9000
 
 
 
