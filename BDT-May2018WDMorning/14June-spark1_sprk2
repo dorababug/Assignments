@@ -1,0 +1,30 @@
+val emp_schema= StructType(
+List(
+ StructField("empid1",IntegerType,true), 
+ StructField("empname1",StringType,true), 
+ StructField("empsal1",StringType,true), 
+ StructField("empdeptid1",IntegerType,true)
+))
+how to provide your own schema:::
+2496  spark.read.schema(emp_schema).csv("emp_header").printSchema
+2497  spark.read.csv("emp_header").printSchema
+
+2498  spark.read.option("header","true").csv("emp_header").printSchema
+2499  spark.read.option("header","true").option("inferSchema","true").csv("emp_header").printSchema
+2500  spark.read.option("header","true").option("inferSchema","true").csv
+in permissive mode, null values cannot be stored in Integer fields
+so inferschema option made as false.
+2501  spark.read.option("header","true").option("inferSchema","false").csv("emp_header").show
+2502  spark.read.option("header","true").option("inferSchema","true").csv("emp_header").printSchema
+2503  spark.read.option("header","true").option("inferSchema","false").csv("emp_header").show
+2504  spark.read.option("header","true").option("inferSchema","false").option("mode","DROPMALFORMED").csv("emp_header").show
+2505  spark.read.option("header","true").option("inferSchema","false").csv("emp_header").show
+2506  spark.read.option("header","true").option("inferSchema","false").option("mode","FAILFAST").csv("emp_header").show
+2507  :history
+
+spark.read.option("header","true").option("inferSchema","true").option("mode","PERMISSIVE").csv("emp_header").show
+
+op2.7/examples/src/main/resources/people.json")
+2515  spark.read.format("json").load("file:///home/hadoop/YARNBOX/spark-2.0.2-bin-hadoop2.7/examples/src/main/resources/people.json").show
+2516  spark.read.json("file:///home/hadoop/YARNBOX/spark-2.0.2-bin-hadoop2.7/examples/src/main/resources/people.json").show
+
