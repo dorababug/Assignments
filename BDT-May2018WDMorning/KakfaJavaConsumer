@@ -1,0 +1,44 @@
+import java.lang.reflect.Array;
+import java.util.Arrays;
+import java.util.Properties;
+
+import org.apache.kafka.clients.consumer.ConsumerRecord;
+import org.apache.kafka.clients.consumer.ConsumerRecords;
+import org.apache.kafka.clients.consumer.KafkaConsumer;
+//import org.apache.kafka.common.serialization.StringDeserializer;
+
+public class SampleConsumer {
+	public static void main(String[] args) {
+		
+		String topic="kafkademo";
+		String group="sample";
+		Properties props=new Properties();
+		props.put("bootstrap.servers", "localhost:9092");
+		props.put("group.id", group);
+		props.put("key.deserializer", 
+				"org.apache.kafka.common.serialization.StringDeserializer");
+		props.put("value.deserializer", 
+				"org.apache.kafka.common.serialization.StringDeserializer");
+		
+		//Create a properties object and put values required for consumer
+		
+		// To read data from kafka, we need to create KafkaConsumer object
+		KafkaConsumer<String, String> consumer=new KafkaConsumer<String,String>(props);
+		
+		//One consumer can subscribe to number of topics
+		consumer.subscribe(Arrays.asList(topic));
+		//COnsumer will run like a daemon.
+		while(true) {
+			ConsumerRecords< String, String> records=consumer.poll(100);
+			for(ConsumerRecord<String, String> record:records) {
+				System.out.printf("Offset =%d, Key= %s, value= %s, partition=%s, topic=%s ",
+						record.offset(),record.key(),record.value(),record.partition(),record.topic());
+				System.out.println("----------------------");
+			}
+		}
+		
+		
+		
+	}
+
+}
