@@ -1,0 +1,28 @@
+import java.util.Properties;
+
+import org.apache.kafka.clients.producer.KafkaProducer;
+import org.apache.kafka.clients.producer.ProducerRecord;
+
+public class SampleProducer {
+	public static void main(String[] args) {
+		String topic="kafkademo";
+		
+		Properties props=new Properties();
+		props.put("bootstrap.servers", "localhost:9092");
+		
+		props.put("key.serializer", 
+				"org.apache.kafka.common.serialization.StringSerializer");
+		props.put("value.serializer", 
+				"org.apache.kafka.common.serialization.StringSerializer");
+		
+		KafkaProducer<String, String> producer=new KafkaProducer<String,String>(props);
+		for (int i = 6000	; i < 6010; i++) {
+			String val="stu"+i+",Dept,10";
+			System.out.println("inserting rec::"+val);
+			producer.send(new ProducerRecord<String, String>(topic,Integer.toString(i),val));
+			
+		}
+		System.out.println("Data sent to Kafka++++++++++");
+		producer.close();
+	}
+}
