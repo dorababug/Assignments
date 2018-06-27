@@ -1,0 +1,12 @@
+
+//singleton object
+object SparkDemo extends App{
+  /*def main(args: Array[String]): Unit = {
+    println("Welcome to Scala Program")
+    for(a <- args){
+      println("arguments are "+a)
+    }
+    args.foreach(x => println("argument is ++"+ x ))
+  }*/
+  args.foreach(x => println("argument is ++"+ x ))
+}
